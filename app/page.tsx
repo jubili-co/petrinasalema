@@ -22,11 +22,11 @@ const blocks = home.blocks as HomeProjectBlock[];
 const HomePage: FC = () => (
   <main data-id="home-page" className="min-h-dvh">
     <SiteHeader variant="home" />
+    <HomeProjects blocks={blocks} />
     <LandingHero
       studioImage={landing.studioImage}
       sisterImage={landing.sisterImage}
     />
-    <HomeProjects blocks={blocks} />
     <NewsletterSignup image={landing.newsletterImage} />
   </main>
 );

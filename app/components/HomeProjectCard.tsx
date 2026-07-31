@@ -42,21 +42,24 @@ export const HomeProjectCard: FC<Props> = ({
       alt={item.alt}
       fill
       sizes={sizes}
-      className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+      className="object-cover"
     />
     <div
       data-id="home-project-card-overlay"
       className={cn(
-        "absolute inset-0 bg-black/0 transition-colors duration-300 ease-out",
-        "group-hover:bg-black/15",
+        "absolute inset-0 z-[1]",
+        "bg-black/40",
+        "opacity-0 transition-opacity duration-300 ease-out",
+        "group-hover:opacity-100",
       )}
     />
     <h2
       data-id="home-project-card-title"
       className={cn(
-        "absolute bottom-6 left-6 z-[1] md:bottom-8 md:left-8",
+        "absolute inset-0 z-[2] flex items-center justify-center px-6 text-center text-balance",
         "font-[family-name:var(--font-matter)] text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-        "text-cream",
+        "text-cream opacity-0 transition-opacity duration-300 ease-out",
+        "group-hover:opacity-100",
       )}
     >
       {item.title}

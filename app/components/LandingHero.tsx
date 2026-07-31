@@ -29,15 +29,22 @@ export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
       >
         <div
           data-id="landing-hero-studio-inner"
-          className="relative z-[2] flex h-full items-center justify-center px-[18px] py-[18px] md:px-[82px] md:py-[8%]"
+          className={cn(
+            "relative z-[2] flex h-full items-center justify-center",
+            "p-[18px] md:px-[82px] md:py-[8.3%]",
+          )}
         >
           <Image
-            src="/images/landing-studio.svg"
+            src="/images/landing-studio.png"
             alt="Studio Ashby"
             width={560}
             height={791}
-            priority
-            className="h-auto max-h-[70%] w-full max-w-[420px] object-contain md:max-h-none md:max-w-[560px]"
+            data-id="landing-hero-studio-mark"
+            className={cn(
+              "h-[38.5dvh] w-full object-contain transition-all duration-1000 ease",
+              "md:h-[84dvh] md:max-h-[1200px]",
+              "group-hover:brightness-0 group-hover:invert",
+            )}
           />
         </div>
         <div
@@ -51,7 +58,6 @@ export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
             src={studioImage}
             alt="Studio Ashby interior"
             fill
-            priority
             sizes="50vw"
             className="object-cover"
           />
@@ -68,15 +74,22 @@ export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
       >
         <div
           data-id="landing-hero-sister-inner"
-          className="relative z-[2] flex h-full items-center justify-center px-[18px] py-[18px] md:px-[54px] md:py-[10%]"
+          className={cn(
+            "relative z-[2] flex h-full items-center justify-center",
+            "p-[18px] md:px-[54px] md:py-[10%]",
+          )}
         >
           <Image
-            src="/images/landing-sister.svg"
+            src="/images/landing-sister.png"
             alt="Sister by Studio Ashby — Furniture & Art"
             width={600}
             height={801}
-            priority
-            className="h-auto max-h-[70%] w-full max-w-[420px] object-contain md:max-h-none md:max-w-[600px]"
+            data-id="landing-hero-sister-mark"
+            className={cn(
+              "h-[38.5dvh] w-full object-contain transition-all duration-1000 ease",
+              "md:h-[85.1dvh] md:max-h-[1228px]",
+              "group-hover:brightness-0 group-hover:invert",
+            )}
           />
         </div>
         <div

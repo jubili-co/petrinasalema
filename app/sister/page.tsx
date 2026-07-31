@@ -39,11 +39,12 @@ const SisterPage: FC = () => (
         className="relative z-[1] flex w-full max-w-[720px] flex-col items-center text-center"
       >
         <Image
-          src="/images/landing-sister.svg"
+          src="/images/landing-sister.png"
           alt="Sister by Studio Ashby — Furniture & Art"
           width={600}
           height={801}
           priority
+          data-id="sister-hero-mark"
           className="h-auto w-full max-w-[480px] object-contain"
         />
         <p

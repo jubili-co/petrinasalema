@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, type FC } from "react";
+import { useEffect, useRef, useState, type FC } from "react";
 
 import { cn } from "@/lib/cn";
 import { NAV_LINKS } from "@/lib/site";
@@ -14,11 +14,17 @@ type Props = {
   variant?: "home" | "default";
 };
 
+const SCROLL_DELTA = 4;
+const TOP_REVEAL_Y = 80;
+
 export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [menuPath, setMenuPath] = useState(pathname);
+  const lastScrollY = useRef(0);
   const isHome = variant === "home" || pathname === "/";
+  const shouldHideHeader = isHeaderHidden && !isOpen;
 
   if (menuPath !== pathname) {
     setMenuPath(pathname);
@@ -31,6 +37,30 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
       document.body.style.overflow = "";
     };
   }, [isOpen]);
+
+  useEffect(() => {
+    lastScrollY.current = window.scrollY;
+
+    const onScroll = () => {
+      const scrollY = window.scrollY;
+      const delta = scrollY - lastScrollY.current;
+
+      if (scrollY < TOP_REVEAL_Y) {
+        setIsHeaderHidden(false);
+      } else if (delta > SCROLL_DELTA) {
+        setIsHeaderHidden(true);
+      } else if (delta < -SCROLL_DELTA) {
+        setIsHeaderHidden(false);
+      }
+
+      lastScrollY.current = scrollY;
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  }, []);
 
   const onToggle = () => {
     setIsOpen((open) => !open);
@@ -49,9 +79,13 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
           "px-6 py-[17px] md:px-12",
           // typography / color
           "font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase",
+          // motion — Tailwind v4 uses `translate`, not `transform`
+          "transition-[translate,opacity] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate,opacity]",
           {
             "text-white": isHome && !isOpen,
             "text-brown": !isHome || isOpen,
+            "-translate-y-full opacity-0 pointer-events-none": shouldHideHeader,
+            "translate-y-0 opacity-100": !shouldHideHeader,
           },
         )}
       >
