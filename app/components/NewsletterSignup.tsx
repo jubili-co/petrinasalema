@@ -19,7 +19,7 @@ export const NewsletterSignup: FC<Props> = ({
   image,
   title = "Sign up to our Newsletters",
   description = null,
-  imageAlt = "Studio Ashby newsletter",
+  imageAlt = "Dotto newsletter",
   contentAlign = "center",
   hasSectionId = true,
 }) => {
@@ -130,10 +130,10 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         >
           <input
             type="checkbox"
-            name="studio-ashby-newsletter"
+            name="dotto-newsletter"
             className={checkboxClassName}
           />
-          <span>Studio Ashby</span>
+          <span>Dotto</span>
         </label>
         <label
           data-id="newsletter-signup-checkbox"

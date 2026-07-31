@@ -8,7 +8,7 @@ import { cn } from "@/lib/cn";
 import { NAV_LINKS } from "@/lib/site";
 
 import { LogoSisterMark } from "./LogoSisterMark";
-import { LogoStudioAshby } from "./LogoStudioAshby";
+import { LogoDotto } from "./LogoDotto";
 
 type Props = {
   variant?: "home" | "default";
@@ -103,9 +103,9 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
             href="/"
             data-id="site-header-logo"
             className="relative z-10 block w-[180px] md:w-[274px]"
-            aria-label="Studio Ashby home"
+            aria-label="Dotto home"
           >
-            <LogoStudioAshby />
+            <LogoDotto />
           </Link>
 
           <nav

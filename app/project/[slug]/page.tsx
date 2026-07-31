@@ -21,14 +21,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
   if (!project) {
-    return { title: "Project | Studio Ashby" };
+    return { title: "Project | Dotto" };
   }
 
-  const title = project.seoTitle ?? `${project.title} | Studio Ashby`;
+  const title = project.seoTitle ?? `${project.title} | Dotto`;
   const description =
     project.seoDescription ??
     project.body[0] ??
-    `Interior design project: ${project.title} by Studio Ashby.`;
+    `Interior design project: ${project.title} by Dotto.`;
 
   return { title, description };
 }

@@ -90,7 +90,7 @@ export const AboutTextImage: FC<Props> = ({
         {image && (
           <AboutMediaImage
             image={image}
-            alt={title || "Studio Ashby"}
+            alt={title || "Dotto"}
             hasBorder={Boolean(imageBorder)}
           />
         )}

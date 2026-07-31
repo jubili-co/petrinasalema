@@ -4,7 +4,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 import { FOOTER_LINKS } from "@/lib/site";
 
-import { LogoStudioAshby } from "./LogoStudioAshby";
+import { LogoDotto } from "./LogoDotto";
 
 type Props = {
   className?: string;
@@ -31,9 +31,9 @@ export const SiteFooter: FC<Props> = ({ className }) => (
           href="/"
           data-id="site-footer-logo"
           className="block w-full max-w-[223px] text-cream"
-          aria-label="Studio Ashby home"
+          aria-label="Dotto home"
         >
-          <LogoStudioAshby />
+          <LogoDotto />
         </Link>
       </div>
 
@@ -68,7 +68,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
             "text-[11px] leading-[18px] text-brown-muted",
           )}
         >
-          © {new Date().getFullYear()} Studio Ashby
+          © {new Date().getFullYear()} Dotto
           <br />
           Site by{" "}
           <a

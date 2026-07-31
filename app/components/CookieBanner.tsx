@@ -5,7 +5,7 @@ import { useSyncExternalStore, type FC } from "react";
 
 import { cn } from "@/lib/cn";
 
-const STORAGE_KEY = "studio-ashby-cookies";
+const STORAGE_KEY = "dotto-cookies";
 
 function subscribe(onStoreChange: () => void): () => void {
   window.addEventListener("storage", onStoreChange);

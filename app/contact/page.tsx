@@ -104,7 +104,7 @@ const ContactPage: FC = () => {
         >
           <Image
             src={contact.image}
-            alt="Studio Ashby contact"
+            alt="Dotto contact"
             fill
             priority
             sizes="(min-width: 768px) 50vw, 100vw"

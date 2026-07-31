@@ -1,6 +1,6 @@
 {
-  "seoTitle": "Studio Ashby | Interior Design, Architecture & Creative Direction",
-  "seoDescription": "Studio Ashby crafts spaces of authenticity and elegance\u2014layering art, antiques, and craftsmanship into interiors with lasting character and soul.",
+  "seoTitle": "Dotto | Interior Design, Architecture & Creative Direction",
+  "seoDescription": "Dotto crafts spaces of authenticity and elegance\u2014layering art, antiques, and craftsmanship into interiors with lasting character and soul.",
   "blocks": [
     {
       "type": "portrait",
@@ -9,13 +9,13 @@
           "title": "St James's Park Apartment",
           "slug": "st-james-s-park-apartment",
           "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d2f20ca8b4df96f149ea95735f5692c2e8ba601f-1260x1628.jpg?w=1260&h=1628&auto=format",
-          "alt": "Studio Ashby \u2013 St James's Park Apartment"
+          "alt": "Dotto \u2013 St James's Park Apartment"
         },
         {
           "title": "Villa Robert Graves, La Residencia Belmond",
           "slug": "villa-robert-graves-la-residencia-belmond",
           "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c56bc552a9d45d11f4457bb7f50d9201350acf38-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Studio Ashby \u2013 Belmond"
+          "alt": "Dotto \u2013 Belmond"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "title": "Guernsey Family Home",
       "slug": "guernsey-family-home",
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/b314fd587c954a708636451dad7a78aea44ac512-3600x2325.jpg?w=3600&h=2325&auto=format",
-      "alt": "Studio Ashby \u2013 Guernsey Family Home"
+      "alt": "Dotto \u2013 Guernsey Family Home"
     },
     {
       "type": "portrait",
@@ -33,13 +33,13 @@
           "title": "Hampstead Family Home",
           "slug": "hampstead-family-home",
           "image": "https://cdn.sanity.io/images/4jb8q7bc/production/b5652bb631f55566eae3dad30ab95582dd5dcaf1-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Studio Ashby - Hampstead Family Home"
+          "alt": "Dotto - Hampstead Family Home"
         },
         {
           "title": "Tamodi Estate & Polo Reserve",
           "slug": "tamodi-estate",
           "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ba5e35e61e7546822f3c8d6c119f52e2462afe9a-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Studio Ashby \u2013 Tamodi Estate"
+          "alt": "Dotto \u2013 Tamodi Estate"
         }
       ]
     }

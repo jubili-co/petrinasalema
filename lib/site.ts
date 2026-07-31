@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "Studio Ashby",
+  name: "Dotto",
   cream: "#F9F3F0",
   brown: "#633B2F",
   landingSister: "#B19E18",
@@ -17,7 +17,7 @@ export const NAV_LINKS = [
 export const FOOTER_LINKS = [
   { href: "/contact", label: "Contact" },
   {
-    href: "https://www.instagram.com/studioashby",
+    href: "https://www.instagram.com/dotto",
     label: "Instagram",
     external: true,
   },

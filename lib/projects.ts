@@ -54,5 +54,5 @@ export function getNextProject(slug: string): Project {
 
 export function storeProductHref(href: string): string {
   const path = href.replace(/^\/product\/?/, "").replace(/^\/+/, "");
-  return `https://studioashby.com/product/${path}`;
+  return `https://dotto.com/product/${path}`;
 }

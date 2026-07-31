@@ -10,9 +10,9 @@ import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Projects | Studio Ashby",
+  title: "Projects | Dotto",
   description:
-    "A selection of residential and hospitality interiors by Studio Ashby.",
+    "A selection of residential and hospitality interiors by Dotto.",
 };
 
 const ProjectsPage: FC = () => (

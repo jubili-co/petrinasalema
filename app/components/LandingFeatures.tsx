@@ -34,18 +34,17 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
             "p-[18px] md:px-[82px] md:py-[8.3%]",
           )}
         >
-          <Image
-            src="/images/landing-studio.png"
-            alt="Studio Ashby"
-            width={560}
-            height={791}
+          <span
             data-id="landing-features-studio-mark"
             className={cn(
-              "h-[38.5dvh] w-full object-contain",
-              "md:h-[84dvh] md:max-h-[1200px]",
-              "group-hover:brightness-0 group-hover:invert",
+              "font-[family-name:var(--font-beaux)] text-cream uppercase",
+              "text-[clamp(56px,9vw,140px)] leading-none tracking-[0.12em]",
+              "transition-colors duration-200",
+              "group-hover:text-white",
             )}
-          />
+          >
+            Dotto
+          </span>
         </div>
         <div
           data-id="landing-features-studio-image"
@@ -56,7 +55,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
         >
           <Image
             src={studioImage}
-            alt="Studio Ashby interior"
+            alt="Dotto interior"
             fill
             sizes="50vw"
             className="object-cover"
@@ -81,7 +80,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
         >
           <Image
             src="/images/landing-sister.png"
-            alt="Sister by Studio Ashby — Furniture & Art"
+            alt="Sister by Dotto — Furniture & Art"
             width={600}
             height={801}
             data-id="landing-features-sister-mark"

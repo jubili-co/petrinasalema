@@ -5,10 +5,10 @@ import { CookieBanner } from "./components/CookieBanner";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Studio Ashby | Interior Design, Architecture & Creative Direction",
+  title: "Dotto | Interior Design, Architecture & Creative Direction",
   description:
-    "Studio Ashby crafts spaces of authenticity and elegance—layering art, antiques, and craftsmanship into interiors with lasting character and soul.",
-  applicationName: "Studio Ashby",
+    "Dotto crafts spaces of authenticity and elegance—layering art, antiques, and craftsmanship into interiors with lasting character and soul.",
+  applicationName: "Dotto",
 };
 
 export const viewport: Viewport = {
