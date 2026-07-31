@@ -1,26 +1,118 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Matter";
+  src: url("/fonts/Matter.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Allrounder Antiqua";
+  src: url("/fonts/AllrounderAntiqua.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BEAUX Display";
+  src: url("/fonts/BEAUX-Display.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream: #f9f3f0;
+  --brown: #633b2f;
+  --sister-mustard: #b19e18;
+  --studio-orange: #e87308;
+  --sister-blue: #45519f;
+  --border-hairline: 1px;
+  --ease-out-soft: cubic-bezier(0.23, 1, 0.32, 1);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@media only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+  :root {
+    --border-hairline: 0.5px;
+  }
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--cream);
+  --color-brown: var(--brown);
+  --color-sister-mustard: var(--sister-mustard);
+  --color-studio-orange: var(--studio-orange);
+  --color-sister-blue: var(--sister-blue);
+  --font-matter: "Matter", sans-serif;
+  --font-antiqua: "Allrounder Antiqua", georgia, serif;
+  --font-beaux: "BEAUX Display", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--cream);
+  color: var(--brown);
+  font-family: var(--font-matter);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+@keyframes cookie-slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
