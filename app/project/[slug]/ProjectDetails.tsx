@@ -2,23 +2,20 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import type { Project, ProjectProduct } from "@/lib/projects";
-import { storeProductHref } from "@/lib/projects";
+import type { ProjectsItem, ProjectsLink, ProjectsRole } from "@/lib/projects";
 
 type Props = {
-  project: Project;
+  project: ProjectsItem;
   nextSlug: string;
 };
 
 export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
-  const { title, body, photographer, photographerLink, stylist, stylistLink } =
+  const { name, subtitle, location, description, roles, scope, tags, links } =
     project;
-  const products = project.products.filter(
-    (product): product is ProjectProduct & { name: string } =>
-      Boolean(product.name),
-  );
-  const hasCredits = Boolean(photographer) || Boolean(stylist);
-  const hasProducts = products.length > 0;
+  const hasRoles = roles.length > 0;
+  const hasScope = scope.length > 0;
+  const hasTags = tags.length > 0;
+  const hasLinks = links.length > 0;
 
   return (
     <section
@@ -40,69 +37,75 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
             <h2
               data-id="project-details-title"
               className={cn(
-                "m-0 mb-[18px] font-[family-name:var(--font-matter)]",
+                "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
                 "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
               )}
             >
-              {title}
+              {name}
             </h2>
-            {body.map((paragraph) => (
-              <p
-                key={paragraph}
-                data-id="project-details-body"
-                className={cn(
-                  "m-0 font-[family-name:var(--font-antiqua)]",
-                  "text-[13px] leading-[18px] font-[350]",
-                )}
-              >
-                {paragraph}
-              </p>
-            ))}
+            <p
+              data-id="project-details-subtitle"
+              className={cn(
+                "m-0 mb-[10px] font-[family-name:var(--font-antiqua)]",
+                "text-[13px] leading-[18px] font-[350]",
+              )}
+            >
+              {subtitle}
+            </p>
+            <p
+              data-id="project-details-location"
+              className={cn(
+                "m-0 mb-[18px] font-[family-name:var(--font-antiqua)]",
+                "text-[13px] leading-[18px] font-[350]",
+              )}
+            >
+              {location}
+            </p>
+            <p
+              data-id="project-details-body"
+              className={cn(
+                "m-0 font-[family-name:var(--font-antiqua)]",
+                "text-[13px] leading-[18px] font-[350]",
+              )}
+            >
+              {description}
+            </p>
           </div>
 
-          {hasCredits && (
-            <div data-id="project-details-credits">
-              {photographer && (
-                <div data-id="project-details-photographer" className="mb-5">
-                  <h3
-                    className={cn(
-                      "m-0 font-[family-name:var(--font-matter)]",
-                      "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-                    )}
-                  >
-                    Photographer
-                  </h3>
-                  <CreditLink href={photographerLink} label={photographer} />
-                </div>
-              )}
-              {stylist && (
-                <div data-id="project-details-stylist" className="mb-5">
-                  <h3
-                    className={cn(
-                      "m-0 font-[family-name:var(--font-matter)]",
-                      "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-                    )}
-                  >
-                    Stylist
-                  </h3>
-                  <CreditLink href={stylistLink} label={stylist} />
-                </div>
-              )}
+          {hasRoles && (
+            <div data-id="project-details-roles" className="mb-[30px]">
+              <h3
+                data-id="project-details-roles-title"
+                className={cn(
+                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
+                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+                )}
+              >
+                Roles
+              </h3>
+              <ul
+                data-id="project-details-roles-list"
+                className="m-0 list-none p-0"
+              >
+                {roles.map((entry) => (
+                  <RoleEntry key={`${entry.name}-${entry.role}`} role={entry} />
+                ))}
+              </ul>
             </div>
           )}
         </div>
 
-        <div data-id="project-details-furniture" className="w-full md:w-[35%]">
+        <div data-id="project-details-meta" className="w-full md:w-[35%]">
           <div className="mb-[18px] flex items-start justify-between gap-4 md:block">
-            {hasProducts && (
+            {hasScope && (
               <h3
-                data-id="project-details-furniture-title"
+                data-id="project-details-scope-title"
                 className={cn(
                   "m-0 font-[family-name:var(--font-matter)]",
                   "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
                 )}
               >
-                Furniture
+                Scope
               </h3>
             )}
             <Link
@@ -118,21 +121,69 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
             </Link>
           </div>
 
-          {hasProducts && (
+          {hasScope && (
             <ul
-              data-id="project-details-product-list"
-              className="m-0 list-none p-0"
+              data-id="project-details-scope-list"
+              className="m-0 mb-[30px] list-none p-0"
             >
-              {products.map((product) => (
+              {scope.map((item) => (
                 <li
-                  key={product.name}
-                  data-id="project-details-product"
-                  className="mb-5"
+                  key={item}
+                  data-id="project-details-scope-item"
+                  className={cn(
+                    "mb-[10px] font-[family-name:var(--font-antiqua)]",
+                    "text-[13px] leading-[18px] font-[350] last:mb-0",
+                  )}
                 >
-                  <ProductEntry product={product} />
+                  {item}
                 </li>
               ))}
             </ul>
+          )}
+
+          {hasTags && (
+            <div data-id="project-details-tags" className="mb-[30px]">
+              <h3
+                data-id="project-details-tags-title"
+                className={cn(
+                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
+                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+                )}
+              >
+                Tags
+              </h3>
+              <p
+                data-id="project-details-tags-list"
+                className={cn(
+                  "m-0 font-[family-name:var(--font-antiqua)]",
+                  "text-[13px] leading-[18px] font-[350]",
+                )}
+              >
+                {tags.join(" · ")}
+              </p>
+            </div>
+          )}
+
+          {hasLinks && (
+            <div data-id="project-details-links">
+              <h3
+                data-id="project-details-links-title"
+                className={cn(
+                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
+                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+                )}
+              >
+                Links
+              </h3>
+              <ul
+                data-id="project-details-links-list"
+                className="m-0 list-none p-0"
+              >
+                {links.map((link) => (
+                  <ExternalLinkItem key={link.href} link={link} />
+                ))}
+              </ul>
+            </div>
           )}
         </div>
 
@@ -157,81 +208,56 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
   );
 };
 
-type CreditLinkProps = {
-  href: string | null;
-  label: string;
+type RoleEntryProps = {
+  role: ProjectsRole;
 };
 
-const CreditLink: FC<CreditLinkProps> = ({ href, label }) => {
-  const className = cn(
-    "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
-    "text-cream no-underline transition-opacity duration-200 hover:opacity-50",
-  );
-
-  if (!href) {
-    return (
-      <p data-id="project-details-credit-text" className={className}>
-        {label}
-      </p>
-    );
-  }
+const RoleEntry: FC<RoleEntryProps> = ({ role }) => {
+  const { name, role: title } = role;
 
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      data-id="project-details-credit-link"
-      className={className}
-    >
-      {label}
-    </a>
-  );
-};
-
-type NamedProduct = ProjectProduct & { name: string };
-
-type ProductEntryProps = {
-  product: NamedProduct;
-};
-
-const ProductEntry: FC<ProductEntryProps> = ({ product }) => {
-  const label = (
-    <>
+    <li data-id="project-details-role" className="mb-5 last:mb-0">
       <h4
         className={cn(
           "m-0 font-[family-name:var(--font-antiqua)]",
-          "text-[13px] leading-[18px] font-[350] text-cream",
+          "text-[13px] leading-[18px] font-[350]",
         )}
       >
-        {product.name}
+        {name}
       </h4>
-      {product.designer && (
-        <p
-          className={cn(
-            "m-0 font-[family-name:var(--font-antiqua)]",
-            "text-[13px] leading-[18px] font-[350] text-cream",
-          )}
-        >
-          {product.designer}
-        </p>
-      )}
-    </>
+      <p
+        className={cn(
+          "m-0 font-[family-name:var(--font-antiqua)]",
+          "text-[13px] leading-[18px] font-[350]",
+        )}
+      >
+        {title}
+      </p>
+    </li>
   );
+};
 
-  if (!product.href) {
-    return label;
-  }
+type ExternalLinkItemProps = {
+  link: ProjectsLink;
+};
+
+const ExternalLinkItem: FC<ExternalLinkItemProps> = ({ link }) => {
+  const { href, text } = link;
 
   return (
-    <a
-      href={storeProductHref(product.href)}
-      target="_blank"
-      rel="noopener noreferrer"
-      data-id="project-details-product-link"
-      className="no-underline transition-opacity duration-200 hover:opacity-50"
-    >
-      {label}
-    </a>
+    <li data-id="project-details-link" className="mb-[10px] last:mb-0">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-id="project-details-link-anchor"
+        className={cn(
+          "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
+          "underline transition-opacity duration-200 hover:opacity-50",
+        )}
+      >
+        {text}
+      </a>
+    </li>
   );
 };

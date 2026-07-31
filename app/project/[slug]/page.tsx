@@ -20,32 +20,34 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
+
   if (!project) {
     return { title: "Project | Dotto" };
   }
 
-  const title = project.seoTitle ?? `${project.title} | Dotto`;
-  const description =
-    project.seoDescription ??
-    project.body[0] ??
-    `Interior design project: ${project.title} by Dotto.`;
+  const { name, subtitle, description } = project;
 
-  return { title, description };
+  return {
+    title: `${name} | Dotto`,
+    description: description || `${subtitle} — ${name}`,
+  };
 }
 
 const ProjectPage: FC<Props> = async ({ params }) => {
   const { slug } = await params;
   const project = getProject(slug);
+
   if (!project) {
     notFound();
   }
 
   const nextProject = getNextProject(slug);
+  const { name, images } = project;
 
   return (
     <main data-id="project-page" className="min-h-dvh bg-cream">
-      <SiteHeader variant="home" />
-      <ProjectGallery title={project.title} gallery={project.gallery} />
+      <SiteHeader />
+      <ProjectGallery name={name} images={images} />
       <ProjectDetails project={project} nextSlug={nextProject.slug} />
       <SiteFooter />
     </main>

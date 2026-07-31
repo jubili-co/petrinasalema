@@ -1,58 +1,48 @@
-import projects from "@/lib/data/projects.json";
+import projectsData from "@/lib/data/projects.json";
 
-export type ProjectProduct = {
-  name: string | null;
-  designer: string | null;
-  href: string | null;
+export type ProjectsRole = {
+  name: string;
+  role: string;
 };
 
-export type ProjectGalleryLandscape = {
-  type: "landscape";
-  image: string;
+export type ProjectsImage = {
+  src: string;
   alt: string;
+  caption: string;
 };
 
-export type ProjectGalleryPortrait = {
-  type: "portrait";
-  image1: string;
-  alt1: string;
-  image2: string;
-  alt2: string;
+export type ProjectsLink = {
+  href: string;
+  text: string;
 };
 
-export type ProjectGalleryBlock =
-  ProjectGalleryLandscape | ProjectGalleryPortrait;
-
-export type Project = {
-  title: string;
+export type ProjectsItem = {
+  id: string;
   slug: string;
-  color: string;
-  image: string;
-  seoTitle: string | null;
-  seoDescription: string | null;
-  intro: string[];
-  body: string[];
-  photographer: string | null;
-  photographerLink: string | null;
-  stylist: string | null;
-  stylistLink: string | null;
-  products: ProjectProduct[];
-  gallery: ProjectGalleryBlock[];
+  name: string;
+  subtitle: string;
+  location: string;
+  roles: ProjectsRole[];
+  scope: string[];
+  description: string;
+  tags: string[];
+  images: ProjectsImage[];
+  links: ProjectsLink[];
 };
 
-export const PROJECTS = projects as Project[];
+export type Projects = {
+  projects: ProjectsItem[];
+};
 
-export function getProject(slug: string): Project | undefined {
+export const PROJECTS_DATA = projectsData as Projects;
+export const PROJECTS = PROJECTS_DATA.projects;
+
+export function getProject(slug: string): ProjectsItem | undefined {
   return PROJECTS.find((entry) => entry.slug === slug);
 }
 
-export function getNextProject(slug: string): Project {
+export function getNextProject(slug: string): ProjectsItem {
   const index = PROJECTS.findIndex((entry) => entry.slug === slug);
   const next = PROJECTS[(index + 1) % PROJECTS.length];
   return next ?? PROJECTS[0]!;
-}
-
-export function storeProductHref(href: string): string {
-  const path = href.replace(/^\/product\/?/, "").replace(/^\/+/, "");
-  return `https://dotto.com/product/${path}`;
 }
