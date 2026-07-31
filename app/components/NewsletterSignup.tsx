@@ -19,6 +19,7 @@ export const NewsletterSignup: FC<Props> = ({ image }) => {
 
   return (
     <section
+      id="newsletter"
       data-id="newsletter-signup"
       className="flex min-h-[100dvh] w-full flex-col bg-brown md:flex-row"
     >

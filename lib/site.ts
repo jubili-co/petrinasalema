@@ -13,3 +13,15 @@ export const NAV_LINKS = [
   { href: "/contact", label: "Contact" },
   { href: "/sister", label: "Store" },
 ] as const;
+
+export const FOOTER_LINKS = [
+  { href: "/contact", label: "Contact" },
+  {
+    href: "https://www.instagram.com/studioashby",
+    label: "Instagram",
+    external: true,
+  },
+  { href: "/careers", label: "Careers" },
+  { href: "/#newsletter", label: "Newsletter" },
+  { href: "/privacy-policy", label: "Privacy Policy" },
+] as const;

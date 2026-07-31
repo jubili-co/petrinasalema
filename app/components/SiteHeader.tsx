@@ -14,8 +14,8 @@ type Props = {
   variant?: "home" | "default";
 };
 
-const SCROLL_DELTA = 4;
-const TOP_REVEAL_Y = 80;
+const SCROLL_DELTA = 1;
+const TOP_REVEAL_Y = 12;
 
 export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
   const pathname = usePathname();

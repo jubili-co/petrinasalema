@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { FOOTER_LINKS } from "@/lib/site";
 
 import { LogoStudioAshby } from "./LogoStudioAshby";
 
@@ -13,39 +14,108 @@ export const SiteFooter: FC<Props> = ({ className }) => (
   <footer
     data-id="site-footer"
     className={cn(
-      "relative z-[99] mt-auto w-full bg-brown text-cream",
-      "px-6 py-8 md:px-12 md:py-[32px]",
+      "relative z-[99] mt-auto w-full bg-brown",
+      "px-6 py-8 md:px-12 md:pt-8 md:pb-[35px]",
       className,
     )}
   >
     <div
       data-id="site-footer-inner"
-      className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center"
+      className={cn(
+        "flex flex-col items-start justify-between gap-10",
+        "md:flex-row md:items-center md:gap-4",
+      )}
     >
-      <Link
-        href="/"
-        data-id="site-footer-logo"
-        className="block w-[200px] md:w-[240px]"
-        aria-label="Studio Ashby home"
-      >
-        <LogoStudioAshby />
-      </Link>
+      <div data-id="site-footer-brand" className="w-full md:w-1/5">
+        <Link
+          href="/"
+          data-id="site-footer-logo"
+          className="block w-full max-w-[223px] text-[#AE9891]"
+          aria-label="Studio Ashby home"
+        >
+          <LogoStudioAshby />
+        </Link>
+      </div>
+
+      <nav data-id="site-footer-nav" className="w-full md:flex-1">
+        <ul
+          data-id="site-footer-nav-list"
+          className={cn(
+            "flex flex-col gap-3",
+            "md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-0",
+          )}
+        >
+          {FOOTER_LINKS.map((item) => (
+            <li
+              key={item.href}
+              data-id="site-footer-nav-item"
+              className="md:mx-[10px] md:last:mr-0"
+            >
+              <FooterNavLink item={item} />
+            </li>
+          ))}
+        </ul>
+      </nav>
 
       <div
         data-id="site-footer-meta"
-        className="flex flex-col gap-2 text-[12px] tracking-[0.08em] uppercase md:items-end"
+        className="w-full md:flex md:w-1/5 md:justify-end md:text-right"
       >
-        <Link
-          href="/privacy-policy"
-          data-id="site-footer-privacy"
-          className="transition-opacity duration-200 ease-out hover:opacity-60"
+        <p
+          data-id="site-footer-copy"
+          className={cn(
+            "m-0 font-[family-name:var(--font-matter)]",
+            "text-[11px] leading-[18px] text-[#AE9891]",
+          )}
         >
-          Privacy Policy
-        </Link>
-        <p data-id="site-footer-copy">
           © {new Date().getFullYear()} Studio Ashby
+          <br />
+          Site by{" "}
+          <a
+            href="https://studiosmall.com"
+            data-id="site-footer-credit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#AE9891] no-underline transition-opacity duration-1000 ease-out hover:opacity-50"
+          >
+            StudioSmall
+          </a>
         </p>
       </div>
     </div>
   </footer>
 );
+
+type FooterLink = (typeof FOOTER_LINKS)[number];
+
+type FooterNavLinkProps = {
+  item: FooterLink;
+};
+
+const FooterNavLink: FC<FooterNavLinkProps> = ({ item }) => {
+  const className = cn(
+    "font-[family-name:var(--font-matter)] text-[11px] leading-[15px]",
+    "tracking-[1.65px] text-cream uppercase no-underline",
+    "transition-opacity duration-1000 ease-out hover:opacity-50",
+  );
+
+  if ("external" in item && item.external) {
+    return (
+      <a
+        href={item.href}
+        data-id="site-footer-nav-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={className}
+      >
+        {item.label}
+      </a>
+    );
+  }
+
+  return (
+    <Link href={item.href} data-id="site-footer-nav-link" className={className}>
+      {item.label}
+    </Link>
+  );
+};

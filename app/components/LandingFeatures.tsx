@@ -9,26 +9,26 @@ type Props = {
   sisterImage: string;
 };
 
-export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
+export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
   <section
     id="landing"
-    data-id="landing-hero"
+    data-id="landing-features"
     className="relative h-[100dvh] w-full overflow-hidden"
   >
     <div
-      data-id="landing-hero-inner"
+      data-id="landing-features-inner"
       className="flex h-full w-full flex-col md:flex-row"
     >
       <Link
         href="/"
-        data-id="landing-hero-studio"
+        data-id="landing-features-studio"
         className={cn(
           "group relative block h-1/2 w-full overflow-hidden bg-brown",
           "md:h-full md:w-1/2",
         )}
       >
         <div
-          data-id="landing-hero-studio-inner"
+          data-id="landing-features-studio-inner"
           className={cn(
             "relative z-[2] flex h-full items-center justify-center",
             "p-[18px] md:px-[82px] md:py-[8.3%]",
@@ -39,18 +39,18 @@ export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
             alt="Studio Ashby"
             width={560}
             height={791}
-            data-id="landing-hero-studio-mark"
+            data-id="landing-features-studio-mark"
             className={cn(
-              "h-[38.5dvh] w-full object-contain transition-all duration-1000 ease",
+              "h-[38.5dvh] w-full object-contain",
               "md:h-[84dvh] md:max-h-[1200px]",
               "group-hover:brightness-0 group-hover:invert",
             )}
           />
         </div>
         <div
-          data-id="landing-hero-studio-image"
+          data-id="landing-features-studio-image"
           className={cn(
-            "absolute inset-0 z-[1] opacity-0 transition-opacity duration-1000 ease",
+            "absolute inset-0 z-[1] opacity-0",
             "group-hover:opacity-100",
           )}
         >
@@ -66,14 +66,14 @@ export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
 
       <Link
         href="/sister"
-        data-id="landing-hero-sister"
+        data-id="landing-features-sister"
         className={cn(
           "group relative block h-1/2 w-full overflow-hidden bg-sister-mustard",
           "md:h-full md:w-1/2",
         )}
       >
         <div
-          data-id="landing-hero-sister-inner"
+          data-id="landing-features-sister-inner"
           className={cn(
             "relative z-[2] flex h-full items-center justify-center",
             "p-[18px] md:px-[54px] md:py-[10%]",
@@ -84,18 +84,18 @@ export const LandingHero: FC<Props> = ({ studioImage, sisterImage }) => (
             alt="Sister by Studio Ashby — Furniture & Art"
             width={600}
             height={801}
-            data-id="landing-hero-sister-mark"
+            data-id="landing-features-sister-mark"
             className={cn(
-              "h-[38.5dvh] w-full object-contain transition-all duration-1000 ease",
+              "h-[38.5dvh] w-full object-contain",
               "md:h-[85.1dvh] md:max-h-[1228px]",
               "group-hover:brightness-0 group-hover:invert",
             )}
           />
         </div>
         <div
-          data-id="landing-hero-sister-image"
+          data-id="landing-features-sister-image"
           className={cn(
-            "absolute inset-0 z-[1] opacity-0 transition-opacity duration-1000 ease",
+            "absolute inset-0 z-[1] opacity-0",
             "group-hover:opacity-100",
           )}
         >

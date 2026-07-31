@@ -8,8 +8,9 @@ import {
   HomeProjects,
   type HomeProjectBlock,
 } from "./components/HomeProjects";
-import { LandingHero } from "./components/LandingHero";
+import { LandingFeatures } from "./components/LandingFeatures";
 import { NewsletterSignup } from "./components/NewsletterSignup";
+import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
 export const metadata: Metadata = {
@@ -23,11 +24,12 @@ const HomePage: FC = () => (
   <main data-id="home-page" className="min-h-dvh">
     <SiteHeader variant="home" />
     <HomeProjects blocks={blocks} />
-    <LandingHero
+    <LandingFeatures
       studioImage={landing.studioImage}
       sisterImage={landing.sisterImage}
     />
     <NewsletterSignup image={landing.newsletterImage} />
+    <SiteFooter />
   </main>
 );
 
