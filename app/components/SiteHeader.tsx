@@ -27,6 +27,8 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
     variant === "home" ||
     pathname === "/" ||
     pathname === "/about" ||
+    pathname === "/careers" ||
+    pathname === "/newsletter" ||
     pathname.startsWith("/project/");
   const shouldHideHeader = isHeaderHidden && !isOpen;
 

@@ -4,7 +4,8 @@ import { cn } from "@/lib/cn";
 
 export type TextRun = {
   text: string;
-  strong: boolean;
+  strong?: boolean;
+  href?: string;
 };
 
 export type TextParagraph =
@@ -43,13 +44,65 @@ const AboutParagraph: FC<AboutParagraphProps> = ({ paragraph }) => {
 
   return (
     <p data-id="about-body-paragraph" className={className}>
-      {paragraph.runs.map((run, index) => {
-        if (run.strong) {
-          return <strong key={`${run.text}-${index}`}>{run.text}</strong>;
-        }
-
-        return <span key={`${run.text}-${index}`}>{run.text}</span>;
-      })}
+      {paragraph.runs.map((run, index) => (
+        <TextRun key={`${run.text}-${index}`} run={run} />
+      ))}
     </p>
+  );
+};
+
+type TextRunProps = {
+  run: TextRun;
+};
+
+const TextRun: FC<TextRunProps> = ({ run }) => {
+  const { text, strong, href } = run;
+
+  if (!href && strong) {
+    return <strong>{text}</strong>;
+  }
+
+  if (!href) {
+    return <span>{text}</span>;
+  }
+
+  return <BodyLink href={href} text={text} strong={Boolean(strong)} />;
+};
+
+type BodyLinkProps = {
+  href: string;
+  text: string;
+  strong: boolean;
+};
+
+const BodyLink: FC<BodyLinkProps> = ({ href, text, strong }) => {
+  const isExternal = href.startsWith("http");
+  const target = isExternal ? "_blank" : undefined;
+  const rel = isExternal ? "noopener noreferrer" : undefined;
+
+  if (strong) {
+    return (
+      <a
+        href={href}
+        data-id="about-body-link"
+        className="text-cream underline"
+        target={target}
+        rel={rel}
+      >
+        <strong>{text}</strong>
+      </a>
+    );
+  }
+
+  return (
+    <a
+      href={href}
+      data-id="about-body-link"
+      className="text-cream underline"
+      target={target}
+      rel={rel}
+    >
+      {text}
+    </a>
   );
 };

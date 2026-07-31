@@ -22,6 +22,7 @@ export const FOOTER_LINKS = [
     external: true,
   },
   { href: "/careers", label: "Careers" },
-  { href: "/#newsletter", label: "Newsletter" },
+  { href: "/newsletter", label: "Newsletter" },
   { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/impressum", label: "Impressum" },
 ] as const;

@@ -1,0 +1,58 @@
+{
+  "seoTitle": "Impressum | Studio Ashby",
+  "seoDescription": "Legal notice and company information for Studio Ashby.",
+  "blocks": [
+    {
+      "type": "heading",
+      "text": "Company Details"
+    },
+    {
+      "type": "paragraph",
+      "text": "Studio Ashby\nThe Blewcoat School\n23 Caxton Street\nLondon\nSW1H 0PY\nUnited Kingdom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cape Town Studio\n109 Loop Street\nCape Town City Centre\nCape Town, 8001\nSouth Africa"
+    },
+    {
+      "type": "heading",
+      "text": "Contact"
+    },
+    {
+      "type": "paragraph",
+      "text": "Telephone: 0203 176 2571\nEmail: info@studioashby.com"
+    },
+    {
+      "type": "heading",
+      "text": "Responsible for content"
+    },
+    {
+      "type": "paragraph",
+      "text": "Studio Ashby is responsible for the content of this website in accordance with applicable law."
+    },
+    {
+      "type": "heading",
+      "text": "Liability for contents"
+    },
+    {
+      "type": "paragraph",
+      "text": "As a service provider, we are responsible for our own content on these pages in accordance with general laws. We are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general law remain unaffected. Liability in this regard is only possible from the time of knowledge of a specific infringement. Upon becoming aware of such violations, we will remove this content immediately."
+    },
+    {
+      "type": "heading",
+      "text": "Liability for links"
+    },
+    {
+      "type": "paragraph",
+      "text": "Our website may contain links to external third-party websites over whose content we have no influence. Therefore we cannot accept any liability for this external content. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognisable at the time of linking. Permanent monitoring of the content of linked pages is not reasonable without concrete evidence of a violation. Upon becoming aware of legal violations, we will remove such links immediately."
+    },
+    {
+      "type": "heading",
+      "text": "Copyright"
+    },
+    {
+      "type": "paragraph",
+      "text": "The content and works created by Studio Ashby on these pages are subject to copyright law. Reproduction, editing, distribution and any kind of exploitation outside the limits of copyright require the written consent of Studio Ashby. Downloads and copies of this site are permitted for private, non-commercial use only. Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. Should you become aware of a copyright infringement, please notify us. Upon becoming aware of legal violations, we will remove such content immediately."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "seoTitle": "Studio Ashby | Careers",
+  "seoDescription": "Explore careers at Studio Ashby and discover opportunities across interior design, architecture and creative practice.",
+  "section": {
+    "type": "textImage",
+    "imagePosition": "right",
+    "title": null,
+    "subtitle": null,
+    "textPosition": "top",
+    "color": "#893521",
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/23a9fd56c258f82b8205b92bfc9f57d703e0e856-1440x1860.jpg?w=1440&auto=format",
+    "imageBorder": false,
+    "imageColor": "#EEE9E2",
+    "paragraphs": [
+      {
+        "type": "text",
+        "text": "Studio Ashby are currently recruiting:"
+      },
+      {
+        "type": "rich",
+        "runs": [
+          {
+            "text": "Senior FF&E Designer",
+            "href": "https://studioashby.com/studio-ashby-senior-ffe-designer"
+          }
+        ]
+      },
+      {
+        "type": "rich",
+        "runs": [
+          {
+            "text": "Senior Procurement Manager",
+            "href": "https://studioashby.com/studio-ashby-senior-procurement-manager"
+          }
+        ]
+      },
+      {
+        "type": "rich",
+        "runs": [
+          {
+            "text": "Head of FF&E",
+            "href": "https://studioashby.com/studio-ashby-head-of-ffe"
+          }
+        ]
+      },
+      {
+        "type": "rich",
+        "runs": [
+          {
+            "text": "If you would like to send a speculative application, please email your CV, a cover note and portfolio (if applicable) to "
+          },
+          {
+            "text": "careers@studioashby.com",
+            "href": "mailto:careers@studioashby.com"
+          },
+          {
+            "text": " citing the job title in the subject line."
+          }
+        ]
+      }
+    ]
+  }
+}
