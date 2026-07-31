@@ -3,126 +3,1906 @@
     "title": "Tamodi Estate & Polo Reserve",
     "slug": "tamodi-estate",
     "color": "#645E26",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ba5e35e61e7546822f3c8d6c119f52e2462afe9a-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ba5e35e61e7546822f3c8d6c119f52e2462afe9a-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": "Studio Ashby | Tamodi Estate & Polo Reserve",
+    "seoDescription": "Set in Plettenberg Bay, South Africa, Tamodi Estate & Polo Reserve brings together natural materials, local craftsmanship and art-led interiors inspired by the surrounding landscape.",
+    "intro": [],
+    "body": [
+      "Set within the landscapes of Plettenberg Bay, South Africa, Tamodi Estate & Polo Reserve was designed as a quiet retreat where interiors, craft and nature exist in harmony. Inspired by the surrounding mountains and coastal light, the spaces embrace a palette of natural tones and organic textures, creating a calm, sensorial atmosphere rooted in the landscape. Bespoke furniture, handwoven rugs crafted in Cape Town and locally sourced materials bring warmth and authenticity throughout the suites and shared spaces. Curated works by South African artists and vintage pieces add depth and character, resulting in interiors that feel refined yet relaxed - closer to a lived-in home than a traditional hotel."
+    ],
+    "photographer": "Images courtsey of Tamodi Estate & Polo Reserve\u2060",
+    "photographerLink": null,
+    "stylist": null,
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "the-chess-swivel-chair/"
+      },
+      {
+        "name": "The Sculpted Arc Sofa",
+        "designer": null,
+        "href": "the-sculpted-arc-sofa/"
+      },
+      {
+        "name": "The Sculpted Ottoman",
+        "designer": null,
+        "href": "the-sculpted-ottoman/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/8de7221a732fe69f9903f708a05be965ceb78f7d-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Tamodi Estate"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/85308e61f820eacd56e27e98160ca888f9f6a187-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Tamodi Estate",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/0fe2095a549e10d574afb33f32208dc75d335d4c-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Tamodi Estate"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/25672cd71ff11136b1e8db5be8dcd1a7c294321a-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Tamodi Estate",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/22b13c906460b892275029136574ee1087a76294-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Tamodi Estate"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/54cfda28bfe8f9b9340c82d0d1039944461614a0-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Tamodi Estate"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/6fd04985b1eb73b84e0b77e6980f24bfb33e5cbb-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Tamodi Estate",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/7afe95e8dead22b0fc375ce43e06804a28e1839c-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Tamodi Estate"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/500f15586f338e44045e6d160a3a81f2d58d093d-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Tamodi Estate"
+      }
+    ]
   },
   {
     "title": "Guernsey Family Home",
     "slug": "guernsey-family-home",
     "color": "#45519F",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d33b24b44aecc2b3d1be8b12465d543774f6945e-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d33b24b44aecc2b3d1be8b12465d543774f6945e-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Set on the island of Guernsey, this full refurbishment and extension transforms a family home through an art-led approach rooted in calm, light and landscape. The clients' deep ties to Africa shaped every layer of the interior \u2014 from commissioned artwork to furniture informed by the textures and craft of the continent. A ceiling mural anchors the home, while wardrobe panels embroidered with a landscape the clients photographed themselves speak to a deeply personal vision of place. Throughout, the brief remained constant: inviting, comfortable, and always in conversation with the world outside. The result is a home where art, craft and meaning are woven into every room \u2014 not as decoration, but as the very fabric of how the house lives."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Anna Sheridan",
+    "stylistLink": "https://www.annasheridancreative.com/",
+    "products": [
+      {
+        "name": "The Topi Chair",
+        "designer": null,
+        "href": "/product/the-topi-swivel-chair/"
+      },
+      {
+        "name": "The Sculpted Arc Sofa",
+        "designer": null,
+        "href": "/product/the-sculpted-arc-sofa/"
+      },
+      {
+        "name": "The Sunburst Light",
+        "designer": null,
+        "href": "/product/the-sunburst-light/"
+      },
+      {
+        "name": "The Kudu Chair",
+        "designer": null,
+        "href": "/product/the-kudu-chair/"
+      },
+      {
+        "name": "The Small Rounded Box Cushion",
+        "designer": null,
+        "href": "/product/the-small-rounded-box-cushion-odessa-ember/"
+      },
+      {
+        "name": "The Gem Rug",
+        "designer": null,
+        "href": "/product/the-gem-rug/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/b314fd587c954a708636451dad7a78aea44ac512-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/fa8905196cf62658421f555815e1ecc891560576-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Guernsey Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ae2f251a5e04d034ca246eb0e7296d70b0c0aef5-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/5405e75e2d33d0d0b17e5c9c7391130886baab8c-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/e878c3e96545855f8cd9681668eaef57cdf26c25-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Guernsey Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/df997c5d5c12420693d552094dcaaac96bc1b115-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/8d4053a15cee8d15bb92e5cb13ed21160d20f82b-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Guernsey Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/66ad36b5d18269a8647477fe81a83719677e4266-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/e03fb84eb3ac402ce4f47e65fb54062807dbcd54-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Guernsey Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/e294dfe3323ea8913b6b0cf11cd7c76bf88deb46-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/721670fd11e148ce7157cc1a9ea268d81c6c8b52-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Guernsey Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/0e19ffaff579076c21bc07fbc2d09e379f00d92b-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Guernsey Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/376beafa67ed5b89d69ce315ab30236bd97da06f-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Guernsey Family Home"
+      }
+    ]
   },
   {
     "title": "Hampstead Family Home",
     "slug": "hampstead-family-home",
     "color": "#B0BFDE",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/f82131118ffff4a6a033c7fc9024ca4e826e042c-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/f82131118ffff4a6a033c7fc9024ca4e826e042c-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Set within an Arts & Crafts house in Hampstead, originally designed by Sir Guy Dawber, this project reimagines a family home through an art-led approach. Inspired by the owners\u2019 collection - including works by Karl Maughan and Fiona Pardington - the interiors take their cue from bold artworks, shaping a layered palette of blues, greens and earthy reds. Subtle architectural changes improve flow and strengthen the connection to the garden, while tactile materials - limewashed oak cabinetry, zellige tiles and tumbled stone floors - bring warmth and texture to the kitchen and living spaces. The result is a relaxed, characterful home where art, colour and thoughtful design come together to support modern family life."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": null,
+    "stylist": "Anna Sheridan",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Sculpted Arc Sofa",
+        "designer": null,
+        "href": "/the-sculpted-arc-sofa"
+      },
+      {
+        "name": "The Rhino Armchair",
+        "designer": null,
+        "href": "/the-rhino-chair-in-oak"
+      },
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-chess-swivel-chair"
+      },
+      {
+        "name": "Disa in Lapis",
+        "designer": null,
+        "href": "/disa-in-lapis"
+      },
+      {
+        "name": "Afua in Olive",
+        "designer": null,
+        "href": "/afua-in-olive/"
+      },
+      {
+        "name": "Trippy in Indigo",
+        "designer": null,
+        "href": "/trippy-in-indigo/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/81928cb1f819842936f0953907417fc42272e54f-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Hampstead Family Home - Living Room"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/7d11c92bf2febfa4418b2b7c835df09e9ff7eef7-1279x1705.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Living Room",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ef7d33a715998fbe3b254530f405496e2442ce8e-1231x1642.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Living Room"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/49d6adfa36aee41a2b9292cc25bb6823b76712f5-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Hampstead Family Home - Kitchen"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/216b2619dd3897ec42414d1a562533752aeb238c-1245x1660.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Dining Room",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/edb85eabfeaa8599f91d14a69b38da6e96cec177-1332x1776.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Dining Room"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/2d0e1f7b453211f83d297d41f6e74256f20e391b-1333x1777.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Kitchen",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/c45cbf480967674d8f9bb8386a134202fda49792-1193x1590.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Kitchen"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/3eec0dff199f437d493397ec87e203347789e7b3-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Hampstead Family Home - Primary Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/6dc729cd497b224669cb39ba48d145e6d6491047-1270x1694.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Primary Bedroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/55b053b02058084fdd56c8502397053d3e23b6a4-1233x1644.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Primary Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/1e14aeeab276938dc5b8aa39718933b1ed89b69f-1216x1621.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Primary Bedroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/3151b45c22199f86f0e21cb983d6e441d37c682b-1308x1744.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Primary Bathroom"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c43af78f95e517c0cb7e75663e2a6cfc0e5a7d46-1841x1228.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Hampstead Family Home - Primary Bathroom"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/366edbb6e41fcc40e293f8a049befd7796a46b06-1629x1086.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Hampstead Family Home - Children's Room"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/a0d1b2e141330c6bd2637d9e96e25a053d2fb562-1190x1587.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Children's Room",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/6de87c04fc1ee7730676906088f402355e879d66-1262x1683.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Study"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/80f2769600374bde9c30e03b26a0f93d56529515-1310x1747.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Hampstead Family Home - Exterior",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/91a8e010fc84d7fa339026401c5b3f6b222be458-1167x1556.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Hampstead Family Home - Entrance"
+      }
+    ]
   },
   {
     "title": "St James's Park Apartment",
     "slug": "st-james-s-park-apartment",
     "color": "#B19E18",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/f5859835ef24efb051ccb050d8b14b0ac1a2b99b-1275x1646.jpg?w=1275&h=1646&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/f5859835ef24efb051ccb050d8b14b0ac1a2b99b-1275x1646.jpg?w=1275&h=1646&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "On the 14th floor in the heart of St James\u2019s, this layered home was designed as a pied-\u00e0-terre for a young family based overseas. The brief: create a space that feels grounded yet elevated\u2014rich in materiality, personal in spirit, and quietly expressive. Bespoke joinery, vintage Italian lighting, and handcrafted furniture by Sister by Studio Ashby bring warmth and tactility to every room. Collected artworks, deep natural textures, and thoughtful colour pairings connect the apartment to the city below while reflecting the lives of its inhabitants. From a reimagined layout to the smallest details\u2014brushed stainless steel finishes, cerulean linen wallcoverings, hand-tufted rugs\u2014this project is a celebration of balance, beauty, and belonging."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Anna Sheridan",
+    "stylistLink": "https://www.annasheridancreative.com/",
+    "products": [
+      {
+        "name": "The Kreef Stool",
+        "designer": null,
+        "href": "/the-kreef-footstool/"
+      },
+      {
+        "name": "The Waves Rug",
+        "designer": null,
+        "href": "/the-waves-rug/"
+      },
+      {
+        "name": "Patch in Cerulean",
+        "designer": null,
+        "href": "/patch-in-cerulean/"
+      },
+      {
+        "name": "Afua in Walnut",
+        "designer": null,
+        "href": "/afua-in-walnut/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/eb0108854b0f65b9e3bb42e581012af4afc21be4-1913x1236.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St James's Park Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/f5859835ef24efb051ccb050d8b14b0ac1a2b99b-1275x1646.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St James's Park Apartment - Lounge",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/62ec6c8129e819003792dcf196332ebc18fe697e-1276x1648.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St James's Park Apartment - Lounge"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/57bebc3448dc6589f3df71b80e16bb28cf21199c-1908x1232.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St James's Park Apartment - Kitchen"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/d2f20ca8b4df96f149ea95735f5692c2e8ba601f-1260x1628.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St James's Park Apartment - Kitchen",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/56d9555de1cfa7e44176ff158c467c9492a0a954-1239x1600.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St James's Park Apartment - Kitchen"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/62259a83a993d652bfe58c89bcc2ac635df06fa5-1246x1609.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St James's Park Apartment - Primary Bedroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/1b559e699fcca67d80fd8ca39a671e9d1f8ebf09-1281x1654.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St James's Park Apartment - Primary Bathroom"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/0ee58db38373f083be1378d62d395df92a62c49f-1801x1163.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St James's Park Apartment - Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/1bc01d6ced9bde1560711f5a64535981dfafdf99-1268x1638.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St James's Park Apartment - Bedroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b4afa1d0e97ddc44f25b69002ab66fcf57cc41c6-1222x1578.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St James's Park Apartment - Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/8734daa8c0a90bc223abb16ce2ec177e66d2956e-1275x1647.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St James's Park Apartment - Entrance Hall",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/515dee3a87b226ec0aba71c48c617710f9e57c68-1137x1469.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St James's Park Apartment - Bathroom"
+      }
+    ]
   },
   {
     "title": "Villa Robert Graves, La Residencia Belmond",
     "slug": "villa-robert-graves-la-residencia-belmond",
     "color": "#E5A100",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/09ec1bd2731dda0486fbb5a831525f4aff877827-1586x2048.jpg?w=1586&h=2048&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/09ec1bd2731dda0486fbb5a831525f4aff877827-1586x2048.jpg?w=1586&h=2048&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "We brought our soulful, eclectic approach to Villa Robert Graves through a thoughtful renovation that celebrates Mallorca\u2019s rich artistic heritage and natural beauty. Embracing the villa\u2019s original charm, we curated antique pieces from the estate alongside Spanish artifacts, working closely with local artisans to incorporate Mallorcan linens, blown glass lamps, and expressive ceramics. The villa is adorned with pieces from La Residencia\u2019s celebrated art collection, curated by the Sheridan family since 1984, reflecting Belmond\u2019s ongoing commitment to regional culture. With interiors that echo the surrounding UNESCO-listed Tramuntana mountains, we layered oak, green-stained timber, terracotta, and forged iron with dynamic patterns, expressive rugs, and characterful antiques to create a warm, vibrant, and immersive indoor-outdoor living experience."
+    ],
+    "photographer": "Salva Lopez",
+    "photographerLink": "https://salvalopez.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Scatter Cushion in Disa",
+        "designer": null,
+        "href": "/the-scatter-cushion-in-disa-lapis/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/e0982c46daf1716a8ed5ec52098195aca3dea02f-3000x2142.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/efd2f84b2fe3ecb02cdee89fffc085e6cc4d0840-1586x2048.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Belmond Villa",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/73383b06ac361d0d3be8f94588b13a717ef10852-1586x2048.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/f8b4f601cb8efea36e550965c77a85da282f38c0-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/0ed3f50a9ea5e5dd09ef70c41c78f08b7e6152db-1586x2048.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Belmond Villa",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/2a16f4539684478051152dadd75d6ef67f07daec-1586x2048.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/52368bd01a847224bb2b7583ade25be714e01c48-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4aa53631e1e962c433f3562d58f88ffd70ffddf1-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/2a8b2e20d1022fc23e2f3cedf263b07f2736d638-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7742d5c6bbf113303925bfe74c9c093d013ecd44-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/a926294c346202bcb56858ca64f60484a9ac6284-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d5dbc2bca284c839fa11d75f9d40ec1775bb10cf-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/749bf1ab84d2921833f2c2cc829d977be8eb260d-2048x1463.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Belmond Villa"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/f23488165ea08f3ed7a328fcf8a444355486384c-1586x2048.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Belmond Villa",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/0bdcd784de8d21e82732ae7969f77c182ebd4ab1-1586x2048.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Belmond Villa"
+      }
+    ]
   },
   {
     "title": "St Germain Grand Apartment",
     "slug": "st-germain-grand-apartment",
     "color": "#893521",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/725850fa288c724585c4e76e2655005cc3ce83ca-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/725850fa288c724585c4e76e2655005cc3ce83ca-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "This duplex apartment on the Left Bank in Paris, overlooking the Seine and Louvre, was transformed from two separate units into a luxurious space through a collaborative effort with French architect Antoinette Zalewski. The project required extensive restoration, including new parquet floors, panelling, a staircase, and custom-designed rugs. The design harmoniously blended antique and modern elements, drawing inspiration from the colours of Paris and featuring a serene, neutral palette throughout the fabrics, furniture, and artwork. Collaborating with skilled French craftsmen, the team restored the building\u2019s original charm while introducing contemporary touches, creating an elegant, timeless, and sophisticated living space."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Two-Step Swivel Chair",
+        "designer": null,
+        "href": "/the-two-step-swivel-chair/"
+      },
+      {
+        "name": "The Beak Chair",
+        "designer": null,
+        "href": "/the-beak-swivel-chair/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/abca6c234d691644d59b14b1ecc7fbcaee683948-3600x2571.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/4f1de826c7e68b775547d87e04b439fa2042c319-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/4b559d4344ea12b0f5377bd3ba31b4d83987f0bb-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/81c28b91a416b42c5223496c7ee5dbed8fe0ae9b-3600x2571.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/e1dc090d47a3eda1368c721a481ecca50a625e1e-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ee2c03cb61d7d606d2368c7c82779298562e9c3d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/af1e916c0bc6a9fd45c3dc23feb88b03043f61f7-3600x2571.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/c3f804a73de8da3422ae56c5fd370be90af7574e-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/1683af13bb746fc01a9f20f7f28cea77957238e2-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/90724edb1e155532a0625afdeff2d8751709107e-3600x2571.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/bf736acb1010228fb7d9ef1b2bcdb193b2dbef95-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b0113cd5c31cba26bdd08dd5547b0fe3ee40309c-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/44073e77277a04d1887df485bccebc817adde126-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/60762a8ddf3913ffe02d8aa024f90ec9bea63592-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d36b3811be29331b4df8c1198882417e75baca8a-3600x2571.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/dfce9634734a7ff81d5c7e98de4e3157c86d0fcd-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/6178963433f97c0c1ae855969ea2d099b59c3b59-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/20a74a0c3c5ff76353f9d6084dc40a44b4787122-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/7ab3aa69f938a0b68cc60299cb9b4ec5e8cdc68b-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/cd0aa3aca51685a0ae0fff0890f684f3fa4b5c18-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/55e423136451c837f9e2630710d9c99bfc9fd282-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/2af6856a1146a0c7555a8dda6587dfc74d3789e5-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/11eb23075552ab83839798791f63e32289bdf1aa-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b47fae943f73b37394279e79655af6072f7173b1-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ee97f0a11922d2f334170878336706ac865cb492-3600x2571.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 St Germain Grand Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/57fe43e9fb3bbcba5e8430bdce7680b567519750-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 St Germain Grand Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ca7827c839e0d4e8e6d5f1ea993031b4ec5d5d65-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 St Germain Grand Apartment"
+      }
+    ]
   },
   {
     "title": "Parkside Family Home",
     "slug": "parkside-family-home",
     "color": "#645E26",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/856f95d733d461061d3cf9b2bd8490396e6f746d-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/856f95d733d461061d3cf9b2bd8490396e6f746d-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": "Studio Ashby | Parkside Family Home",
+    "seoDescription": "Studio Ashby\u2019s Parkside Family Home combines bespoke interiors, thoughtful layouts, and artisanal touches to create a warm, refined family living environment.",
+    "intro": [],
+    "body": [
+      "After living in their south-west London home for six years, our clients, a family with two young daughters, decided to undertake a full renovation, focusing on creating a space that reflected their long-term commitment to the house and area. The contemporary architecture, with its large windows and views of surrounding parks, needed an internal redesign to improve the flow, which we achieved by reconfiguring rooms and doorways. Open-plan living areas were balanced with smaller spaces for personal activities, and materials like pale oak floors, rich timbers, blackened steel, and green marble were used to create a harmonious, earthy palette throughout the home. The design incorporated bold, creative elements, including custom bookcases, vibrant artwork, and unique lighting, while the family, including the children, actively contributed to the process, resulting in a highly personalised, warm, and nurturing space that supports their creative and adventurous lifestyle."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Anna Sheridan",
+    "stylistLink": "https://www.annasheridancreative.com/",
+    "products": [
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-chess-swivel-chair"
+      },
+      {
+        "name": "The Cookie Coffee Table",
+        "designer": null,
+        "href": "/the-cookie-coffee-table"
+      },
+      {
+        "name": "The Mochi Ball In Boucle Swell",
+        "designer": null,
+        "href": "/the-mochi-ball-in-swell"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/dd0219bcf01a32bf0728961e638155c62af48650-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/94b142953bf65120d31d77b1d62368ef0172e971-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b6709652e4fb308e17562f4abf0fa426d775dca2-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/120c161e749cdc64318d4bbf8bce21fb337b5a35-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/4a60cd72c79ff92029adb89150dd22e399d2d76d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/57a89e2e5ae6d25d1e0f105d70c24679a9c374a5-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/3c3d234275c68479a063cf738b4b67ae32e23e15-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/59940faecc59409cee8a827dbc7591aaaa8ec0b0-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/07b809e6be472b07ecf46c0bfd7e8614fbaacc44-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/6abaab5005baf6b51832833255b45be60bc76b7a-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/64639fb4e6f4445471f7af1e53b88bcdffd6b187-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/396193a8f6ec48ccbbeea2ffad8fef1b59d18f2e-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/53a1f00541fc4125610f01b203b8534a6aa21383-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/1b428538e2a7d5c930e593d84842e63000d340c3-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/1284396efc6a9757603ba16d3dca472b529a3541-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/1107ff46599d493714e0d20db37d99032d1f6883-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/bc4865a987cc943c9f1b321befa486e9e10b2605-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Parkside Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/73d31b98cf7ed480de0be7088f63a07219093c78-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Parkside Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/dce01679de0f0e3a4931b07bd878b3fcd2d2ff5a-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Parkside Family Home"
+      }
+    ]
   },
   {
     "title": "San Francisco Apartment",
     "slug": "san-francisco-apartment",
     "color": "#45519F",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/45a2c2a11346ddd7dc923a665e5c7a1b2be7ecc9-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/45a2c2a11346ddd7dc923a665e5c7a1b2be7ecc9-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "This project, our first in the USA, involved redecorating a large apartment in San Francisco\u2019s Pacific Heights. Positioned on a hill with stunning views of San Francisco Bay, the apartment serves as an extension of our client's primary residence, designed for work, entertaining, and guest accommodation. While recently refurbished, its daring decor didn\u2019t align with our client\u2019s taste, so we undertook a light refurbishment. This included refinishing floors, installing new bathrooms, converting bedrooms into offices, and reconfiguring the dining area into a library. The design was tailored to accommodate the client's growing art collection, incorporating eclectic vintage French and Italian furniture and bespoke elements like a custom rug, reimagined kitchen, and hand-painted chinoiserie wallpaper. We aimed to create a flexible, visually striking space where contemporary artworks and one-of-a-kind furnishings could harmoniously coexist."
+    ],
+    "photographer": "Thibault Cartier",
+    "photographerLink": "https://tibo.co/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-chess-swivel-chair"
+      },
+      {
+        "name": "The Cookie Coffee Table",
+        "designer": null,
+        "href": "https://studioashby.netlify.app/product/the-cookie-coffee-table/"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d49f78867e71355689930b999f45bcef36a4c1e5-1860x1201.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 San Francisco Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/9869850e3fbc41a4711f95bab8c51d3ccadc9876-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 San Francisco Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/f79721c6ce155ecb0df50e8cd2cbb782728aaf3b-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 San Francisco Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/51788ce8cb081538042a280cc1ea0bb9257261c9-1860x1201.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 San Francisco Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/45a2c2a11346ddd7dc923a665e5c7a1b2be7ecc9-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 San Francisco Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/116e4e781d76ee54b10d974f290b47653f596b4d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 San Francisco Apartment"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/981f41ecc16d7f5bd6bc64c526f1e351ea43ffa3-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 San Francisco Apartment",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/83bccf7b6a21cf5911fd75724693691e44093e6f-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 San Francisco Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/32ff7641d5bbbef5c63a5157a0a1d4809a974b11-1860x1201.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 San Francisco Apartment"
+      }
+    ]
   },
   {
     "title": "Belgravia Jewel Box",
     "slug": "belgravia-jewel-box",
     "color": "#E87308",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d599ed69bfa03d6dd1c3bb144ad012e4c260f16f-774x1000.jpg?w=774&h=1000&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d599ed69bfa03d6dd1c3bb144ad012e4c260f16f-774x1000.jpg?w=774&h=1000&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Working on this jewel-box apartment in Belgravia taught me the value of collaboration. While I love projects where I have creative freedom, this one challenged me to listen and adapt to my stylish French client\u2019s vision, blending her passion for historic French design with my expertise. Together, we transformed the bland space into a vibrant, whimsical home, layering textures, colors, and antiques in a \"more is more\" approach. From the hand-painted kitchen tiles to embroidered chinoiserie walls, each room reflects her personality. The result is a beautifully evolving home, a testament to our partnership and her confidence in shaping her surroundings."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Sunburst Light",
+        "designer": null,
+        "href": "/the-sunburst-light"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/81f8fe29b9f18e8e6cec9f0d8a4bfd0375eaea01-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Eaton Place - Kitchen"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/a4df85d4ee0c128379df0a251e373a072ab7c073-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Eaton Place - Kitchen",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/c3da59b77519b0d65b148ab668d866e16055e4ef-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Eaton Place - Kitchen"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/a7246f5f6e112c26eefe4095d6c7cc4b9aac5774-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Eaton Place - Reception"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/a9b883da49a752b0be40dc49240f9752c2d70a01-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Eaton Place - Reception",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/86de6cc0507e8602e5a30d04b99af60b982c933e-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Eaton Place - Reception"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/5068cb50255fcb1eca0eefcedce10ffdac65d8ad-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Eaton Place - Entrance Hall",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/60caac0c03fc23aa9078e1942d4fc746f5db6162-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Eaton Place - Reception"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/6c018c6aad97fb68a9174ee7b7854bc5d5011d18-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Eaton Place - Entrance Hall"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/ad686fb9f712ad0ded7a1b6254f4ef7a88a7b4b0-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Eaton Place - Primary Bedroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/d4993d44bdbb6365c79dd54edbe84eb057c59a05-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Eaton Place - Primary Bedroom"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/34f7b5d470501935c38b7d2e6ae43fae70334992-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Eaton Place - Guest Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/a95d2937f41207e378a5b3632c9dba62bf8aaade-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Eaton Place - Primary Bedroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/4279b8c4cd13f2da1984a77179ef224e66679373-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Eaton Place - Dressing Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/500b28ad1ffdc1f9d429a4b60e6e5cf4159a1e45-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Eaton Place - Bathroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/1f60580218711d2d8b59f5e133f3dd8889e55165-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Eaton Place - Bathroom"
+      }
+    ]
   },
   {
     "title": "Mayfair Pied-\u00e0-Terre",
     "slug": "mayfair-pied-a-terre",
     "color": "#f2e5dc",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c04a86c3615fef9bb3346ae02a11d341a8bd611e-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c04a86c3615fef9bb3346ae02a11d341a8bd611e-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Our clients, an international young family, bought a Mayfair apartment as their London pied-\u00e0-terre, but we felt its layout and design could be more functional and exciting. Working with the challenges of a new build, such as low ceilings and lack of architectural features, we sought to inject personality through a calming palette of creamy plaster, soft metals, and natural materials like burr maple and limed oak. The design emphasised luxurious, tactile finishes, integrating functional yet artistic details such as bespoke storage, playful textures, and soothing materials throughout. A standout is the shelving unit that combines practicality and aesthetics, while the all-white bedroom was a design challenge, resulting in a serene yet layered space. Each area balances function, beauty, and a sense of sanctuary for the family in the heart of the city."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-chess-swivel-chair"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/9e91c20edd51eb8d52c075783a6446e733bbab2f-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/c04a86c3615fef9bb3346ae02a11d341a8bd611e-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/2e24b4fa5920169d62b0b7ccb2f97cae0d2fc19d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4a2870da68bc41ce6bfa2cc7a5e0539ef3ea2454-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/53e38edfd13647f31de577252f02b0f4daac1ac8-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/a67fcd8638dd14f781f8c04b49159cb73c20b3fa-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/c2a8df021fe1e715ab9d487b87420a328ebf6eab-5127x6836.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b3afd8a397ae8237ccd75d0cbbd54f4102bdcdf6-5647x7530.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d20888edca4f32d2e8ccbf08d17ad5cab7e5a7be-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/fe7650e099703b95782f99c8402c994287017bf2-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/fe3a608942e464ca9250b5a61dfe80b6e63d22df-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/74a74fc42ea632ed7b7ed69688e3d2740ba42ac1-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/cb482922a3004e671c2fd94a876e9d8af68315fb-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/ca097f62b2450606e927780629379691fcf2c127-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/13b44e5e783cf7adfe963b39afec5865c32881bf-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Mayfair Pied-\u00e0-Terre"
+      }
+    ]
   },
   {
     "title": "Brighton Beach House",
     "slug": "brighton-beach-house",
     "color": "#B0BFDE",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/697a7b32d12b34f9a26e2043d088fba0e1898d5a-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/697a7b32d12b34f9a26e2043d088fba0e1898d5a-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Working on this contemporary seaside villa was an extraordinary experience, with interiors that felt far removed from its seafront location. Rather than leaning into beach-themed d\u00e9cor, we embraced a contemporary design that respected the building's rich history, once a Victorian ladies' Turkish bath and later a hospital, artists' studios, and finally a derelict site after a fire. Collaborating closely with the clients over six years, we designed a home that retained the character of the original structure but with modern touches, like soaring ceilings and mezzanine spaces. The interior embraced the clients\u2019 love for vibrant, spice-toned colors, rich textures, and layered materials, creating a cozy, lived-in feel. We blended vintage pieces with new finds, from Jacques Adnet dining chairs to a custom opaline pendant, while nodding to the house\u2019s history with Zellige tiles and eclectic influences. Each room has its own unique atmosphere, from a vibrant music room with a hand-painted mural to a den reminiscent of the couple\u2019s previous Georgian home, offering a break from the modern architecture while blending warmth, whimsy, and history throughout the home."
+    ],
+    "photographer": "Philip Durrant",
+    "photographerLink": "http://www.philipdurrant.co.uk/",
+    "stylist": "Olivia Gregory",
+    "stylistLink": "https://oliviagregory.com/",
+    "products": [],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/3ea004b56fa8b9e5d9663bb0ece4c2598451830e-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Brighton Beach House - Reception"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/99cef35a7c34c942a2ca8d9bf49b9ef08c8bd6fd-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Brighton Beach House - Reception",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/6cc140b929395292535423367819805c63787619-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Brighton Beach House - Dining"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/70e4090277c58689f9813ff2de262ff37ad6ec66-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Brighton Beach House - Kitchen"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/b99f14ebe588da6720c36cd0de2d81a3500a849d-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Brighton Beach House - Snug",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/0d9e948170d6f35f93d7d4cf8812368f9f144356-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Brighton Beach House - Snug"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/cf6be94035133fe4b632202e1ec32cd0f965ebe1-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Brighton Beach House"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/87a1fc58beffaeb45cec1790a26efbb54d690890-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Brighton Beach House",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/aa9da9d994e692e5f9d300c9d6d47ef75e9aabbf-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Brighton Beach House"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/9abd1b96dc6e8cb5131f4a6699db11b70c4c6473-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Brighton Beach House - Primary Bedroom"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/5e7d3bee909243df00b655fa5d5c98ee406121e9-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Brighton Beach House",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/58ad8a03c0205fb11fa9def111ab98444151d754-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Brighton Beach House"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/949af5d7bf6853097293cdb05cecc25224ef9678-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Brighton Beach House - Bathroom",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/c5da33906267c66d51497f3423962dd6ad242752-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Brighton Beach House - Bathroom"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d029b6e4d659b731b108b1322275ec7debeea654-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Brighton Beach House - Children Room"
+      }
+    ]
   },
   {
     "title": "Parisian Bolthole",
     "slug": "parisian-bolthole",
     "color": "#893521",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/893a121595e0480b0fd3fa7dedcb310462b16289-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/893a121595e0480b0fd3fa7dedcb310462b16289-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Situated near the Longchamp racecourse in Paris, this pair of interconnecting apartments provided a blank canvas for a creative design inspired by great racehorses. Each of the six rooms was styled like a hotel suite with ensuite bathrooms, dressing rooms, and seating areas, as the apartments lacked communal spaces. The interiors feature textured wallpapers in rich, earthy tones paired with artworks, vintage Herm\u00e8s scarves, and plush furnishings like sheepskin chairs and velvet cushions, creating a warm, textural experience. Minimalist, mid-century-inspired bathrooms and cleverly designed headboards maximise space, while equestrian-themed touches add playfulness, creating an elegant yet cosy retreat."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/bc7609c9c4efe868cefb989f84d0eaab76c4bf51-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Parisian Bolthole"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/0663d5737e12239bd4c21c8cd7c6b85ad9a4973c-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parisian Bolthole",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/c58c63961bf506e03a8319c9ac7acd9ea427976d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parisian Bolthole"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d9bccea2d52a1633e0481e9101c01aabbda933b9-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Parisian Bolthole"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/4dc65ed31588d289c64eb76106d342a1ab34f4f3-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parisian Bolthole",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/cf394c59fa8f0e20b414d23c65bfd534e60efb32-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parisian Bolthole"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/893a121595e0480b0fd3fa7dedcb310462b16289-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parisian Bolthole",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/1a478442fd77fb744078f16f265a13101c60e56d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parisian Bolthole"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/b45cf6ddd20838d77ee79f9f781c8c3b01a180b8-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parisian Bolthole",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/376a8efd4c975f557bc96f39cfac63b80c550c25-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parisian Bolthole"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/8bc6d74e1bcc92ce59abc9951284d6804d6e08e3-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Parisian Bolthole",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/7c1510ba65ba9cba510dca56668a1ee0cbfe0269-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Parisian Bolthole"
+      }
+    ]
   },
   {
     "title": "Kensington Pied-\u00e0-Terre",
     "slug": "kensington-pied-a-terre",
     "color": "#45519F",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/23043c29629379f9ffe31c1451e5af59116f606c-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/23043c29629379f9ffe31c1451e5af59116f606c-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Lancer Square unveiled two new show apartments blending classic and contemporary design, inspired by Kensington's elegance and local influences, delivered by Bellworth Developments and managed by CIT. Spread across 3,312 sq. ft., the three-bedroom apartment by Studio Ashby, showcases a serene palette of earthy tones like sage, ochre, and dusty pink, with custom joinery and eclectic details that reflect the area\u2019s history and natural beauty. Incorporating British craftsmanship, playful design elements, and curated heirloom pieces, the interiors balance sophistication and comfort. Notable features include Michael Taylor\u2019s vibrant artwork, bespoke furnishings like the Kudu dining chairs, and textiles from Sister by Studio Ashby\u2019s debut fabric collection, alongside reupholstered vintage items and sustainable materials, creating a harmonious interplay of art, antiques, and modern luxury.",
+      "features serene nature-inspired palettes, dual-aspect views over Kensington, rich materials, and playful accents, including a vibrant yellow kitchen and art by Michael Taylor. Studio Ashby\u2019s design integrates art, antiques, and sustainable materials, featuring a Jeanne Gaigher piece that blends tones and conceals the TV, merging heritage with innovation."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com",
+    "stylist": "Anna Sheridan",
+    "stylistLink": "https://www.annasheridancreative.com/",
+    "products": [
+      {
+        "name": "The Rhino Armchair",
+        "designer": null,
+        "href": "/the-rhino-chair"
+      },
+      {
+        "name": "The Kudu Dining Chair",
+        "designer": null,
+        "href": "/the-kudu-chair"
+      },
+      {
+        "name": "The Toucan Daybed",
+        "designer": "Afua in Taupe",
+        "href": "/the-toucan-bench"
+      },
+      {
+        "name": "The Pine Trees Rug",
+        "designer": null,
+        "href": "/the-pine-trees-rug"
+      },
+      {
+        "name": "The Two Step Chair",
+        "designer": null,
+        "href": "/the-two-step-swivel-chair"
+      },
+      {
+        "name": "The Beak Chair",
+        "designer": null,
+        "href": "/the-beak-swivel-chair"
+      },
+      {
+        "name": "The Sable Bedside Table",
+        "designer": null,
+        "href": "/the-sable-bedside-tables-drawers"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/8fd4325a46e5386a50930534aebab05bdc6fe447-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/66fcb0f9a7c03b546557bf6657adfae5c591a192-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ca72d3fe9385b4c7bfb6dcbf59c5b4a083e52142-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/b1328673c6bf45b11c7677f172a2d10d39302eaf-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ba62708788462f0e3491391fdd48223a02fd4ec8-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/d4704538eec9880767f846f7d2d6205d3248ca6a-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/5d9673a482f7779f7aecd8dd4d35c5e438b2afa0-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/48960add2d4c31f110630378b6f35ac194348dc2-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b3836aa1f3a249ffbb69f30a2497601cdc7a1bb9-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/23043c29629379f9ffe31c1451e5af59116f606c-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/90867bcba53a465035051a3af5dfad298991fdbd-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/a27d3d38e43188cca599d316b82c03c92b16cb05-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/ecb1a8eaefaa948b2e8981519afa9f5565e4d9c5-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/522828ae8383061cb0c00b753ba04a0bf3012645-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/1ff46c64b09adcb59b52af306e2ad17f2cfb38e8-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/1c405ee1147fe7b43d357f5f12a59adaa4afa449-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/03c0b99a63a64fa5dcf86f7cc0dced3f9552974e-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Pied-a-Terre",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/9be89d3fb8d7aaadf899de969093e8f64361bb4a-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Pied-a-Terre"
+      }
+    ]
   },
   {
     "title": "Holland Park Townhouse",
     "slug": "holland-park-townhouse",
     "color": "#893521",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/e0d4a31a31b34bbc740dcbe653201009b1ec8cb9-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/e0d4a31a31b34bbc740dcbe653201009b1ec8cb9-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "The owners of this Grade II Georgian townhouse, with a refined sense of style and a love for contemporary art, sought to restore the building\u2019s original charm after it was converted into modern apartments in the 1990s. Working with architect William Smalley, they brought back period details such as cornicing, mouldings, and traditional plasterwork. Our role was to layer the home with a soothing, timeless aesthetic using soft blues, pinks, and greys to complement the veined marble and provide contrast to bold artwork, such as two pieces by LA-born artist Mattea Perrotta. The design focused on durable yet elegant materials, like moir\u00e9 silks, mohair, and recycled glass, creating an environment that balances beauty with practicality. Furniture choices, such as angular Gio Ponti chairs and soft Tacchini sofas, foster a dynamic dialogue of shapes and textures. Intimate, serene spaces were enhanced with unexpected bursts of colour, like the Herm\u00e8s orange bathroom walls, and a conservatory garden evoking South African influences. Each room serves the needs of a multi-generational family, combining aesthetic appeal with everyday comfort, while the house\u2019s fresh, contemporary feel honours its historic foundations."
+    ],
+    "photographer": "Alexander James",
+    "photographerLink": "https://www.alexjamesphotography.com/",
+    "stylist": "Olivia Gregory",
+    "stylistLink": "https://oliviagregory.com/",
+    "products": [
+      {
+        "name": "The Beak Chair",
+        "designer": null,
+        "href": "/the-beak-swivel-chair"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4a0b69d4aed4b27505fbb908a55ccd37c676334f-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Holland Park Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/85d6a97e37b9c91c1f835fa38f4f42262963eef5-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Holland Park Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/6cfad80065e273d4e9665ead79dcf9ad5ab2fe20-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Holland Park Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4082acba4d467693a818ce90e01587a4d9b44b69-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Holland Park Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/0f3bd56c14e15aced5638618d015c2b28fd95bb2-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Holland Park Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/03394ed83c210c7c4590c27891580550eeac3b6c-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Holland Park Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/11841639327dac224dd0058bcf18f126240d23ec-1860x1201.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Holland Park Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4027884915b46d52f782de98ed27930c7e087e3d-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Holland Park Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/26c81e6a47e3a482a355f9c3990f7b357e4ec02b-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Holland Park Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/c081ef33c8d1c5295795d8e8ddbc399f33a2cc00-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Holland Park Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/9dfc78b2df5e2edaa68831610676bb429c88409a-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Holland Park Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/5874de0c32dced90e4048408ded429e0505387ef-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Holland Park Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4980ceb02e10de541ee3fc9ff2312bf46ad0c7a4-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Holland Park Townhouse"
+      }
+    ]
   },
   {
     "title": "The Blewcoat School",
     "slug": "the-blewcoat-school",
     "color": "#645E26",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/5e2b7b745a63c9e1e19f80514c26fb8f09ae99e1-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/5e2b7b745a63c9e1e19f80514c26fb8f09ae99e1-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "Studio Ashby\u2019s headquarters, located in the Grade I listed Blewcoat School in St James\u2019s, London, is a dream space where founder Sophie Ashby and her team create, design, and bring her vision to life. After years in a bland workspace, she sought a more inspiring, residential-feeling environment and found it in this historic building, which has been used as a school, National Trust gift shop and bridal showroom. Despite initial hesitation due to the building's grandeur and its location near Buckingham Palace, Ashby embraced the opportunity during the pandemic, transforming the space with light hues and furnishings. The headquarters now showcases Sister by Studio Ashby\u2019s furniture, art, and designs, embodying the playful, vibrant spirit of her lifestyle brand, Sister. The studio offers a sensory experience with carefully chosen decor, flowers, music, and even thoughtful details like vintage Japanese cups and aromatherapy candles. For Ashby, the space is about creating beauty and inspiration, whether for a client or a visitor, rather than just selling products.",
+      "Discover the History of The Blewcoat School"
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [
+      {
+        "name": "The Ellie Daybed",
+        "designer": null,
+        "href": "/the-ellie-daybed"
+      },
+      {
+        "name": "The Puzzle Ottoman",
+        "designer": null,
+        "href": "/the-puzzle-ottoman"
+      },
+      {
+        "name": "The Puzzle Coffee Table",
+        "designer": null,
+        "href": "/the-puzzle-coffee-table"
+      },
+      {
+        "name": "The Block Sofa",
+        "designer": null,
+        "href": "/the-block-sofa"
+      },
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-chess-swivel-chair"
+      },
+      {
+        "name": "The Beak Swivel Chair",
+        "designer": null,
+        "href": "/the-beak-swivel-chair"
+      },
+      {
+        "name": "The Toucan Bench",
+        "designer": null,
+        "href": "/the-toucan-bench"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/5dd5c2ef57ddf89e05bf7fb13c856d2cc45e8b84-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/76be246d304a0791ea0aacf8317b1e1d7c1c93d0-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 The Blewcoat School",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b60bc71b793a8f51410a7b21f58c5aa7bbfc2e28-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c8c8164a86ecdd37465ac2ee00a7b08b5635d73b-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/7b4d14d03017a74f715e25893aed982c5f53b591-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 The Blewcoat School",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/5e2b7b745a63c9e1e19f80514c26fb8f09ae99e1-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/0641668691e9b76eabfdad8353456d5398a27be0-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/97935f2dd05670679d0093328ab47eba76fc8609-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 The Blewcoat School",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/e52fc50cd931ca822f14a465a3d851225ca0cdfa-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/23a9fd56c258f82b8205b92bfc9f57d703e0e856-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 The Blewcoat School",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/65ed00ac54b9338f86d75cccb089984ba32d4c66-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 The Blewcoat School"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/b92616fcaec8b9deea62a4c553e3d901ffe67f3f-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 The Blewcoat School",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/bdd9f1de192ca20da0a0eb46e7fed7bec18ff161-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 The Blewcoat School"
+      }
+    ]
   },
   {
     "title": "Kensington Villa",
     "slug": "kensington-villa",
     "color": null,
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/52956ba9c93f0929fad99cd73024945a38be2f8e-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/52956ba9c93f0929fad99cd73024945a38be2f8e-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "This four-storey house in Kensington, designed by a young property developer with a keen eye for art and design, blends comfort, style, and practicality. Tailored to his 6\u20195\u201d frame and love for both solitude and socialising, the home features spacious, functional areas, including a high kitchen worktop, a deep bathtub, and a spacious outdoor cooking area. The design emphasises bold scale, casual elegance, and a relaxed atmosphere, with key elements guided by three artworks: a black-and-white screen print by Howard Hodgkin, a large family heirloom Japanese screen, and a vibrant painting by Tesfaye Urgessa. The colour palette incorporates navy, green, and ecru with pops of red, ochre, and tangerine, creating a cohesive yet lively aesthetic. Thoughtfully chosen furnishings, such as a chunky kitchen island and an elliptical dining table, along with a mix of classic and contemporary details\u2014like Art Deco cornicing and expressive marble\u2014add charm and personality. The juxtaposition of antiques and modern pieces, including a vintage Danish chair and a French chest of drawers, creates a dynamic yet harmonious interior."
+    ],
+    "photographer": "Alexander James",
+    "photographerLink": "https://www.alexjamesphotography.com/",
+    "stylist": "Olivia Gregory",
+    "stylistLink": "https://oliviagregory.com/",
+    "products": [],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/343fff655005358e1ca4771f6f8f46177b58c857-3600x2400.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7e7c211c34e211ee530b3b690b08feaef730bf83-3600x2400.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Villa"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/d14c4271d2b23342d90db5806532fe9e064b4b60-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Villa",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/52956ba9c93f0929fad99cd73024945a38be2f8e-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/3ec33ec2afc5f70c6e12ece26cc69d39a06c1c9e-3600x2400.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/048422e8de8fd04d49e2cc92db163e468c52b7b5-3600x2400.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Villa"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/d8eb43a8fffc6befd879d4ef08cb3cb809207deb-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Villa",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/909ffc9b185b6292ba46099556a05ba1eb507ebb-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Villa"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d9f005aa70b558b7ee1715ae8539159736b622a3-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Villa"
+      }
+    ]
   },
   {
     "title": "Sophie's Family Home",
     "slug": "sophie-s-family-home",
     "color": "#633B2F",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/17fb0e1fe2cef81d560b0785c9a144d5deba0dd6-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/17fb0e1fe2cef81d560b0785c9a144d5deba0dd6-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": "Studio Ashby | Sophie\u2019s Family Home",
+    "seoDescription": "Studio Ashby transforms a Georgian-era home near Brick Lane into a vibrant family sanctuary, blending bold colours, vintage finds, and bespoke design.",
+    "intro": [],
+    "body": [
+      "During the first lockdown of the Covid pandemic, we found ourselves in a rented house off East London\u2019s Brick Lane, offering us a pause to plot the next phase of our lives. Having previously lived in a cramped one-bedroom flat, we needed more space as we planned for a growing family. Renting allowed us the freedom to decorate without concern for the architecture, and the house, a former brewer\u2019s property once owned by artist Jocasta Innes, offered a unique blend of history and creativity. We embraced its Georgian proportions and distinctive features like hand-painted bookshelves and Delft-tiled fireplaces, while adding our eclectic touch with bold colours, vintage and contemporary furniture, and a collection of art from young global artists. The home\u2019s vibrancy was reflected in pieces like a banana-yellow velvet sofa and a custom tiger rug for the bathroom, blending antique, vintage, and bespoke elements to create a space full of life and personality. Sharing a creative language, my husband, fashion designer Charlie Casely-Hayford, and I infused the home with an energy that felt alive yet harmonious. It was a place of joyful contradictions\u2014where each room encouraged conversation and inspiration\u2014and while we\u2019ve since moved, it will always remain deeply personal, embodying the wabi-sabi ethos that we cherish."
+    ],
+    "photographer": "Philip Durrant",
+    "photographerLink": "http://www.philipdurrant.co.uk/",
+    "stylist": "Olivia Gregory",
+    "stylistLink": "https://oliviagregory.com/",
+    "products": [
+      {
+        "name": "The Patchwork Kilim Rug",
+        "designer": null,
+        "href": "/the-patchwork-kilim-rug"
+      },
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-beak-swivel-chair"
+      },
+      {
+        "name": "The Tiger Rug",
+        "designer": null,
+        "href": "/the-tiger-rug"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ee74b768433388d663bcf2929f7b2b10f00f28ed-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/17fb0e1fe2cef81d560b0785c9a144d5deba0dd6-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Sophie's Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/527ccde72dcc0355bda089eddebc0b7127c99324-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/1e345e795ab1a95802fa4df40fa3c756ef1cce8c-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/9c3d42424993e4c05c729c04edf789e98b66076e-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/0d77f0543cf45a9205eaa8e0e8d599b9607c2c96-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Sophie's Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/95b76b4bf17844ce2a1c9fdcaf89079de530d220-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/7bf55d6c2a1e5da84df3a5b55bd553f34bd0d351-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Sophie's Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/b97cbfa3973197ddf479299592d2e0351b5fe7f8-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/eb8f16574f06371525adc81af4662aff484304a2-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/9bc570b091864ae162034dd25e1b36245f44b5bc-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Sophie's Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/d6bc06b23b1a03761117111951d936862a71466d-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/fae63572c5e9bab463e9df4b2f8c0a822d064a94-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Sophie's Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/8fa51ab759a473292da8a6eb5f241fcd3657e3ea-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c1033a470103cbdd18b6ca210c0999f8f37cae37-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Sophie's Family Home"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/a140710645b2d6dff52555f20ba94a1874125d3a-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Sophie's Family Home",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ae1526ba9e07ded88e68277fab895f1b85304ece-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Sophie's Family Home"
+      }
+    ]
   },
   {
     "title": "Kensington Family Townhouse",
     "slug": "kensington-family-townhouse",
     "color": "#645E26",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/50e590efaeceecbf531458d8546c38dde7f3e58f-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/50e590efaeceecbf531458d8546c38dde7f3e58f-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [
+      "The owners of this expansive Victorian terrace in South Kensington wanted a contemporary, clean, and uplifting home, favouring materials and sculptural furniture over patterned fabrics or wallpaper. The Grade II listed house was expanded by Cousins & Cousins with a loft conversion, a double-height basement extension, and an open-plan front salon, allowing natural light to flood the space. A monochromatic palette of white walls, ceilings, and curtains was complemented by sharp black accents in metalwork and fixtures, creating a modern feel. The design balanced mid-century-inspired, angular furniture with a mix of materials like matte and shiny finishes, including burl timber, lava stone, and honed marble. The owners preferred subtle, lightweight details, such as barely-there radiators and transparent window framing. The home\u2019s design prioritised practicality and personal needs, with a bespoke primary bathroom featuring a double shower and a creative, multi-functional eaves space for the wife. The ground-floor salon, with its deep blue walls and convivial curved sofa, became a cozy spot for family and guests. This home exemplifies how a simple, calm backdrop, with thoughtful details and textures, can create a stylish and functional sanctuary for busy family life."
+    ],
+    "photographer": "Kensington Leverne",
+    "photographerLink": "https://kensingtonleverne.com/",
+    "stylist": "Olivia Gregory",
+    "stylistLink": "https://oliviagregory.com/",
+    "products": [],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/43e503a9d969a79b00228dbc12fa27cfc7ef7c45-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/50e590efaeceecbf531458d8546c38dde7f3e58f-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/7a421d34dc7cc52a5f8b4a46304f38b0a1ca8594-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7070a9bf286787e5d7d1418619abe6721a0f6616-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/9234935b21b905b89ec99acbf8b9117af3f79efe-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/8bc7c90f25ee2685f775bf28914933746a8c347a-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/fa0a6f83ff4e2f903e30bf52b9dd71c736e4e8e8-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/7efcc33606e890094cdc43ca2df7526c2aa4c226-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7be730afc4c6ce0071e97bc9e82190ae783551fd-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/9aeeca7839ff0cd030fb7711a242f2ebe49d4f1c-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/11852a65fcb0b69eac8caf90ebf78c02f1db888e-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/be9d38bcd88f9cbc9cb0976188514752ea30cb95-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/1713c6bb77ca9231e616757b288f5b189d91e5ef-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/53e709e8aebb48ec59dc5d92e33980e0a91613ef-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/a78ebd5ccd2f5d544abbcbbe5866dc48caaa5068-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/8be13ed7b974e49fdbd09acbb55ea289be593ae5-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/e4268daf93ea38e6098b71a1955849d0c7f0adfa-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/4f72f054fd04a519883a8666eed96408e0ae5f78-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/35e0ea20e7b1c3c8def822cde094d6f3ed18ce94-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/8508ca5eababc6ce760c228b5d38b7736693107c-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Kensington Family Townhouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/6dc1cbd72d1c36a758115cee158fb1d1ee0ffac8-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Kensington Family Townhouse"
+      }
+    ]
   },
   {
     "title": "Peter Pan House",
     "slug": "peter-pan-house",
     "color": "#893521",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/31c376dd4f39aa18f67fabfefd7622419c19eedd-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/31c376dd4f39aa18f67fabfefd7622419c19eedd-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": "Studio Ashby | Peter Pan House",
+    "seoDescription": "Discover how Studio Ashby transformed a Grade II-listed Edwardian villa into a whimsical London home, combining historical charm with bold colours, bespoke furnishings, and playful design elements.",
+    "intro": [],
+    "body": [
+      "The Peter Pan House, once the home of J.M. Barrie, is a Grade II-listed Edwardian and Arts and Crafts villa near Hyde Park. This unique project involved restoring the house, which had no plumbing or electricity when the owner purchased it, with architect Giles Quarme handling the heavy structural work. Our role focused on choosing colors, wallpaper, furniture, lighting, and fittings, reflecting the owner\u2019s bold love for color and pattern. We mixed historical wallpapers with mid-century Italian lamps, Arts and Crafts furniture, and modern pieces, creating an eclectic blend of Victorian, Edwardian, and modern styles. Vintage rugs inspired the vibrant color palette of the interiors, while bespoke commissions celebrated British craftsmanship, including a custom games table featuring Peter Pan characters and a \"Tick Tock\" ottoman referencing Captain Hook. The result is a playful, vibrant, and daring home, where historical and contemporary elements coexist in a joyful, timeless way."
+    ],
+    "photographer": "Brotherton Lock",
+    "photographerLink": "https://brothertonlock.com/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/a6ea58b24d78123a789ab4c2889a5db41f5aff90-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Peter Pan House"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/556dd1f90934aba785d4456c851c25c475f10b24-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Peter Pan House",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/ece37946deb0a4dab6487a309010ce79b50aa467-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Peter Pan House"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ebda9e763a46d24139553e8e30fc7495674bcd6b-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Peter Pan House"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/cd5573bc7aaf2b47d81a17ca9f90651a7660b6ed-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Peter Pan House",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/732aed58b0491760021ce79e82538c430cb52d24-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Peter Pan House"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/329042ed693a49bb4e88e9e3b21c8d6af7c8bbba-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Peter Pan House"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/19123fb462bfc18e61ed103875851fa996e875ad-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Peter Pan House"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/aef0f7c393c30caf93e6118a74cb15dccfa6d85b-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Peter Pan House"
+      }
+    ]
   },
   {
     "title": "Covent Garden Penthouse",
     "slug": "covent-garden-penthouse",
     "color": "#893521",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/805b1f201587b66cf51a2fd247d408e7279d064f-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/805b1f201587b66cf51a2fd247d408e7279d064f-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [],
+    "photographer": "Philip Durrant",
+    "photographerLink": "http://www.philipdurrant.co.uk/",
+    "stylist": "Olivia Gregory",
+    "stylistLink": "https://oliviagregory.com/",
+    "products": [
+      {
+        "name": "The Chess Swivel Chair",
+        "designer": null,
+        "href": "/the-chess-swivel-chair"
+      },
+      {
+        "name": "The Criss Cross Bench",
+        "designer": null,
+        "href": "/the-criss-cross-bench"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/4a6afdf2abe3f3c2ac65de56015c1a88190f3125-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Covent Garden Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/805b1f201587b66cf51a2fd247d408e7279d064f-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Covent Garden Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/db4b70710d1a0cea5dce1100493ffd04f1c926fd-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/0334c6a2ea05d02f1bf2212632d5be1a4305f6e8-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/09fefae2469d8efa74994c4f924d93587eada248-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Covent Garden Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/3d9a08158466344ba2bfc3ac53c7cd1c79523934-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d2d389643510c683e419c2710cb85896d38e9455-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/291d4ec66e708ffce79a7f1615c7af44c6ae2678-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Covent Garden Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/25fe6dde6e3f1af1b2c00aa2f83d44810b5d0463-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ffe57c9a719e04cce68cba61a74989601cc3ca2c-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/68ae135c41552380590d9c7e5c823a752049e103-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/63c33b6e3f8972477e3855da81881f241e5a0af5-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby - Covent Garden Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/8253cf72a31b2d9dac34ab189ab5ec8d27a91510-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/913d23d2db7d4dd07fd31392201542c60797e22a-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Covent Garden Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/0ee5483bf2eb99db1a27e454da07a3b5036eb7d9-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Covent Garden Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/a0864fe2607b80daf941af47d75d308637844391-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/bcccfc9996841efafabce4c0d36e8e2504b47fb1-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Covent Garden Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/aecee79287943bb78c02ad0f0c37d614366d076c-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Covent Garden Penthouse"
+      }
+    ]
   },
   {
     "title": "Riverside Penthouse",
     "slug": "riverside-penthouse",
     "color": "#f2e5dc",
-    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/9c18893ae2c5cd4f35241ce3fc0a8cde846eb687-1440x1860.jpg?w=1440&h=1860&auto=format"
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/9c18893ae2c5cd4f35241ce3fc0a8cde846eb687-1440x1860.jpg?w=1440&h=1860&auto=format",
+    "seoTitle": null,
+    "seoDescription": null,
+    "intro": [],
+    "body": [],
+    "photographer": "Philip Durrant",
+    "photographerLink": "http://www.philipdurrant.co.uk/",
+    "stylist": "Studio Ashby",
+    "stylistLink": null,
+    "products": [],
+    "gallery": [
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/29a7124868801b0d24e8d616bf884c2682c28930-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/85fcb12f61f28437ca68ca16c8c8902e8a442c53-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Riverside Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/9c18893ae2c5cd4f35241ce3fc0a8cde846eb687-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Riverside Apartment"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/af1e754c7fbba311737db8c52890b804817c0231-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/81f831b0bc49d9e2d19465b680a858cd0d04ade3-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c914b8a05f0f8cb67214c212fb2b2e2d8cc8d77d-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/441761929bdda3bba0b41b98bd009cd62bfc77bc-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/010e630a3b03ea9027da3fdbee7f70081a16213d-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/2fd7faa6870c5a1c00b9e269306a16c8fbd00fe9-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "portrait",
+        "image1": "https://cdn.sanity.io/images/4jb8q7bc/production/16a0d5031590c2d7e032f46fd8f3394a0c52e22e-1440x1860.jpg?w=1600&auto=format",
+        "alt1": "Studio Ashby \u2013 Riverside Penthouse",
+        "image2": "https://cdn.sanity.io/images/4jb8q7bc/production/edc458a4e43af9808d0c4b8d2f5836e3a11e2eb3-1440x1860.jpg?w=1600&auto=format",
+        "alt2": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/53896238b488e54c35b871cede9b22b89b674502-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/84550a4ca61a4aa25593a56831c64e7987928358-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby \u2013 Riverside Penthouse"
+      },
+      {
+        "type": "landscape",
+        "image": "https://cdn.sanity.io/images/4jb8q7bc/production/fc3f0c29a576e2fb3126e9a7d7ba1dc3fff9db71-3600x2325.jpg?w=1600&auto=format",
+        "alt": "Studio Ashby - Riverside Apartment"
+      }
+    ]
   }
 ]

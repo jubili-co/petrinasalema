@@ -5,130 +5,651 @@
     {
       "type": "textImage",
       "imagePosition": "right",
+      "dynamicHeight": true,
       "title": "About Us",
-      "paragraphs": [
-        "Studio Ashby was founded in 2014 by Sophie Ashby, who is half South African, half English and grew up between Stellenbosch, Cape Town and the UK before broadening her architectural and design sensibility through a BA in History of Art at Leeds University, and going on to study Interior Design at Parsons, The New School for Design in Manhattan, New York.",
-        "Sophie is also the co-founder of United Design, a charitable initiative which launched in July 2020 with a mission to address the lack of diversity in interior design, and in 2021 launched the retail offshoot Sister by Studio Ashby, which opened its first bricks and mortar home at The Blewcoat School in St James\u2019s Park in 2022.",
-        "Today, the studio is led by Sophie alongside Partners Fiona Blanchot and Nicola Koller, ensuring the studio\u2019s vision is carried across all work with the same depth of care and creative rigour. Together, the team creates spaces with a unique identity, looking to bring authenticity to each project, unswayed by the passing dictates of fashion.",
-        "Our diverse portfolio spans a Grade II listed Edwardian Arts & Crafts home fronting Hyde Park, a six-storey Georgian villa in Holland Park, a contemporary family home in Brighton, a luxury pied-\u00e0-terre in Mayfair, a jewel box apartment in Belgravia, a brownstone in New York, a family home in Hong Kong and boutique hotels in South Africa, Mallorca and London.",
-        "In 2026, Studio Ashby opened an office in Cape Town, deepening the studio\u2019s connection to South Africa."
-      ],
+      "subtitle": null,
+      "textPosition": "bottom",
       "color": "#893521",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&h=1860&auto=format",
-      "textPosition": "bottom"
+      "paragraphs": [
+        {
+          "type": "text",
+          "text": "Studio Ashby was founded in 2014 by Sophie Ashby, who is half South African, half English and grew up between Stellenbosch, Cape Town and the UK before broadening her architectural and design sensibility through a BA in History of Art at Leeds University, and going on to study Interior Design at Parsons, The New School for Design in Manhattan, New York."
+        },
+        {
+          "type": "text",
+          "text": "Sophie is also the co-founder of United Design, a charitable initiative which launched in July 2020 with a mission to address the lack of diversity in interior design, and in 2021 launched the retail offshoot Sister by Studio Ashby, which opened its first bricks and mortar home at The Blewcoat School in St James\u2019s Park in 2022."
+        },
+        {
+          "type": "text",
+          "text": "Today, the studio is led by Sophie alongside Partners Fiona Blanchot and Nicola Koller, ensuring the studio\u2019s vision is carried across all work with the same depth of care and creative rigour. Together, the team creates spaces with a unique identity, looking to bring authenticity to each project, unswayed by the passing dictates of fashion."
+        },
+        {
+          "type": "text",
+          "text": "Our diverse portfolio spans a Grade II listed Edwardian Arts & Crafts home fronting Hyde Park, a six-storey Georgian villa in Holland Park, a contemporary family home in Brighton, a luxury pied-\u00e0-terre in Mayfair, a jewel box apartment in Belgravia, a brownstone in New York, a family home in Hong Kong and boutique hotels in South Africa, Mallorca and London."
+        },
+        {
+          "type": "text",
+          "text": "In 2026, Studio Ashby opened an office in Cape Town, deepening the studio\u2019s connection to South Africa."
+        }
+      ],
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
+      "imageBorder": false,
+      "imageColor": null
     },
     {
       "type": "textImage",
       "imagePosition": "left",
+      "dynamicHeight": true,
       "title": "The Blewcoat School",
-      "paragraphs": [
-        "A stone's throw from St James's Park, nestled in a rare skyscraper-less clearing on Caxton Street, sits the Grade I listed Blewcoat School, which is home to Studio Ashby and our shoppable world, Sister. Blewcoat is a commanding presence in the area, having stood there since 1709, when it was built as a school for the underprivileged \u2013 a Bluecoat School. In 1899, the Blewcoat charity relocates to a purpose-built space, leaving the building as an elementary school. The name, however, remains through the decades. In 1954, the building is purchased by the National Trust to house a gift shop, which remains operational until 2013, when bridal wear designer Ian Stewart reimagines it into his showroom.",
-        "As Studio Ashby becomes the next custodian of this magical and historic site, we aim to create a sense of home for all who visit. From clients to Sister shoppers and brand partners, Studio Ashby\u2019s tenure at Blewcoat transforms it into a go-to destination that connects with and grows our wonderful community."
-      ],
+      "subtitle": null,
+      "textPosition": "top",
       "color": "#645E26",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/78810f83a3130d447c9b4bc836778d256d3a8b0f-1440x1860.jpg?w=1440&h=1860&auto=format",
-      "textPosition": "top"
+      "paragraphs": [
+        {
+          "type": "text",
+          "text": "A stone's throw from St James's Park, nestled in a rare skyscraper-less clearing on Caxton Street, sits the Grade I listed Blewcoat School, which is home to Studio Ashby and our shoppable world, Sister. Blewcoat is a commanding presence in the area, having stood there since 1709, when it was built as a school for the underprivileged \u2013 a Bluecoat School. In 1899, the Blewcoat charity relocates to a purpose-built space, leaving the building as an elementary school. The name, however, remains through the decades. In 1954, the building is purchased by the National Trust to house a gift shop, which remains operational until 2013, when bridal wear designer Ian Stewart reimagines it into his showroom."
+        },
+        {
+          "type": "text",
+          "text": "As Studio Ashby becomes the next custodian of this magical and historic site, we aim to create a sense of home for all who visit. From clients to Sister shoppers and brand partners, Studio Ashby\u2019s tenure at Blewcoat transforms it into a go-to destination that connects with and grows our wonderful community."
+        }
+      ],
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/78810f83a3130d447c9b4bc836778d256d3a8b0f-1440x1860.jpg?w=1440&auto=format",
+      "imageBorder": true,
+      "imageColor": null
     },
     {
       "type": "textImage",
       "imagePosition": "right",
+      "dynamicHeight": true,
       "title": "Sophie Ashby,",
-      "paragraphs": [
-        "Sophie Ashby is half South African, half English and grew up between Stellenbosch (Cape Town) and the UK before broadening her architectural and design sensibility through a BA in History of Art at Leeds University, going on to study Interior Design at Parsons, The New School for Design in Manhattan, New York.",
-        "Sophie founded her interior design and creative direction practice, Studio Ashby Ltd, in 2014 at the age of 25, and is also the co-founder of United Design, a new charitable initiative which launched in July 2020, with a mission to address the lack of diversity in interior design. In 2021, Sophie also launched her retail offshoot, Sister by Studio Ashby, which opened its first bricks and mortar home at the Blewcoat School in St James\u2019s Park in 2022.",
-        "Guest Speaker\nDesign Museum \nCentral St Martins \nRoyal College of Art \nFrieze 91\nThe Calico Club \nSoho House \nDecorex \nSotheby\u2019s",
-        "Judge\nPAD \nDezeen Awards\nGlobal Design Graduates"
-      ],
+      "subtitle": "Founder & Creative Director",
+      "textPosition": "top",
       "color": "#633B2F",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1440&h=1860&auto=format",
-      "textPosition": "top"
+      "paragraphs": [
+        {
+          "type": "text",
+          "text": "Sophie Ashby is half South African, half English and grew up between Stellenbosch (Cape Town) and the UK before broadening her architectural and design sensibility through a BA in History of Art at Leeds University, going on to study Interior Design at Parsons, The New School for Design in Manhattan, New York."
+        },
+        {
+          "type": "text",
+          "text": "Sophie founded her interior design and creative direction practice, Studio Ashby Ltd, in 2014 at the age of 25, and is also the co-founder of United Design, a new charitable initiative which launched in July 2020, with a mission to address the lack of diversity in interior design. In 2021, Sophie also launched her retail offshoot, Sister by Studio Ashby, which opened its first bricks and mortar home at the Blewcoat School in St James\u2019s Park in 2022."
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Guest Speaker\n",
+              "strong": true
+            },
+            {
+              "text": "Design Museum \nCentral St Martins \nRoyal College of Art \nFrieze 91\nThe Calico Club \nSoho House \nDecorex \nSotheby\u2019s",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Judge",
+              "strong": true
+            },
+            {
+              "text": "\nPAD \nDezeen Awards\nGlobal Design Graduates",
+              "strong": false
+            }
+          ]
+        }
+      ],
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1440&auto=format",
+      "imageBorder": true,
+      "imageColor": "#f2e5dc"
     },
     {
       "type": "textImage",
       "imagePosition": "left",
+      "dynamicHeight": true,
       "title": "Fiona Blanchot,",
-      "paragraphs": [
-        "Fiona began her career after earning a BA Hons in Interior Architecture, setting the foundation for a diverse and accomplished journey in design. Over the past seventeen years, she has worked on a wide array of high-profile projects, spanning industries such as luxury residential, retail, and hospitality.",
-        "For the last decade, Fiona has been a key figure at Studio Ashby, collaborating closely with founder Sophie Ashby to help grow the studio into an established and respected name in the industry. Her contributions have been instrumental in expanding the business while maintaining the studio's reputation for delivering exceptional designs.",
-        "In addition to her role in shaping the wider business strategy, Fiona has taken on the role of Project Lead for numerous high-profile schemes. She thrives on the balance between creativity and technical precision, combining both to deliver cohesive and innovative designs. Her approach is holistic, ensuring that each project reflects both aesthetic beauty and functional excellence.",
-        "Fiona's passion lies in how spaces are experienced by their inhabitants. She focuses on meticulous space planning, the use of natural materials, and the final touches - furniture and art - to create environments that not only look beautiful but feel intuitive and welcoming. This attention to detail has made her a leader in interior architecture, committed to enhancing the way people live, work, and interact with their surroundings."
-      ],
+      "subtitle": "Partner",
+      "textPosition": "top",
       "color": "#45519F",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/699c9d7da88eed0035f90c2a12af2466ac29a563-1440x1860.jpg?w=1440&h=1860&auto=format",
-      "textPosition": "top"
+      "paragraphs": [
+        {
+          "type": "text",
+          "text": "Fiona began her career after earning a BA Hons in Interior Architecture, setting the foundation for a diverse and accomplished journey in design. Over the past seventeen years, she has worked on a wide array of high-profile projects, spanning industries such as luxury residential, retail, and hospitality."
+        },
+        {
+          "type": "text",
+          "text": "For the last decade, Fiona has been a key figure at Studio Ashby, collaborating closely with founder Sophie Ashby to help grow the studio into an established and respected name in the industry. Her contributions have been instrumental in expanding the business while maintaining the studio's reputation for delivering exceptional designs."
+        },
+        {
+          "type": "text",
+          "text": "In addition to her role in shaping the wider business strategy, Fiona has taken on the role of Project Lead for numerous high-profile schemes. She thrives on the balance between creativity and technical precision, combining both to deliver cohesive and innovative designs. Her approach is holistic, ensuring that each project reflects both aesthetic beauty and functional excellence."
+        },
+        {
+          "type": "text",
+          "text": "Fiona's passion lies in how spaces are experienced by their inhabitants. She focuses on meticulous space planning, the use of natural materials, and the final touches - furniture and art - to create environments that not only look beautiful but feel intuitive and welcoming. This attention to detail has made her a leader in interior architecture, committed to enhancing the way people live, work, and interact with their surroundings."
+        }
+      ],
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/699c9d7da88eed0035f90c2a12af2466ac29a563-1440x1860.jpg?w=1440&auto=format",
+      "imageBorder": true,
+      "imageColor": null
     },
     {
       "type": "textImage",
       "imagePosition": "right",
+      "dynamicHeight": true,
       "title": "Nicola Koller,",
-      "paragraphs": [
-        "Nicola is a highly experienced architect and leader with over 20 years of expertise in luxury retail, residential, and commercial projects. With a BA (Hons) in Architecture from Oxford Brookes University and an MA in Architecture from the Royal College of Art (RCA), Nicola has cultivated a deep understanding of design and its impact on culture, society, and business.",
-        "For 13 years, Nicola collaborated with Paul Smith, overseeing the design and delivery of over 800 projects worldwide, enhancing the brand's global footprint through innovative retail experiences. Their extensive experience in high-end retail reflects a strong proficiency in delivering creative, functional, and aesthetically compelling spaces.",
-        "With strong leadership, communication, research, and problem-solving skills, Nicola excels in guiding multidisciplinary teams and driving projects to successful outcomes. Their dedication to excellence in design education and practice is reflected in their role at the RCA, the world\u2019s leading postgraduate art and design institution, which has been ranked number one internationally for eight consecutive years.",
-        "Nicola\u2019s key skills include establishing environments for creative growth, active listening and a strong understanding of global trends and policy developments."
-      ],
+      "subtitle": "Partner",
+      "textPosition": "top",
       "color": "#893521",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/253188a5e6cb59ee62551ffbd5d7422c384d178b-1440x1860.jpg?w=1440&h=1860&auto=format",
-      "textPosition": "top"
+      "paragraphs": [
+        {
+          "type": "text",
+          "text": "Nicola is a highly experienced architect and leader with over 20 years of expertise in luxury retail, residential, and commercial projects. With a BA (Hons) in Architecture from Oxford Brookes University and an MA in Architecture from the Royal College of Art (RCA), Nicola has cultivated a deep understanding of design and its impact on culture, society, and business."
+        },
+        {
+          "type": "text",
+          "text": "For 13 years, Nicola collaborated with Paul Smith, overseeing the design and delivery of over 800 projects worldwide, enhancing the brand's global footprint through innovative retail experiences. Their extensive experience in high-end retail reflects a strong proficiency in delivering creative, functional, and aesthetically compelling spaces."
+        },
+        {
+          "type": "text",
+          "text": "With strong leadership, communication, research, and problem-solving skills, Nicola excels in guiding multidisciplinary teams and driving projects to successful outcomes. Their dedication to excellence in design education and practice is reflected in their role at the RCA, the world\u2019s leading postgraduate art and design institution, which has been ranked number one internationally for eight consecutive years."
+        },
+        {
+          "type": "text",
+          "text": "Nicola\u2019s key skills include establishing environments for creative growth, active listening and a strong understanding of global trends and policy developments."
+        }
+      ],
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/253188a5e6cb59ee62551ffbd5d7422c384d178b-1440x1860.jpg?w=1440&auto=format",
+      "imageBorder": true,
+      "imageColor": "#f2e5dc"
     },
     {
       "type": "twoText",
+      "dynamicHeight": true,
       "leftTitle": "The Team",
+      "leftSubtitle": null,
       "leftParagraphs": [
-        "We are a dynamic group of experienced designers, specialising in both residential and commercial interior design, as well as creative direction, across the UK, Europe, and beyond. Our team brings together a wealth of expertise, creativity, and a deep understanding of design, which allows us to work seamlessly across different styles, cultures, and client needs.",
-        "At the core of our work is a commitment to a positive, professional, and personal approach. We believe in fostering strong, transparent relationships with our clients, ensuring that every project is tailored to their unique vision and functional requirements. Whether we're working on a bespoke residential project or a large-scale commercial space, we approach each task with the same level of care and dedication, making the process as enjoyable and smooth as the outcome is beautiful and practical.",
-        "We take pride in our efficiency and collaborative spirit, working closely with our clients, architects, and contractors to deliver high-quality results within set timeframes and budgets. Integrity and authenticity are at the heart of everything we do - we believe that interior spaces should reflect the true essence of those who inhabit them. By combining our technical expertise with a soulful, thoughtful design process, we strive to create environments that not only look stunning but also feel meaningful and enriching for those who use them."
-      ],
-      "rightTitle": null,
-      "rightParagraphs": [
-        "Sophie Ashby, Founder and Creative Director",
-        "Fiona Blanchot, Partner",
-        "Nicola Koller, Partner",
-        "Mark Williams, Associate Director",
-        "Joseph Troughton, Associate Director",
-        "Emma Cudia, Finance Manager",
-        "Brooke Bardell-Munro, Associate Designer",
-        "Sarah Clark, Associate Designer",
-        "C\u00e9line Gabathuler, Associate Designer",
-        "Brandon Gehrke, Associate Designer",
-        "Nicola Maughan, Head of FF&E",
-        "Alex Pratsis, Head of Operations",
-        "Millie Drenon, Head of Brand",
-        "Carolina De Jesus, Studio Manager",
-        "Frankie Moloney, Executive Assistant",
-        "Courtney Richardson, Creative Lead",
-        "Karl Mannerings, Senior Technical Designer",
-        "Emli Welby Watson, Senior Technical Designer",
-        "Rowan Taylor, Senior Technical Designer",
-        "Kuan Ling Chen, Senior Technical Designer",
-        "Tom Farmery, Senior Furniture Designer",
-        "Alex Masters, Senior Interior Designer",
-        "Millie Howard, Senior Interior Designer",
-        "Eliza Perkins, Senior Interior Designer",
-        "Nicole Neilson, Senior FF&E Designer",
-        "Harri Bell, Interior Designer",
-        "Emily Hebbes, Interior Designer",
-        "Francesca Morris, Interior Designer",
-        "Bryn Sowden, Interior Designer",
-        "Vicky Whitehead, Junior Designer",
-        "Sophia Simpson, Intern"
+        {
+          "type": "text",
+          "text": "We are a dynamic group of experienced designers, specialising in both residential and commercial interior design, as well as creative direction, across the UK, Europe, and beyond. Our team brings together a wealth of expertise, creativity, and a deep understanding of design, which allows us to work seamlessly across different styles, cultures, and client needs."
+        },
+        {
+          "type": "text",
+          "text": "At the core of our work is a commitment to a positive, professional, and personal approach. We believe in fostering strong, transparent relationships with our clients, ensuring that every project is tailored to their unique vision and functional requirements. Whether we're working on a bespoke residential project or a large-scale commercial space, we approach each task with the same level of care and dedication, making the process as enjoyable and smooth as the outcome is beautiful and practical."
+        },
+        {
+          "type": "text",
+          "text": "We take pride in our efficiency and collaborative spirit, working closely with our clients, architects, and contractors to deliver high-quality results within set timeframes and budgets. Integrity and authenticity are at the heart of everything we do - we believe that interior spaces should reflect the true essence of those who inhabit them. By combining our technical expertise with a soulful, thoughtful design process, we strive to create environments that not only look stunning but also feel meaningful and enriching for those who use them."
+        }
       ],
       "leftColor": "#633B2F",
-      "rightColor": "#645E26"
+      "leftTextPosition": "top",
+      "rightTitle": null,
+      "rightSubtitle": null,
+      "rightParagraphs": [
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Sophie Ashby,",
+              "strong": true
+            },
+            {
+              "text": " Founder and Creative Director",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Fiona Blanchot,",
+              "strong": true
+            },
+            {
+              "text": " Partner",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Nicola Koller,",
+              "strong": true
+            },
+            {
+              "text": " Partner",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Mark Williams,",
+              "strong": true
+            },
+            {
+              "text": " Associate Director",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Joseph Troughton,",
+              "strong": true
+            },
+            {
+              "text": " Associate Director",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Emma Cudia, ",
+              "strong": true
+            },
+            {
+              "text": "Finance Manager",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Brooke Bardell-Munro,",
+              "strong": true
+            },
+            {
+              "text": " Associate Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Sarah Clark,",
+              "strong": true
+            },
+            {
+              "text": " Associate Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "C\u00e9line Gabathuler, ",
+              "strong": true
+            },
+            {
+              "text": "Associate Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Brandon Gehrke,",
+              "strong": true
+            },
+            {
+              "text": " Associate Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Nicola Maughan,",
+              "strong": true
+            },
+            {
+              "text": " Head of FF&E",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Alex Pratsis,",
+              "strong": true
+            },
+            {
+              "text": " Head of Operations",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Millie Drenon,",
+              "strong": true
+            },
+            {
+              "text": " Head of Brand",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Carolina De Jesus,",
+              "strong": true
+            },
+            {
+              "text": " Studio Manager",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Frankie Moloney,",
+              "strong": true
+            },
+            {
+              "text": " Executive Assistant",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Courtney Richardson,",
+              "strong": true
+            },
+            {
+              "text": " Creative Lead",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Karl Mannerings,",
+              "strong": true
+            },
+            {
+              "text": " Senior Technical Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Emli Welby Watson,",
+              "strong": true
+            },
+            {
+              "text": " Senior Technical Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Rowan Taylor,",
+              "strong": true
+            },
+            {
+              "text": " Senior Technical Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Kuan Ling Chen,",
+              "strong": true
+            },
+            {
+              "text": " Senior Technical Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Tom Farmery,",
+              "strong": true
+            },
+            {
+              "text": " Senior Furniture Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Alex Masters, ",
+              "strong": true
+            },
+            {
+              "text": "Senior",
+              "strong": false
+            },
+            {
+              "text": " ",
+              "strong": true
+            },
+            {
+              "text": "Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Millie Howard, ",
+              "strong": true
+            },
+            {
+              "text": "Senior",
+              "strong": false
+            },
+            {
+              "text": " ",
+              "strong": true
+            },
+            {
+              "text": "Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Eliza Perkins, ",
+              "strong": true
+            },
+            {
+              "text": "Senior",
+              "strong": false
+            },
+            {
+              "text": " ",
+              "strong": true
+            },
+            {
+              "text": "Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Nicole Neilson,",
+              "strong": true
+            },
+            {
+              "text": " Senior FF&E Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Harri Bell, ",
+              "strong": true
+            },
+            {
+              "text": "Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Emily Hebbes,",
+              "strong": true
+            },
+            {
+              "text": " Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Francesca Morris,",
+              "strong": true
+            },
+            {
+              "text": " Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Bryn Sowden,",
+              "strong": true
+            },
+            {
+              "text": " Interior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Vicky Whitehead, ",
+              "strong": true
+            },
+            {
+              "text": "Junior Designer",
+              "strong": false
+            }
+          ]
+        },
+        {
+          "type": "rich",
+          "runs": [
+            {
+              "text": "Sophia Simpson,",
+              "strong": true
+            },
+            {
+              "text": " Intern",
+              "strong": false
+            }
+          ]
+        }
+      ],
+      "rightColor": "#645E26",
+      "rightTextPosition": "top"
     },
     {
       "type": "textImage",
       "imagePosition": "left",
+      "dynamicHeight": true,
       "title": "United in Design",
-      "paragraphs": [
-        "United in Design is a charitable organisation founded by Sophie Ashby and Alexandria Dauley to address the lack of diversity in the UK Interior Design industry.",
-        "Through partnerships with established educational programmes, industry professionals and sponsors, the intention is to provide a clear road map for increased diversity in all sectors of the industry design studios, makers, suppliers to individuals and magazines.",
-        "In 2021 the charity was honoured with House & Garden\u2019s \u2018Special Contribution to the Design Industry\u2019 award and Homes & Gardens \u2018Contribution to Design\u2019 award.",
-        "Find out more at  www.unitedindesign.com  or contact us on hello@unitedindesign.com"
-      ],
+      "subtitle": null,
+      "textPosition": "top",
       "color": "#45519F",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/6f6ff3b7f6270f917b8704a4e7d4a624018576ef-1440x1860.jpg?w=1440&h=1860&auto=format",
-      "textPosition": "top"
+      "paragraphs": [
+        {
+          "type": "text",
+          "text": "United in Design is a charitable organisation founded by Sophie Ashby and Alexandria Dauley to address the lack of diversity in the UK Interior Design industry."
+        },
+        {
+          "type": "text",
+          "text": "Through partnerships with established educational programmes, industry professionals and sponsors, the intention is to provide a clear road map for increased diversity in all sectors of the industry design studios, makers, suppliers to individuals and magazines."
+        },
+        {
+          "type": "text",
+          "text": "In 2021 the charity was honoured with House & Garden\u2019s \u2018Special Contribution to the Design Industry\u2019 award and Homes & Gardens \u2018Contribution to Design\u2019 award."
+        },
+        {
+          "type": "text",
+          "text": "Find out more at  www.unitedindesign.com  or contact us on hello@unitedindesign.com"
+        }
+      ],
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/6f6ff3b7f6270f917b8704a4e7d4a624018576ef-1440x1860.jpg?w=1440&auto=format",
+      "imageBorder": true,
+      "imageColor": null
     }
   ]
 }

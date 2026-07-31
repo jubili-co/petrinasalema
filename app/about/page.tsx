@@ -15,14 +15,15 @@ export const metadata: Metadata = {
 
 const AboutPage: FC = () => (
   <main data-id="about-page" className="min-h-dvh bg-cream">
-    <SiteHeader />
-    <div data-id="about-sections" className="pt-[78px]">
+    <SiteHeader variant="home" />
+    <div data-id="about-sections">
       {about.sections.map((section, index) => {
         if (section.type === "textImage") {
           return (
             <AboutTextImage
               key={`${section.title}-${index}`}
               section={section as TextImageSection}
+              isFirst={index === 0}
             />
           );
         }

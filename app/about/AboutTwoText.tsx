@@ -1,73 +1,83 @@
 import type { FC } from "react";
 
+import { cn } from "@/lib/cn";
+
+import { AboutBody, type TextParagraph } from "./AboutBody";
+import { AboutTitle } from "./AboutTitle";
+
 export type TwoTextSection = {
   type: "twoText";
   leftTitle?: string | null;
-  leftParagraphs: string[];
+  leftSubtitle?: string | null;
+  leftParagraphs: TextParagraph[];
   rightTitle?: string | null;
-  rightParagraphs: string[];
+  rightSubtitle?: string | null;
+  rightParagraphs: TextParagraph[];
   leftColor?: string | null;
   rightColor?: string | null;
+  leftTextPosition?: string;
+  rightTextPosition?: string;
+  dynamicHeight?: boolean;
 };
 
 type Props = {
   section: TwoTextSection;
 };
 
-export const AboutTwoText: FC<Props> = ({ section }) => (
-  <section
-    data-id="about-two-text"
-    className="grid min-h-[60dvh] grid-cols-1 md:grid-cols-2"
-  >
-    <div
-      data-id="about-two-text-left"
-      className="flex flex-col justify-end px-6 py-16 text-cream md:px-12 md:py-20"
-      style={{ backgroundColor: section.leftColor || "#633B2F" }}
+export const AboutTwoText: FC<Props> = ({ section }) => {
+  const leftBackground = section.leftColor || "#633B2F";
+  const rightBackground = section.rightColor || "#645E26";
+  const isLeftTop = section.leftTextPosition !== "bottom";
+  const isRightTop = section.rightTextPosition !== "bottom";
+
+  return (
+    <section
+      data-id="about-two-text"
+      className="flex min-h-[100dvh] w-full flex-col md:flex-row md:flex-nowrap"
     >
-      {section.leftTitle && (
-        <h2
-          data-id="about-two-text-left-title"
-          className="mb-8 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase"
+      <div
+        data-id="about-two-text-left"
+        className="flex w-full text-cream md:w-1/2 md:min-h-[100dvh]"
+        style={{ backgroundColor: leftBackground }}
+      >
+        <div
+          data-id="about-two-text-left-content"
+          className={cn("flex w-full flex-col px-6 py-9 md:px-12 md:py-9", {
+            "justify-start": isLeftTop,
+            "justify-end": !isLeftTop,
+          })}
         >
-          {section.leftTitle}
-        </h2>
-      )}
-      <div className="max-w-[420px] space-y-5">
-        {section.leftParagraphs.map((paragraph) => (
-          <p
-            key={paragraph.slice(0, 48)}
-            data-id="about-two-text-left-paragraph"
-            className="font-[family-name:var(--font-antiqua)] text-[17px] leading-[1.55]"
-          >
-            {paragraph}
-          </p>
-        ))}
+          <div data-id="about-two-text-left-inner" className="w-full">
+            <AboutTitle
+              title={section.leftTitle}
+              subtitle={section.leftSubtitle}
+            />
+            <AboutBody paragraphs={section.leftParagraphs} />
+          </div>
+        </div>
       </div>
-    </div>
-    <div
-      data-id="about-two-text-right"
-      className="flex flex-col justify-end px-6 py-16 text-brown md:px-12 md:py-20"
-      style={{ backgroundColor: section.rightColor || "#F9F3F0" }}
-    >
-      {section.rightTitle && (
-        <h2
-          data-id="about-two-text-right-title"
-          className="mb-8 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase"
+
+      <div
+        data-id="about-two-text-right"
+        className="flex w-full text-cream md:w-1/2 md:min-h-[100dvh]"
+        style={{ backgroundColor: rightBackground }}
+      >
+        <div
+          data-id="about-two-text-right-content"
+          className={cn("flex w-full flex-col px-6 py-9 md:px-12 md:py-9", {
+            "justify-start": isRightTop,
+            "justify-end": !isRightTop,
+          })}
         >
-          {section.rightTitle}
-        </h2>
-      )}
-      <div className="max-w-[420px] space-y-5">
-        {section.rightParagraphs.map((paragraph) => (
-          <p
-            key={paragraph.slice(0, 48)}
-            data-id="about-two-text-right-paragraph"
-            className="font-[family-name:var(--font-antiqua)] text-[17px] leading-[1.55]"
-          >
-            {paragraph}
-          </p>
-        ))}
+          <div data-id="about-two-text-right-inner" className="w-full">
+            <AboutTitle
+              title={section.rightTitle}
+              subtitle={section.rightSubtitle}
+            />
+            <AboutBody paragraphs={section.rightParagraphs} />
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};

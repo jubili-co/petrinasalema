@@ -23,7 +23,11 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [menuPath, setMenuPath] = useState(pathname);
   const lastScrollY = useRef(0);
-  const isHome = variant === "home" || pathname === "/";
+  const isOverMedia =
+    variant === "home" ||
+    pathname === "/" ||
+    pathname === "/about" ||
+    pathname.startsWith("/project/");
   const shouldHideHeader = isHeaderHidden && !isOpen;
 
   if (menuPath !== pathname) {
@@ -80,10 +84,10 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
           // typography / color
           "font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase",
           // motion — Tailwind v4 uses `translate`, not `transform`
-          "transition-[translate,opacity] duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate,opacity]",
+          "transition-[translate,opacity] duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate,opacity]",
           {
-            "text-white": isHome && !isOpen,
-            "text-brown": !isHome || isOpen,
+            "text-white": isOverMedia && !isOpen,
+            "text-brown": !isOverMedia || isOpen,
             "-translate-y-full opacity-0 pointer-events-none": shouldHideHeader,
             "translate-y-0 opacity-100": !shouldHideHeader,
           },

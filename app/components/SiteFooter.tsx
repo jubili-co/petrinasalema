@@ -14,8 +14,8 @@ export const SiteFooter: FC<Props> = ({ className }) => (
   <footer
     data-id="site-footer"
     className={cn(
-      "relative z-[99] mt-auto w-full bg-brown",
-      "px-6 py-8 md:px-12 md:pt-8 md:pb-[35px]",
+      "relative z-[99] mt-auto w-full bg-brown text-cream",
+      "px-6 py-8 md:h-[96px] md:px-12 md:py-8 md:pb-[35px]",
       className,
     )}
   >
@@ -23,14 +23,14 @@ export const SiteFooter: FC<Props> = ({ className }) => (
       data-id="site-footer-inner"
       className={cn(
         "flex flex-col items-start justify-between gap-10",
-        "md:flex-row md:items-center md:gap-4",
+        "md:h-full md:flex-row md:items-center md:gap-4",
       )}
     >
       <div data-id="site-footer-brand" className="w-full md:w-1/5">
         <Link
           href="/"
           data-id="site-footer-logo"
-          className="block w-full max-w-[223px] text-[#AE9891]"
+          className="block w-full max-w-[223px] text-cream"
           aria-label="Studio Ashby home"
         >
           <LogoStudioAshby />
@@ -65,7 +65,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
           data-id="site-footer-copy"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[11px] leading-[18px] text-[#AE9891]",
+            "text-[11px] leading-[18px] text-brown-muted",
           )}
         >
           © {new Date().getFullYear()} Studio Ashby
@@ -76,7 +76,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
             data-id="site-footer-credit"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#AE9891] no-underline transition-opacity duration-1000 ease-out hover:opacity-50"
+            className="text-brown-muted no-underline transition-opacity duration-1000 ease-out hover:opacity-50"
           >
             StudioSmall
           </a>

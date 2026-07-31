@@ -27,6 +27,7 @@
 :root {
   --cream: #f9f3f0;
   --brown: #633b2f;
+  --brown-muted: #ae9891;
   --sister-mustard: #b19e18;
   --studio-orange: #e87308;
   --sister-blue: #45519f;
@@ -46,6 +47,7 @@
 @theme inline {
   --color-cream: var(--cream);
   --color-brown: var(--brown);
+  --color-brown-muted: var(--brown-muted);
   --color-sister-mustard: var(--sister-mustard);
   --color-studio-orange: var(--studio-orange);
   --color-sister-blue: var(--sister-blue);
