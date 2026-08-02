@@ -66,7 +66,9 @@ export const dsMdxComponents = {
       {children}
     </em>
   ),
-  a: ({ href, children }) => <MarkdownLink href={href}>{children}</MarkdownLink>,
+  a: ({ href, children }) => (
+    <MarkdownLink href={href}>{children}</MarkdownLink>
+  ),
   ul: ({ children }) => (
     <ul
       data-id="ds-markdown-ul"
@@ -106,7 +108,7 @@ const MarkdownLink: FC<MarkdownLinkProps> = ({ href = "#", children }) => {
     <a
       href={href}
       data-id="ds-markdown-a"
-      className="text-inherit underline-offset-2 !underline"
+      className="ds-markdown-link text-inherit"
       target={target}
       rel={rel}
     >

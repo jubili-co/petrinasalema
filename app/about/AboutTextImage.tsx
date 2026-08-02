@@ -73,7 +73,7 @@ export const AboutTextImage: FC<Props> = ({
       >
         <div
           data-id="about-text-image-content"
-          className={cn("flex w-full flex-col px-6 py-9 md:px-12 md:py-9", {
+          className={cn("flex w-full flex-col p-9 md:p-12", {
             "justify-start": isTextTop,
             "justify-end": !isTextTop,
           })}

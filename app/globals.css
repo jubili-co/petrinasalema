@@ -83,6 +83,15 @@ a {
   text-decoration: none;
 }
 
+a.ds-markdown-link {
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
+  text-underline-offset: 2px;
+}
+a.ds-markdown-link:hover {
+  text-decoration-color: color-mix(in srgb, currentColor 70%, transparent);
+}
+
 button {
   font: inherit;
   color: inherit;
