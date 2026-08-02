@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./colors.css";
 
 @font-face {
   font-family: "Matter";
@@ -25,12 +26,6 @@
 }
 
 :root {
-  --cream: #f9f3f0;
-  --brown: #633b2f;
-  --brown-muted: #ae9891;
-  --sister-mustard: #b19e18;
-  --studio-orange: #e87308;
-  --sister-blue: #45519f;
   --border-hairline: 1px;
   --ease-out-soft: cubic-bezier(0.23, 1, 0.32, 1);
   --safe-top: env(safe-area-inset-top, 0px);
@@ -45,12 +40,6 @@
 }
 
 @theme inline {
-  --color-cream: var(--cream);
-  --color-brown: var(--brown);
-  --color-brown-muted: var(--brown-muted);
-  --color-sister-mustard: var(--sister-mustard);
-  --color-studio-orange: var(--studio-orange);
-  --color-sister-blue: var(--sister-blue);
   --font-matter: "Matter", sans-serif;
   --font-antiqua: "Allrounder Antiqua", georgia, serif;
   --font-beaux: "BEAUX Display", sans-serif;
@@ -81,8 +70,8 @@ html {
 body {
   margin: 0;
   min-height: 100dvh;
-  background: var(--cream);
-  color: var(--brown);
+  background: var(--dotto-cream);
+  color: var(--dotto-brown);
   font-family: var(--font-matter);
   font-weight: 300;
   -webkit-font-smoothing: antialiased;

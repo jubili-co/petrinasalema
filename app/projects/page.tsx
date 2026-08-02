@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 const ProjectsPage: FC = () => (
-  <main data-id="projects-page" className="min-h-dvh bg-cream">
+  <main data-id="projects-page" className="min-h-dvh bg-dotto-cream">
     <SiteHeader />
     <section
       data-id="projects-grid"
@@ -31,7 +31,7 @@ const ProjectsPage: FC = () => (
             key={id}
             href={`/project/${slug}`}
             data-id="projects-grid-card"
-            className="group relative aspect-[1440/1860] overflow-hidden bg-brown"
+            className="group relative aspect-[1440/1860] overflow-hidden bg-dotto-brown"
           >
             {cover && (
               <Image
@@ -52,19 +52,19 @@ const ProjectsPage: FC = () => (
             >
               <h2
                 data-id="projects-grid-card-title"
-                className="m-0 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-cream uppercase"
+                className="m-0 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-dotto-cream uppercase"
               >
                 {name}
               </h2>
               <p
                 data-id="projects-grid-card-subtitle"
-                className="m-0 mt-2 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-cream"
+                className="m-0 mt-2 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream"
               >
                 {subtitle}
               </p>
               <p
                 data-id="projects-grid-card-location"
-                className="m-0 mt-1 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-cream/80"
+                className="m-0 mt-1 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream/80"
               >
                 {location}
               </p>

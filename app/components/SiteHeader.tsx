@@ -8,7 +8,7 @@ import { cn } from "@/lib/cn";
 import { NAV_LINKS } from "@/lib/site";
 
 import { LogoSisterMark } from "./LogoSisterMark";
-import { LogoDotto } from "./LogoDotto";
+import { LogoPetina } from "./LogoDotto";
 
 type Props = {
   variant?: "home" | "default";
@@ -89,7 +89,7 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
           "transition-[translate,opacity] duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate,opacity]",
           {
             "text-white": isOverMedia && !isOpen,
-            "text-brown": !isOverMedia || isOpen,
+            "text-dotto-brown": !isOverMedia || isOpen,
             "-translate-y-full opacity-0 pointer-events-none": shouldHideHeader,
             "translate-y-0 opacity-100": !shouldHideHeader,
           },
@@ -105,7 +105,7 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
             className="relative z-10 block w-[180px] md:w-[274px]"
             aria-label="Dotto home"
           >
-            <LogoDotto />
+            <LogoPetina />
           </Link>
 
           <nav
@@ -175,7 +175,7 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
             // spacing
             "px-6 pt-28 pb-[max(2rem,var(--safe-bottom))]",
             // color
-            "bg-cream text-brown",
+            "bg-dotto-cream text-dotto-brown",
           )}
         >
           <nav data-id="site-off-canvas-nav">
@@ -197,10 +197,10 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
           <Link
             href="/sister"
             data-id="site-off-canvas-sister"
-            className="flex items-center justify-between border-t border-brown/20 pt-6"
+            className="flex items-center justify-between border-t border-dotto-brown/20 pt-6"
           >
             <span className="text-sm tracking-[0.15em] uppercase">Sister</span>
-            <LogoSisterMark className="text-brown" />
+            <LogoSisterMark className="text-dotto-brown" />
           </Link>
         </div>
       )}

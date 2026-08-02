@@ -14,13 +14,13 @@ export const ProjectGallery: FC<Props> = ({ name, images }) => {
     return (
       <section
         data-id="project-gallery"
-        className="flex min-h-[50dvh] items-end bg-cream px-6 pt-[100px] pb-9 md:px-12 md:pt-[120px]"
+        className="flex min-h-[50dvh] items-end bg-dotto-cream px-6 pt-[100px] pb-9 md:px-12 md:pt-[120px]"
       >
         <h1
           data-id="project-gallery-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[13px] leading-[18px] tracking-[0.15em] text-brown uppercase",
+            "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown uppercase",
           )}
         >
           {name}
@@ -30,7 +30,7 @@ export const ProjectGallery: FC<Props> = ({ name, images }) => {
   }
 
   return (
-    <section data-id="project-gallery" className="w-full bg-cream">
+    <section data-id="project-gallery" className="w-full bg-dotto-cream">
       {images.map((image) => (
         <figure
           key={`${image.src}-${image.alt}`}
@@ -55,7 +55,7 @@ export const ProjectGallery: FC<Props> = ({ name, images }) => {
               data-id="project-gallery-caption"
               className={cn(
                 "px-6 py-3 font-[family-name:var(--font-antiqua)]",
-                "text-[13px] leading-[18px] font-[350] text-brown md:px-12",
+                "text-[13px] leading-[18px] font-[350] text-dotto-brown md:px-12",
               )}
             >
               {image.caption}

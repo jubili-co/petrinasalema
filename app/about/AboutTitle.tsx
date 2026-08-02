@@ -16,6 +16,7 @@ export const AboutTitle: FC<Props> = ({ title, subtitle }) => {
   return (
     <DsText data-id="about-title" variant="h2">
       {title}
+      {subtitle && ","}
       {subtitle && (
         <span
           data-id="about-title-subtitle"

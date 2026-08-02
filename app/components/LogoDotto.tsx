@@ -6,9 +6,9 @@ type Props = {
   className?: string;
 };
 
-export const LogoDotto: FC<Props> = ({ className }) => (
+export const LogoPetina: FC<Props> = ({ className }) => (
   <div
-    data-id="logo-dotto"
+    data-id="logo-petrina"
     className={cn(
       "block font-[family-name:var(--font-beaux)]",
       "font-semibold text-base leading-none tracking-[0.12em] uppercase",

@@ -4,7 +4,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 import { FOOTER_LINKS } from "@/lib/site";
 
-import { LogoDotto } from "./LogoDotto";
+import { LogoPetina } from "./LogoDotto";
 
 type Props = {
   className?: string;
@@ -14,7 +14,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
   <footer
     data-id="site-footer"
     className={cn(
-      "relative z-[99] mt-auto w-full bg-brown text-cream",
+      "relative z-[99] mt-auto w-full bg-dotto-brown text-dotto-cream",
       "px-6 py-8 md:h-[96px] md:px-12 md:py-8 md:pb-[35px]",
       className,
     )}
@@ -30,10 +30,10 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         <Link
           href="/"
           data-id="site-footer-logo"
-          className="block w-full max-w-[223px] text-cream"
+          className="block w-full max-w-[223px] text-dotto-cream"
           aria-label="Dotto home"
         >
-          <LogoDotto />
+          <LogoPetina />
         </Link>
       </div>
 
@@ -65,7 +65,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
           data-id="site-footer-copy"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[11px] leading-[18px] text-brown-muted",
+            "text-[11px] leading-[18px] text-dotto-brown-muted",
           )}
         >
           © {new Date().getFullYear()} Dotto
@@ -76,7 +76,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
             data-id="site-footer-credit"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-brown-muted no-underline transition-opacity duration-1000 ease-out hover:opacity-50"
+            className="text-dotto-brown-muted no-underline transition-opacity duration-1000 ease-out hover:opacity-50"
           >
             StudioSmall
           </a>
@@ -95,7 +95,7 @@ type FooterNavLinkProps = {
 const FooterNavLink: FC<FooterNavLinkProps> = ({ item }) => {
   const className = cn(
     "font-[family-name:var(--font-matter)] text-[11px] leading-[15px]",
-    "tracking-[1.65px] text-cream uppercase no-underline",
+    "tracking-[1.65px] text-dotto-cream uppercase no-underline",
     "transition-opacity duration-1000 ease-out hover:opacity-50",
   );
 

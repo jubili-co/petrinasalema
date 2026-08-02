@@ -7,10 +7,10 @@
     "title": null,
     "subtitle": null,
     "textPosition": "top",
-    "color": "#893521",
+    "color": "dotto-maroon",
     "image": "https://cdn.sanity.io/images/4jb8q7bc/production/23a9fd56c258f82b8205b92bfc9f57d703e0e856-1440x1860.jpg?w=1440&auto=format",
     "imageBorder": false,
-    "imageColor": "#EEE9E2",
+    "imageColor": "dotto-sand",
     "paragraphs": [
       {
         "type": "text",

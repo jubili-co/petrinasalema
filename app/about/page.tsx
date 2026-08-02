@@ -8,7 +8,11 @@ import about from "@/lib/data/about.json";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
-import { AboutTextImage, type TextImageSection } from "./AboutTextImage";
+import {
+  AboutTextImage,
+  type AboutMdxKey,
+  type TextImageSection,
+} from "./AboutTextImage";
 import { AboutTwoText, type TwoTextSection } from "./AboutTwoText";
 
 export const metadata: Metadata = {
@@ -19,23 +23,21 @@ export const metadata: Metadata = {
 const aboutMarkdownClassName = "w-full max-w-[568px] md:w-[70%]";
 
 const AboutPage: FC = () => {
-  const aboutUsBody = (
-    <DsMarkdown className={aboutMarkdownClassName}>
-      <AboutPetrinaCopy />
-    </DsMarkdown>
-  );
-  const jubiliBody = (
-    <DsMarkdown className={aboutMarkdownClassName}>
-      <AboutJubiliCopy />
-    </DsMarkdown>
-  );
-  const mdxBodyByTitle: Record<string, ReactNode> = {
-    "About Us": aboutUsBody,
-    Jubili: jubiliBody,
+  const mdxBodyByKey: Record<AboutMdxKey, ReactNode> = {
+    petrina: (
+      <DsMarkdown className={aboutMarkdownClassName}>
+        <AboutPetrinaCopy />
+      </DsMarkdown>
+    ),
+    jubili: (
+      <DsMarkdown className={aboutMarkdownClassName}>
+        <AboutJubiliCopy />
+      </DsMarkdown>
+    ),
   };
 
   return (
-    <main data-id="about-page" className="min-h-dvh bg-cream">
+    <main data-id="about-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader variant="home" />
       <div data-id="about-sections">
         {about.sections.map((section, index) => (
@@ -43,7 +45,7 @@ const AboutPage: FC = () => {
             key={`${section.type}-${index}`}
             section={section}
             index={index}
-            mdxBodyByTitle={mdxBodyByTitle}
+            mdxBodyByKey={mdxBodyByKey}
           />
         ))}
       </div>
@@ -59,13 +61,13 @@ type AboutSection = (typeof about.sections)[number];
 type AboutPageSectionProps = {
   section: AboutSection;
   index: number;
-  mdxBodyByTitle: Record<string, ReactNode>;
+  mdxBodyByKey: Record<AboutMdxKey, ReactNode>;
 };
 
 const AboutPageSection: FC<AboutPageSectionProps> = ({
   section,
   index,
-  mdxBodyByTitle,
+  mdxBodyByKey,
 }) => {
   if (section.type === "twoText") {
     return <AboutTwoText section={section as TwoTextSection} />;
@@ -76,8 +78,8 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   }
 
   const textImageSection = section as TextImageSection;
-  const { title } = textImageSection;
-  const body = title ? mdxBodyByTitle[title] : undefined;
+  const { mdx } = textImageSection;
+  const body = mdx && mdxBodyByKey[mdx];
   const isFirst = index === 0;
 
   return (

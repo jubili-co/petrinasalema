@@ -45,7 +45,7 @@ const ProjectPage: FC<Props> = async ({ params }) => {
   const { name, images } = project;
 
   return (
-    <main data-id="project-page" className="min-h-dvh bg-cream">
+    <main data-id="project-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader />
       <ProjectGallery name={name} images={images} />
       <ProjectDetails project={project} nextSlug={nextProject.slug} />

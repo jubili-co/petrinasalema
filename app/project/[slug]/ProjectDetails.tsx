@@ -20,7 +20,7 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
   return (
     <section
       data-id="project-details"
-      className="bg-brown px-6 py-[30px] pb-10 text-cream md:px-12"
+      className="bg-dotto-brown px-6 py-[30px] pb-10 text-dotto-cream md:px-12"
     >
       <div
         data-id="project-details-inner"

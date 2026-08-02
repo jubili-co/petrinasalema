@@ -23,7 +23,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
         href="/"
         data-id="landing-features-studio"
         className={cn(
-          "group relative block h-1/2 w-full overflow-hidden bg-brown",
+          "group relative block h-1/2 w-full overflow-hidden bg-dotto-brown",
           "md:h-full md:w-1/2",
         )}
       >
@@ -37,7 +37,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
           <span
             data-id="landing-features-studio-mark"
             className={cn(
-              "font-[family-name:var(--font-beaux)] text-cream uppercase",
+              "font-[family-name:var(--font-beaux)] text-dotto-cream uppercase",
               "text-[clamp(56px,9vw,140px)] leading-none tracking-[0.12em]",
               "transition-colors duration-200",
               "group-hover:text-white",
@@ -67,7 +67,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
         href="/sister"
         data-id="landing-features-sister"
         className={cn(
-          "group relative block h-1/2 w-full overflow-hidden bg-sister-mustard",
+          "group relative block h-1/2 w-full overflow-hidden bg-dotto-mustard",
           "md:h-full md:w-1/2",
         )}
       >

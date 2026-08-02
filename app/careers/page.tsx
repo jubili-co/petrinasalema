@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const CareersPage: FC = () => (
-  <main data-id="careers-page" className="min-h-dvh bg-cream">
+  <main data-id="careers-page" className="min-h-dvh bg-dotto-cream">
     <SiteHeader variant="home" />
     <AboutTextImage
       section={careers.section as TextImageSection}

@@ -28,7 +28,7 @@ const ContactPage: FC = () => {
     .filter((line) => line.length > 0);
 
   return (
-    <main data-id="contact-page" className="min-h-dvh bg-cream">
+    <main data-id="contact-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader />
       <section
         data-id="contact-section"

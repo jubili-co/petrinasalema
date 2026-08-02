@@ -1,5 +1,6 @@
 import type { FC } from "react";
 
+import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
 
 import { AboutBody, type TextParagraph } from "./AboutBody";
@@ -25,8 +26,8 @@ type Props = {
 };
 
 export const AboutTwoText: FC<Props> = ({ section }) => {
-  const leftBackground = section.leftColor || "#633B2F";
-  const rightBackground = section.rightColor || "#645E26";
+  const leftBackground = resolveCssColor(section.leftColor, "dotto-brown");
+  const rightBackground = resolveCssColor(section.rightColor, "dotto-olive");
   const isLeftTop = section.leftTextPosition !== "bottom";
   const isRightTop = section.rightTextPosition !== "bottom";
 
@@ -37,7 +38,7 @@ export const AboutTwoText: FC<Props> = ({ section }) => {
     >
       <div
         data-id="about-two-text-left"
-        className="flex w-full text-cream md:w-1/2 md:min-h-[100dvh]"
+        className="flex w-full text-dotto-cream md:w-1/2 md:min-h-[100dvh]"
         style={{ backgroundColor: leftBackground }}
       >
         <div
@@ -59,7 +60,7 @@ export const AboutTwoText: FC<Props> = ({ section }) => {
 
       <div
         data-id="about-two-text-right"
-        className="flex w-full text-cream md:w-1/2 md:min-h-[100dvh]"
+        className="flex w-full text-dotto-cream md:w-1/2 md:min-h-[100dvh]"
         style={{ backgroundColor: rightBackground }}
       >
         <div

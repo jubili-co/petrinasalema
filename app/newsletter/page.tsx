@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 const NewsletterPage: FC = () => (
-  <main data-id="newsletter-page" className="min-h-dvh bg-cream">
+  <main data-id="newsletter-page" className="min-h-dvh bg-dotto-cream">
     <SiteHeader variant="home" />
     <NewsletterSignup
       image={newsletter.image}

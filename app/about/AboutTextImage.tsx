@@ -1,16 +1,21 @@
 import Image from "next/image";
 import type { FC, ReactNode } from "react";
 
+import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
 
 import { AboutBody, type TextParagraph } from "./AboutBody";
 import { AboutTitle } from "./AboutTitle";
 
+export type AboutMdxKey = "petrina" | "jubili";
+
 export type TextImageSection = {
   type: "textImage";
   imagePosition: string;
-  title: string | null;
+  title?: string | null;
   subtitle?: string | null;
+  /** Stable key for MDX body — independent of optional display title. */
+  mdx?: AboutMdxKey | null;
   paragraphs?: TextParagraph[];
   color?: string | null;
   image?: string | null;
@@ -46,8 +51,8 @@ export const AboutTextImage: FC<Props> = ({
   } = section;
   const isImageLeft = imagePosition === "left";
   const isTextTop = textPosition !== "bottom";
-  const background = color || "#633B2F";
-  const mediaBackground = imageColor || "#EEE9E2";
+  const background = resolveCssColor(color, "dotto-brown");
+  const mediaBackground = resolveCssColor(imageColor, "dotto-sand");
   const sectionParagraphs = paragraphs ?? [];
   const hasParagraphs = sectionParagraphs.length > 0;
 
@@ -63,7 +68,7 @@ export const AboutTextImage: FC<Props> = ({
     >
       <div
         data-id="about-text-image-copy"
-        className="flex w-full text-cream md:w-1/2 md:min-h-[100dvh]"
+        className="flex w-full text-dotto-cream md:w-1/2 md:min-h-[100dvh]"
         style={{ backgroundColor: background }}
       >
         <div

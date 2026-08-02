@@ -6,10 +6,11 @@
       "type": "textImage",
       "imagePosition": "right",
       "dynamicHeight": true,
-      "title": "About Us",
-      "subtitle": null,
+      "mdx": "petrina",
+      "title": "Petrina",
+      "subtitle": "Founder & Designer",
       "textPosition": "bottom",
-      "color": "#893521",
+      "color": "dotto-maroon",
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
       "imageBorder": false,
       "imageColor": null
@@ -18,10 +19,10 @@
       "type": "textImage",
       "imagePosition": "left",
       "dynamicHeight": true,
-      "title": "Jubili",
+      "mdx": "jubili",
       "subtitle": null,
       "textPosition": "top",
-      "color": "#645E26",
+      "color": "dotto-olive",
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/78810f83a3130d447c9b4bc836778d256d3a8b0f-1440x1860.jpg?w=1440&auto=format",
       "imageBorder": true,
       "imageColor": null
@@ -30,10 +31,11 @@
       "type": "textImage",
       "imagePosition": "right",
       "dynamicHeight": true,
-      "title": "Sophie Dotto,",
-      "subtitle": "Founder & Creative Director",
+      "title": "Materiality",
+      "subtitle": null,
+      "mdx": "materiality",
       "textPosition": "top",
-      "color": "#633B2F",
+      "color": "dotto-brown",
       "paragraphs": [
         {
           "type": "text",
@@ -72,16 +74,16 @@
       ],
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1440&auto=format",
       "imageBorder": true,
-      "imageColor": "#f2e5dc"
+      "imageColor": "dotto-blush"
     },
     {
       "type": "textImage",
       "imagePosition": "left",
       "dynamicHeight": true,
-      "title": "Fiona Blanchot,",
+      "title": "Fiona Blanchot",
       "subtitle": "Partner",
       "textPosition": "top",
-      "color": "#45519F",
+      "color": "dotto-blue",
       "paragraphs": [
         {
           "type": "text",
@@ -108,10 +110,10 @@
       "type": "textImage",
       "imagePosition": "right",
       "dynamicHeight": true,
-      "title": "Nicola Koller,",
+      "title": "Nicola Koller",
       "subtitle": "Partner",
       "textPosition": "top",
-      "color": "#893521",
+      "color": "dotto-maroon",
       "paragraphs": [
         {
           "type": "text",
@@ -132,7 +134,7 @@
       ],
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/253188a5e6cb59ee62551ffbd5d7422c384d178b-1440x1860.jpg?w=1440&auto=format",
       "imageBorder": true,
-      "imageColor": "#f2e5dc"
+      "imageColor": "dotto-blush"
     },
     {
       "type": "twoText",
@@ -153,7 +155,7 @@
           "text": "We take pride in our efficiency and collaborative spirit, working closely with our clients, architects, and contractors to deliver high-quality results within set timeframes and budgets. Integrity and authenticity are at the heart of everything we do - we believe that interior spaces should reflect the true essence of those who inhabit them. By combining our technical expertise with a soulful, thoughtful design process, we strive to create environments that not only look stunning but also feel meaningful and enriching for those who use them."
         }
       ],
-      "leftColor": "#633B2F",
+      "leftColor": "dotto-brown",
       "leftTextPosition": "top",
       "rightTitle": null,
       "rightSubtitle": null,
@@ -586,7 +588,7 @@
           ]
         }
       ],
-      "rightColor": "#645E26",
+      "rightColor": "dotto-olive",
       "rightTextPosition": "top"
     },
     {
@@ -596,7 +598,7 @@
       "title": "United in Design",
       "subtitle": null,
       "textPosition": "top",
-      "color": "#45519F",
+      "color": "dotto-blue",
       "paragraphs": [
         {
           "type": "text",

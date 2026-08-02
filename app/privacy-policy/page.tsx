@@ -18,7 +18,7 @@ type PrivacyBlock =
 const blocks = privacy.blocks as PrivacyBlock[];
 
 const PrivacyPolicyPage: FC = () => (
-  <main data-id="privacy-page" className="mt-[100px] min-h-dvh bg-cream">
+  <main data-id="privacy-page" className="mt-[100px] min-h-dvh bg-dotto-cream">
     <SiteHeader />
     <section
       data-id="privacy-textarea"
@@ -34,7 +34,7 @@ const PrivacyPolicyPage: FC = () => (
         <div
           data-id="privacy-textarea-content"
           className={cn(
-            "w-4/5 max-w-[960px] text-left text-brown",
+            "w-4/5 max-w-[960px] text-left text-dotto-brown",
             "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
           )}
         >
@@ -61,7 +61,7 @@ const PrivacyBlockView: FC<PrivacyBlockViewProps> = ({ block }) => {
         data-id="privacy-heading"
         className={cn(
           "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] font-normal tracking-[0.15em] text-brown uppercase",
+          "text-[13px] leading-[18px] font-normal tracking-[0.15em] text-dotto-brown uppercase",
         )}
       >
         {block.text}
@@ -74,7 +74,7 @@ const PrivacyBlockView: FC<PrivacyBlockViewProps> = ({ block }) => {
       data-id="privacy-paragraph"
       className={cn(
         "m-0 mb-[30px] whitespace-pre-line",
-        "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-brown",
+        "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-brown",
         "last:mb-0",
       )}
     >

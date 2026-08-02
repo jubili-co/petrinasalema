@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import type { FC, ReactNode } from "react";
 
+import { COLOR_HEX } from "@/lib/colors";
+
 import { CookieBanner } from "./components/CookieBanner";
 import "./globals.css";
 
@@ -15,7 +17,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#633B2F",
+  themeColor: COLOR_HEX["dotto-brown"],
 };
 
 type Props = {
@@ -26,7 +28,7 @@ const RootLayout: FC<Props> = ({ children }) => (
   <html lang="en" className="h-full antialiased">
     <body
       data-id="app-body"
-      className="flex min-h-full flex-col bg-cream text-brown"
+      className="flex min-h-full flex-col bg-dotto-cream text-dotto-brown"
     >
       {children}
       <CookieBanner />

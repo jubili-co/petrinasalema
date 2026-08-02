@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 const SisterPage: FC = () => (
-  <main data-id="sister-page" className="min-h-dvh bg-sister-mustard">
+  <main data-id="sister-page" className="min-h-dvh bg-dotto-mustard">
     <SiteHeader variant="home" />
     <section
       data-id="sister-hero"
@@ -49,7 +49,7 @@ const SisterPage: FC = () => (
         />
         <p
           data-id="sister-hero-copy"
-          className="mt-10 max-w-[36ch] font-[family-name:var(--font-antiqua)] text-[17px] leading-relaxed text-sister-blue"
+          className="mt-10 max-w-[36ch] font-[family-name:var(--font-antiqua)] text-[17px] leading-relaxed text-dotto-blue"
         >
           Furniture, hardware, rugs and artist collaborations from the Sister
           collection.
@@ -60,10 +60,10 @@ const SisterPage: FC = () => (
           rel="noopener noreferrer"
           data-id="sister-hero-cta"
           className={cn(
-            "mt-10 min-h-11 border border-sister-blue px-8 py-3",
-            "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] text-sister-blue uppercase",
+            "mt-10 min-h-11 border border-dotto-blue px-8 py-3",
+            "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] text-dotto-blue uppercase",
             "transition-colors duration-200 ease-out",
-            "hover:bg-sister-blue hover:text-cream active:scale-[0.97]",
+            "hover:bg-dotto-blue hover:text-dotto-cream active:scale-[0.97]",
           )}
         >
           Visit Sister Store
