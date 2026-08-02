@@ -59,28 +59,14 @@ export const SiteFooter: FC<Props> = ({ className }) => (
 
       <div
         data-id="site-footer-meta"
-        className="w-full md:flex md:w-1/5 md:justify-end md:text-right"
+        className={cn(
+          "w-full md:w-1/5 text-right",
+          "font-[family-name:var(--font-matter)]",
+          "text-[11px] text-dotto-brown-muted",
+        )}
       >
-        <p
-          data-id="site-footer-copy"
-          className={cn(
-            "m-0 font-[family-name:var(--font-matter)]",
-            "text-[11px] leading-[18px] text-dotto-brown-muted",
-          )}
-        >
-          © {new Date().getFullYear()} Dotto
-          <br />
-          Site by{" "}
-          <a
-            href="https://studiosmall.com"
-            data-id="site-footer-credit"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-dotto-brown-muted no-underline transition-opacity duration-1000 ease-out hover:opacity-50"
-          >
-            StudioSmall
-          </a>
-        </p>
+        <p>Design + Furnishing</p>
+        <p>Vienna &amp; wherever you call home</p>
       </div>
     </div>
   </footer>
