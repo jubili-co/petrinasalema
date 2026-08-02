@@ -17,9 +17,9 @@ type Props = {
 
 export const NewsletterSignup: FC<Props> = ({
   image,
-  title = "Sign up to our Newsletters",
+  title = "Sign up to my newsletter",
   description = null,
-  imageAlt = "Dotto newsletter",
+  imageAlt = "Petrina newsletter",
   contentAlign = "center",
   hasSectionId = true,
 }) => {
@@ -116,42 +116,6 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
       onSubmit={onSubmit}
       className="w-full"
     >
-      <div
-        data-id="newsletter-signup-checkboxes"
-        className="flex gap-[27px] py-[9px]"
-      >
-        <label
-          data-id="newsletter-signup-checkbox"
-          className={cn(
-            "flex items-center gap-[9px]",
-            "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
-            "tracking-[0.15em] text-cream uppercase",
-          )}
-        >
-          <input
-            type="checkbox"
-            name="dotto-newsletter"
-            className={checkboxClassName}
-          />
-          <span>Dotto</span>
-        </label>
-        <label
-          data-id="newsletter-signup-checkbox"
-          className={cn(
-            "flex items-center gap-[9px]",
-            "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
-            "tracking-[0.15em] text-cream uppercase",
-          )}
-        >
-          <input
-            type="checkbox"
-            name="sister-newsletter"
-            className={checkboxClassName}
-          />
-          <span>Sister</span>
-        </label>
-      </div>
-
       <input
         data-id="newsletter-signup-email"
         type="email"
@@ -178,7 +142,10 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
           type="checkbox"
           name="consent"
           required
-          className={cn(checkboxClassName, "mt-0.5")}
+          className={cn(
+            "mt-0.5 size-3 shrink-0 appearance-none border border-solid border-cream bg-transparent",
+            "checked:bg-cream",
+          )}
         />
         <span>
           I consent to the{" "}
@@ -209,8 +176,3 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
     </form>
   );
 };
-
-const checkboxClassName = cn(
-  "size-3 shrink-0 appearance-none border border-solid border-cream bg-transparent",
-  "checked:bg-cream",
-);

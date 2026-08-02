@@ -56,7 +56,8 @@ export const HomeProjectCard: FC<Props> = ({
     <h2
       data-id="home-project-card-title"
       className={cn(
-        "absolute inset-0 z-[2] flex items-center justify-center px-12 py-12 text-center text-balance md:px-20 md:py-20",
+        "absolute inset-0 z-[2] flex items-center justify-center p-12 text-center text-balance md:p-20",
+        "font-semibold",
         "font-[family-name:var(--font-matter)] text-[13px] leading-[18px] tracking-[0.15em] uppercase",
         "text-cream opacity-0 transition-opacity duration-300 ease-out",
         "group-hover:opacity-100",

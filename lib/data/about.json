@@ -10,28 +10,6 @@
       "subtitle": null,
       "textPosition": "bottom",
       "color": "#893521",
-      "paragraphs": [
-        {
-          "type": "text",
-          "text": "Dotto was founded in 2014 by Sophie Dotto, who is half South African, half English and grew up between Stellenbosch, Cape Town and the UK before broadening her architectural and design sensibility through a BA in History of Art at Leeds University, and going on to study Interior Design at Parsons, The New School for Design in Manhattan, New York."
-        },
-        {
-          "type": "text",
-          "text": "Sophie is also the co-founder of United Design, a charitable initiative which launched in July 2020 with a mission to address the lack of diversity in interior design, and in 2021 launched the retail offshoot Sister by Dotto, which opened its first bricks and mortar home at The Blewcoat School in St James\u2019s Park in 2022."
-        },
-        {
-          "type": "text",
-          "text": "Today, the studio is led by Sophie alongside Partners Fiona Blanchot and Nicola Koller, ensuring the studio\u2019s vision is carried across all work with the same depth of care and creative rigour. Together, the team creates spaces with a unique identity, looking to bring authenticity to each project, unswayed by the passing dictates of fashion."
-        },
-        {
-          "type": "text",
-          "text": "Our diverse portfolio spans a Grade II listed Edwardian Arts & Crafts home fronting Hyde Park, a six-storey Georgian villa in Holland Park, a contemporary family home in Brighton, a luxury pied-\u00e0-terre in Mayfair, a jewel box apartment in Belgravia, a brownstone in New York, a family home in Hong Kong and boutique hotels in South Africa, Mallorca and London."
-        },
-        {
-          "type": "text",
-          "text": "In 2026, Dotto opened an office in Cape Town, deepening the studio\u2019s connection to South Africa."
-        }
-      ],
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
       "imageBorder": false,
       "imageColor": null
@@ -40,20 +18,10 @@
       "type": "textImage",
       "imagePosition": "left",
       "dynamicHeight": true,
-      "title": "The Blewcoat School",
+      "title": "Jubili",
       "subtitle": null,
       "textPosition": "top",
       "color": "#645E26",
-      "paragraphs": [
-        {
-          "type": "text",
-          "text": "A stone's throw from St James's Park, nestled in a rare skyscraper-less clearing on Caxton Street, sits the Grade I listed Blewcoat School, which is home to Dotto and our shoppable world, Sister. Blewcoat is a commanding presence in the area, having stood there since 1709, when it was built as a school for the underprivileged \u2013 a Bluecoat School. In 1899, the Blewcoat charity relocates to a purpose-built space, leaving the building as an elementary school. The name, however, remains through the decades. In 1954, the building is purchased by the National Trust to house a gift shop, which remains operational until 2013, when bridal wear designer Ian Stewart reimagines it into his showroom."
-        },
-        {
-          "type": "text",
-          "text": "As Dotto becomes the next custodian of this magical and historic site, we aim to create a sense of home for all who visit. From clients to Sister shoppers and brand partners, Dotto\u2019s tenure at Blewcoat transforms it into a go-to destination that connects with and grows our wonderful community."
-        }
-      ],
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/78810f83a3130d447c9b4bc836778d256d3a8b0f-1440x1860.jpg?w=1440&auto=format",
       "imageBorder": true,
       "imageColor": null
@@ -73,7 +41,7 @@
         },
         {
           "type": "text",
-          "text": "Sophie founded her interior design and creative direction practice, Dotto Ltd, in 2014 at the age of 25, and is also the co-founder of United Design, a new charitable initiative which launched in July 2020, with a mission to address the lack of diversity in interior design. In 2021, Sophie also launched her retail offshoot, Sister by Dotto, which opened its first bricks and mortar home at the Blewcoat School in St James\u2019s Park in 2022."
+          "text": "Sophie founded her interior design and creative direction practice, Dotto Ltd, in 2014 at the age of 25, and is also the co-founder of United Design, a new charitable initiative which launched in July 2020, with a mission to address the lack of diversity in interior design. In 2021, Sophie also launched her retail offshoot, Sister by Dotto, which opened its first bricks and mortar home at the Blewcoat School in St James’s Park in 2022."
         },
         {
           "type": "rich",
@@ -83,7 +51,7 @@
               "strong": true
             },
             {
-              "text": "Design Museum \nCentral St Martins \nRoyal College of Art \nFrieze 91\nThe Calico Club \nSoho House \nDecorex \nSotheby\u2019s",
+              "text": "Design Museum \nCentral St Martins \nRoyal College of Art \nFrieze 91\nThe Calico Club \nSoho House \nDecorex \nSotheby’s",
               "strong": false
             }
           ]
@@ -155,11 +123,11 @@
         },
         {
           "type": "text",
-          "text": "With strong leadership, communication, research, and problem-solving skills, Nicola excels in guiding multidisciplinary teams and driving projects to successful outcomes. Their dedication to excellence in design education and practice is reflected in their role at the RCA, the world\u2019s leading postgraduate art and design institution, which has been ranked number one internationally for eight consecutive years."
+          "text": "With strong leadership, communication, research, and problem-solving skills, Nicola excels in guiding multidisciplinary teams and driving projects to successful outcomes. Their dedication to excellence in design education and practice is reflected in their role at the RCA, the world’s leading postgraduate art and design institution, which has been ranked number one internationally for eight consecutive years."
         },
         {
           "type": "text",
-          "text": "Nicola\u2019s key skills include establishing environments for creative growth, active listening and a strong understanding of global trends and policy developments."
+          "text": "Nicola’s key skills include establishing environments for creative growth, active listening and a strong understanding of global trends and policy developments."
         }
       ],
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/253188a5e6cb59ee62551ffbd5d7422c384d178b-1440x1860.jpg?w=1440&auto=format",
@@ -298,7 +266,7 @@
           "type": "rich",
           "runs": [
             {
-              "text": "C\u00e9line Gabathuler, ",
+              "text": "Céline Gabathuler, ",
               "strong": true
             },
             {
@@ -640,7 +608,7 @@
         },
         {
           "type": "text",
-          "text": "In 2021 the charity was honoured with House & Garden\u2019s \u2018Special Contribution to the Design Industry\u2019 award and Homes & Gardens \u2018Contribution to Design\u2019 award."
+          "text": "In 2021 the charity was honoured with House & Garden’s ‘Special Contribution to the Design Industry’ award and Homes & Gardens ‘Contribution to Design’ award."
         },
         {
           "type": "text",

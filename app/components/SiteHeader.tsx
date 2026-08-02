@@ -112,7 +112,7 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
             data-id="site-header-nav"
             className="absolute left-1/2 hidden -translate-x-1/2 md:block"
           >
-            <ul className="flex items-center">
+            <ul className="flex items-center font-semibold">
               {NAV_LINKS.map(({ href, label }) => (
                 <li key={href} className="mx-[20px] lg:mx-[27px]">
                   <Link

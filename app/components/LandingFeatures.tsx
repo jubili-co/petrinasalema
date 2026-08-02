@@ -43,7 +43,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
               "group-hover:text-white",
             )}
           >
-            Dotto
+            Jubili
           </span>
         </div>
         <div

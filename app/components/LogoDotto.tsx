@@ -7,15 +7,15 @@ type Props = {
 };
 
 export const LogoDotto: FC<Props> = ({ className }) => (
-  <span
+  <div
     data-id="logo-dotto"
     className={cn(
       "block font-[family-name:var(--font-beaux)]",
-      "text-[28px] leading-none tracking-[0.12em] uppercase md:text-[34px]",
+      "font-semibold text-base leading-none tracking-[0.12em] uppercase",
       className,
     )}
-    aria-label="Dotto"
   >
-    Dotto
-  </span>
+    <div aria-label="Petrina">Petrina</div>
+    <div aria-label="Salema">Salema</div>
+  </div>
 );

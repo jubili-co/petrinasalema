@@ -1,5 +1,6 @@
 import type { FC } from "react";
 
+import { DsText } from "@/app/components/ds/DsText";
 import { cn } from "@/lib/cn";
 
 type Props = {
@@ -13,13 +14,7 @@ export const AboutTitle: FC<Props> = ({ title, subtitle }) => {
   }
 
   return (
-    <h2
-      data-id="about-title"
-      className={cn(
-        "m-0 mb-[18px] font-[family-name:var(--font-matter)]",
-        "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-      )}
-    >
+    <DsText data-id="about-title" variant="h2">
       {title}
       {subtitle && (
         <span
@@ -32,6 +27,6 @@ export const AboutTitle: FC<Props> = ({ title, subtitle }) => {
           {subtitle}
         </span>
       )}
-    </h2>
+    </DsText>
   );
 };

@@ -1,6 +1,6 @@
-import type { FC } from "react";
+import type { FC, ReactNode } from "react";
 
-import { cn } from "@/lib/cn";
+import { DsText } from "@/app/components/ds/DsText";
 
 export type TextRun = {
   text: string;
@@ -9,7 +9,8 @@ export type TextRun = {
 };
 
 export type TextParagraph =
-  { type: "text"; text: string } | { type: "rich"; runs: TextRun[] };
+  | { type: "text"; text: string }
+  | { type: "rich"; runs: TextRun[] };
 
 type Props = {
   paragraphs: TextParagraph[];
@@ -28,34 +29,38 @@ type AboutParagraphProps = {
 };
 
 const AboutParagraph: FC<AboutParagraphProps> = ({ paragraph }) => {
-  const className = cn(
-    "m-0 mb-[18px] whitespace-pre-line",
-    "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
-    "last:mb-0",
-  );
-
   if (paragraph.type === "text") {
     return (
-      <p data-id="about-body-paragraph" className={className}>
+      <DsText
+        as="p"
+        data-id="about-body-paragraph"
+        variant="body"
+        className="m-0 mb-[18px] whitespace-pre-line last:mb-0"
+      >
         {paragraph.text}
-      </p>
+      </DsText>
     );
   }
 
   return (
-    <p data-id="about-body-paragraph" className={className}>
+    <DsText
+      as="p"
+      data-id="about-body-paragraph"
+      variant="body"
+      className="m-0 mb-[18px] whitespace-pre-line last:mb-0"
+    >
       {paragraph.runs.map((run, index) => (
-        <TextRun key={`${run.text}-${index}`} run={run} />
+        <TextRunView key={`${run.text}-${index}`} run={run} />
       ))}
-    </p>
+    </DsText>
   );
 };
 
-type TextRunProps = {
+type TextRunViewProps = {
   run: TextRun;
 };
 
-const TextRun: FC<TextRunProps> = ({ run }) => {
+const TextRunView: FC<TextRunViewProps> = ({ run }) => {
   const { text, strong, href } = run;
 
   if (!href && strong) {
@@ -76,33 +81,36 @@ type BodyLinkProps = {
 };
 
 const BodyLink: FC<BodyLinkProps> = ({ href, text, strong }) => {
+  if (strong) {
+    return (
+      <BodyAnchor href={href}>
+        <strong>{text}</strong>
+      </BodyAnchor>
+    );
+  }
+
+  return <BodyAnchor href={href}>{text}</BodyAnchor>;
+};
+
+type BodyAnchorProps = {
+  href: string;
+  children: ReactNode;
+};
+
+const BodyAnchor: FC<BodyAnchorProps> = ({ href, children }) => {
   const isExternal = href.startsWith("http");
   const target = isExternal ? "_blank" : undefined;
   const rel = isExternal ? "noopener noreferrer" : undefined;
-
-  if (strong) {
-    return (
-      <a
-        href={href}
-        data-id="about-body-link"
-        className="text-cream underline"
-        target={target}
-        rel={rel}
-      >
-        <strong>{text}</strong>
-      </a>
-    );
-  }
 
   return (
     <a
       href={href}
       data-id="about-body-link"
-      className="text-cream underline"
+      className="text-inherit underline underline-offset-2"
       target={target}
       rel={rel}
     >
-      {text}
+      {children}
     </a>
   );
 };

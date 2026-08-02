@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { FC } from "react";
+import type { FC, ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
 
@@ -11,7 +11,7 @@ export type TextImageSection = {
   imagePosition: string;
   title: string | null;
   subtitle?: string | null;
-  paragraphs: TextParagraph[];
+  paragraphs?: TextParagraph[];
   color?: string | null;
   image?: string | null;
   imageBorder?: boolean;
@@ -22,12 +22,14 @@ export type TextImageSection = {
 
 type Props = {
   section: TextImageSection;
+  body?: ReactNode;
   isFirst?: boolean;
   hasCareersOffset?: boolean;
 };
 
 export const AboutTextImage: FC<Props> = ({
   section,
+  body,
   isFirst = false,
   hasCareersOffset = false,
 }) => {
@@ -46,6 +48,8 @@ export const AboutTextImage: FC<Props> = ({
   const isTextTop = textPosition !== "bottom";
   const background = color || "#633B2F";
   const mediaBackground = imageColor || "#EEE9E2";
+  const sectionParagraphs = paragraphs ?? [];
+  const hasParagraphs = sectionParagraphs.length > 0;
 
   return (
     <section
@@ -77,7 +81,8 @@ export const AboutTextImage: FC<Props> = ({
             })}
           >
             <AboutTitle title={title} subtitle={subtitle} />
-            <AboutBody paragraphs={paragraphs} />
+            {body}
+            {hasParagraphs && <AboutBody paragraphs={sectionParagraphs} />}
           </div>
         </div>
       </div>

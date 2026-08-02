@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import type { FC } from "react";
+import type { FC, ReactNode } from "react";
 
+import { DsMarkdown } from "@/app/components/ds/DsMarkdown";
+import AboutJubiliCopy from "@/content/about-jubili.mdx";
+import AboutPetrinaCopy from "@/content/about-petrina.mdx";
 import about from "@/lib/data/about.json";
 
 import { SiteFooter } from "../components/SiteFooter";
@@ -13,35 +16,75 @@ export const metadata: Metadata = {
   description: about.seoDescription,
 };
 
-const AboutPage: FC = () => (
-  <main data-id="about-page" className="min-h-dvh bg-cream">
-    <SiteHeader variant="home" />
-    <div data-id="about-sections">
-      {about.sections.map((section, index) => {
-        if (section.type === "textImage") {
-          return (
-            <AboutTextImage
-              key={`${section.title}-${index}`}
-              section={section as TextImageSection}
-              isFirst={index === 0}
-            />
-          );
-        }
+const aboutMarkdownClassName = "w-full max-w-[568px] md:w-[70%]";
 
-        if (section.type === "twoText") {
-          return (
-            <AboutTwoText
-              key={`${section.leftTitle}-${index}`}
-              section={section as TwoTextSection}
-            />
-          );
-        }
+const AboutPage: FC = () => {
+  const aboutUsBody = (
+    <DsMarkdown className={aboutMarkdownClassName}>
+      <AboutPetrinaCopy />
+    </DsMarkdown>
+  );
+  const jubiliBody = (
+    <DsMarkdown className={aboutMarkdownClassName}>
+      <AboutJubiliCopy />
+    </DsMarkdown>
+  );
+  const mdxBodyByTitle: Record<string, ReactNode> = {
+    "About Us": aboutUsBody,
+    Jubili: jubiliBody,
+  };
 
-        return null;
-      })}
-    </div>
-    <SiteFooter />
-  </main>
-);
+  return (
+    <main data-id="about-page" className="min-h-dvh bg-cream">
+      <SiteHeader variant="home" />
+      <div data-id="about-sections">
+        {about.sections.map((section, index) => (
+          <AboutPageSection
+            key={`${section.type}-${index}`}
+            section={section}
+            index={index}
+            mdxBodyByTitle={mdxBodyByTitle}
+          />
+        ))}
+      </div>
+      <SiteFooter />
+    </main>
+  );
+};
 
 export default AboutPage;
+
+type AboutSection = (typeof about.sections)[number];
+
+type AboutPageSectionProps = {
+  section: AboutSection;
+  index: number;
+  mdxBodyByTitle: Record<string, ReactNode>;
+};
+
+const AboutPageSection: FC<AboutPageSectionProps> = ({
+  section,
+  index,
+  mdxBodyByTitle,
+}) => {
+  if (section.type === "twoText") {
+    return <AboutTwoText section={section as TwoTextSection} />;
+  }
+
+  if (section.type !== "textImage") {
+    return null;
+  }
+
+  const textImageSection = section as TextImageSection;
+  const { title } = textImageSection;
+  const body = title ? mdxBodyByTitle[title] : undefined;
+  const isFirst = index === 0;
+
+  return (
+    <AboutTextImage
+      section={textImageSection}
+      body={body}
+      isFirst={isFirst}
+    />
+  );
+};
