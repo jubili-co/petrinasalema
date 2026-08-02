@@ -106,7 +106,7 @@ const MarkdownLink: FC<MarkdownLinkProps> = ({ href = "#", children }) => {
     <a
       href={href}
       data-id="ds-markdown-a"
-      className="text-inherit underline underline-offset-2"
+      className="text-inherit underline-offset-2 !underline"
       target={target}
       rel={rel}
     >
