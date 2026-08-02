@@ -14,11 +14,7 @@ export const metadata: Metadata = {
 
 const EMAIL_ROWS = [
   { label: "General Enquiries", value: contact.emails.general },
-  { label: "New Business Enquiries", value: contact.emails.newBusiness },
-  { label: "Sister", value: contact.emails.sister },
-  { label: "Press Enquiries", value: contact.emails.press },
-  { label: "Careers", value: contact.emails.careers },
-  { label: "United in Design", value: contact.emails.unitedInDesign },
+  { label: "Jubili Enquiries", value: contact.emails.jubili },
 ] as const;
 
 const ContactPage: FC = () => {
@@ -58,22 +54,6 @@ const ContactPage: FC = () => {
               </div>
             </div>
 
-            <div data-id="contact-details-telephone" className="mb-[30px]">
-              <h2
-                data-id="contact-details-heading"
-                className="mb-3 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase"
-              >
-                Telephone
-              </h2>
-              <a
-                href={`tel:${contact.telephone.replace(/\s/g, "")}`}
-                data-id="contact-details-phone"
-                className="font-[family-name:var(--font-antiqua)] text-[17px] transition-opacity duration-200 hover:opacity-60"
-              >
-                {contact.telephone}
-              </a>
-            </div>
-
             {EMAIL_ROWS.map(({ label, value }) => (
               <div
                 key={label}
@@ -104,7 +84,7 @@ const ContactPage: FC = () => {
         >
           <Image
             src={contact.image}
-            alt="Dotto contact"
+            alt="Contact"
             fill
             priority
             sizes="(min-width: 768px) 50vw, 100vw"
