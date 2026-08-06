@@ -8,6 +8,7 @@ import { PROJECTS } from "@/lib/projects";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
+import { ProjectsInvite } from "./ProjectsInvite";
 
 export const metadata: Metadata = {
   title: "Projects | Petrina Salema",
@@ -72,6 +73,7 @@ const ProjectsPage: FC = () => (
           </Link>
         );
       })}
+      <ProjectsInvite />
     </section>
     <SiteFooter />
   </main>
