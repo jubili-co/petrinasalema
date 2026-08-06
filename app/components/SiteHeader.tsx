@@ -103,7 +103,7 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
             href="/"
             data-id="site-header-logo"
             className="relative z-10 block w-[180px] md:w-[274px]"
-            aria-label="Dotto home"
+            aria-label="Petrina Salema home"
           >
             <LogoPetina />
           </Link>

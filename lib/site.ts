@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "Dotto",
+  name: "Petrina Salema",
 } as const;
 
 export const NAV_LINKS = [
@@ -12,8 +12,8 @@ export const NAV_LINKS = [
 export const FOOTER_LINKS = [
   { href: "/contact", label: "Contact" },
   {
-    href: "https://www.instagram.com/dotto",
-    label: "Instagram",
+    href: "https://jubili.co",
+    label: "Jubili",
     external: true,
   },
   { href: "/careers", label: "Careers" },

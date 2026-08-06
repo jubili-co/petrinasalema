@@ -1,6 +1,6 @@
 {
-  "seoTitle": "Dotto | Homes Shaped by Art, Colour & Material",
-  "seoDescription": "Dotto is a London interior design studio blending art, craftsmanship and emotion to create layered, timeless spaces.",
+  "seoTitle": "Petrina Salema | About",
+  "seoDescription": "Petrina Salema is a designer with a background in architecture and interior design.",
   "sections": [
     {
       "type": "textImage",
@@ -11,9 +11,9 @@
       "subtitle": "Founder & Designer",
       "textPosition": "bottom",
       "color": "dotto-maroon",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
-      "imageBorder": false,
-      "imageColor": null
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1440&auto=format",
+      "imageColor": null,
+      "imageBorder": true
     },
     {
       "type": "textImage",
@@ -25,87 +25,20 @@
       "textPosition": "top",
       "color": "dotto-olive",
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/78810f83a3130d447c9b4bc836778d256d3a8b0f-1440x1860.jpg?w=1440&auto=format",
-      "imageBorder": true,
-      "imageColor": null
+      "imageColor": null,
+      "imageBorder": false
     },
     {
       "type": "textImage",
       "imagePosition": "right",
       "dynamicHeight": true,
       "title": "Materiality",
-      "subtitle": null,
       "mdx": "materiality",
       "textPosition": "top",
-      "color": "dotto-brown",
-      "paragraphs": [
-        {
-          "type": "text",
-          "text": "Sophie Dotto is half South African, half English and grew up between Stellenbosch (Cape Town) and the UK before broadening her architectural and design sensibility through a BA in History of Art at Leeds University, going on to study Interior Design at Parsons, The New School for Design in Manhattan, New York."
-        },
-        {
-          "type": "text",
-          "text": "Sophie founded her interior design and creative direction practice, Dotto Ltd, in 2014 at the age of 25, and is also the co-founder of United Design, a new charitable initiative which launched in July 2020, with a mission to address the lack of diversity in interior design. In 2021, Sophie also launched her retail offshoot, Sister by Dotto, which opened its first bricks and mortar home at the Blewcoat School in St James’s Park in 2022."
-        },
-        {
-          "type": "rich",
-          "runs": [
-            {
-              "text": "Guest Speaker\n",
-              "strong": true
-            },
-            {
-              "text": "Design Museum \nCentral St Martins \nRoyal College of Art \nFrieze 91\nThe Calico Club \nSoho House \nDecorex \nSotheby’s",
-              "strong": false
-            }
-          ]
-        },
-        {
-          "type": "rich",
-          "runs": [
-            {
-              "text": "Judge",
-              "strong": true
-            },
-            {
-              "text": "\nPAD \nDezeen Awards\nGlobal Design Graduates",
-              "strong": false
-            }
-          ]
-        }
-      ],
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1440&auto=format",
-      "imageBorder": true,
-      "imageColor": "dotto-blush"
-    },
-    {
-      "type": "textImage",
-      "imagePosition": "left",
-      "dynamicHeight": true,
-      "title": "Fiona Blanchot",
-      "subtitle": "Partner",
-      "textPosition": "top",
       "color": "dotto-blue",
-      "paragraphs": [
-        {
-          "type": "text",
-          "text": "Fiona began her career after earning a BA Hons in Interior Architecture, setting the foundation for a diverse and accomplished journey in design. Over the past seventeen years, she has worked on a wide array of high-profile projects, spanning industries such as luxury residential, retail, and hospitality."
-        },
-        {
-          "type": "text",
-          "text": "For the last decade, Fiona has been a key figure at Dotto, collaborating closely with founder Sophie Dotto to help grow the studio into an established and respected name in the industry. Her contributions have been instrumental in expanding the business while maintaining the studio's reputation for delivering exceptional designs."
-        },
-        {
-          "type": "text",
-          "text": "In addition to her role in shaping the wider business strategy, Fiona has taken on the role of Project Lead for numerous high-profile schemes. She thrives on the balance between creativity and technical precision, combining both to deliver cohesive and innovative designs. Her approach is holistic, ensuring that each project reflects both aesthetic beauty and functional excellence."
-        },
-        {
-          "type": "text",
-          "text": "Fiona's passion lies in how spaces are experienced by their inhabitants. She focuses on meticulous space planning, the use of natural materials, and the final touches - furniture and art - to create environments that not only look beautiful but feel intuitive and welcoming. This attention to detail has made her a leader in interior architecture, committed to enhancing the way people live, work, and interact with their surroundings."
-        }
-      ],
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/699c9d7da88eed0035f90c2a12af2466ac29a563-1440x1860.jpg?w=1440&auto=format",
-      "imageBorder": true,
-      "imageColor": null
+      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
+      "imageColor": "dotto-blush",
+      "imageBorder": false
     }
   ]
 }

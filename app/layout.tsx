@@ -7,10 +7,10 @@ import { CookieBanner } from "./components/CookieBanner";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Dotto | Interior Design, Architecture & Creative Direction",
+  title: "Petrina Salema | Interior Design & Architecture",
   description:
-    "Dotto crafts spaces of authenticity and elegance—layering art, antiques, and craftsmanship into interiors with lasting character and soul.",
-  applicationName: "Dotto",
+    "Petrina Salema is an architect and interior designer based in Vienna — spaces that feel considered rather than styled, grounded in material and built to hold up in use.",
+  applicationName: "Petrina Salema",
 };
 
 export const viewport: Viewport = {

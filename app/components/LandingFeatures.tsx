@@ -55,7 +55,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
         >
           <Image
             src={studioImage}
-            alt="Dotto interior"
+            alt="Jubili interior"
             fill
             sizes="50vw"
             className="object-cover"
@@ -80,7 +80,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, sisterImage }) => (
         >
           <Image
             src="/images/landing-sister.png"
-            alt="Sister by Dotto — Furniture & Art"
+            alt="Sister — Furniture & Art"
             width={600}
             height={801}
             data-id="landing-features-sister-mark"

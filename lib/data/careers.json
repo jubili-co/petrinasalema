@@ -1,6 +1,6 @@
 {
-  "seoTitle": "Dotto | Careers",
-  "seoDescription": "Explore careers at Dotto and discover opportunities across interior design, architecture and creative practice.",
+  "seoTitle": "Careers | Petrina Salema",
+  "seoDescription": "Opportunities to work with Petrina Salema across interior design, architecture and hospitality.",
   "section": {
     "type": "textImage",
     "imagePosition": "right",
@@ -14,34 +14,7 @@
     "paragraphs": [
       {
         "type": "text",
-        "text": "Dotto is currently recruiting:"
-      },
-      {
-        "type": "rich",
-        "runs": [
-          {
-            "text": "Senior FF&E Designer",
-            "href": "https://dotto.com/dotto-senior-ffe-designer"
-          }
-        ]
-      },
-      {
-        "type": "rich",
-        "runs": [
-          {
-            "text": "Senior Procurement Manager",
-            "href": "https://dotto.com/dotto-senior-procurement-manager"
-          }
-        ]
-      },
-      {
-        "type": "rich",
-        "runs": [
-          {
-            "text": "Head of FF&E",
-            "href": "https://dotto.com/dotto-head-of-ffe"
-          }
-        ]
+        "text": "There are no open roles at the moment."
       },
       {
         "type": "rich",
@@ -50,11 +23,11 @@
             "text": "If you would like to send a speculative application, please email your CV, a cover note and portfolio (if applicable) to "
           },
           {
-            "text": "careers@dotto.com",
-            "href": "mailto:careers@dotto.com"
+            "text": "contact@petrinasalema.com",
+            "href": "mailto:contact@petrinasalema.com"
           },
           {
-            "text": " citing the job title in the subject line."
+            "text": "."
           }
         ]
       }

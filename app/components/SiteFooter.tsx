@@ -31,7 +31,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
           href="/"
           data-id="site-footer-logo"
           className="block w-full max-w-[223px] text-dotto-cream"
-          aria-label="Dotto home"
+          aria-label="Petrina Salema home"
         >
           <LogoPetina />
         </Link>
@@ -62,7 +62,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         className={cn(
           "w-full md:w-1/5 text-right",
           "font-[family-name:var(--font-matter)]",
-          "text-[11px] text-dotto-brown-muted",
+          "text-[11px] leading-tight text-dotto-brown-muted",
         )}
       >
         <p>Design + Furnishing</p>

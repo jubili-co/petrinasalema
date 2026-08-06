@@ -3,6 +3,7 @@ import type { FC, ReactNode } from "react";
 
 import { DsMarkdown } from "@/app/components/ds/DsMarkdown";
 import AboutJubiliCopy from "@/content/about-jubili.mdx";
+import AboutMaterialityCopy from "@/content/about-materiality.mdx";
 import AboutPetrinaCopy from "@/content/about-petrina.mdx";
 import about from "@/lib/data/about.json";
 
@@ -32,6 +33,11 @@ const AboutPage: FC = () => {
     jubili: (
       <DsMarkdown className={aboutMarkdownClassName}>
         <AboutJubiliCopy />
+      </DsMarkdown>
+    ),
+    materiality: (
+      <DsMarkdown className={aboutMarkdownClassName}>
+        <AboutMaterialityCopy />
       </DsMarkdown>
     ),
   };

@@ -9,9 +9,8 @@ import landing from "@/lib/data/landing.json";
 import { SiteHeader } from "../components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Sister by Dotto",
-  description:
-    "Furniture, art, hardware and rugs from Sister by Dotto.",
+  title: "Sister | Petrina Salema",
+  description: "Furniture, art, hardware and rugs from the Sister collection.",
 };
 
 const SisterPage: FC = () => (
@@ -27,7 +26,7 @@ const SisterPage: FC = () => (
       >
         <Image
           src={landing.sisterImage}
-          alt="Sister by Dotto"
+          alt="Sister collection"
           fill
           priority
           sizes="100vw"
@@ -40,7 +39,7 @@ const SisterPage: FC = () => (
       >
         <Image
           src="/images/landing-sister.png"
-          alt="Sister by Dotto — Furniture & Art"
+          alt="Sister — Furniture & Art"
           width={600}
           height={801}
           priority
@@ -55,9 +54,7 @@ const SisterPage: FC = () => (
           collection.
         </p>
         <Link
-          href="https://dotto.com/sister/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/contact"
           data-id="sister-hero-cta"
           className={cn(
             "mt-10 min-h-11 border border-dotto-blue px-8 py-3",
@@ -66,7 +63,7 @@ const SisterPage: FC = () => (
             "hover:bg-dotto-blue hover:text-dotto-cream active:scale-[0.97]",
           )}
         >
-          Visit Sister Store
+          Get in touch
         </Link>
       </div>
     </section>

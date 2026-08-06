@@ -7,7 +7,7 @@ import { cn } from "@/lib/cn";
 import { AboutBody, type TextParagraph } from "./AboutBody";
 import { AboutTitle } from "./AboutTitle";
 
-export type AboutMdxKey = "petrina" | "jubili";
+export type AboutMdxKey = "petrina" | "jubili" | "materiality";
 
 export type TextImageSection = {
   type: "textImage";
@@ -100,7 +100,7 @@ export const AboutTextImage: FC<Props> = ({
         {image && (
           <AboutMediaImage
             image={image}
-            alt={title || "Dotto"}
+            alt={title || "Petrina Salema"}
             hasBorder={Boolean(imageBorder)}
           />
         )}

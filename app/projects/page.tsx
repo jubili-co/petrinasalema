@@ -10,7 +10,7 @@ import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Projects | Dotto",
+  title: "Projects | Petrina Salema",
   description:
     "Selected architecture, interiors and project-management work by Petrina Salema.",
 };
