@@ -6,6 +6,7 @@ import AboutJubiliCopy from "@/content/about-jubili.mdx";
 import AboutMaterialityCopy from "@/content/about-materiality.mdx";
 import AboutPetrinaCopy from "@/content/about-petrina.mdx";
 import about from "@/lib/data/about.json";
+import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
@@ -135,6 +136,7 @@ function toTextImageSection(section: AboutSection): TextImageSection | null {
     mdx,
   } = section;
   const cta = "cta" in section ? section.cta : null;
+  const resolvedImage = image ? resolveProjectImageSrc(image) : null;
 
   return {
     type: "textImage",
@@ -145,7 +147,7 @@ function toTextImageSection(section: AboutSection): TextImageSection | null {
     mdx: isAboutMdxKey(mdx) ? mdx : null,
     textPosition,
     color,
-    image: image ?? null,
+    image: resolvedImage,
     imageColor,
     imageBorder,
     cta: cta

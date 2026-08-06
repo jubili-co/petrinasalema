@@ -1,6 +1,136 @@
 {
   "projects": [
     {
+      "id": "tegelweg-vienna",
+      "slug": "tegelweg-4-bedroom-apartment-vienna",
+      "name": "Tegelweg",
+      "subtitle": "4-Bedroom Apartment",
+      "location": "Vienna, Austria",
+      "roles": [
+        {
+          "name": "Petrina Salema",
+          "role": "Design Lead"
+        }
+      ],
+      "scope": [
+        "Interior concept",
+        "Space planning",
+        "FF&E sourcing",
+        "Styling",
+        "Guest-experience design"
+      ],
+      "description": "Designed and developed in phases over five years, from an initial two-bedroom configuration to its current four bedrooms. The project became a working environment in which interior concepts, space planning and guest-experience decisions could be tested and refined through ongoing use. Designed for Jubili, a hospitality brand co-founded as part of establishing the practice.",
+      "tags": [
+        "Residential",
+        "Hospitality",
+        "Interior design",
+        "Space planning",
+        "Guest experience",
+        "Phased development"
+      ],
+      "images": [
+        {
+          "src": "gdrive:1ygnbZrxmyKLJP7I1OKut8rJfnKK-Vumt",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1jgbIEXVEzfNXU2MQuoorQvkWiPLHc3FX",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1-G3z6MXx_jpHZxjg_Ef-vD9_R0qMWAG3",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1WDKh6xyv2xDJvIvf5XGwFQg1O67Bh7_y",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1hfkOe3jLygQnkmVKDZKzglQ4YjdU1_sL",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1IPAIx7Pv22owL2vjqY5sJibaCHq_4kQ3",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1edJ65jc4kxU2Dg5J6JgXyXaC4rTUFyZX",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1KJykIyKFWsaCFvRJv0B5R-s4H1jDj5Bg",
+          "alt": "Tegelweg",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1ZPDCFKUdTRgUtDo0mnf7p3cuNQYeHw4T",
+          "alt": "Tegelweg",
+          "caption": ""
+        }
+      ],
+      "links": [],
+      "featured": true
+    },
+    {
+      "id": "brabbeegasse-vienna",
+      "slug": "brabbeegasse-single-unit-apartment-vienna",
+      "name": "Brabbeegasse",
+      "subtitle": "Single-Unit Apartment",
+      "location": "Vienna, Austria",
+      "roles": [
+        {
+          "name": "Petrina Salema",
+          "role": "Design Lead"
+        }
+      ],
+      "scope": [
+        "Interior concept",
+        "Styling",
+        "FF&E sourcing",
+        "Reversible design interventions"
+      ],
+      "description": "Designed for Jubili as the hospitality brand expanded to additional properties. The project demonstrated how a rented apartment could be transformed to express a distinct brand aesthetic while remaining capable of being returned to its original condition at the end of the lease.",
+      "tags": [
+        "Residential",
+        "Hospitality",
+        "Interior design",
+        "Rental property",
+        "Reversible design",
+        "Brand expression"
+      ],
+      "images": [
+        {
+          "src": "gdrive:1iME7OmjE6DfIerVByVEklYAksq0jNoK-",
+          "alt": "Brabbeegasse",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:1maSN4UElhjm6T4BiTWC-M7oWUhTsodD8",
+          "alt": "Brabbeegasse",
+          "caption": ""
+        },
+        {
+          "src": "gdrive:10xJO8tpFkq3gAJBfWBqzadwIavizb7Eo",
+          "alt": "Brabbeegasse",
+          "caption": ""
+        }
+      ],
+      "links": [],
+      "featured": true
+    },
+    {
       "id": "analytical-fingerprint-laboratory-amgc",
       "slug": "analytical-fingerprint-laboratory-rehabilitation",
       "name": "Analytical Fingerprint Laboratory Building",
@@ -42,7 +172,47 @@
           "href": "https://maps.app.goo.gl/choNpS8b8Jta21Ms9",
           "text": "African Minerals and Geosciences Centre"
         }
-      ]
+      ],
+      "featured": true
+    },
+    {
+      "id": "ccbrt-maternity-hospital",
+      "slug": "new-ccbrt-maternity-hospital",
+      "name": "CCBRT Maternity Hospital",
+      "subtitle": "Detail Design and Construction",
+      "location": "Dar es Salaam, Tanzania",
+      "roles": [
+        {
+          "name": "Petrina Salema",
+          "role": "Project Manager and Architectural Design Lead, APC Architectural Pioneering Consultants"
+        }
+      ],
+      "scope": [
+        "Detailed architectural design",
+        "Production information",
+        "Design-team leadership",
+        "Medical-equipment coordination",
+        "MEP coordination",
+        "Technical drawing review"
+      ],
+      "description": "Led a team of architects in detailed design and production information for a healthcare facility with significant building-services complexity. Directed the overlay and review of design-development drawings to verify the placement of medical equipment against mechanical, electrical and plumbing services.",
+      "tags": [
+        "Healthcare",
+        "Maternity",
+        "Hospital",
+        "Technical coordination",
+        "Medical equipment",
+        "Architecture"
+      ],
+      "images": [
+        {
+          "src": "gdrive:14KqThPSVMNtujgd6xgnkMIGVOkI3w-nV",
+          "alt": "CCBRT Maternity Hospital",
+          "caption": ""
+        }
+      ],
+      "links": [],
+      "featured": true
     },
     {
       "id": "ist-athletic-centre",
@@ -91,7 +261,8 @@
           "caption": ""
         }
       ],
-      "links": []
+      "links": [],
+      "featured": false
     },
     {
       "id": "montessori-childrens-house-primary-school",
@@ -121,109 +292,9 @@
         "Architecture",
         "Second prize"
       ],
-      "images": [
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/f82131118ffff4a6a033c7fc9024ca4e826e042c-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/81928cb1f819842936f0953907417fc42272e54f-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/7d11c92bf2febfa4418b2b7c835df09e9ff7eef7-1279x1705.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ef7d33a715998fbe3b254530f405496e2442ce8e-1231x1642.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/49d6adfa36aee41a2b9292cc25bb6823b76712f5-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/216b2619dd3897ec42414d1a562533752aeb238c-1245x1660.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/edb85eabfeaa8599f91d14a69b38da6e96cec177-1332x1776.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/2d0e1f7b453211f83d297d41f6e74256f20e391b-1333x1777.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/c45cbf480967674d8f9bb8386a134202fda49792-1193x1590.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/3eec0dff199f437d493397ec87e203347789e7b3-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/6dc729cd497b224669cb39ba48d145e6d6491047-1270x1694.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/55b053b02058084fdd56c8502397053d3e23b6a4-1233x1644.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1e14aeeab276938dc5b8aa39718933b1ed89b69f-1216x1621.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/3151b45c22199f86f0e21cb983d6e441d37c682b-1308x1744.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/c43af78f95e517c0cb7e75663e2a6cfc0e5a7d46-1841x1228.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/366edbb6e41fcc40e293f8a049befd7796a46b06-1629x1086.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/a0d1b2e141330c6bd2637d9e96e25a053d2fb562-1190x1587.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/6de87c04fc1ee7730676906088f402355e879d66-1262x1683.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/80f2769600374bde9c30e03b26a0f93d56529515-1310x1747.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/91a8e010fc84d7fa339026401c5b3f6b222be458-1167x1556.jpg?w=1600&auto=format",
-          "alt": "Montessori Children's House and Primary School",
-          "caption": ""
-        }
-      ],
-      "links": []
+      "images": [],
+      "links": [],
+      "featured": false
     },
     {
       "id": "ist-classroom-blocks-d-e",
@@ -266,45 +337,8 @@
           "caption": ""
         }
       ],
-      "links": []
-    },
-    {
-      "id": "ccbrt-maternity-hospital",
-      "slug": "new-ccbrt-maternity-hospital",
-      "name": "CCBRT Maternity Hospital",
-      "subtitle": "Detail Design and Construction",
-      "location": "Dar es Salaam, Tanzania",
-      "roles": [
-        {
-          "name": "Petrina Salema",
-          "role": "Project Manager and Architectural Design Lead, APC Architectural Pioneering Consultants"
-        }
-      ],
-      "scope": [
-        "Detailed architectural design",
-        "Production information",
-        "Design-team leadership",
-        "Medical-equipment coordination",
-        "MEP coordination",
-        "Technical drawing review"
-      ],
-      "description": "Led a team of architects in detailed design and production information for a healthcare facility with significant building-services complexity. Directed the overlay and review of design-development drawings to verify the placement of medical equipment against mechanical, electrical and plumbing services.",
-      "tags": [
-        "Healthcare",
-        "Maternity",
-        "Hospital",
-        "Technical coordination",
-        "Medical equipment",
-        "Architecture"
-      ],
-      "images": [
-        {
-          "src": "gdrive:14KqThPSVMNtujgd6xgnkMIGVOkI3w-nV",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        }
-      ],
-      "links": []
+      "links": [],
+      "featured": false
     },
     {
       "id": "bank-of-tanzania-mwanza",
@@ -363,150 +397,8 @@
           "href": "https://maps.app.goo.gl/Q2FPU73j5DWTwXUL6",
           "text": "Bank of Tanzania"
         }
-      ]
-    },
-    {
-      "id": "tegelweg-vienna",
-      "slug": "tegelweg-4-bedroom-apartment-vienna",
-      "name": "Tegelweg",
-      "subtitle": "4-Bedroom Apartment",
-      "location": "Vienna, Austria",
-      "roles": [
-        {
-          "name": "Petrina Salema",
-          "role": "Design Lead"
-        }
       ],
-      "scope": [
-        "Interior concept",
-        "Space planning",
-        "FF&E sourcing",
-        "Styling",
-        "Guest-experience design"
-      ],
-      "description": "Designed and developed in phases over five years, from an initial two-bedroom configuration to its current four bedrooms. The project became a working environment in which interior concepts, space planning and guest-experience decisions could be tested and refined through ongoing use. Designed for Jubili, a hospitality brand co-founded as part of establishing the practice.",
-      "tags": [
-        "Residential",
-        "Hospitality",
-        "Interior design",
-        "Space planning",
-        "Guest experience",
-        "Phased development"
-      ],
-      "images": [
-        {
-          "src": "gdrive:1HEySPEPbpK7kd-CHwVrMEiOf68D-Rtai",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "gdrive:1OROrC-QlTdHE1sIyjNO8sCSms4pJ_6je",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "gdrive:1HzXwswRerys8KxrWxPiDHoePeO6YlsnZ",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "gdrive:1pj7DK0pJ-7uD_r6QD-eIp4n8tcadqPB1",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "gdrive:1w4HaPU4mS3odBXEDnhQfN132bSFAEq9W",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "gdrive:1w_AAwAnHUnl4v7ApGB1EG7PlIQyyBsfA",
-          "alt": "Tegelweg",
-          "caption": ""
-        }
-      ],
-      "links": []
-    },
-    {
-      "id": "brabbeegasse-vienna",
-      "slug": "brabbeegasse-single-unit-apartment-vienna",
-      "name": "Brabbeegasse",
-      "subtitle": "Single-Unit Apartment",
-      "location": "Vienna, Austria",
-      "roles": [
-        {
-          "name": "Petrina Salema",
-          "role": "Design Lead"
-        }
-      ],
-      "scope": [
-        "Interior concept",
-        "Styling",
-        "FF&E sourcing",
-        "Reversible design interventions"
-      ],
-      "description": "Designed for Jubili as the hospitality brand expanded to additional properties. The project demonstrated how a rented apartment could be transformed to express a distinct brand aesthetic while remaining capable of being returned to its original condition at the end of the lease.",
-      "tags": [
-        "Residential",
-        "Hospitality",
-        "Interior design",
-        "Rental property",
-        "Reversible design",
-        "Brand expression"
-      ],
-      "images": [
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/45a2c2a11346ddd7dc923a665e5c7a1b2be7ecc9-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/d49f78867e71355689930b999f45bcef36a4c1e5-1860x1201.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/9869850e3fbc41a4711f95bab8c51d3ccadc9876-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/f79721c6ce155ecb0df50e8cd2cbb782728aaf3b-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/51788ce8cb081538042a280cc1ea0bb9257261c9-1860x1201.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/45a2c2a11346ddd7dc923a665e5c7a1b2be7ecc9-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/116e4e781d76ee54b10d974f290b47653f596b4d-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/981f41ecc16d7f5bd6bc64c526f1e351ea43ffa3-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/83bccf7b6a21cf5911fd75724693691e44093e6f-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/32ff7641d5bbbef5c63a5157a0a1d4809a974b11-1860x1201.jpg?w=1600&auto=format",
-          "alt": "Brabbeegasse",
-          "caption": ""
-        }
-      ],
-      "links": []
+      "featured": false
     }
   ]
 }

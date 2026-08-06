@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { FC } from "react";
 
+import {
+  packGalleryRows,
+  withGalleryDimensions,
+} from "@/lib/projectGallery";
 import { getNextProject, getProject, PROJECTS } from "@/lib/projects";
 
 import { SiteFooter } from "../../components/SiteFooter";
@@ -43,11 +47,13 @@ const ProjectPage: FC<Props> = async ({ params }) => {
 
   const nextProject = getNextProject(slug);
   const { name, images } = project;
+  const framed = await withGalleryDimensions(images);
+  const rows = packGalleryRows(framed);
 
   return (
     <main data-id="project-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader />
-      <ProjectGallery name={name} images={images} />
+      <ProjectGallery name={name} rows={rows} />
       <ProjectDetails project={project} nextSlug={nextProject.slug} />
       <SiteFooter />
     </main>

@@ -3,11 +3,10 @@ import type { FC } from "react";
 
 import home from "@/lib/data/home.json";
 import landing from "@/lib/data/landing.json";
+import { resolveProjectImageSrc } from "@/lib/googleDrive";
+import { homeProjectBlocks } from "@/lib/projects";
 
-import {
-  HomeProjects,
-  type HomeProjectBlock,
-} from "./components/HomeProjects";
+import { HomeProjects } from "./components/HomeProjects";
 import { LandingFeatures } from "./components/LandingFeatures";
 import { NewsletterSignup } from "./components/NewsletterSignup";
 import { SiteFooter } from "./components/SiteFooter";
@@ -18,17 +17,17 @@ export const metadata: Metadata = {
   description: home.seoDescription,
 };
 
-const blocks = home.blocks as HomeProjectBlock[];
-
 const HomePage: FC = () => (
   <main data-id="home-page" className="min-h-dvh">
     <SiteHeader />
-    <HomeProjects blocks={blocks} />
+    <HomeProjects blocks={homeProjectBlocks()} />
     <LandingFeatures
-      studioImage={landing.studioImage}
-      jubiliImage={landing.jubiliImage}
+      studioImage={resolveProjectImageSrc(landing.studioImage)}
+      jubiliImage={resolveProjectImageSrc(landing.jubiliImage)}
     />
-    <NewsletterSignup image={landing.newsletterImage} />
+    <NewsletterSignup
+      image={resolveProjectImageSrc(landing.newsletterImage)}
+    />
     <SiteFooter />
   </main>
 );

@@ -3,16 +3,10 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-
-type ProjectItem = {
-  title: string;
-  slug: string;
-  image: string;
-  alt: string;
-};
+import type { HomeProjectCardItem } from "@/lib/projects";
 
 type Props = {
-  item: ProjectItem;
+  item: HomeProjectCardItem;
   className?: string;
   sizes: string;
   isLandscape?: boolean;

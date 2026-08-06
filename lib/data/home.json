@@ -1,47 +1,4 @@
 {
   "seoTitle": "Petrina Salema | Interior Design & Architecture",
-  "seoDescription": "Petrina Salema is an architect and interior designer based in Vienna — spaces that feel considered rather than styled, grounded in material and built to hold up in use.",
-  "blocks": [
-    {
-      "type": "portrait",
-      "items": [
-        {
-          "title": "St James's Park Apartment",
-          "slug": "st-james-s-park-apartment",
-          "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d2f20ca8b4df96f149ea95735f5692c2e8ba601f-1260x1628.jpg?w=1260&h=1628&auto=format",
-          "alt": "Petrina Salema – St James's Park Apartment"
-        },
-        {
-          "title": "Villa Robert Graves, La Residencia Belmond",
-          "slug": "villa-robert-graves-la-residencia-belmond",
-          "image": "https://cdn.sanity.io/images/4jb8q7bc/production/c56bc552a9d45d11f4457bb7f50d9201350acf38-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Petrina Salema – Belmond"
-        }
-      ]
-    },
-    {
-      "type": "landscape",
-      "title": "Guernsey Family Home",
-      "slug": "guernsey-family-home",
-      "image": "https://cdn.sanity.io/images/4jb8q7bc/production/b314fd587c954a708636451dad7a78aea44ac512-3600x2325.jpg?w=3600&h=2325&auto=format",
-      "alt": "Petrina Salema – Guernsey Family Home"
-    },
-    {
-      "type": "portrait",
-      "items": [
-        {
-          "title": "Hampstead Family Home",
-          "slug": "hampstead-family-home",
-          "image": "https://cdn.sanity.io/images/4jb8q7bc/production/b5652bb631f55566eae3dad30ab95582dd5dcaf1-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Petrina Salema – Hampstead Family Home"
-        },
-        {
-          "title": "Tamodi Estate & Polo Reserve",
-          "slug": "tamodi-estate",
-          "image": "https://cdn.sanity.io/images/4jb8q7bc/production/ba5e35e61e7546822f3c8d6c119f52e2462afe9a-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Petrina Salema – Tamodi Estate"
-        }
-      ]
-    }
-  ]
+  "seoDescription": "Petrina Salema is an architect and interior designer based in Vienna — spaces that feel considered rather than styled, grounded in material and built to hold up in use."
 }

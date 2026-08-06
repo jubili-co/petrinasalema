@@ -1,28 +1,8 @@
 import type { FC } from "react";
 
+import type { HomeProjectBlock } from "@/lib/projects";
+
 import { HomeProjectCard } from "./HomeProjectCard";
-
-type ProjectItem = {
-  title: string;
-  slug: string;
-  image: string;
-  alt: string;
-};
-
-type PortraitBlock = {
-  type: "portrait";
-  items: ProjectItem[];
-};
-
-type LandscapeBlock = {
-  type: "landscape";
-  title: string;
-  slug: string;
-  image: string;
-  alt: string;
-};
-
-export type HomeProjectBlock = PortraitBlock | LandscapeBlock;
 
 type Props = {
   blocks: HomeProjectBlock[];
