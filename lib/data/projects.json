@@ -4,7 +4,7 @@
       "id": "analytical-fingerprint-laboratory-amgc",
       "slug": "analytical-fingerprint-laboratory-rehabilitation",
       "name": "Analytical Fingerprint Laboratory Building",
-      "subtitle": "Rehabilitation for AMGC",
+      "subtitle": "Rehabilitation for Analytical Fingerprint Laboratory Building",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -35,59 +35,14 @@
           "src": "gdrive:1F4r1qLQexnMOYmBPX1J4mE71VuUavbol",
           "alt": "Analytical Fingerprint Laboratory Building",
           "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ba5e35e61e7546822f3c8d6c119f52e2462afe9a-1440x1860.jpg?w=1440&h=1860&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/8de7221a732fe69f9903f708a05be965ceb78f7d-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/85308e61f820eacd56e27e98160ca888f9f6a187-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/0fe2095a549e10d574afb33f32208dc75d335d4c-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/25672cd71ff11136b1e8db5be8dcd1a7c294321a-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/22b13c906460b892275029136574ee1087a76294-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/54cfda28bfe8f9b9340c82d0d1039944461614a0-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/6fd04985b1eb73b84e0b77e6980f24bfb33e5cbb-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/7afe95e8dead22b0fc375ce43e06804a28e1839c-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/500f15586f338e44045e6d160a3a81f2d58d093d-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Analytical Fingerprint Laboratory Building",
-          "caption": ""
         }
       ],
-      "links": []
+      "links": [
+        {
+          "href": "https://maps.app.goo.gl/choNpS8b8Jta21Ms9",
+          "text": "African Minerals and Geosciences Centre"
+        }
+      ]
     },
     {
       "id": "ist-athletic-centre",
@@ -121,72 +76,17 @@
       ],
       "images": [
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/d33b24b44aecc2b3d1be8b12465d543774f6945e-1440x1860.jpg?w=1440&h=1860&auto=format",
+          "src": "gdrive:19zqXD5auRvn1MHFDbQDEcfyyr18VI1_u",
           "alt": "International School of Tanganyika",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/b314fd587c954a708636451dad7a78aea44ac512-3600x2325.jpg?w=1600&auto=format",
+          "src": "gdrive:1Lygj2ey-dMu10mEL47oBcrOGKiTWVYMm",
           "alt": "International School of Tanganyika",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/fa8905196cf62658421f555815e1ecc891560576-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ae2f251a5e04d034ca246eb0e7296d70b0c0aef5-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/5405e75e2d33d0d0b17e5c9c7391130886baab8c-3600x2325.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/e878c3e96545855f8cd9681668eaef57cdf26c25-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/df997c5d5c12420693d552094dcaaac96bc1b115-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/8d4053a15cee8d15bb92e5cb13ed21160d20f82b-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/66ad36b5d18269a8647477fe81a83719677e4266-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/e03fb84eb3ac402ce4f47e65fb54062807dbcd54-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/e294dfe3323ea8913b6b0cf11cd7c76bf88deb46-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/721670fd11e148ce7157cc1a9ea268d81c6c8b52-3600x2325.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/0e19ffaff579076c21bc07fbc2d09e379f00d92b-1440x1860.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/376beafa67ed5b89d69ce315ab30236bd97da06f-1440x1860.jpg?w=1600&auto=format",
+          "src": "gdrive:1MHcPx7V9De9QjOH2XZlC-nCM-uiI6fPM",
           "alt": "International School of Tanganyika",
           "caption": ""
         }
@@ -197,7 +97,7 @@
       "id": "montessori-childrens-house-primary-school",
       "slug": "montessori-childrens-house-primary-school-competition",
       "name": "Montessori Children's House and Primary School",
-      "subtitle": "Competition Entry · 2nd Prize",
+      "subtitle": "Competition Entry \u00b7 2nd Prize",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -356,72 +256,12 @@
       ],
       "images": [
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/f5859835ef24efb051ccb050d8b14b0ac1a2b99b-1275x1646.jpg?w=1275&h=1646&auto=format",
+          "src": "gdrive:1bRJabPBL_RjcEFopOQAen1dJxRRVT6QT",
           "alt": "International School of Tanganyika",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/eb0108854b0f65b9e3bb42e581012af4afc21be4-1913x1236.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/f5859835ef24efb051ccb050d8b14b0ac1a2b99b-1275x1646.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/62ec6c8129e819003792dcf196332ebc18fe697e-1276x1648.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/57bebc3448dc6589f3df71b80e16bb28cf21199c-1908x1232.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/d2f20ca8b4df96f149ea95735f5692c2e8ba601f-1260x1628.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/56d9555de1cfa7e44176ff158c467c9492a0a954-1239x1600.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/62259a83a993d652bfe58c89bcc2ac635df06fa5-1246x1609.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1b559e699fcca67d80fd8ca39a671e9d1f8ebf09-1281x1654.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/0ee58db38373f083be1378d62d395df92a62c49f-1801x1163.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1bc01d6ced9bde1560711f5a64535981dfafdf99-1268x1638.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/b4afa1d0e97ddc44f25b69002ab66fcf57cc41c6-1222x1578.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/8734daa8c0a90bc223abb16ce2ec177e66d2956e-1275x1647.jpg?w=1600&auto=format",
-          "alt": "International School of Tanganyika",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/515dee3a87b226ec0aba71c48c617710f9e57c68-1137x1469.jpg?w=1600&auto=format",
+          "src": "gdrive:17ho08KPacPpdykADk63DbnX49ZTGqssz",
           "alt": "International School of Tanganyika",
           "caption": ""
         }
@@ -459,82 +299,7 @@
       ],
       "images": [
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/09ec1bd2731dda0486fbb5a831525f4aff877827-1586x2048.jpg?w=1586&h=2048&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/e0982c46daf1716a8ed5ec52098195aca3dea02f-3000x2142.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/efd2f84b2fe3ecb02cdee89fffc085e6cc4d0840-1586x2048.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/73383b06ac361d0d3be8f94588b13a717ef10852-1586x2048.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/f8b4f601cb8efea36e550965c77a85da282f38c0-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/0ed3f50a9ea5e5dd09ef70c41c78f08b7e6152db-1586x2048.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/2a16f4539684478051152dadd75d6ef67f07daec-1586x2048.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/52368bd01a847224bb2b7583ade25be714e01c48-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/4aa53631e1e962c433f3562d58f88ffd70ffddf1-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/2a8b2e20d1022fc23e2f3cedf263b07f2736d638-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/7742d5c6bbf113303925bfe74c9c093d013ecd44-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/a926294c346202bcb56858ca64f60484a9ac6284-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/d5dbc2bca284c839fa11d75f9d40ec1775bb10cf-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/749bf1ab84d2921833f2c2cc829d977be8eb260d-2048x1463.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/f23488165ea08f3ed7a328fcf8a444355486384c-1586x2048.jpg?w=1600&auto=format",
-          "alt": "CCBRT Maternity Hospital",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/0bdcd784de8d21e82732ae7969f77c182ebd4ab1-1586x2048.jpg?w=1600&auto=format",
+          "src": "gdrive:14KqThPSVMNtujgd6xgnkMIGVOkI3w-nV",
           "alt": "CCBRT Maternity Hospital",
           "caption": ""
         }
@@ -574,142 +339,17 @@
       ],
       "images": [
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/725850fa288c724585c4e76e2655005cc3ce83ca-1440x1860.jpg?w=1440&h=1860&auto=format",
+          "src": "gdrive:18AaKtdMDVk6GJWK84sfoUaKtw12ekQIJ",
           "alt": "Bank of Tanzania",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/abca6c234d691644d59b14b1ecc7fbcaee683948-3600x2571.jpg?w=1600&auto=format",
+          "src": "gdrive:1syjGWs4FZb57Edku4pMcUAF8AlekCmH6",
           "alt": "Bank of Tanzania",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/4f1de826c7e68b775547d87e04b439fa2042c319-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/4b559d4344ea12b0f5377bd3ba31b4d83987f0bb-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/81c28b91a416b42c5223496c7ee5dbed8fe0ae9b-3600x2571.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/e1dc090d47a3eda1368c721a481ecca50a625e1e-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ee2c03cb61d7d606d2368c7c82779298562e9c3d-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/af1e916c0bc6a9fd45c3dc23feb88b03043f61f7-3600x2571.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/c3f804a73de8da3422ae56c5fd370be90af7574e-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1683af13bb746fc01a9f20f7f28cea77957238e2-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/90724edb1e155532a0625afdeff2d8751709107e-3600x2571.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/bf736acb1010228fb7d9ef1b2bcdb193b2dbef95-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/b0113cd5c31cba26bdd08dd5547b0fe3ee40309c-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/44073e77277a04d1887df485bccebc817adde126-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/60762a8ddf3913ffe02d8aa024f90ec9bea63592-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/d36b3811be29331b4df8c1198882417e75baca8a-3600x2571.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/dfce9634734a7ff81d5c7e98de4e3157c86d0fcd-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/6178963433f97c0c1ae855969ea2d099b59c3b59-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/20a74a0c3c5ff76353f9d6084dc40a44b4787122-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/7ab3aa69f938a0b68cc60299cb9b4ec5e8cdc68b-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/cd0aa3aca51685a0ae0fff0890f684f3fa4b5c18-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/55e423136451c837f9e2630710d9c99bfc9fd282-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/2af6856a1146a0c7555a8dda6587dfc74d3789e5-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/11eb23075552ab83839798791f63e32289bdf1aa-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/b47fae943f73b37394279e79655af6072f7173b1-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ee97f0a11922d2f334170878336706ac865cb492-3600x2571.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/57fe43e9fb3bbcba5e8430bdce7680b567519750-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Bank of Tanzania",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ca7827c839e0d4e8e6d5f1ea993031b4ec5d5d65-1440x1860.jpg?w=1600&auto=format",
+          "src": "gdrive:1VKu0Ld5BjjuNAXtF1eQVmSRuu-8sL3m-",
           "alt": "Bank of Tanzania",
           "caption": ""
         }
@@ -718,6 +358,10 @@
         {
           "href": "https://www.epitome-arc.com",
           "text": "Epitome Architects"
+        },
+        {
+          "href": "https://maps.app.goo.gl/Q2FPU73j5DWTwXUL6",
+          "text": "Bank of Tanzania"
         }
       ]
     },
@@ -751,102 +395,32 @@
       ],
       "images": [
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/856f95d733d461061d3cf9b2bd8490396e6f746d-1440x1860.jpg?w=1440&h=1860&auto=format",
+          "src": "gdrive:1HEySPEPbpK7kd-CHwVrMEiOf68D-Rtai",
           "alt": "Tegelweg",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/dd0219bcf01a32bf0728961e638155c62af48650-3600x2325.jpg?w=1600&auto=format",
+          "src": "gdrive:1OROrC-QlTdHE1sIyjNO8sCSms4pJ_6je",
           "alt": "Tegelweg",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/94b142953bf65120d31d77b1d62368ef0172e971-1440x1860.jpg?w=1600&auto=format",
+          "src": "gdrive:1HzXwswRerys8KxrWxPiDHoePeO6YlsnZ",
           "alt": "Tegelweg",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/b6709652e4fb308e17562f4abf0fa426d775dca2-1440x1860.jpg?w=1600&auto=format",
+          "src": "gdrive:1pj7DK0pJ-7uD_r6QD-eIp4n8tcadqPB1",
           "alt": "Tegelweg",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/120c161e749cdc64318d4bbf8bce21fb337b5a35-1440x1860.jpg?w=1600&auto=format",
+          "src": "gdrive:1w4HaPU4mS3odBXEDnhQfN132bSFAEq9W",
           "alt": "Tegelweg",
           "caption": ""
         },
         {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/4a60cd72c79ff92029adb89150dd22e399d2d76d-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/57a89e2e5ae6d25d1e0f105d70c24679a9c374a5-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/3c3d234275c68479a063cf738b4b67ae32e23e15-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/59940faecc59409cee8a827dbc7591aaaa8ec0b0-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/07b809e6be472b07ecf46c0bfd7e8614fbaacc44-3600x2325.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/6abaab5005baf6b51832833255b45be60bc76b7a-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/64639fb4e6f4445471f7af1e53b88bcdffd6b187-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/396193a8f6ec48ccbbeea2ffad8fef1b59d18f2e-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/53a1f00541fc4125610f01b203b8534a6aa21383-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1b428538e2a7d5c930e593d84842e63000d340c3-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1284396efc6a9757603ba16d3dca472b529a3541-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/1107ff46599d493714e0d20db37d99032d1f6883-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/bc4865a987cc943c9f1b321befa486e9e10b2605-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/73d31b98cf7ed480de0be7088f63a07219093c78-1440x1860.jpg?w=1600&auto=format",
-          "alt": "Tegelweg",
-          "caption": ""
-        },
-        {
-          "src": "https://cdn.sanity.io/images/4jb8q7bc/production/dce01679de0f0e3a4931b07bd878b3fcd2d2ff5a-1440x1860.jpg?w=1600&auto=format",
+          "src": "gdrive:1w_AAwAnHUnl4v7ApGB1EG7PlIQyyBsfA",
           "alt": "Tegelweg",
           "caption": ""
         }

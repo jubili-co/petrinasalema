@@ -39,7 +39,10 @@ export const SiteFooter: FC<Props> = ({ className }) => (
 
       <nav
         data-id="site-footer-nav"
-        className="flex w-full flex-col gap-4 md:flex-1 md:flex-row md:items-center md:justify-center md:gap-8"
+        className={cn(
+          "flex w-full flex-col gap-5",
+          "md:flex-1 md:flex-row md:items-center md:justify-center md:gap-14",
+        )}
         aria-label="Footer"
       >
         <ul
@@ -53,7 +56,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
             <li
               key={item.href}
               data-id="site-footer-nav-item"
-              className="md:mx-[10px] md:first:ml-0 md:last:mr-0"
+              className="md:mx-[12px] md:first:ml-0 md:last:mr-0"
             >
               <FooterNavLink item={item} isLegal={false} />
             </li>
@@ -107,12 +110,13 @@ type FooterNavLinkProps = {
 const FooterNavLink: FC<FooterNavLinkProps> = ({ item, isLegal }) => {
   const { href, label, external } = item;
   const className = cn(
-    "font-[family-name:var(--font-matter)] text-[11px] leading-[15px]",
-    "tracking-[1.65px] uppercase no-underline",
+    "font-[family-name:var(--font-matter)] uppercase no-underline",
     "transition-opacity duration-1000 ease-out hover:opacity-50",
     {
-      "text-dotto-cream": !isLegal,
-      "text-dotto-brown-muted": isLegal,
+      "text-[11px] leading-[15px] tracking-[1.65px] text-dotto-cream":
+        !isLegal,
+      "text-[10px] leading-[14px] tracking-[1.4px] text-dotto-cream/40":
+        isLegal,
     },
   );
 
