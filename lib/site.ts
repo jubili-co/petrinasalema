@@ -6,7 +6,7 @@ export const NAV_LINKS = [
   { href: "/projects", label: "Projects" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
-  { href: "/sister", label: "Store" },
+  { href: "/materiality", label: "Store" },
 ] as const;
 
 export const FOOTER_LINKS = [
@@ -16,8 +16,8 @@ export const FOOTER_LINKS = [
     label: "Jubili",
     external: true,
   },
-  { href: "/careers", label: "Careers" },
+  { href: "/materiality", label: "Materiality" },
   { href: "/newsletter", label: "Newsletter" },
-  { href: "/privacy-policy", label: "Privacy Policy" },
+  { href: "/privacy", label: "Privacy" },
   { href: "/impressum", label: "Impressum" },
 ] as const;

@@ -28,16 +28,9 @@ export type TextImageSection = {
 type Props = {
   section: TextImageSection;
   body?: ReactNode;
-  isFirst?: boolean;
-  hasCareersOffset?: boolean;
 };
 
-export const AboutTextImage: FC<Props> = ({
-  section,
-  body,
-  isFirst = false,
-  hasCareersOffset = false,
-}) => {
+export const AboutTextImage: FC<Props> = ({ section, body }) => {
   const {
     title,
     subtitle,
@@ -78,13 +71,7 @@ export const AboutTextImage: FC<Props> = ({
             "justify-end": !isTextTop,
           })}
         >
-          <div
-            data-id="about-text-image-inner"
-            className={cn("w-full", {
-              "pt-[100px] md:pt-20": isFirst && !hasCareersOffset,
-              "mt-[50px] pt-20": hasCareersOffset,
-            })}
-          >
+          <div data-id="about-text-image-inner" className="w-full">
             <AboutTitle title={title} subtitle={subtitle} />
             {body}
             {hasParagraphs && <AboutBody paragraphs={sectionParagraphs} />}

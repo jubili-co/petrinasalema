@@ -45,7 +45,7 @@ const ContactPage: FC = () => {
               >
                 Address
               </h2>
-              <div className="font-[family-name:var(--font-antiqua)] text-[17px] leading-[1.5]">
+              <div className="font-[family-name:var(--font-antiqua)] text-sm leading-[1.5]">
                 {addressLines.map((line) => (
                   <p key={line} data-id="contact-details-address-line">
                     {line}
@@ -69,7 +69,7 @@ const ContactPage: FC = () => {
                 <a
                   href={`mailto:${value}`}
                   data-id="contact-details-email"
-                  className="font-[family-name:var(--font-antiqua)] text-[17px] transition-opacity duration-200 hover:opacity-60"
+                  className="font-[family-name:var(--font-antiqua)] text-sm transition-opacity duration-200 hover:opacity-60"
                 >
                   {value}
                 </a>

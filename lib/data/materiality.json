@@ -1,0 +1,16 @@
+{
+  "seoTitle": "Materiality | Petrina Salema",
+  "seoDescription": "Materiality is a collection of space designs — rooms and interiors, fully designed and furnished, each with a shopping list for every piece.",
+  "section": {
+    "type": "textImage",
+    "imagePosition": "right",
+    "dynamicHeight": true,
+    "title": "Materiality",
+    "subtitle": null,
+    "textPosition": "top",
+    "color": "dotto-blue",
+    "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
+    "imageColor": "dotto-blush",
+    "imageBorder": false
+  }
+}

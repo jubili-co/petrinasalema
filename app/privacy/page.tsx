@@ -17,7 +17,7 @@ type PrivacyBlock =
 
 const blocks = privacy.blocks as PrivacyBlock[];
 
-const PrivacyPolicyPage: FC = () => (
+const PrivacyPage: FC = () => (
   <main data-id="privacy-page" className="mt-[100px] min-h-dvh bg-dotto-cream">
     <SiteHeader />
     <section
@@ -48,7 +48,7 @@ const PrivacyPolicyPage: FC = () => (
   </main>
 );
 
-export default PrivacyPolicyPage;
+export default PrivacyPage;
 
 type PrivacyBlockViewProps = {
   block: PrivacyBlock;

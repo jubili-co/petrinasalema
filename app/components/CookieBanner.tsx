@@ -68,8 +68,8 @@ export const CookieBanner: FC = () => {
           We use cookies to enhance your browsing experience and analyse site
           usage. By clicking &apos;Accept All&apos;, you consent to our use of
           cookies. You can learn more in our{" "}
-          <Link href="/privacy-policy" className="underline underline-offset-2">
-            Privacy Policy
+          <Link href="/privacy" className="underline underline-offset-2">
+            Privacy
           </Link>
           .
         </p>

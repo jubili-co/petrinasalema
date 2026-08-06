@@ -4,19 +4,11 @@
   "blocks": [
     {
       "type": "heading",
-      "text": "Provider"
+      "text": "Legal Notice"
     },
     {
       "type": "paragraph",
-      "text": "Petrina Salema e.U.\nPetrina Salema\nTegelweg 4\n1220 Vienna\nAustria"
-    },
-    {
-      "type": "heading",
-      "text": "Contact"
-    },
-    {
-      "type": "paragraph",
-      "text": "Email: contact@petrinasalema.com\nJubili: office@jubili.co"
+      "text": "Website operator:\nPetrina Manase Salema, Sole Proprietor\nTegelweg 4\n1220 Vienna\nAustria\nBrand: Jubili\nEmail: office@jubili.co\nGISA-Zahl: 34359440\nVAT number: ATU77713468\nBusiness activity: interior furnishing concepts and related services."
     },
     {
       "type": "heading",
@@ -24,7 +16,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Petrina Salema (Petrina Salema e.U.) is responsible for the content of this website in accordance with applicable law."
+      "text": "Petrina Manase Salema is responsible for the content of this website in accordance with applicable law."
     },
     {
       "type": "heading",

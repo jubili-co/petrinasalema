@@ -150,7 +150,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         <span>
           I consent to the{" "}
           <Link
-            href="/privacy-policy"
+            href="/privacy"
             data-id="newsletter-signup-privacy-link"
             className="underline"
           >

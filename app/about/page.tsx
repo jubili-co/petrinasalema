@@ -44,13 +44,12 @@ const AboutPage: FC = () => {
 
   return (
     <main data-id="about-page" className="min-h-dvh bg-dotto-cream">
-      <SiteHeader variant="home" />
-      <div data-id="about-sections">
+      <SiteHeader />
+      <div data-id="about-sections" className="pt-[78px]">
         {about.sections.map((section, index) => (
           <AboutPageSection
             key={`${section.type}-${index}`}
             section={section}
-            index={index}
             mdxBodyByKey={mdxBodyByKey}
           />
         ))}
@@ -66,13 +65,11 @@ type AboutSection = (typeof about.sections)[number];
 
 type AboutPageSectionProps = {
   section: AboutSection;
-  index: number;
   mdxBodyByKey: Record<AboutMdxKey, ReactNode>;
 };
 
 const AboutPageSection: FC<AboutPageSectionProps> = ({
   section,
-  index,
   mdxBodyByKey,
 }) => {
   if (section.type === "twoText") {
@@ -86,13 +83,6 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   const textImageSection = section as TextImageSection;
   const { mdx } = textImageSection;
   const body = mdx && mdxBodyByKey[mdx];
-  const isFirst = index === 0;
 
-  return (
-    <AboutTextImage
-      section={textImageSection}
-      body={body}
-      isFirst={isFirst}
-    />
-  );
+  return <AboutTextImage section={textImageSection} body={body} />;
 };
