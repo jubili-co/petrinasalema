@@ -32,15 +32,16 @@ export const ProjectsInvite: FC = () => (
           href="/contact"
           data-id="projects-grid-invite-cta"
           className={cn(
-            "inline-flex min-h-11 items-center justify-center whitespace-nowrap",
-            "border border-dotto-brown px-8 py-3 text-dotto-brown",
+            "group/cta inline-flex min-h-11 items-center justify-center whitespace-nowrap",
+            "border border-dotto-brown px-8 py-3",
             "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
             "transition-colors duration-200 ease-out",
-            "hover:bg-dotto-brown hover:text-dotto-cream",
-            "active:scale-[0.97]",
+            "hover:bg-dotto-brown active:scale-[0.97]",
           )}
         >
-          Send a note
+          <span className="text-dotto-brown transition-colors duration-200 ease-out group-hover/cta:text-dotto-cream">
+            Send a note
+          </span>
         </Link>
         <p
           data-id="projects-grid-invite-lede"
