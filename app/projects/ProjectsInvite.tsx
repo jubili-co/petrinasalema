@@ -50,7 +50,7 @@ export const ProjectsInvite: FC = () => (
             "text-[12px] leading-[16px] font-[350] text-dotto-brown/75",
           )}
         >
-          I take on a few projects a year — Vienna, or wherever you call home.
+          I take on a few projects a year, in Vienna or wherever you call home.
         </p>
       </div>
     </div>

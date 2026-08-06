@@ -14,7 +14,6 @@ import {
   type AboutMdxKey,
   type TextImageSection,
 } from "./AboutTextImage";
-import { AboutTwoText, type TwoTextSection } from "./AboutTwoText";
 
 export const metadata: Metadata = {
   title: about.seoTitle,
@@ -72,17 +71,37 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   section,
   mdxBodyByKey,
 }) => {
-  if (section.type === "twoText") {
-    return <AboutTwoText section={section as TwoTextSection} />;
-  }
-
-  if (section.type !== "textImage") {
+  const textImageSection = toTextImageSection(section);
+  if (!textImageSection) {
     return null;
   }
 
-  const textImageSection = section as TextImageSection;
   const { mdx } = textImageSection;
   const body = mdx && mdxBodyByKey[mdx];
 
   return <AboutTextImage section={textImageSection} body={body} />;
 };
+
+function toTextImageSection(section: AboutSection): TextImageSection | null {
+  if (section.type !== "textImage") {
+    return null;
+  }
+
+  return {
+    type: "textImage",
+    imagePosition: section.imagePosition,
+    dynamicHeight: section.dynamicHeight,
+    title: section.title,
+    subtitle: section.subtitle ?? null,
+    mdx: isAboutMdxKey(section.mdx) ? section.mdx : null,
+    textPosition: section.textPosition,
+    color: section.color,
+    image: section.image,
+    imageColor: section.imageColor,
+    imageBorder: section.imageBorder,
+  };
+}
+
+function isAboutMdxKey(value: string | undefined): value is AboutMdxKey {
+  return value === "petrina" || value === "jubili" || value === "materiality";
+}
