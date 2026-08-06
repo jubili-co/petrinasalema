@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import { FOOTER_LINKS } from "@/lib/site";
+import { FOOTER_LEGAL_LINKS, FOOTER_PRIMARY_LINKS } from "@/lib/site";
 
 import { LogoPetina } from "./LogoDotto";
 
@@ -37,21 +37,42 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         </Link>
       </div>
 
-      <nav data-id="site-footer-nav" className="w-full md:flex-1">
+      <nav
+        data-id="site-footer-nav"
+        className="flex w-full flex-col gap-4 md:flex-1 md:flex-row md:items-center md:justify-center md:gap-8"
+        aria-label="Footer"
+      >
         <ul
-          data-id="site-footer-nav-list"
+          data-id="site-footer-nav-primary"
           className={cn(
             "flex flex-col gap-3",
-            "md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-0",
+            "md:flex-row md:flex-wrap md:items-center md:gap-0",
           )}
         >
-          {FOOTER_LINKS.map((item) => (
+          {FOOTER_PRIMARY_LINKS.map((item) => (
             <li
               key={item.href}
               data-id="site-footer-nav-item"
-              className="md:mx-[10px] md:last:mr-0"
+              className="md:mx-[10px] md:first:ml-0 md:last:mr-0"
             >
-              <FooterNavLink item={item} />
+              <FooterNavLink item={item} isLegal={false} />
+            </li>
+          ))}
+        </ul>
+        <ul
+          data-id="site-footer-nav-legal"
+          className={cn(
+            "flex flex-col gap-3",
+            "md:flex-row md:flex-wrap md:items-center md:gap-0",
+          )}
+        >
+          {FOOTER_LEGAL_LINKS.map((item) => (
+            <li
+              key={item.href}
+              data-id="site-footer-nav-item"
+              className="md:mx-[10px] md:first:ml-0 md:last:mr-0"
+            >
+              <FooterNavLink item={item} isLegal />
             </li>
           ))}
         </ul>
@@ -72,36 +93,46 @@ export const SiteFooter: FC<Props> = ({ className }) => (
   </footer>
 );
 
-type FooterLink = (typeof FOOTER_LINKS)[number];
+type FooterLink = {
+  href: string;
+  label: string;
+  external?: boolean;
+};
 
 type FooterNavLinkProps = {
   item: FooterLink;
+  isLegal: boolean;
 };
 
-const FooterNavLink: FC<FooterNavLinkProps> = ({ item }) => {
+const FooterNavLink: FC<FooterNavLinkProps> = ({ item, isLegal }) => {
+  const { href, label, external } = item;
   const className = cn(
     "font-[family-name:var(--font-matter)] text-[11px] leading-[15px]",
-    "tracking-[1.65px] text-dotto-cream uppercase no-underline",
+    "tracking-[1.65px] uppercase no-underline",
     "transition-opacity duration-1000 ease-out hover:opacity-50",
+    {
+      "text-dotto-cream": !isLegal,
+      "text-dotto-brown-muted": isLegal,
+    },
   );
 
-  if ("external" in item && item.external) {
+  if (external) {
     return (
       <a
-        href={item.href}
+        href={href}
         data-id="site-footer-nav-link"
         target="_blank"
         rel="noopener noreferrer"
         className={className}
       >
-        {item.label}
+        {label}
       </a>
     );
   }
 
   return (
-    <Link href={item.href} data-id="site-footer-nav-link" className={className}>
-      {item.label}
+    <Link href={href} data-id="site-footer-nav-link" className={className}>
+      {label}
     </Link>
   );
 };

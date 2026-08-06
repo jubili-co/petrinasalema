@@ -9,15 +9,19 @@ export const NAV_LINKS = [
   { href: "/materiality", label: "Store" },
 ] as const;
 
-export const FOOTER_LINKS = [
+/** Primary close — conversion and brand extensions. */
+export const FOOTER_PRIMARY_LINKS = [
   { href: "/contact", label: "Contact" },
+  { href: "/newsletter", label: "Studio Notes" },
   {
     href: "https://jubili.co",
     label: "Jubili",
     external: true,
   },
-  { href: "/materiality", label: "Materiality" },
-  { href: "/newsletter", label: "Newsletter" },
+] as const;
+
+/** Compliance — quieter weight than the primary close. */
+export const FOOTER_LEGAL_LINKS = [
   { href: "/privacy", label: "Privacy" },
   { href: "/impressum", label: "Impressum" },
 ] as const;

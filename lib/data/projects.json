@@ -32,6 +32,11 @@
       ],
       "images": [
         {
+          "src": "gdrive:1F4r1qLQexnMOYmBPX1J4mE71VuUavbol",
+          "alt": "Analytical Fingerprint Laboratory Building",
+          "caption": ""
+        },
+        {
           "src": "https://cdn.sanity.io/images/4jb8q7bc/production/ba5e35e61e7546822f3c8d6c119f52e2462afe9a-1440x1860.jpg?w=1440&h=1860&auto=format",
           "alt": "Analytical Fingerprint Laboratory Building",
           "caption": ""

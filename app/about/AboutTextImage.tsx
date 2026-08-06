@@ -110,10 +110,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
             )}
           >
             <LogoJubiliMark
-              className={cn(
-                "h-[52px] w-auto md:h-[72px]",
-                "brightness-0 invert",
-              )}
+              className={cn("h-[52px] md:h-[72px]", "text-dotto-cream")}
             />
           </div>
         )}

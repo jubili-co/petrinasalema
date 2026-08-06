@@ -1,4 +1,5 @@
 import projectsData from "@/lib/data/projects.json";
+import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
 export type ProjectsRole = {
   name: string;
@@ -35,7 +36,24 @@ export type Projects = {
 };
 
 export const PROJECTS_DATA = projectsData as Projects;
-export const PROJECTS = PROJECTS_DATA.projects;
+export const PROJECTS = PROJECTS_DATA.projects.map(withResolvedImageSrcs);
+
+function withResolvedImageSrcs(project: ProjectsItem): ProjectsItem {
+  const { images } = project;
+
+  return {
+    ...project,
+    images: images.map((image) => {
+      const { src, alt, caption } = image;
+
+      return {
+        src: resolveProjectImageSrc(src),
+        alt,
+        caption,
+      };
+    }),
+  };
+}
 
 export function getProject(slug: string): ProjectsItem | undefined {
   return PROJECTS.find((entry) => entry.slug === slug);
