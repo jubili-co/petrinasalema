@@ -4,6 +4,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import contact from "@/lib/data/contact.json";
+import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
 import { SiteHeader } from "../components/SiteHeader";
 
@@ -22,6 +23,7 @@ const ContactPage: FC = () => {
     .split("\n")
     .map((line) => line.trim())
     .filter((line) => line.length > 0);
+  const imageSrc = resolveProjectImageSrc(contact.image);
 
   return (
     <main data-id="contact-page" className="min-h-dvh bg-dotto-cream">
@@ -83,7 +85,7 @@ const ContactPage: FC = () => {
           className="relative min-h-[70vw] w-full md:min-h-[calc(100dvh-78px)] md:w-1/2"
         >
           <Image
-            src={contact.image}
+            src={imageSrc}
             alt="Contact"
             fill
             priority
