@@ -7,29 +7,18 @@ import { useEffect, useRef, useState, type FC } from "react";
 import { cn } from "@/lib/cn";
 import { NAV_LINKS } from "@/lib/site";
 
-import { LogoSisterMark } from "./LogoSisterMark";
+import { LogoJubiliMark } from "./LogoJubiliMark";
 import { LogoPetina } from "./LogoDotto";
-
-type Props = {
-  variant?: "home" | "default";
-};
 
 const SCROLL_DELTA = 1;
 const TOP_REVEAL_Y = 12;
 
-export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
+export const SiteHeader: FC = () => {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [menuPath, setMenuPath] = useState(pathname);
   const lastScrollY = useRef(0);
-  const isOverMedia =
-    variant === "home" ||
-    pathname === "/" ||
-    pathname === "/about" ||
-    pathname === "/careers" ||
-    pathname === "/newsletter" ||
-    pathname.startsWith("/project/");
   const shouldHideHeader = isHeaderHidden && !isOpen;
 
   if (menuPath !== pathname) {
@@ -84,14 +73,12 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
           // spacing
           "px-6 py-[17px] md:px-12",
           // typography / color
-          "font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase",
-          // motion — Tailwind v4 uses `translate`, not `transform`
-          "transition-[translate,opacity] duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate,opacity]",
+          "bg-dotto-cream font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-dotto-brown uppercase",
+          // motion — translate only so the page behind doesn’t fade with the bar
+          "transition-[translate] duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate]",
           {
-            "text-white": isOverMedia && !isOpen,
-            "text-dotto-brown": !isOverMedia || isOpen,
-            "-translate-y-full opacity-0 pointer-events-none": shouldHideHeader,
-            "translate-y-0 opacity-100": !shouldHideHeader,
+            "-translate-y-full pointer-events-none": shouldHideHeader,
+            "translate-y-0": !shouldHideHeader,
           },
         )}
       >
@@ -132,12 +119,12 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
             className="relative z-10 flex items-center gap-4"
           >
             <Link
-              href="/sister"
-              data-id="site-header-sister-mark"
+              href="/jubili"
+              data-id="site-header-jubili-mark"
               className="hidden md:block"
-              aria-label="Sister store"
+              aria-label="Jubili store"
             >
-              <LogoSisterMark />
+              <LogoJubiliMark />
             </Link>
 
             <button
@@ -195,12 +182,12 @@ export const SiteHeader: FC<Props> = ({ variant = "default" }) => {
           </nav>
 
           <Link
-            href="/sister"
-            data-id="site-off-canvas-sister"
+            href="/jubili"
+            data-id="site-off-canvas-jubili"
             className="flex items-center justify-between border-t border-dotto-brown/20 pt-6"
           >
-            <span className="text-sm tracking-[0.15em] uppercase">Sister</span>
-            <LogoSisterMark className="text-dotto-brown" />
+            <span className="text-sm tracking-[0.15em] uppercase">Jubili</span>
+            <LogoJubiliMark />
           </Link>
         </div>
       )}
