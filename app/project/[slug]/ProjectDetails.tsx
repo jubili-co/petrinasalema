@@ -3,6 +3,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import type { ProjectsItem, ProjectsLink, ProjectsRole } from "@/lib/projects";
+import { SITE } from "@/lib/site";
 
 type Props = {
   project: ProjectsItem;
@@ -16,6 +17,7 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
   const hasScope = scope.length > 0;
   const hasTags = tags.length > 0;
   const hasLinks = links.length > 0;
+  const showRoleNames = rolesHaveNonSiteNames(roles);
 
   return (
     <section
@@ -71,6 +73,22 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
               {description}
             </p>
           </div>
+        </div>
+
+        <div data-id="project-details-meta" className="w-full md:w-[35%]">
+          <div className="mb-[18px] flex justify-end md:hidden">
+            <Link
+              href={`/project/${nextSlug}`}
+              data-id="project-details-next-mobile"
+              className={cn(
+                "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
+                "tracking-[0.15em] uppercase",
+                "transition-opacity duration-200 hover:opacity-50",
+              )}
+            >
+              Next Project
+            </Link>
+          </div>
 
           {hasRoles && (
             <div data-id="project-details-roles" className="mb-[30px]">
@@ -88,57 +106,37 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
                 className="m-0 list-none p-0"
               >
                 {roles.map((entry) => (
-                  <RoleEntry key={`${entry.name}-${entry.role}`} role={entry} />
+                  <RoleEntry
+                    key={`${entry.name}-${entry.role}`}
+                    role={entry}
+                    showName={showRoleNames}
+                  />
                 ))}
               </ul>
             </div>
           )}
-        </div>
 
-        <div data-id="project-details-meta" className="w-full md:w-[35%]">
-          <div className="mb-[18px] flex items-start justify-between gap-4 md:block">
-            {hasScope && (
+          {hasScope && (
+            <div data-id="project-details-scope" className="mb-[30px]">
               <h3
                 data-id="project-details-scope-title"
                 className={cn(
-                  "m-0 font-[family-name:var(--font-matter)]",
+                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
                   "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
                 )}
               >
                 Scope
               </h3>
-            )}
-            <Link
-              href={`/project/${nextSlug}`}
-              data-id="project-details-next-mobile"
-              className={cn(
-                "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
-                "tracking-[0.15em] uppercase md:hidden",
-                "transition-opacity duration-200 hover:opacity-50",
-              )}
-            >
-              Next Project
-            </Link>
-          </div>
-
-          {hasScope && (
-            <ul
-              data-id="project-details-scope-list"
-              className="m-0 mb-[30px] list-none p-0"
-            >
-              {scope.map((item) => (
-                <li
-                  key={item}
-                  data-id="project-details-scope-item"
-                  className={cn(
-                    "mb-[10px] font-[family-name:var(--font-antiqua)]",
-                    "text-[13px] leading-[18px] font-[350] last:mb-0",
-                  )}
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
+              <p
+                data-id="project-details-scope-list"
+                className={cn(
+                  "m-0 font-[family-name:var(--font-antiqua)]",
+                  "text-[13px] leading-[18px] font-[350]",
+                )}
+              >
+                {scope.join(" · ")}
+              </p>
+            </div>
           )}
 
           {hasTags && (
@@ -210,22 +208,27 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
 
 type RoleEntryProps = {
   role: ProjectsRole;
+  showName: boolean;
 };
 
-const RoleEntry: FC<RoleEntryProps> = ({ role }) => {
+const RoleEntry: FC<RoleEntryProps> = ({ role, showName }) => {
   const { name, role: title } = role;
 
   return (
     <li data-id="project-details-role" className="mb-5 last:mb-0">
-      <h4
-        className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
-          "text-[13px] leading-[18px] font-[350]",
-        )}
-      >
-        {name}
-      </h4>
+      {showName && (
+        <h4
+          data-id="project-details-role-name"
+          className={cn(
+            "m-0 font-[family-name:var(--font-antiqua)]",
+            "text-[13px] leading-[18px] font-[350]",
+          )}
+        >
+          {name}
+        </h4>
+      )}
       <p
+        data-id="project-details-role-title"
         className={cn(
           "m-0 font-[family-name:var(--font-antiqua)]",
           "text-[13px] leading-[18px] font-[350]",
@@ -236,6 +239,14 @@ const RoleEntry: FC<RoleEntryProps> = ({ role }) => {
     </li>
   );
 };
+
+function rolesHaveNonSiteNames(roles: ProjectsRole[]): boolean {
+  return roles.some((entry) => !isSiteRoleName(entry.name));
+}
+
+function isSiteRoleName(name: string): boolean {
+  return name.trim().toLowerCase() === SITE.name.toLowerCase();
+}
 
 type ExternalLinkItemProps = {
   link: ProjectsLink;
