@@ -1,10 +1,15 @@
 import Image from "next/image";
 import type { FC, ReactNode } from "react";
 
+import { LogoJubiliMark } from "@/app/components/LogoJubiliMark";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
 
 import { AboutBody, type TextParagraph } from "./AboutBody";
+import {
+  AboutInviteCtaLink,
+  type AboutInviteCta,
+} from "./AboutInviteCta";
 import { AboutTitle } from "./AboutTitle";
 
 export type AboutMdxKey = "petrina" | "jubili" | "materiality";
@@ -23,6 +28,7 @@ export type TextImageSection = {
   imageColor?: string | null;
   textPosition?: string;
   dynamicHeight?: boolean;
+  cta?: AboutInviteCta | null;
 };
 
 type Props = {
@@ -41,6 +47,8 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
     imageColor,
     imagePosition,
     textPosition,
+    mdx,
+    cta,
   } = section;
   const isImageLeft = imagePosition === "left";
   const isTextTop = textPosition !== "bottom";
@@ -48,6 +56,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
   const mediaBackground = resolveCssColor(imageColor, "dotto-sand");
   const sectionParagraphs = paragraphs ?? [];
   const hasParagraphs = sectionParagraphs.length > 0;
+  const shouldShowJubiliMark = mdx === "jubili";
 
   return (
     <section
@@ -75,6 +84,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
             <AboutTitle title={title} subtitle={subtitle} />
             {body}
             {hasParagraphs && <AboutBody paragraphs={sectionParagraphs} />}
+            {cta && <AboutInviteCtaLink cta={cta} />}
           </div>
         </div>
       </div>
@@ -90,6 +100,22 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
             alt={title || "Petrina Salema"}
             hasBorder={Boolean(imageBorder)}
           />
+        )}
+        {shouldShowJubiliMark && (
+          <div
+            data-id="about-text-image-jubili-mark"
+            className={cn(
+              "pointer-events-none absolute inset-0 z-[1]",
+              "flex items-center justify-center",
+            )}
+          >
+            <LogoJubiliMark
+              className={cn(
+                "h-[52px] w-auto md:h-[72px]",
+                "brightness-0 invert",
+              )}
+            />
+          </div>
         )}
       </div>
     </section>

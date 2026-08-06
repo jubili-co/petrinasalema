@@ -26,7 +26,12 @@
       "color": "dotto-olive",
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/78810f83a3130d447c9b4bc836778d256d3a8b0f-1440x1860.jpg?w=1440&auto=format",
       "imageColor": null,
-      "imageBorder": false
+      "imageBorder": false,
+      "cta": {
+        "name": "If the space has to earn",
+        "role": "Begin",
+        "href": "https://jubili.co"
+      }
     },
     {
       "type": "textImage",
@@ -35,10 +40,54 @@
       "title": "Materiality",
       "mdx": "materiality",
       "textPosition": "top",
-      "color": "dotto-blue",
+      "color": "dotto-brown",
       "image": "https://cdn.sanity.io/images/4jb8q7bc/production/d1ed010387eca39996c9d82d0a0d731977094268-1440x1860.jpg?w=1440&auto=format",
       "imageColor": "dotto-blush",
       "imageBorder": false
+    },
+    {
+      "type": "projectList",
+      "title": "Projects",
+      "color": "dotto-blue",
+      "items": [
+        {
+          "name": "Tegelweg - 4-Bedroom Apartment",
+          "role": "Designer"
+        },
+        {
+          "name": "Brabbeegasse - Single-Unit Apartment",
+          "role": "Designer"
+        },
+        {
+          "name": "Analytical Fingerprint Laboratory Rehabilitation",
+          "role": "Designer"
+        },
+        {
+          "name": "International School of Tanganyika Athletic Centre",
+          "role": "Designer"
+        },
+        {
+          "name": "Montessori Children's House Primary School Competition",
+          "role": "Designer"
+        },
+        {
+          "name": "International School of Tanganyika Classroom Blocks D & E",
+          "role": "Designer"
+        },
+        {
+          "name": "New CCBRT Maternity Hospital",
+          "role": "Designer"
+        },
+        {
+          "name": "Bank of Tanzania Mwanza Branch",
+          "role": "Designer"
+        }
+      ],
+      "cta": {
+        "name": "If the work fits",
+        "role": "Write",
+        "href": "/contact"
+      }
     }
   ]
 }

@@ -12,8 +12,8 @@ export const LogoJubiliMark: FC<Props> = ({ className }) => (
     data-id="logo-jubili-mark"
     src="/images/logo-mark-jubili.svg"
     alt="Jubili"
-    width={499}
-    height={401}
+    width={500}
+    height={500}
     className={cn("h-[36px] w-auto", className)}
   />
 );

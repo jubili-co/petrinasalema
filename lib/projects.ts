@@ -41,6 +41,12 @@ export function getProject(slug: string): ProjectsItem | undefined {
   return PROJECTS.find((entry) => entry.slug === slug);
 }
 
+/** City (or place) only — strips trailing country from "Place, Country". */
+export function projectPlace(location: string): string {
+  const [place] = location.split(",");
+  return place?.trim() || location;
+}
+
 export function getNextProject(slug: string): ProjectsItem {
   const index = PROJECTS.findIndex((entry) => entry.slug === slug);
   const next = PROJECTS[(index + 1) % PROJECTS.length];

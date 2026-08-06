@@ -4,7 +4,7 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import { PROJECTS } from "@/lib/projects";
+import { PROJECTS, projectPlace } from "@/lib/projects";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
@@ -67,7 +67,7 @@ const ProjectsPage: FC = () => (
                 data-id="projects-grid-card-location"
                 className="m-0 mt-1 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream/80"
               >
-                {location}
+                {projectPlace(location)}
               </p>
             </div>
           </Link>

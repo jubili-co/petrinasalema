@@ -10,6 +10,10 @@ import about from "@/lib/data/about.json";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import {
+  AboutProjectList,
+  type ProjectListSection,
+} from "./AboutProjectList";
+import {
   AboutTextImage,
   type AboutMdxKey,
   type TextImageSection,
@@ -71,6 +75,11 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   section,
   mdxBodyByKey,
 }) => {
+  const projectListSection = toProjectListSection(section);
+  if (projectListSection) {
+    return <AboutProjectList section={projectListSection} />;
+  }
+
   const textImageSection = toTextImageSection(section);
   if (!textImageSection) {
     return null;
@@ -82,23 +91,70 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   return <AboutTextImage section={textImageSection} body={body} />;
 };
 
+function toProjectListSection(
+  section: AboutSection,
+): ProjectListSection | null {
+  if (section.type !== "projectList") {
+    return null;
+  }
+
+  const { title, color, items = [], cta } = section;
+
+  return {
+    type: "projectList",
+    title,
+    color,
+    items: items.map((item) => ({
+      name: item.name,
+      role: item.role,
+    })),
+    cta: cta
+      ? {
+          name: cta.name,
+          role: cta.role,
+          href: cta.href,
+        }
+      : null,
+  };
+}
+
 function toTextImageSection(section: AboutSection): TextImageSection | null {
   if (section.type !== "textImage") {
     return null;
   }
 
+  const {
+    imagePosition,
+    dynamicHeight,
+    title,
+    textPosition,
+    color,
+    image,
+    imageColor,
+    imageBorder,
+    mdx,
+  } = section;
+  const cta = "cta" in section ? section.cta : null;
+
   return {
     type: "textImage",
-    imagePosition: section.imagePosition,
-    dynamicHeight: section.dynamicHeight,
-    title: section.title,
-    subtitle: section.subtitle ?? null,
-    mdx: isAboutMdxKey(section.mdx) ? section.mdx : null,
-    textPosition: section.textPosition,
-    color: section.color,
-    image: section.image,
-    imageColor: section.imageColor,
-    imageBorder: section.imageBorder,
+    imagePosition: imagePosition ?? "right",
+    dynamicHeight,
+    title,
+    subtitle: "subtitle" in section ? (section.subtitle ?? null) : null,
+    mdx: isAboutMdxKey(mdx) ? mdx : null,
+    textPosition,
+    color,
+    image: image ?? null,
+    imageColor,
+    imageBorder,
+    cta: cta
+      ? {
+          name: cta.name,
+          role: cta.role,
+          href: cta.href,
+        }
+      : null,
   };
 }
 

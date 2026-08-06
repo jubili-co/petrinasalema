@@ -2,7 +2,12 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import type { ProjectsItem, ProjectsLink, ProjectsRole } from "@/lib/projects";
+import {
+  projectPlace,
+  type ProjectsItem,
+  type ProjectsLink,
+  type ProjectsRole,
+} from "@/lib/projects";
 import { SITE } from "@/lib/site";
 
 type Props = {
@@ -61,7 +66,7 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
                 "text-[13px] leading-[18px] font-[350]",
               )}
             >
-              {location}
+              {projectPlace(location)}
             </p>
             <p
               data-id="project-details-body"
