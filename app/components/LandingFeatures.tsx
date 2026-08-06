@@ -27,7 +27,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, jubiliImage }) => (
         href="/materiality"
         data-id="landing-features-studio"
         className={cn(
-          "group relative block h-1/2 w-full overflow-hidden bg-dotto-brown",
+          "group relative block h-1/2 w-full overflow-hidden bg-dotto-blue",
           "md:h-full md:w-1/2",
         )}
       >
