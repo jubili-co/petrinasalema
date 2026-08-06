@@ -1,30 +1,110 @@
 {
   "seoTitle": "Privacy | Petrina Salema",
-  "seoDescription": "Privacy policy for Petrina Salema.",
+  "seoDescription": "Privacy policy for Jubili and Petrina Salema under the GDPR.",
   "blocks": [
     {
       "type": "heading",
-      "text": "Information Collection"
+      "text": "Privacy Policy"
     },
     {
       "type": "paragraph",
-      "text": "While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you (“Personal Data”). Personally identifiable information may include, but is not limited to:\n– Email address\n– First name and last name\n– Phone number\n– Cookies and Usage Data\n– Usage Data"
-    },
-    {
-      "type": "paragraph",
-      "text": "We may also collect information how the Service is accessed and used (“Usage Data”). This Usage Data may include information such as your computer’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data."
+      "text": "This policy explains which personal data is processed when you visit this website or contact Jubili, why it is processed, and which rights you have under the General Data Protection Regulation (GDPR)."
     },
     {
       "type": "heading",
-      "text": "Transfer Of Data"
+      "text": "1. Controller"
     },
     {
       "type": "paragraph",
-      "text": "Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction."
+      "text": "The controller responsible for data processing through this website is:\nPetrina Manase Salema, Sole Proprietor\nJubili\nTegelweg 4\n1220 Vienna\nAustria\nEmail: office@jubili.co"
+    },
+    {
+      "type": "heading",
+      "text": "2. General principles"
     },
     {
       "type": "paragraph",
-      "text": "If you are located outside Austria and choose to provide information to us, please note that we transfer the data, including Personal Data, to Austria and process it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.\nPetrina Salema will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information."
+      "text": "Personal data is processed only where there is a lawful basis and only for the purposes described in this policy. The principal legal bases are steps taken at your request before entering into a contract, the performance of a contract, compliance with legal obligations, consent where you have given it, and legitimate interests in operating a secure and useful website and responding to enquiries.\n\nYou are not generally required to provide personal data to browse this website. Certain technical data is processed automatically so that the website can be delivered securely. If you contact Jubili or subscribe to the newsletter, the information needed for that purpose must be provided; otherwise, the request may not be processed."
+    },
+    {
+      "type": "heading",
+      "text": "3. Website hosting and server logs"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you access this website, technical request data may be processed automatically. This can include your IP address, the requested page or file, the date and time of access, the referring page, browser and device information, user agent, and response or error information.\n\nThis processing is necessary to deliver the website, maintain its stability and security, diagnose errors, prevent misuse, and protect the website and its visitors. The legal basis is the legitimate interest in the secure and reliable operation of the website under Article 6(1)(f) GDPR.\n\nThe website is hosted and operated using services provided by Ploy, Inc. Ploy and infrastructure providers acting on its behalf may process technical data as processors where this is necessary to provide, secure, and maintain the website. Technical logs are retained only for as long as reasonably necessary for operational, security, abuse-prevention, and legal purposes."
+    },
+    {
+      "type": "heading",
+      "text": "4. Ploy Analytics"
+    },
+    {
+      "type": "paragraph",
+      "text": "This website uses Ploy's built-in, first-party analytics. It may record page views, requested pages, referral and traffic-source information, timestamps, browser and device information, approximate location derived from network information, and interactions such as calls to action or form-submission events. IP addresses may be processed at the website edge to deliver requests, protect the service, and derive limited technical or regional information.\n\nPloy's built-in analytics do not rely on third-party analytics scripts or analytics cookies. This website does not currently use Google Analytics, advertising pixels, session-replay tools, or marketing trackers.\n\nAnalytics data is used to understand aggregate website use, improve content and usability, measure whether important functions work, and protect the service. The legal basis is the legitimate interest in operating, evaluating, and improving the website under Article 6(1)(f) GDPR. Analytics data is retained according to the operational needs and configuration of the service and is deleted or aggregated when it is no longer needed for these purposes."
+    },
+    {
+      "type": "heading",
+      "text": "5. Contact enquiries"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you contact Jubili through the website or by email, the information you provide is processed to assess the project, answer your enquiry, take requested steps before a possible contract, and handle follow-up questions.\n\nDepending on how you get in touch, this may include:\n– name and email address;\n– Vienna district and property size;\n– handover or availability date;\n– rental type and indicative furniture budget;\n– the project information included in your message; and\n– technical submission data needed to deliver and protect a form.\n\nThe legal basis is Article 6(1)(b) GDPR where processing is necessary to take steps at your request before entering into a contract. For general enquiries that are not directed towards a possible contract, the legal basis is the legitimate interest in responding to communications and managing business enquiries under Article 6(1)(f) GDPR.\n\nForm submissions may be processed through Ploy's form service, stored for the workspace, and sent to Jubili by email. Ploy and the email and IT service providers used to receive and secure the enquiry may therefore process the information as service providers. Enquiry data is not sold or used for unrelated promotional email.\n\nEnquiry data is normally deleted 12 months after the last relevant contact if no contract is concluded. If an enquiry leads to a contract, relevant records may be retained for longer where necessary to perform the contract, establish or defend legal claims, or comply with statutory accounting, tax, and documentation obligations."
+    },
+    {
+      "type": "heading",
+      "text": "6. Newsletter"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you subscribe to the newsletter, your email address and consent record are processed to send occasional updates about projects, Jubili, Materiality, and studio news.\n\nThe legal basis is your consent under Article 6(1)(a) GDPR. You may withdraw consent at any time by using an unsubscribe option where provided, or by emailing office@jubili.co, without affecting processing carried out before withdrawal.\n\nNewsletter data is retained for as long as the subscription remains active and for a short period afterwards where needed to evidence consent or handle opt-out requests. It is not sold or used for unrelated purposes."
+    },
+    {
+      "type": "heading",
+      "text": "7. Recipients, processors, and international processing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Personal data is disclosed only where necessary for the purposes described above, where required by law, or where you have separately authorised disclosure. Categories of recipients may include website hosting and platform providers, infrastructure and security providers, email and IT service providers, and professional advisers or public authorities where legally required.\n\nPloy, Inc. is based in the United States, so the use of its services may involve processing outside the European Economic Area. Where Chapter V of the GDPR applies to a transfer, the transfer must be based on an applicable adequacy decision or appropriate safeguards, such as the European Commission's standard contractual clauses, together with any required supplementary measures. You may request further information about applicable safeguards by emailing office@jubili.co."
+    },
+    {
+      "type": "heading",
+      "text": "8. Cookies and external services"
+    },
+    {
+      "type": "paragraph",
+      "text": "This website may store a local preference recording whether you accepted or declined cookies. It does not currently use non-essential analytics or marketing cookies. Ploy's built-in analytics described above do not rely on third-party analytics cookies.\n\nThis website does not currently use an external booking tool or embed third-party video, map, or social-media widgets. Ordinary links to another website or an email application do not transmit information to that service until you activate the link. The external provider's own privacy information applies after you leave this website."
+    },
+    {
+      "type": "heading",
+      "text": "9. Data security"
+    },
+    {
+      "type": "paragraph",
+      "text": "Appropriate technical and organisational measures are used to protect personal data against accidental or unlawful destruction, loss, alteration, unauthorised disclosure, and unauthorised access. These measures include encrypted transmission of the website and access controls for the systems used to manage enquiries. No method of transmission or storage can guarantee absolute security."
+    },
+    {
+      "type": "heading",
+      "text": "10. Your rights"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subject to the conditions and limits in the GDPR, you may have the right to:\n– obtain information about and a copy of your personal data;\n– have inaccurate or incomplete data corrected;\n– request deletion or restriction of processing;\n– receive data you provided in a portable format;\n– object to processing based on legitimate interests; and\n– withdraw consent at any time where processing is based on consent, without affecting processing carried out before withdrawal.\n\nThis website does not use automated decision-making or profiling that produces legal or similarly significant effects.\n\nTo exercise your rights, email office@jubili.co. Reasonable information may be requested to confirm your identity before a request is fulfilled."
+    },
+    {
+      "type": "heading",
+      "text": "11. Right to complain"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you believe that your personal data has been processed unlawfully, you may contact Jubili or lodge a complaint with a supervisory authority. In Austria, the competent authority is:\nAustrian Data Protection Authority\nBarichgasse 40–42\n1030 Vienna\nAustria\nEmail: dsb@dsb.gv.at\nWebsite: www.dsb.gv.at"
+    },
+    {
+      "type": "heading",
+      "text": "12. Changes to this policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "This policy may be updated if the website, service providers, or legal requirements change. The current version will always be published on this page. If an external booking service, additional analytics, advertising technology, or embedded third-party service is introduced, this policy will be updated before or when that processing begins.\n\nLast updated: 27 July 2026"
     }
   ]
 }
