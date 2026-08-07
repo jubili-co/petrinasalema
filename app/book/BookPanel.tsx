@@ -79,7 +79,6 @@ export const BookPanel: FC<Props> = ({ book }) => {
       )}
     </div>
   );
-
   return (
     <div
       data-id="book-panel"
