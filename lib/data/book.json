@@ -11,24 +11,21 @@
   },
   "jumpstartOffer": {
     "title": "Design Jumpstart",
-    "body": "One hour session. You leave with a DIY plan for the change that would matter most in your home."
+    "body": "One hour session. A clear point of view on the change that would matter most, and your next step."
   },
   "primaryCta": {
-    "label": "Book a fit call (30 min)",
+    "label": "Book a fit call",
     "href": "https://cal.com/jubili/fit-call",
-    "microcopy": "Choose a time on the next screen."
+    "microcopy": "Free · 30 min"
   },
   "quote": {
     "text": "My daughter started calling her room the room from the fairy tale.",
     "attribution": "Artashes · Vienna"
   },
   "secondaryCta": {
-    "label": "Design Jumpstart",
+    "label": "Book a Jumpstart",
     "href": "https://cal.com/jubili/jump-start",
-    "microcopy": "€290 · Leave with a practical DIY plan"
+    "microcopy": "€290 · 60 min"
   },
-  "emails": {
-    "general": "contact@petrinasalema.com",
-    "jubili": "office@jubili.co"
-  }
+  "email": "contact@petrinasalema.com"
 }
