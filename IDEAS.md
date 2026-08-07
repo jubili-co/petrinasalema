@@ -27,14 +27,22 @@ Rough notes — not a backlog commitment.
 - **Fit filter (parked — not on page):** Best for people ready to change how a home works — not just how it photographs.
 - **Primary CTA:** Book a free fit call (30 min)
 - **Full project note (above CTA):** I take on a few residences a year, in Vienna and remote. Projects often run 1-3 months.
-- **Primary microcopy:** Free · No pitch deck
-- **Design Jumpstart:** One hour session, where you leave with a DIY plan for the highest-leverage change you can make to your home.
-- **Jumpstart CTA:** Design Jumpstart (60 min)
-- **Jumpstart microcopy (placeholder price):** Paid · DIY plan you can execute
+- **Primary microcopy:** none until Cal is wired, then e.g. Choose a time on the next screen.
+- **Design Jumpstart body:** One hour session. You leave with a DIY plan for the change that would matter most in your home.
+- **Jumpstart CTA:** Design Jumpstart
+- **Jumpstart microcopy:** Paid at booking · Leave with a practical DIY plan
+- **Quote:** My daughter started calling her room the room from the fairy tale. Attribution: Artashes, Tegelweg tenant
+- **Side door lede:** For press or anything else, email works. (Jubili only as email label)
 - **Scarcity (parked — not on page):** We take a small number of projects each year. If timing isn’t right, the jumpstart still helps.
 - **Offer framing:**
   - Full engagement: A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.
-  - Jumpstart: one hour — the highest-leverage change in your space, and a plan you can execute
+  - Jumpstart: one hour session with a DIY plan for the change that would matter most
+
+## TODO — elite finish still open
+
+- Wire real Cal / checkout URLs into `primaryCta.href` and `secondaryCta.href` (post-click microcopy assumes a booking screen)
+- Image half on Book page (desire / lived space), deferred by request
+- Optional: real Jumpstart price figure once set (`Paid at booking · from €X`)
 
 ## TODO — mirror before calendar (optional diagnostic door)
 
@@ -46,11 +54,6 @@ Not a gate in front of Cal. A second door for people who aren’t ready to book:
 
 People already ready skip the survey and go straight to Cal.  
 Survey = optional recognition. Cal = commitment. Never: must finish Typeform to unlock the calendar.
-
-## TODO — wire real booking URLs
-
-- Replace placeholder `fitConversationHref` in `lib/data/book.json` with Cal link
-- Replace placeholder `jumpstartHref` with Cal / checkout link for Design Jumpstart
 
 ## Book page — close the loop after click
 

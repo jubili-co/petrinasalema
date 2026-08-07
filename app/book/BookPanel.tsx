@@ -139,7 +139,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
               "text-[13px] leading-[18px] font-[350] text-dotto-brown/70",
             )}
           >
-            For press, Jubili, or anything else: email works.
+            For press or anything else, email works.
           </p>
 
           <EmailRow label="Studio" value={emails.general} />
@@ -206,18 +206,44 @@ const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
   const isExternal = href.startsWith("http");
   const isPrimary = variant === "primary";
   const className = cn(
-    "group/cta inline-flex min-h-11 items-center justify-center px-8 py-3",
+    "group/cta relative inline-flex min-h-11 items-center justify-center",
+    "overflow-hidden py-3 pl-8 pr-8",
     "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
-    "transition-colors duration-200 ease-out active:scale-[0.97]",
+    "transition-colors duration-500 ease-out",
     {
       "border border-dotto-brown bg-dotto-brown hover:bg-transparent": isPrimary,
       "border border-dotto-brown hover:bg-dotto-brown": !isPrimary,
     },
   );
-  const labelClassName = cn("transition-colors duration-200 ease-out", {
+  const toneClassName = cn({
     "text-dotto-cream group-hover/cta:text-dotto-brown": isPrimary,
     "text-dotto-brown group-hover/cta:text-dotto-cream": !isPrimary,
   });
+  const labelClassName = cn(
+    "inline-block translate-x-0 will-change-transform",
+    "transition-[transform,color] duration-500 ease-out",
+    "group-hover/cta:-translate-x-3",
+    toneClassName,
+  );
+  const arrowClassName = cn(
+    "pointer-events-none absolute top-1/2 right-4",
+    "opacity-0 will-change-transform",
+    "[transform:translate3d(6px,-50%,0)]",
+    "transition-[opacity,transform,color] duration-500 ease-out",
+    "group-hover/cta:opacity-100",
+    "group-hover/cta:[transform:translate3d(0,-50%,0)]",
+    toneClassName,
+  );
+  const content = (
+    <>
+      <span data-id="book-action-label" className={labelClassName}>
+        {label}
+      </span>
+      <span data-id="book-action-arrow" aria-hidden className={arrowClassName}>
+        →
+      </span>
+    </>
+  );
 
   if (isExternal) {
     return (
@@ -228,18 +254,14 @@ const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
         data-id="book-action-link"
         className={className}
       >
-        <span data-id="book-action-label" className={labelClassName}>
-          {label}
-        </span>
+        {content}
       </a>
     );
   }
 
   return (
     <Link href={href} data-id="book-action-link" className={className}>
-      <span data-id="book-action-label" className={labelClassName}>
-        {label}
-      </span>
+      {content}
     </Link>
   );
 };
