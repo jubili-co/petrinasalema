@@ -85,7 +85,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
       data-id="book-panel"
       className={cn(
         "flex w-full flex-col justify-start",
-        "px-6 py-16 md:w-1/2 md:px-[30px] md:py-20 lg:px-12",
+        "px-6 pt-8 pb-16 md:w-1/2 md:px-[30px] md:pt-10 md:pb-20 lg:px-12",
       )}
     >
       <div data-id="book-panel-inner" className="mx-auto w-full max-w-[420px]">
