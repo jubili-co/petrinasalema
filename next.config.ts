@@ -17,6 +17,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: "/contact",
+        destination: "/book",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 const withMDX = createMDX({});

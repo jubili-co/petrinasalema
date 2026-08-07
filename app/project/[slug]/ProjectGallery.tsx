@@ -7,13 +7,17 @@ import {
   type GalleryImage,
   type GalleryRow,
 } from "@/lib/projectGallery";
+import type { MoreProjectLink } from "@/lib/projects";
+
+import { GalleryMoreProjects } from "./GalleryMoreProjects";
 
 type Props = {
   name: string;
   rows: GalleryRow[];
+  moreProjects: MoreProjectLink[];
 };
 
-export const ProjectGallery: FC<Props> = ({ name, rows }) => {
+export const ProjectGallery: FC<Props> = ({ name, rows, moreProjects }) => {
   if (rows.length === 0) {
     return (
       <section
@@ -39,7 +43,12 @@ export const ProjectGallery: FC<Props> = ({ name, rows }) => {
       className="flex w-full flex-col gap-0.5 bg-dotto-cream pt-[74px] md:pt-[79px]"
     >
       {rows.map((row) => (
-        <GalleryRowView key={rowKey(row)} row={row} name={name} />
+        <GalleryRowView
+          key={rowKey(row)}
+          row={row}
+          name={name}
+          moreProjects={moreProjects}
+        />
       ))}
     </section>
   );
@@ -48,16 +57,22 @@ export const ProjectGallery: FC<Props> = ({ name, rows }) => {
 type GalleryRowViewProps = {
   row: GalleryRow;
   name: string;
+  moreProjects: MoreProjectLink[];
 };
 
-const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
+const GalleryRowView: FC<GalleryRowViewProps> = ({
+  row,
+  name,
+  moreProjects,
+}) => {
   const shouldPair = row.length > 1;
+  const shouldShowMore = shouldFillWithMoreProjects(row, moreProjects);
 
   return (
     <div
       data-id="project-gallery-row"
       className={cn("flex w-full flex-col gap-0.5", {
-        "md:flex-row md:items-start": shouldPair,
+        "md:flex-row md:items-stretch": shouldPair || shouldShowMore,
       })}
     >
       {row.map((image) => (
@@ -65,9 +80,10 @@ const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
           key={`${image.src}-${image.alt}`}
           image={image}
           name={name}
-          isPaired={shouldPair}
+          isHalfWidth={shouldPair || shouldShowMore}
         />
       ))}
+      {shouldShowMore && <GalleryMoreProjects projects={moreProjects} />}
     </div>
   );
 };
@@ -75,20 +91,22 @@ const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
 type GalleryFigureProps = {
   image: GalleryImage;
   name: string;
-  isPaired: boolean;
+  isHalfWidth: boolean;
 };
 
-const GalleryFigure: FC<GalleryFigureProps> = ({ image, name, isPaired }) => {
+const GalleryFigure: FC<GalleryFigureProps> = ({
+  image,
+  name,
+  isHalfWidth,
+}) => {
   const { src, alt, caption, width, height } = image;
-  const sizes = isPaired
-    ? "(min-width: 768px) 50vw, 100vw"
-    : "100vw";
+  const sizes = isHalfWidth ? "(min-width: 768px) 50vw, 100vw" : "100vw";
 
   return (
     <figure
       data-id="project-gallery-figure"
       className={cn("relative m-0 w-full", {
-        "md:w-1/2": isPaired || !isLandscape(image),
+        "md:w-1/2": isHalfWidth,
       })}
     >
       <Image
@@ -114,6 +132,22 @@ const GalleryFigure: FC<GalleryFigureProps> = ({ image, name, isPaired }) => {
     </figure>
   );
 };
+
+function shouldFillWithMoreProjects(
+  row: GalleryRow,
+  moreProjects: MoreProjectLink[],
+): boolean {
+  if (moreProjects.length === 0) {
+    return false;
+  }
+
+  const [sole] = row;
+  if (!sole || row.length !== 1) {
+    return false;
+  }
+
+  return !isLandscape(sole);
+}
 
 function rowKey(row: GalleryRow): string {
   return row.map((image) => image.src).join("|");

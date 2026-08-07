@@ -1,0 +1,33 @@
+{
+  "seoTitle": "Book | Petrina Salema",
+  "seoDescription": "Book a fit conversation or a Design Jumpstart — interior design that changes how you host, rest, and think.",
+  "image": "gdrive:1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf",
+  "imageCaption": "Designed to be lived in, not just shot.",
+  "hook": "Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they host, rest, and think.",
+  "projectOffer": {
+    "title": "Full project",
+    "body": "A redesign of how the home operates: layout, material, guest flow, the daily rituals."
+  },
+  "jumpstartOffer": {
+    "title": "Design Jumpstart",
+    "body": "One hour session, where you leave with a DIY plan for the highest-leverage change you can make to your home."
+  },
+  "primaryCta": {
+    "label": "Book a fit conversation (30 min)",
+    "href": "#",
+    "microcopy": "Free · 30 minutes · No pitch deck"
+  },
+  "proofLine": "Selected residences · Vienna & remote · Typical engagement 4–9 months",
+  "quote": {
+    "text": "She didn’t just restyle the apartment. She changed how we use every room.",
+    "attribution": "Client name, Vienna"
+  },
+  "secondaryCta": {
+    "label": "Design Jumpstart",
+    "href": "#"
+  },
+  "emails": {
+    "general": "contact@petrinasalema.com",
+    "jubili": "office@jubili.co"
+  }
+}

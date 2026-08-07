@@ -26,3 +26,13 @@ Skills before local style. Complete the relevant stop checklist and gate from pe
 - Project content is `lib/data/projects.json` shaped as `Projects` in `lib/projects.ts`
 - Prefer named `FC` exports, `cn()` for Tailwind, static `data-id` string literals
 - Gate: `npm run format` (if wired) → `npm run lint` → `npx tsc --noEmit`; run `npm run skill-check` on touched scope when changing UI/orchestrators
+
+## Copywriting
+
+Applies to UI copy, JSON content, MDX, metadata, and any visitor-facing strings agents write or edit.
+
+- **No em dashes (`—`).** Do not use them in product copy. Prefer a period, comma, or a shorter rewrite.
+- Avoid en dashes (`–`) as rhetorical separators in sentences for the same reason.
+- **Go easy on colons (`:`).** Prefer a new sentence or a comma when a colon is only acting as a dramatic pause.
+- Solo studio voice: avoid corporate “we” when the speaker is Petrina / the practice unless plural is clearly true.
+- Prefer concrete verbs and short sentences over brochure filler.

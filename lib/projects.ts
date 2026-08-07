@@ -72,6 +72,24 @@ export function getNextProject(slug: string): ProjectsItem {
   return next ?? PROJECTS[0]!;
 }
 
+export type MoreProjectLink = {
+  name: string;
+  slug: string;
+};
+
+/** Leading portfolio peers for the current project. Excludes `slug`. */
+export function getMoreProjects(
+  slug: string,
+  limit = 4,
+): MoreProjectLink[] {
+  return PROJECTS.filter((project) => project.slug !== slug)
+    .slice(0, limit)
+    .map(({ name, slug: projectSlug }) => ({
+      name,
+      slug: projectSlug,
+    }));
+}
+
 export type HomeProjectCardItem = {
   title: string;
   slug: string;

@@ -80,7 +80,12 @@
           "caption": ""
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "href": "https://www.stephanzagler.com/",
+          "text": "Photography by Stephan Zagler"
+        }
+      ],
       "featured": true
     },
     {

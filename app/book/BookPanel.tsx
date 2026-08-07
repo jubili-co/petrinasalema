@@ -1,0 +1,257 @@
+import Link from "next/link";
+import type { FC, ReactNode } from "react";
+
+import { cn } from "@/lib/cn";
+
+export type BookOffer = {
+  title: string;
+  body: string;
+};
+
+export type BookCta = {
+  label: string;
+  href: string;
+  microcopy?: string;
+};
+
+export type BookQuote = {
+  text: string;
+  attribution: string;
+};
+
+export type BookContent = {
+  hook: string;
+  projectOffer: BookOffer;
+  jumpstartOffer: BookOffer;
+  primaryCta: BookCta;
+  proofLine: string;
+  quote: BookQuote;
+  secondaryCta: BookCta;
+  emails: {
+    general: string;
+    jubili: string;
+  };
+};
+
+type Props = {
+  book: BookContent;
+};
+
+export const BookPanel: FC<Props> = ({ book }) => {
+  const {
+    hook,
+    projectOffer,
+    jumpstartOffer,
+    primaryCta,
+    proofLine,
+    quote,
+    secondaryCta,
+    emails,
+  } = book;
+  const projectAction = (
+    <div data-id="book-primary">
+      <BookActionLink cta={primaryCta} variant="primary" />
+      {primaryCta.microcopy && (
+        <p
+          data-id="book-primary-microcopy"
+          className={cn(
+            "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+            "text-[12px] leading-[16px] font-[350] text-dotto-brown/70",
+          )}
+        >
+          {primaryCta.microcopy}
+        </p>
+      )}
+    </div>
+  );
+  const jumpstartAction = (
+    <div data-id="book-secondary">
+      <BookActionLink cta={secondaryCta} variant="secondary" />
+    </div>
+  );
+
+  return (
+    <div
+      data-id="book-panel"
+      className={cn(
+        "flex w-full flex-col justify-center",
+        "px-6 py-16 md:w-1/2 md:px-[30px] md:py-20 lg:px-12",
+      )}
+    >
+      <div data-id="book-panel-inner" className="mx-auto w-full max-w-[420px]">
+        <p
+          data-id="book-hook"
+          className={cn(
+            "m-0 font-[family-name:var(--font-antiqua)]",
+            "text-[17px] leading-relaxed font-[350] text-dotto-brown",
+          )}
+        >
+          {hook}
+        </p>
+
+        <div data-id="book-offers" className="mt-10 flex flex-col gap-10">
+          <OfferBlock offer={projectOffer} action={projectAction} />
+          <OfferBlock offer={jumpstartOffer} action={jumpstartAction} />
+        </div>
+
+        <p
+          data-id="book-proof"
+          className={cn(
+            "m-0 mt-10 font-[family-name:var(--font-matter)]",
+            "text-[11px] leading-[15px] tracking-[0.12em] text-dotto-brown/70 uppercase",
+          )}
+        >
+          {proofLine}
+        </p>
+
+        <blockquote
+          data-id="book-quote"
+          className="m-0 mt-6 border-l border-dotto-brown/25 pl-4"
+        >
+          <p
+            data-id="book-quote-text"
+            className={cn(
+              "m-0 font-[family-name:var(--font-antiqua)]",
+              "text-[14px] leading-[20px] font-[350] text-dotto-brown",
+            )}
+          >
+            “{quote.text}”
+          </p>
+          <footer
+            data-id="book-quote-attribution"
+            className={cn(
+              "mt-2 font-[family-name:var(--font-matter)]",
+              "text-[11px] tracking-[0.12em] text-dotto-brown/60 uppercase",
+            )}
+          >
+            {quote.attribution}
+          </footer>
+        </blockquote>
+
+        <div
+          data-id="book-side-door"
+          className="mt-12 border-t border-dotto-brown/15 pt-8"
+        >
+          <p
+            data-id="book-side-door-lede"
+            className={cn(
+              "m-0 mb-6 font-[family-name:var(--font-antiqua)]",
+              "text-[13px] leading-[18px] font-[350] text-dotto-brown/70",
+            )}
+          >
+            For press, Jubili, or anything else: email works.
+          </p>
+
+          <EmailRow label="Studio" value={emails.general} />
+          <EmailRow label="Jubili" value={emails.jubili} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+type OfferBlockProps = {
+  offer: BookOffer;
+  action: ReactNode;
+};
+
+const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
+  const { title, body } = offer;
+
+  return (
+    <div data-id="book-offer">
+      <h2
+        data-id="book-offer-title"
+        className={cn(
+          "m-0 mb-2 font-[family-name:var(--font-matter)]",
+          "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown uppercase",
+        )}
+      >
+        {title}
+      </h2>
+      <p
+        data-id="book-offer-body"
+        className={cn(
+          "m-0 font-[family-name:var(--font-antiqua)]",
+          "text-[13px] leading-[18px] font-[350] text-dotto-brown",
+        )}
+      >
+        {body}
+      </p>
+      <div data-id="book-offer-action" className="mt-5">
+        {action}
+      </div>
+    </div>
+  );
+};
+
+type BookActionLinkProps = {
+  cta: BookCta;
+  variant: "primary" | "secondary";
+};
+
+const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
+  const { label, href } = cta;
+  const isExternal = href.startsWith("http");
+  const isPrimary = variant === "primary";
+  const className = cn(
+    "group/cta inline-flex min-h-11 items-center justify-center px-8 py-3",
+    "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
+    "transition-colors duration-200 ease-out active:scale-[0.97]",
+    {
+      "border border-dotto-brown bg-dotto-brown hover:bg-transparent": isPrimary,
+      "border border-dotto-brown hover:bg-dotto-brown": !isPrimary,
+    },
+  );
+  const labelClassName = cn("transition-colors duration-200 ease-out", {
+    "text-dotto-cream group-hover/cta:text-dotto-brown": isPrimary,
+    "text-dotto-brown group-hover/cta:text-dotto-cream": !isPrimary,
+  });
+
+  if (isExternal) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-id="book-action-link"
+        className={className}
+      >
+        <span data-id="book-action-label" className={labelClassName}>
+          {label}
+        </span>
+      </a>
+    );
+  }
+
+  return (
+    <Link href={href} data-id="book-action-link" className={className}>
+      <span data-id="book-action-label" className={labelClassName}>
+        {label}
+      </span>
+    </Link>
+  );
+};
+
+type EmailRowProps = {
+  label: string;
+  value: string;
+};
+
+const EmailRow: FC<EmailRowProps> = ({ label, value }) => (
+  <div data-id="book-email-block" className="mb-6 last:mb-0">
+    <h2
+      data-id="book-side-heading"
+      className="mb-3 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase"
+    >
+      {label}
+    </h2>
+    <a
+      href={`mailto:${value}`}
+      data-id="book-email"
+      className="font-[family-name:var(--font-antiqua)] text-sm transition-opacity duration-200 hover:opacity-60"
+    >
+      {value}
+    </a>
+  </div>
+);

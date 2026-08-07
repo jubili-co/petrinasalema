@@ -77,7 +77,7 @@ export const LandingFeatures: FC<Props> = ({ studioImage, jubiliImage }) => (
             className="w-[200px] md:w-[280px]"
           >
             <LogoJubiliWordmark
-              className="text-[#003a37] transition-colors duration-200 group-hover:text-white"
+              className="text-[#003a37] group-hover:text-white"
             />
           </div>
         </div>

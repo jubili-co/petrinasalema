@@ -29,7 +29,7 @@ export const ProjectsInvite: FC = () => (
         className="flex flex-col items-center gap-4"
       >
         <Link
-          href="/contact"
+          href="/book"
           data-id="projects-grid-invite-cta"
           className={cn(
             "group/cta inline-flex min-h-11 items-center justify-center whitespace-nowrap",

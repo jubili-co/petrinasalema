@@ -6,7 +6,12 @@ import {
   packGalleryRows,
   withGalleryDimensions,
 } from "@/lib/projectGallery";
-import { getNextProject, getProject, PROJECTS } from "@/lib/projects";
+import {
+  getMoreProjects,
+  getNextProject,
+  getProject,
+  PROJECTS,
+} from "@/lib/projects";
 
 import { SiteFooter } from "../../components/SiteFooter";
 import { SiteHeader } from "../../components/SiteHeader";
@@ -46,6 +51,7 @@ const ProjectPage: FC<Props> = async ({ params }) => {
   }
 
   const nextProject = getNextProject(slug);
+  const moreProjects = getMoreProjects(slug);
   const { name, images } = project;
   const framed = await withGalleryDimensions(images);
   const rows = packGalleryRows(framed);
@@ -53,7 +59,7 @@ const ProjectPage: FC<Props> = async ({ params }) => {
   return (
     <main data-id="project-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader />
-      <ProjectGallery name={name} rows={rows} />
+      <ProjectGallery name={name} rows={rows} moreProjects={moreProjects} />
       <ProjectDetails project={project} nextSlug={nextProject.slug} />
       <SiteFooter />
     </main>

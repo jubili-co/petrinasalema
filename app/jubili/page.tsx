@@ -53,7 +53,7 @@ const JubiliPage: FC = () => (
           collection.
         </p>
         <Link
-          href="/contact"
+          href="/book"
           data-id="jubili-hero-cta"
           className={cn(
             "mt-10 min-h-11 border border-white px-8 py-3",
