@@ -41,10 +41,9 @@ const BookPage: FC = () => {
           <p
             data-id="book-media-caption"
             className={cn(
-              "absolute inset-x-0 bottom-0 m-0 px-6 py-5",
-              "bg-gradient-to-t from-black/45 to-transparent",
-              "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream",
-              "md:px-10",
+              "absolute bottom-5 left-6 m-0 md:bottom-7 md:left-10",
+              "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
+              "text-dotto-cream [text-shadow:0_1px_2px_rgba(0,0,0,0.55)]",
             )}
           >
             {imageCaption}

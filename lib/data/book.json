@@ -14,16 +14,17 @@
     "body": "One hour session. You leave with a DIY plan for the change that would matter most in your home."
   },
   "primaryCta": {
-    "label": "Book a free fit call (30 min)",
-    "href": "#"
+    "label": "Book a fit call (30 min)",
+    "href": "https://cal.com/jubili/fit-call",
+    "microcopy": "Choose a time on the next screen."
   },
   "quote": {
     "text": "My daughter started calling her room the room from the fairy tale.",
-    "attribution": "Artashes, Tegelweg tenant"
+    "attribution": "Artashes · Vienna"
   },
   "secondaryCta": {
     "label": "Design Jumpstart",
-    "href": "#",
+    "href": "https://cal.com/jubili/jump-start",
     "microcopy": "Paid at booking · Leave with a practical DIY plan"
   },
   "emails": {
