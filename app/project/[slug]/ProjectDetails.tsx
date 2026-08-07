@@ -6,9 +6,7 @@ import {
   projectPlace,
   type ProjectsItem,
   type ProjectsLink,
-  type ProjectsRole,
 } from "@/lib/projects";
-import { SITE } from "@/lib/site";
 
 type Props = {
   project: ProjectsItem;
@@ -16,13 +14,10 @@ type Props = {
 };
 
 export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
-  const { name, subtitle, location, description, roles, scope, tags, links } =
-    project;
-  const hasRoles = roles.length > 0;
+  const { name, subtitle, location, description, scope, links } = project;
   const hasScope = scope.length > 0;
-  const hasTags = tags.length > 0;
   const hasLinks = links.length > 0;
-  const showRoleNames = rolesHaveNonSiteNames(roles);
+  const linksHeading = links.length === 1 ? "Link" : "Links";
 
   return (
     <section
@@ -95,32 +90,6 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
             </Link>
           </div>
 
-          {hasRoles && (
-            <div data-id="project-details-roles" className="mb-[30px]">
-              <h3
-                data-id="project-details-roles-title"
-                className={cn(
-                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-                )}
-              >
-                Roles
-              </h3>
-              <ul
-                data-id="project-details-roles-list"
-                className="m-0 list-none p-0"
-              >
-                {roles.map((entry) => (
-                  <RoleEntry
-                    key={`${entry.name}-${entry.role}`}
-                    role={entry}
-                    showName={showRoleNames}
-                  />
-                ))}
-              </ul>
-            </div>
-          )}
-
           {hasScope && (
             <div data-id="project-details-scope" className="mb-[30px]">
               <h3
@@ -144,29 +113,6 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
             </div>
           )}
 
-          {hasTags && (
-            <div data-id="project-details-tags" className="mb-[30px]">
-              <h3
-                data-id="project-details-tags-title"
-                className={cn(
-                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-                )}
-              >
-                Tags
-              </h3>
-              <p
-                data-id="project-details-tags-list"
-                className={cn(
-                  "m-0 font-[family-name:var(--font-antiqua)]",
-                  "text-[13px] leading-[18px] font-[350]",
-                )}
-              >
-                {tags.join(" · ")}
-              </p>
-            </div>
-          )}
-
           {hasLinks && (
             <div data-id="project-details-links">
               <h3
@@ -176,7 +122,7 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
                   "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
                 )}
               >
-                Links
+                {linksHeading}
               </h3>
               <ul
                 data-id="project-details-links-list"
@@ -210,48 +156,6 @@ export const ProjectDetails: FC<Props> = ({ project, nextSlug }) => {
     </section>
   );
 };
-
-type RoleEntryProps = {
-  role: ProjectsRole;
-  showName: boolean;
-};
-
-const RoleEntry: FC<RoleEntryProps> = ({ role, showName }) => {
-  const { name, role: title } = role;
-
-  return (
-    <li data-id="project-details-role" className="mb-5 last:mb-0">
-      {showName && (
-        <h4
-          data-id="project-details-role-name"
-          className={cn(
-            "m-0 font-[family-name:var(--font-antiqua)]",
-            "text-[13px] leading-[18px] font-[350]",
-          )}
-        >
-          {name}
-        </h4>
-      )}
-      <p
-        data-id="project-details-role-title"
-        className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
-          "text-[13px] leading-[18px] font-[350]",
-        )}
-      >
-        {title}
-      </p>
-    </li>
-  );
-};
-
-function rolesHaveNonSiteNames(roles: ProjectsRole[]): boolean {
-  return roles.some((entry) => !isSiteRoleName(entry.name));
-}
-
-function isSiteRoleName(name: string): boolean {
-  return name.trim().toLowerCase() === SITE.name.toLowerCase();
-}
 
 type ExternalLinkItemProps = {
   link: ProjectsLink;

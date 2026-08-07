@@ -34,7 +34,10 @@ export const ProjectGallery: FC<Props> = ({ name, rows }) => {
   }
 
   return (
-    <section data-id="project-gallery" className="w-full bg-dotto-cream pt-[74px] md:pt-[79px]">
+    <section
+      data-id="project-gallery"
+      className="flex w-full flex-col gap-0.5 bg-dotto-cream pt-[74px] md:pt-[79px]"
+    >
       {rows.map((row) => (
         <GalleryRowView key={rowKey(row)} row={row} name={name} />
       ))}
@@ -53,8 +56,8 @@ const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
   return (
     <div
       data-id="project-gallery-row"
-      className={cn("flex w-full flex-col", {
-        "md:flex-row md:items-start md:gap-px": shouldPair,
+      className={cn("flex w-full flex-col gap-0.5", {
+        "md:flex-row md:items-start": shouldPair,
       })}
     >
       {row.map((image) => (
