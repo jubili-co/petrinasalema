@@ -78,9 +78,24 @@ body {
   touch-action: manipulation;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/*
+ * Keep link/button resets in @layer base so Tailwind text-* utilities on
+ * <a> / <Link> / <button> win. Unlayered `color: inherit` beat utilities and
+ * made filled brown CTAs look empty (cream label lost to body brown).
+ */
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    cursor: pointer;
+  }
 }
 
 a.ds-markdown-link {
@@ -90,14 +105,6 @@ a.ds-markdown-link {
 }
 a.ds-markdown-link:hover {
   text-decoration-color: color-mix(in srgb, currentColor 80%, transparent);
-}
-
-button {
-  font: inherit;
-  color: inherit;
-  background: none;
-  border: 0;
-  cursor: pointer;
 }
 
 img,

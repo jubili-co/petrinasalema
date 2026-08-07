@@ -1,0 +1,48 @@
+{
+  "seoTitle": "Studio | Petrina Salema",
+  "seoDescription": "Petrina Salema's practice, based in Vienna. Homes and hospitality spaces, a few projects a year, in Vienna, abroad, and remotely.",
+  "images": [
+    "gdrive:1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf",
+    "gdrive:1iME7OmjE6DfIerVByVEklYAksq0jNoK-"
+  ],
+  "eyebrow": "Studio",
+  "hook": "Spaces that feel considered rather than styled. Clear in plan, grounded in material, built to hold up once you live in them.",
+  "body": "I started this practice in Vienna in 2021, after years studying interior design and working in architecture studios. A few homes and hospitality spaces a year, in Vienna, abroad, and remotely.",
+  "principles": [
+    {
+      "title": "Use over spectacle",
+      "body": "The work is tested in real rooms: daily life, how people move through the space, and what still feels right long after the photographs."
+    },
+    {
+      "title": "A few projects a year",
+      "body": "There is only room for a few at a time. That pace is how the work stays careful, and how each project gets the attention it needs."
+    },
+    {
+      "title": "Home and hospitality",
+      "body": "Whether you live there or guests do, the aim is the same: rooms for rest, gathering, and thinking."
+    }
+  ],
+  "primaryCta": {
+    "label": "Book a fit call",
+    "href": "/book",
+    "microcopy": "Free · 30 min"
+  },
+  "extensions": [
+    {
+      "label": "Biography",
+      "href": "/about",
+      "note": "Background, experience, and selected work"
+    },
+    {
+      "label": "Materiality",
+      "href": "/materiality",
+      "note": "Interior packs with shopping lists"
+    },
+    {
+      "label": "Jubili",
+      "href": "https://jubili.co",
+      "note": "Hospitality design brand co-founded from this practice",
+      "external": true
+    }
+  ]
+}

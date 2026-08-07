@@ -26,7 +26,7 @@ Rough notes — not a backlog commitment.
 - **Hook:** Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they rest, gather, and think.
 - **Fit filter (parked — not on page):** Best for people ready to change how a home works — not just how it photographs.
 - **Primary CTA:** Book a free fit call (30 min)
-- **Full project note (above CTA):** I take on a few residences a year, in Vienna and remote. Projects often run 1-3 months.
+- **Full project note (above CTA):** I take on a few residences a year, in Vienna, abroad, and remotely.
 - **Primary microcopy:** none until Cal is wired, then e.g. Choose a time on the next screen.
 - **Design Jumpstart body:** One hour session. You leave with a DIY plan for the change that would matter most in your home.
 - **Jumpstart CTA:** Design Jumpstart

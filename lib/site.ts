@@ -4,15 +4,16 @@ export const SITE = {
 
 export const NAV_LINKS = [
   { href: "/work", label: "Work" },
-  { href: "/about", label: "About" },
-  { href: "/materiality", label: "Materiality" },
+  { href: "/studio", label: "Studio" },
   { href: "/book", label: "Book" },
 ] as const;
 
 /** Primary close — conversion and brand extensions. */
 export const FOOTER_PRIMARY_LINKS = [
   { href: "/book", label: "Book" },
+  { href: "/about", label: "About" },
   { href: "/newsletter", label: "Studio Notes" },
+  { href: "/materiality", label: "Materiality" },
   {
     href: "https://jubili.co",
     label: "Jubili",
