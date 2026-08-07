@@ -220,7 +220,7 @@ const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
   });
   const labelClassName = cn(
     "inline-block translate-x-0 will-change-transform",
-    "transition-transform duration-500 ease-out",
+    "transition-transform duration-300 ease-out",
     "group-hover/cta:-translate-x-1.5",
     toneClassName,
   );
@@ -229,7 +229,7 @@ const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
     "flex items-center text-[15px] leading-none",
     "opacity-0 will-change-transform",
     "[transform:translate3d(2px,0,0)]",
-    "transition-[opacity,transform] duration-500 ease-out",
+    "transition-[opacity,transform] duration-300 ease-out",
     "group-hover/cta:opacity-100",
     "group-hover/cta:[transform:translate3d(0,0,0)]",
     toneClassName,
