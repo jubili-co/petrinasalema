@@ -96,17 +96,26 @@ export const SiteHeader: FC = () => {
 
           <nav data-id="site-header-nav" className="hidden md:block">
             <ul className="flex items-center font-semibold">
-              {NAV_LINKS.map(({ href, label }) => (
-                <li key={href} className="ml-[40px] lg:ml-[54px]">
-                  <Link
-                    href={href}
-                    data-id="site-header-nav-link"
-                    className="transition-opacity duration-200 ease-out hover:opacity-50"
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
+              {NAV_LINKS.map(({ href, label }) => {
+                const isCurrent = isCurrentNavPath(pathname, href);
+
+                return (
+                  <li key={href} className="ml-[40px] lg:ml-[54px]">
+                    <Link
+                      href={href}
+                      data-id="site-header-nav-link"
+                      aria-current={isCurrent ? "page" : undefined}
+                      className={cn(
+                        "border-b-2 border-transparent pb-2",
+                        "transition-[opacity,border-color] duration-200 ease-out hover:opacity-50",
+                        { "border-dotto-brown": isCurrent },
+                      )}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </nav>
 
@@ -149,17 +158,26 @@ export const SiteHeader: FC = () => {
         >
           <nav data-id="site-off-canvas-nav">
             <ul className="flex flex-col gap-6">
-              {NAV_LINKS.map(({ href, label }) => (
-                <li key={href}>
-                  <Link
-                    href={href}
-                    data-id="site-off-canvas-link"
-                    className="font-[family-name:var(--font-matter)] text-sm tracking-[0.15em] uppercase"
-                  >
-                    {label}
-                  </Link>
-                </li>
-              ))}
+              {NAV_LINKS.map(({ href, label }) => {
+                const isCurrent = isCurrentNavPath(pathname, href);
+
+                return (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      data-id="site-off-canvas-link"
+                      aria-current={isCurrent ? "page" : undefined}
+                      className={cn(
+                        "inline-block border-b-2 border-transparent pb-2",
+                        "font-[family-name:var(--font-matter)] text-sm tracking-[0.15em] uppercase",
+                        { "border-dotto-brown": isCurrent },
+                      )}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </nav>
         </div>
@@ -167,3 +185,11 @@ export const SiteHeader: FC = () => {
     </>
   );
 };
+
+function isCurrentNavPath(pathname: string, href: string): boolean {
+  if (pathname === href) {
+    return true;
+  }
+
+  return pathname.startsWith(`${href}/`);
+}

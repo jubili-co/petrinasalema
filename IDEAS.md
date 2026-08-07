@@ -23,7 +23,7 @@ Rough notes — not a backlog commitment.
 
 ## Book page — locked copy
 
-- **Hook:** Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they host, rest, and think.
+- **Hook:** Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they rest, gather, and think.
 - **Fit filter (parked — not on page):** Best for people ready to change how a home works — not just how it photographs.
 - **Primary CTA:** Book a free fit call (30 min)
 - **Full project note (above CTA):** I take on a few residences a year, in Vienna and remote. Projects often run 1-3 months.
