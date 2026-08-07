@@ -55,7 +55,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
           data-id="book-primary-microcopy"
           className={cn(
             "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
-            "text-[12px] leading-[16px] font-[350] text-dotto-brown/70",
+            "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
           )}
         >
           {primaryCta.microcopy}
@@ -71,7 +71,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
           data-id="book-secondary-microcopy"
           className={cn(
             "m-0 mt-2 font-[family-name:var(--font-antiqua)]",
-            "text-[11px] leading-[15px] font-[350] text-dotto-brown/55",
+            "text-[11px] leading-[15px] font-[350] text-dotto-brown/80",
           )}
         >
           {secondaryCta.microcopy}
@@ -114,7 +114,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
 
         <blockquote
           data-id="book-quote"
-          className="m-0 mt-12 border-l border-dotto-brown/20 pl-4"
+          className="m-0 mt-12 border-l border-dotto-brown/35 pl-4"
         >
           <p
             data-id="book-quote-text"
@@ -129,7 +129,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
             data-id="book-quote-attribution"
             className={cn(
               "mt-2 font-[family-name:var(--font-matter)]",
-              "text-[11px] tracking-[0.12em] text-dotto-brown/55 uppercase",
+              "text-[11px] tracking-[0.12em] text-dotto-brown/80 uppercase",
             )}
           >
             {quote.attribution}
@@ -138,13 +138,13 @@ export const BookPanel: FC<Props> = ({ book }) => {
 
         <div
           data-id="book-side-door"
-          className="mt-14 border-t border-dotto-brown/10 pt-7"
+          className="mt-14 border-t border-dotto-brown/25 pt-7"
         >
           <p
             data-id="book-side-door-lede"
             className={cn(
               "m-0 mb-5 font-[family-name:var(--font-antiqua)]",
-              "text-[12px] leading-[16px] font-[350] text-dotto-brown/50",
+              "text-[12px] leading-[16px] font-[350] text-dotto-brown/80",
             )}
           >
             For press or anything else, email works.
@@ -179,7 +179,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action, emphasis }) => {
           {
             "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown":
               isLead,
-            "text-[11px] leading-[16px] tracking-[0.14em] text-dotto-brown/65":
+            "text-[11px] leading-[16px] tracking-[0.14em] text-dotto-brown":
               !isLead,
           },
         )}
@@ -190,7 +190,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action, emphasis }) => {
         data-id="book-offer-body"
         className={cn("m-0 font-[family-name:var(--font-antiqua)] font-[350]", {
           "text-[13px] leading-[18px] text-dotto-brown": isLead,
-          "text-[12px] leading-[17px] text-dotto-brown/70": !isLead,
+          "text-[12px] leading-[17px] text-dotto-brown/85": !isLead,
         })}
       >
         {body}
@@ -200,7 +200,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action, emphasis }) => {
           data-id="book-offer-note"
           className={cn(
             "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
-            "text-[13px] leading-[18px] font-[350] text-dotto-brown/75",
+            "text-[13px] leading-[18px] font-[350] text-dotto-brown/85",
           )}
         >
           {note}
@@ -231,13 +231,13 @@ const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
     {
       "min-h-11 py-3 pl-8 pr-8 text-[12px] tracking-[0.15em] border border-dotto-brown bg-dotto-brown":
         isPrimary,
-      "min-h-9 py-2.5 pl-6 pr-6 text-[11px] tracking-[0.12em] border border-dotto-brown/55":
+      "min-h-9 py-2.5 pl-6 pr-6 text-[11px] tracking-[0.12em] border border-dotto-brown":
         !isPrimary,
     },
   );
   const toneClassName = cn({
     "text-dotto-cream": isPrimary,
-    "text-dotto-brown/80": !isPrimary,
+    "text-dotto-brown": !isPrimary,
   });
   const labelClassName = cn(
     "inline-block translate-x-0 will-change-transform",
@@ -298,7 +298,7 @@ const EmailRow: FC<EmailRowProps> = ({ label, value }) => (
       data-id="book-side-heading"
       className={cn(
         "mb-1.5 font-[family-name:var(--font-matter)]",
-        "text-[10px] tracking-[0.14em] text-dotto-brown/45 uppercase",
+        "text-[10px] tracking-[0.14em] text-dotto-brown/80 uppercase",
       )}
     >
       {label}
@@ -307,8 +307,8 @@ const EmailRow: FC<EmailRowProps> = ({ label, value }) => (
       href={`mailto:${value}`}
       data-id="book-email"
       className={cn(
-        "font-[family-name:var(--font-antiqua)] text-[12px] text-dotto-brown/65",
-        "transition-opacity duration-200 hover:opacity-60",
+        "font-[family-name:var(--font-antiqua)] text-[12px] text-dotto-brown",
+        "transition-opacity duration-200 hover:opacity-70",
       )}
     >
       {value}
