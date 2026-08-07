@@ -58,7 +58,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
               data-id="site-footer-nav-item"
               className="md:mx-[12px] md:first:ml-0 md:last:mr-0"
             >
-              <FooterNavLink item={item} isLegal={false} />
+              <FooterNavLink item={item} />
             </li>
           ))}
         </ul>
@@ -73,9 +73,9 @@ export const SiteFooter: FC<Props> = ({ className }) => (
             <li
               key={item.href}
               data-id="site-footer-nav-item"
-              className="md:mx-[10px] md:first:ml-0 md:last:mr-0"
+              className="md:mx-[12px] md:first:ml-0 md:last:mr-0"
             >
-              <FooterNavLink item={item} isLegal />
+              <FooterNavLink item={item} />
             </li>
           ))}
         </ul>
@@ -86,7 +86,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         className={cn(
           "w-full md:w-1/5 text-right",
           "font-[family-name:var(--font-matter)]",
-          "text-[11px] leading-tight text-dotto-brown-muted",
+          "text-[11px] leading-tight text-dotto-cream/85",
         )}
       >
         <p>Design + Furnishing</p>
@@ -104,20 +104,14 @@ type FooterLink = {
 
 type FooterNavLinkProps = {
   item: FooterLink;
-  isLegal: boolean;
 };
 
-const FooterNavLink: FC<FooterNavLinkProps> = ({ item, isLegal }) => {
+const FooterNavLink: FC<FooterNavLinkProps> = ({ item }) => {
   const { href, label, external } = item;
   const className = cn(
     "font-[family-name:var(--font-matter)] uppercase no-underline",
+    "text-[11px] leading-[15px] tracking-[1.65px] text-dotto-cream",
     "transition-opacity duration-1000 ease-out hover:opacity-50",
-    {
-      "text-[11px] leading-[15px] tracking-[1.65px] text-dotto-cream":
-        !isLegal,
-      "text-[10px] leading-[14px] tracking-[1.4px] text-dotto-cream/40":
-        isLegal,
-    },
   );
 
   if (external) {

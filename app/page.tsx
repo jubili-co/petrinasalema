@@ -4,9 +4,9 @@ import type { FC } from "react";
 import home from "@/lib/data/home.json";
 import landing from "@/lib/data/landing.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
-import { homeProjectBlocks } from "@/lib/projects";
+import { homeWorkBlocks } from "@/lib/work";
 
-import { HomeProjects } from "./components/HomeProjects";
+import { HomeWork } from "./components/HomeWork";
 import { LandingFeatures } from "./components/LandingFeatures";
 import { NewsletterSignup } from "./components/NewsletterSignup";
 import { SiteFooter } from "./components/SiteFooter";
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const HomePage: FC = () => (
   <main data-id="home-page" className="min-h-dvh">
     <SiteHeader />
-    <HomeProjects blocks={homeProjectBlocks()} />
+    <HomeWork blocks={homeWorkBlocks()} />
     <LandingFeatures
       studioImage={resolveProjectImageSrc(landing.studioImage)}
       jubiliImage={resolveProjectImageSrc(landing.jubiliImage)}

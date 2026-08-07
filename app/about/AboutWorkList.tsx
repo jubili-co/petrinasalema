@@ -9,46 +9,46 @@ import {
 } from "./AboutInviteCta";
 import { AboutTitle } from "./AboutTitle";
 
-export type ProjectListItem = {
+export type WorkListItem = {
   name: string;
   role: string;
 };
 
-export type ProjectListCta = AboutInviteCta;
+export type WorkListCta = AboutInviteCta;
 
-export type ProjectListSection = {
-  type: "projectList";
+export type WorkListSection = {
+  type: "workList";
   title?: string | null;
   color?: string | null;
-  items: ProjectListItem[];
-  cta?: ProjectListCta | null;
+  items: WorkListItem[];
+  cta?: WorkListCta | null;
 };
 
 type Props = {
-  section: ProjectListSection;
+  section: WorkListSection;
 };
 
-export const AboutProjectList: FC<Props> = ({ section }) => {
+export const AboutWorkList: FC<Props> = ({ section }) => {
   const { title, items, cta } = section;
   const background = resolveCssColor(section.color, "dotto-olive");
 
   return (
     <section
-      data-id="about-project-list"
+      data-id="about-work-list"
       className="flex min-h-[100dvh] w-full items-center"
       style={{ backgroundColor: background }}
     >
       <div
-        data-id="about-project-list-inner"
+        data-id="about-work-list-inner"
         className="w-full px-6 py-16 text-dotto-cream md:px-12 md:py-20"
       >
         <AboutTitle title={title} />
         <ul
-          data-id="about-project-list-items"
+          data-id="about-work-list-items"
           className="m-0 flex w-full list-none flex-col gap-[10px]"
         >
           {items.map((item) => (
-            <ProjectListRow key={item.name} item={item} />
+            <WorkListRow key={item.name} item={item} />
           ))}
         </ul>
         {cta && <AboutInviteCtaLink cta={cta} />}
@@ -57,17 +57,17 @@ export const AboutProjectList: FC<Props> = ({ section }) => {
   );
 };
 
-type ProjectListRowProps = {
-  item: ProjectListItem;
+type WorkListRowProps = {
+  item: WorkListItem;
 };
 
-const ProjectListRow: FC<ProjectListRowProps> = ({ item }) => {
+const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
   const { name, role } = item;
 
   return (
-    <li data-id="about-project-list-row">
+    <li data-id="about-work-list-row">
       <span
-        data-id="about-project-list-name"
+        data-id="about-work-list-name"
         className={cn(
           "font-[family-name:var(--font-matter)]",
           "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
@@ -76,7 +76,7 @@ const ProjectListRow: FC<ProjectListRowProps> = ({ item }) => {
         {name}
       </span>
       <span
-        data-id="about-project-list-sep"
+        data-id="about-work-list-sep"
         className={cn(
           "font-[family-name:var(--font-matter)]",
           "text-[13px] leading-[18px] tracking-[0.15em]",
@@ -85,7 +85,7 @@ const ProjectListRow: FC<ProjectListRowProps> = ({ item }) => {
         ,{" "}
       </span>
       <span
-        data-id="about-project-list-role"
+        data-id="about-work-list-role"
         className={cn(
           "font-[family-name:var(--font-antiqua)]",
           "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",

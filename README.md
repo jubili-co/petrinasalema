@@ -24,8 +24,8 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Layout
 
 - `app/` — routes and UI
-- `lib/data/` — JSON content (`projects.json`, about, careers, …)
-- `lib/projects.ts` — `Projects` types and project helpers
+- `lib/data/` — JSON content (`work.json`, about, careers, …)
+- `lib/work.ts` — `Work` types and portfolio helpers
 - `.cursor/skills/petro-code-*` — agent coding standards (see `AGENTS.md`)
 
 ## Stack

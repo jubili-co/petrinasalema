@@ -1,8 +1,8 @@
-import type { ProjectsImage } from "@/lib/projects";
+import type { WorkImage } from "@/lib/work";
 
 import { probeRemoteImageSize } from "./imageSize";
 
-export type GalleryImage = ProjectsImage & {
+export type GalleryImage = WorkImage & {
   width: number;
   height: number;
 };
@@ -12,7 +12,7 @@ export type GalleryRow = GalleryImage[];
 const FALLBACK_LANDSCAPE = { width: 1600, height: 900 };
 
 export async function withGalleryDimensions(
-  images: ProjectsImage[],
+  images: WorkImage[],
 ): Promise<GalleryImage[]> {
   return Promise.all(images.map(frameImage));
 }
@@ -44,7 +44,7 @@ export function isLandscape(image: Pick<GalleryImage, "width" | "height">): bool
   return image.width > image.height;
 }
 
-async function frameImage(image: ProjectsImage): Promise<GalleryImage> {
+async function frameImage(image: WorkImage): Promise<GalleryImage> {
   const size = await probeRemoteImageSize(image.src);
   const { width, height } = size ?? FALLBACK_LANDSCAPE;
   const { src, alt, caption } = image;

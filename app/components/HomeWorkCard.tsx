@@ -3,24 +3,24 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import type { HomeProjectCardItem } from "@/lib/projects";
+import type { HomeWorkCardItem } from "@/lib/work";
 
 type Props = {
-  item: HomeProjectCardItem;
+  item: HomeWorkCardItem;
   className?: string;
   sizes: string;
   isLandscape?: boolean;
 };
 
-export const HomeProjectCard: FC<Props> = ({
+export const HomeWorkCard: FC<Props> = ({
   item,
   className,
   sizes,
   isLandscape = false,
 }) => (
   <Link
-    href={`/project/${item.slug}`}
-    data-id="home-project-card"
+    href={`/work/${item.slug}`}
+    data-id="home-work-card"
     className={cn(
       "group relative block overflow-hidden",
       {
@@ -39,7 +39,7 @@ export const HomeProjectCard: FC<Props> = ({
       className="object-cover"
     />
     <div
-      data-id="home-project-card-overlay"
+      data-id="home-work-card-overlay"
       className={cn(
         "absolute inset-0 z-[1]",
         "bg-black/40",
@@ -48,7 +48,7 @@ export const HomeProjectCard: FC<Props> = ({
       )}
     />
     <h2
-      data-id="home-project-card-title"
+      data-id="home-work-card-title"
       className={cn(
         "absolute inset-0 z-[2] flex items-center justify-center p-12 text-center text-balance md:p-20",
         "font-semibold",

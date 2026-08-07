@@ -3,20 +3,20 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
-export const ProjectsInvite: FC = () => (
+export const WorkInvite: FC = () => (
   <div
-    data-id="projects-grid-invite"
+    data-id="work-grid-invite"
     className="relative flex aspect-[1440/1860] p-5 md:p-7"
   >
     <div
-      data-id="projects-grid-invite-inner"
+      data-id="work-grid-invite-inner"
       className={cn(
         "flex h-full w-full flex-col items-center justify-center gap-10",
         "border border-dotto-brown bg-dotto-cream px-6 text-center",
       )}
     >
       <p
-        data-id="projects-grid-invite-close"
+        data-id="work-grid-invite-close"
         className={cn(
           "m-0 max-w-[18ch] font-[family-name:var(--font-antiqua)]",
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
@@ -25,12 +25,12 @@ export const ProjectsInvite: FC = () => (
         If the work fits, write.
       </p>
       <div
-        data-id="projects-grid-invite-actions"
+        data-id="work-grid-invite-actions"
         className="flex flex-col items-center gap-4"
       >
         <Link
           href="/book"
-          data-id="projects-grid-invite-cta"
+          data-id="work-grid-invite-cta"
           className={cn(
             "group/cta inline-flex min-h-11 items-center justify-center whitespace-nowrap",
             "border border-dotto-brown px-8 py-3",
@@ -44,13 +44,13 @@ export const ProjectsInvite: FC = () => (
           </span>
         </Link>
         <p
-          data-id="projects-grid-invite-lede"
+          data-id="work-grid-invite-lede"
           className={cn(
             "m-0 max-w-[28ch] font-[family-name:var(--font-antiqua)]",
             "text-[12px] leading-[16px] font-[350] text-dotto-brown/75",
           )}
         >
-          I take on a few projects a year, in Vienna or wherever you call home.
+          I take on a few residences a year, in Vienna or wherever you call home.
         </p>
       </div>
     </div>

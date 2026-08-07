@@ -7,7 +7,6 @@ import { useEffect, useRef, useState, type FC } from "react";
 import { cn } from "@/lib/cn";
 import { NAV_LINKS } from "@/lib/site";
 
-import { LogoJubiliMark } from "./LogoJubiliMark";
 import { LogoPetina } from "./LogoDotto";
 
 const SCROLL_DELTA = 1;
@@ -84,7 +83,7 @@ export const SiteHeader: FC = () => {
       >
         <div
           data-id="site-header-inner"
-          className="relative flex w-full items-center justify-between"
+          className="flex w-full items-center justify-between"
         >
           <Link
             href="/"
@@ -95,13 +94,10 @@ export const SiteHeader: FC = () => {
             <LogoPetina />
           </Link>
 
-          <nav
-            data-id="site-header-nav"
-            className="absolute left-1/2 hidden -translate-x-1/2 md:block"
-          >
+          <nav data-id="site-header-nav" className="hidden md:block">
             <ul className="flex items-center font-semibold">
               {NAV_LINKS.map(({ href, label }) => (
-                <li key={href} className="mx-[20px] lg:mx-[27px]">
+                <li key={href} className="ml-[40px] lg:ml-[54px]">
                   <Link
                     href={href}
                     data-id="site-header-nav-link"
@@ -114,40 +110,26 @@ export const SiteHeader: FC = () => {
             </ul>
           </nav>
 
-          <div
-            data-id="site-header-actions"
-            className="relative z-10 flex items-center gap-4"
+          <button
+            type="button"
+            data-id="site-header-hamburger"
+            className="relative z-10 flex min-h-11 min-w-11 items-center justify-end md:hidden"
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isOpen}
+            onClick={onToggle}
           >
-            <Link
-              href="/jubili"
-              data-id="site-header-jubili-mark"
-              className="hidden md:block"
-              aria-label="Jubili store"
-            >
-              <LogoJubiliMark />
-            </Link>
-
-            <button
-              type="button"
-              data-id="site-header-hamburger"
-              className="flex min-h-11 min-w-11 items-center justify-end md:hidden"
-              aria-label={isOpen ? "Close menu" : "Open menu"}
-              aria-expanded={isOpen}
-              onClick={onToggle}
-            >
-              <span
-                className={cn(
-                  "relative block h-[11px] w-[22px]",
-                  "before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-current before:transition-transform before:duration-200",
-                  "after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-current after:transition-transform after:duration-200",
-                  {
-                    "before:top-1/2 before:-translate-y-1/2 before:rotate-45 after:bottom-auto after:top-1/2 after:-translate-y-1/2 after:-rotate-45":
-                      isOpen,
-                  },
-                )}
-              />
-            </button>
-          </div>
+            <span
+              className={cn(
+                "relative block h-[11px] w-[22px]",
+                "before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-current before:transition-transform before:duration-200",
+                "after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-current after:transition-transform after:duration-200",
+                {
+                  "before:top-1/2 before:-translate-y-1/2 before:rotate-45 after:bottom-auto after:top-1/2 after:-translate-y-1/2 after:-rotate-45":
+                    isOpen,
+                },
+              )}
+            />
+          </button>
         </div>
       </header>
 
@@ -158,7 +140,7 @@ export const SiteHeader: FC = () => {
             // position
             "fixed inset-0 z-[998]",
             // layout
-            "flex flex-col justify-between",
+            "flex flex-col",
             // spacing
             "px-6 pt-28 pb-[max(2rem,var(--safe-bottom))]",
             // color
@@ -180,15 +162,6 @@ export const SiteHeader: FC = () => {
               ))}
             </ul>
           </nav>
-
-          <Link
-            href="/jubili"
-            data-id="site-off-canvas-jubili"
-            className="flex items-center justify-between border-t border-dotto-brown/20 pt-6"
-          >
-            <span className="text-sm tracking-[0.15em] uppercase">Jubili</span>
-            <LogoJubiliMark />
-          </Link>
         </div>
       )}
     </>

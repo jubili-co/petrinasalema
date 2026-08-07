@@ -10,10 +10,7 @@ import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
-import {
-  AboutProjectList,
-  type ProjectListSection,
-} from "./AboutProjectList";
+import { AboutWorkList, type WorkListSection } from "./AboutWorkList";
 import {
   AboutTextImage,
   type AboutMdxKey,
@@ -76,9 +73,9 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   section,
   mdxBodyByKey,
 }) => {
-  const projectListSection = toProjectListSection(section);
-  if (projectListSection) {
-    return <AboutProjectList section={projectListSection} />;
+  const workListSection = toWorkListSection(section);
+  if (workListSection) {
+    return <AboutWorkList section={workListSection} />;
   }
 
   const textImageSection = toTextImageSection(section);
@@ -92,17 +89,15 @@ const AboutPageSection: FC<AboutPageSectionProps> = ({
   return <AboutTextImage section={textImageSection} body={body} />;
 };
 
-function toProjectListSection(
-  section: AboutSection,
-): ProjectListSection | null {
-  if (section.type !== "projectList") {
+function toWorkListSection(section: AboutSection): WorkListSection | null {
+  if (section.type !== "workList") {
     return null;
   }
 
   const { title, color, items = [], cta } = section;
 
   return {
-    type: "projectList",
+    type: "workList",
     title,
     color,
     items: items.map((item) => ({

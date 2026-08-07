@@ -3,10 +3,10 @@ export const SITE = {
 } as const;
 
 export const NAV_LINKS = [
-  { href: "/projects", label: "Projects" },
+  { href: "/work", label: "Work" },
   { href: "/about", label: "About" },
+  { href: "/materiality", label: "Materiality" },
   { href: "/book", label: "Book" },
-  { href: "/materiality", label: "Store" },
 ] as const;
 
 /** Primary close — conversion and brand extensions. */
@@ -20,7 +20,7 @@ export const FOOTER_PRIMARY_LINKS = [
   },
 ] as const;
 
-/** Compliance — quieter weight than the primary close. */
+/** Compliance — sits apart from the primary close; same type scale. */
 export const FOOTER_LEGAL_LINKS = [
   { href: "/privacy", label: "Privacy" },
   { href: "/impressum", label: "Impressum" },

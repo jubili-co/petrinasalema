@@ -6,26 +6,26 @@ import {
   isLandscape,
   type GalleryImage,
   type GalleryRow,
-} from "@/lib/projectGallery";
-import type { MoreProjectLink } from "@/lib/projects";
+} from "@/lib/workGallery";
+import type { MoreWorkLink } from "@/lib/work";
 
-import { GalleryMoreProjects } from "./GalleryMoreProjects";
+import { GalleryMoreWork } from "./GalleryMoreWork";
 
 type Props = {
   name: string;
   rows: GalleryRow[];
-  moreProjects: MoreProjectLink[];
+  moreWork: MoreWorkLink[];
 };
 
-export const ProjectGallery: FC<Props> = ({ name, rows, moreProjects }) => {
+export const WorkGallery: FC<Props> = ({ name, rows, moreWork }) => {
   if (rows.length === 0) {
     return (
       <section
-        data-id="project-gallery"
+        data-id="work-gallery"
         className="flex min-h-[50dvh] items-end bg-dotto-cream px-6 pt-[100px] pb-9 md:px-12 md:pt-[120px]"
       >
         <h1
-          data-id="project-gallery-title"
+          data-id="work-gallery-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
             "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown uppercase",
@@ -39,7 +39,7 @@ export const ProjectGallery: FC<Props> = ({ name, rows, moreProjects }) => {
 
   return (
     <section
-      data-id="project-gallery"
+      data-id="work-gallery"
       className="flex w-full flex-col gap-0.5 bg-dotto-cream pt-[74px] md:pt-[79px]"
     >
       {rows.map((row) => (
@@ -47,7 +47,7 @@ export const ProjectGallery: FC<Props> = ({ name, rows, moreProjects }) => {
           key={rowKey(row)}
           row={row}
           name={name}
-          moreProjects={moreProjects}
+          moreWork={moreWork}
         />
       ))}
     </section>
@@ -57,20 +57,16 @@ export const ProjectGallery: FC<Props> = ({ name, rows, moreProjects }) => {
 type GalleryRowViewProps = {
   row: GalleryRow;
   name: string;
-  moreProjects: MoreProjectLink[];
+  moreWork: MoreWorkLink[];
 };
 
-const GalleryRowView: FC<GalleryRowViewProps> = ({
-  row,
-  name,
-  moreProjects,
-}) => {
+const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name, moreWork }) => {
   const shouldPair = row.length > 1;
-  const shouldShowMore = shouldFillWithMoreProjects(row, moreProjects);
+  const shouldShowMore = shouldFillWithMoreWork(row, moreWork);
 
   return (
     <div
-      data-id="project-gallery-row"
+      data-id="work-gallery-row"
       className={cn("flex w-full flex-col gap-0.5", {
         "md:flex-row md:items-stretch": shouldPair || shouldShowMore,
       })}
@@ -83,7 +79,7 @@ const GalleryRowView: FC<GalleryRowViewProps> = ({
           isHalfWidth={shouldPair || shouldShowMore}
         />
       ))}
-      {shouldShowMore && <GalleryMoreProjects projects={moreProjects} />}
+      {shouldShowMore && <GalleryMoreWork items={moreWork} />}
     </div>
   );
 };
@@ -104,7 +100,7 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
 
   return (
     <figure
-      data-id="project-gallery-figure"
+      data-id="work-gallery-figure"
       className={cn("relative m-0 w-full", {
         "md:w-1/2": isHalfWidth,
       })}
@@ -115,12 +111,12 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
         width={width}
         height={height}
         sizes={sizes}
-        data-id="project-gallery-image"
+        data-id="work-gallery-image"
         className="h-auto w-full"
       />
       {caption.length > 0 && (
         <figcaption
-          data-id="project-gallery-caption"
+          data-id="work-gallery-caption"
           className={cn(
             "px-6 py-3 font-[family-name:var(--font-antiqua)]",
             "text-[13px] leading-[18px] font-[350] text-dotto-brown md:px-12",
@@ -133,11 +129,11 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
   );
 };
 
-function shouldFillWithMoreProjects(
+function shouldFillWithMoreWork(
   row: GalleryRow,
-  moreProjects: MoreProjectLink[],
+  moreWork: MoreWorkLink[],
 ): boolean {
-  if (moreProjects.length === 0) {
+  if (moreWork.length === 0) {
     return false;
   }
 

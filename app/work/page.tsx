@@ -4,34 +4,34 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import { PROJECTS, projectPlace } from "@/lib/projects";
+import { WORK, workPlace } from "@/lib/work";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
-import { ProjectsInvite } from "./ProjectsInvite";
+import { WorkInvite } from "./WorkInvite";
 
 export const metadata: Metadata = {
-  title: "Projects | Petrina Salema",
+  title: "Work | Petrina Salema",
   description:
-    "Selected architecture, interiors and project-management work by Petrina Salema.",
+    "Selected architecture, interiors and hospitality work by Petrina Salema.",
 };
 
-const ProjectsPage: FC = () => (
-  <main data-id="projects-page" className="min-h-dvh bg-dotto-cream">
+const WorkPage: FC = () => (
+  <main data-id="work-page" className="min-h-dvh bg-dotto-cream">
     <SiteHeader />
     <section
-      data-id="projects-grid"
+      data-id="work-grid"
       className="mt-[74px] grid grid-cols-1 gap-px md:mt-[79px] md:grid-cols-2 lg:grid-cols-3"
     >
-      {PROJECTS.map((project) => {
-        const { id, slug, name, subtitle, location, images } = project;
+      {WORK.map((item) => {
+        const { id, slug, name, subtitle, location, images } = item;
         const cover = images[0];
 
         return (
           <Link
             key={id}
-            href={`/project/${slug}`}
-            data-id="projects-grid-card"
+            href={`/work/${slug}`}
+            data-id="work-grid-card"
             className="group relative aspect-[1440/1860] overflow-hidden bg-dotto-brown"
           >
             {cover && (
@@ -44,7 +44,7 @@ const ProjectsPage: FC = () => (
               />
             )}
             <div
-              data-id="projects-grid-card-overlay"
+              data-id="work-grid-card-overlay"
               className={cn(
                 "absolute inset-0 flex flex-col justify-end",
                 "bg-gradient-to-t from-black/50 via-transparent to-transparent",
@@ -52,31 +52,31 @@ const ProjectsPage: FC = () => (
               )}
             >
               <h2
-                data-id="projects-grid-card-title"
+                data-id="work-grid-card-title"
                 className="m-0 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-dotto-cream uppercase"
               >
                 {name}
               </h2>
               <p
-                data-id="projects-grid-card-subtitle"
+                data-id="work-grid-card-subtitle"
                 className="m-0 mt-2 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream"
               >
                 {subtitle}
               </p>
               <p
-                data-id="projects-grid-card-location"
+                data-id="work-grid-card-location"
                 className="m-0 mt-1 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream/80"
               >
-                {projectPlace(location)}
+                {workPlace(location)}
               </p>
             </div>
           </Link>
         );
       })}
-      <ProjectsInvite />
+      <WorkInvite />
     </section>
     <SiteFooter />
   </main>
 );
 
-export default ProjectsPage;
+export default WorkPage;

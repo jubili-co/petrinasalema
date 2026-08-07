@@ -1,25 +1,25 @@
 import type { FC } from "react";
 
-import type { HomeProjectBlock } from "@/lib/projects";
+import type { HomeWorkBlock } from "@/lib/work";
 
-import { HomeProjectCard } from "./HomeProjectCard";
+import { HomeWorkCard } from "./HomeWorkCard";
 
 type Props = {
-  blocks: HomeProjectBlock[];
+  blocks: HomeWorkBlock[];
 };
 
-export const HomeProjects: FC<Props> = ({ blocks }) => (
-  <section data-id="home-projects" className="w-full">
+export const HomeWork: FC<Props> = ({ blocks }) => (
+  <section data-id="home-work" className="w-full">
     {blocks.map((block) => {
       if (block.type === "portrait") {
         return (
           <div
             key={block.items.map((item) => item.slug).join("-")}
-            data-id="home-projects-portrait-row"
+            data-id="home-work-portrait-row"
             className="flex w-full flex-col overflow-hidden md:flex-row"
           >
             {block.items.map((item) => (
-              <HomeProjectCard
+              <HomeWorkCard
                 key={item.slug}
                 item={item}
                 className="w-full md:mr-px md:w-1/2 md:last:mr-0"
@@ -33,10 +33,10 @@ export const HomeProjects: FC<Props> = ({ blocks }) => (
       return (
         <div
           key={block.slug}
-          data-id="home-projects-landscape-row"
+          data-id="home-work-landscape-row"
           className="relative w-full"
         >
-          <HomeProjectCard
+          <HomeWorkCard
             item={block}
             className="w-full"
             sizes="100vw"

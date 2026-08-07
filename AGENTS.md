@@ -23,7 +23,7 @@ Skills before local style. Complete the relevant stop checklist and gate from pe
 
 - Brand / package name: **Dotto** (`package.json` `"name": "dotto"`)
 - App UI lives under `app/**`; shared domain/data under `lib/**`
-- Project content is `lib/data/projects.json` shaped as `Projects` in `lib/projects.ts`
+- Work content is `lib/data/work.json` shaped as `Work` in `lib/work.ts`
 - Prefer named `FC` exports, `cn()` for Tailwind, static `data-id` string literals
 - Gate: `npm run format` (if wired) → `npm run lint` → `npx tsc --noEmit`; run `npm run skill-check` on touched scope when changing UI/orchestrators
 

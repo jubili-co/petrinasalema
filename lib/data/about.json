@@ -46,8 +46,8 @@
       "imageBorder": false
     },
     {
-      "type": "projectList",
-      "title": "Projects",
+      "type": "workList",
+      "title": "Work",
       "color": "dotto-blue",
       "items": [
         {
