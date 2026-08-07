@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import type { FC } from "react";
 
-import { cn } from "@/lib/cn";
 import book from "@/lib/data/book.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
@@ -17,7 +16,6 @@ export const metadata: Metadata = {
 const BookPage: FC = () => {
   const content = book as BookContent;
   const imageSrc = resolveProjectImageSrc(book.image);
-  const { imageCaption } = book;
 
   return (
     <main data-id="book-page" className="min-h-dvh bg-dotto-cream">
@@ -38,16 +36,6 @@ const BookPage: FC = () => {
             sizes="(min-width: 768px) 50vw, 100vw"
             className="object-cover"
           />
-          <p
-            data-id="book-media-caption"
-            className={cn(
-              "absolute bottom-5 left-6 m-0 md:bottom-7 md:left-10",
-              "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
-              "text-dotto-cream [text-shadow:0_1px_2px_rgba(0,0,0,0.55)]",
-            )}
-          >
-            {imageCaption}
-          </p>
         </div>
         <BookPanel book={content} />
       </section>

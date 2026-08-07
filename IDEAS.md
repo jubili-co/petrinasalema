@@ -38,12 +38,6 @@ Rough notes — not a backlog commitment.
   - Full engagement: A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.
   - Jumpstart: one hour session with a DIY plan for the change that would matter most
 
-## TODO — elite finish still open
-
-- Wire real Cal / checkout URLs into `primaryCta.href` and `secondaryCta.href` (post-click microcopy assumes a booking screen)
-- Image half on Book page (desire / lived space), deferred by request
-- Optional: real Jumpstart price figure once set (`Paid at booking · from €X`)
-
 ## TODO — mirror before calendar (optional diagnostic door)
 
 Not a gate in front of Cal. A second door for people who aren’t ready to book:
