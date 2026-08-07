@@ -1,30 +1,31 @@
 {
   "seoTitle": "Book | Petrina Salema",
-  "seoDescription": "Book a fit conversation or a Design Jumpstart — interior design that changes how you host, rest, and think.",
+  "seoDescription": "Book a fit conversation or a Design Jumpstart. Interior design that changes how you host, rest, and think.",
   "image": "gdrive:1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf",
   "imageCaption": "Designed to be lived in, not just shot.",
   "hook": "Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they host, rest, and think.",
   "projectOffer": {
     "title": "Full project",
-    "body": "A redesign of how the home operates: layout, material, guest flow, the daily rituals."
+    "body": "A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.",
+    "note": "I take on a few residences a year, in Vienna and remote. Projects often run 1-3 months."
   },
   "jumpstartOffer": {
     "title": "Design Jumpstart",
     "body": "One hour session, where you leave with a DIY plan for the highest-leverage change you can make to your home."
   },
   "primaryCta": {
-    "label": "Book a fit conversation (30 min)",
+    "label": "Book a free fit call (30 min)",
     "href": "#",
-    "microcopy": "Free · 30 minutes · No pitch deck"
+    "microcopy": "Free · No pitch deck"
   },
-  "proofLine": "Selected residences · Vienna & remote · Typical engagement 4–9 months",
   "quote": {
-    "text": "She didn’t just restyle the apartment. She changed how we use every room.",
-    "attribution": "Client name, Vienna"
+    "text": "My daughter started calling her room the room from the fairy tale.",
+    "attribution": "Artashes"
   },
   "secondaryCta": {
-    "label": "Design Jumpstart",
-    "href": "#"
+    "label": "Design Jumpstart (60 min)",
+    "href": "#",
+    "microcopy": "Paid · DIY plan you can execute"
   },
   "emails": {
     "general": "contact@petrinasalema.com",

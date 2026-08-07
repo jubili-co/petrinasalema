@@ -6,6 +6,7 @@ import { cn } from "@/lib/cn";
 export type BookOffer = {
   title: string;
   body: string;
+  note?: string;
 };
 
 export type BookCta = {
@@ -24,7 +25,6 @@ export type BookContent = {
   projectOffer: BookOffer;
   jumpstartOffer: BookOffer;
   primaryCta: BookCta;
-  proofLine: string;
   quote: BookQuote;
   secondaryCta: BookCta;
   emails: {
@@ -43,7 +43,6 @@ export const BookPanel: FC<Props> = ({ book }) => {
     projectOffer,
     jumpstartOffer,
     primaryCta,
-    proofLine,
     quote,
     secondaryCta,
     emails,
@@ -67,6 +66,17 @@ export const BookPanel: FC<Props> = ({ book }) => {
   const jumpstartAction = (
     <div data-id="book-secondary">
       <BookActionLink cta={secondaryCta} variant="secondary" />
+      {secondaryCta.microcopy && (
+        <p
+          data-id="book-secondary-microcopy"
+          className={cn(
+            "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+            "text-[12px] leading-[16px] font-[350] text-dotto-brown/70",
+          )}
+        >
+          {secondaryCta.microcopy}
+        </p>
+      )}
     </div>
   );
 
@@ -94,19 +104,9 @@ export const BookPanel: FC<Props> = ({ book }) => {
           <OfferBlock offer={jumpstartOffer} action={jumpstartAction} />
         </div>
 
-        <p
-          data-id="book-proof"
-          className={cn(
-            "m-0 mt-10 font-[family-name:var(--font-matter)]",
-            "text-[11px] leading-[15px] tracking-[0.12em] text-dotto-brown/70 uppercase",
-          )}
-        >
-          {proofLine}
-        </p>
-
         <blockquote
           data-id="book-quote"
-          className="m-0 mt-6 border-l border-dotto-brown/25 pl-4"
+          className="m-0 mt-10 border-l border-dotto-brown/25 pl-4"
         >
           <p
             data-id="book-quote-text"
@@ -156,7 +156,7 @@ type OfferBlockProps = {
 };
 
 const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
-  const { title, body } = offer;
+  const { title, body, note } = offer;
 
   return (
     <div data-id="book-offer">
@@ -178,6 +178,17 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
       >
         {body}
       </p>
+      {note && (
+        <p
+          data-id="book-offer-note"
+          className={cn(
+            "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+            "text-[13px] leading-[18px] font-[350] text-dotto-brown/75",
+          )}
+        >
+          {note}
+        </p>
+      )}
       <div data-id="book-offer-action" className="mt-5">
         {action}
       </div>

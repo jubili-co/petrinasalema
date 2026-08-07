@@ -25,12 +25,15 @@ Rough notes — not a backlog commitment.
 
 - **Hook:** Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they host, rest, and think.
 - **Fit filter (parked — not on page):** Best for people ready to change how a home works — not just how it photographs.
-- **Primary CTA:** Book a fit conversation (30 min)
-- **Microcopy:** Free · 30 minutes · No pitch deck
+- **Primary CTA:** Book a free fit call (30 min)
+- **Full project note (above CTA):** I take on a few residences a year, in Vienna and remote. Projects often run 1-3 months.
+- **Primary microcopy:** Free · No pitch deck
 - **Design Jumpstart:** One hour session, where you leave with a DIY plan for the highest-leverage change you can make to your home.
+- **Jumpstart CTA:** Design Jumpstart (60 min)
+- **Jumpstart microcopy (placeholder price):** Paid · DIY plan you can execute
 - **Scarcity (parked — not on page):** We take a small number of projects each year. If timing isn’t right, the jumpstart still helps.
 - **Offer framing:**
-  - Full engagement: A redesign of how the home operates: layout, material, guest flow, the daily rituals.
+  - Full engagement: A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.
   - Jumpstart: one hour — the highest-leverage change in your space, and a plan you can execute
 
 ## TODO — mirror before calendar (optional diagnostic door)
