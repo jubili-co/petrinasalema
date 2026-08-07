@@ -102,3 +102,11 @@ Why it works: insight, then a plain value proposition. No “considered rather t
 - Full sentences where a list would feel cold?
 - Did you avoid “Formed by / Built on / Rooted in / Dedicated to / Today: / go deep / same bar / Tuesday / coats / photographer leaves”?
 - Credentials = background and competence. Do not sell “architecture” or “interior design” as licensed services on commercial pages (Studio, Book, Home SEO). Biography/About may state training and past roles plainly.
+
+## Cursor Cloud specific instructions
+
+Dotto is a single static, frontend-only Next.js 16 (App Router) app. There is no backend, database, auth, or `.env` config, so the app runs with zero configuration once dependencies are installed.
+
+- Run the dev server with `npm run dev` (Turbopack, http://localhost:3000). It is the only service. Standard scripts live in `README.md` / `package.json`.
+- Remote project images resolve to public Google Drive (`lh3.googleusercontent.com`) and Sanity CDN (`cdn.sanity.io`) URLs (see `next.config.ts` and `lib/googleDrive.ts`). Missing or slow remote images are non-blocking; pages still render, and local `public/images` work offline.
+- No test runner is wired. `playwright` is a dependency but there are no specs, so treat lint plus typecheck plus `skill-check` as the effective gate (see the Gate note under Project notes). Do not add a test step to the startup/update script.
