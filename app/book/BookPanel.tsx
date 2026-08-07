@@ -84,7 +84,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
     <div
       data-id="book-panel"
       className={cn(
-        "flex w-full flex-col justify-center",
+        "flex w-full flex-col justify-start",
         "px-6 py-16 md:w-1/2 md:px-[30px] md:py-20 lg:px-12",
       )}
     >
@@ -209,29 +209,29 @@ const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
     "group/cta relative inline-flex min-h-11 items-center justify-center",
     "overflow-hidden py-3 pl-8 pr-8",
     "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
-    "transition-colors duration-500 ease-out",
     {
-      "border border-dotto-brown bg-dotto-brown hover:bg-transparent": isPrimary,
-      "border border-dotto-brown hover:bg-dotto-brown": !isPrimary,
+      "border border-dotto-brown bg-dotto-brown": isPrimary,
+      "border border-dotto-brown": !isPrimary,
     },
   );
   const toneClassName = cn({
-    "text-dotto-cream group-hover/cta:text-dotto-brown": isPrimary,
-    "text-dotto-brown group-hover/cta:text-dotto-cream": !isPrimary,
+    "text-dotto-cream": isPrimary,
+    "text-dotto-brown": !isPrimary,
   });
   const labelClassName = cn(
     "inline-block translate-x-0 will-change-transform",
-    "transition-[transform,color] duration-500 ease-out",
-    "group-hover/cta:-translate-x-3",
+    "transition-transform duration-500 ease-out",
+    "group-hover/cta:-translate-x-1.5",
     toneClassName,
   );
   const arrowClassName = cn(
-    "pointer-events-none absolute top-1/2 right-4",
+    "pointer-events-none absolute inset-y-0 right-4",
+    "flex items-center text-[15px] leading-none",
     "opacity-0 will-change-transform",
-    "[transform:translate3d(6px,-50%,0)]",
-    "transition-[opacity,transform,color] duration-500 ease-out",
+    "[transform:translate3d(2px,0,0)]",
+    "transition-[opacity,transform] duration-500 ease-out",
     "group-hover/cta:opacity-100",
-    "group-hover/cta:[transform:translate3d(0,-50%,0)]",
+    "group-hover/cta:[transform:translate3d(0,0,0)]",
     toneClassName,
   );
   const content = (
