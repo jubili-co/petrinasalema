@@ -56,3 +56,19 @@ Elite funnels don’t end at Typeform/Cal:
 - Confirmation copy that continues the brand voice
 - Pre-call note: “Bring photos of the worst room and the room you love”
 - That primes better calls and makes booking feel like work starting
+
+## Financing / affordability (authorship vs money)
+
+Side thought: people can take the idea (authorship of the cocoon) and still not have the cash. Should Petrina partner with financing (e.g. Klarna)?
+
+**Direction (not decided):**
+
+- **Yes** to reducing money as a false veto on authorship.
+- **No** to leading with Klarna (or retail BNPL) as the brand story on Fit call / Jumpstart. That cultural meaning is impulse checkout; CTAs here are initiation (`DRAPER.md`).
+- The ladder already finances conviction in stages: free fit call → €290 Jumpstart → full project. Don’t skip that for a BNPL badge.
+- **Materiality / productized packs:** Klarna-like tools fit (SKU, goods, shopping list).
+- **Jumpstart:** usually unnecessary to BNPL; studio can split invoices if needed.
+- **Full projects:** prefer a plain **studio payment schedule** (e.g. deposit / mid / final), not consumer BNPL on living scope.
+- If a partner: quiet, serious credit for larger balances, linked as “payment plans available” from Book/FAQ, not a fintech strip on every CTA.
+
+**Rule of thumb:** Finance the cocoon when scope is clear and the ticket is large. Don’t finance the moment of conviction with a retail checkout badge.

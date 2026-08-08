@@ -2,7 +2,7 @@
   "seoTitle": "Book | Petrina Salema",
   "seoDescription": "Book a fit conversation or a Design Jumpstart. Space work that changes how you rest, gather, and think.",
   "image": "gdrive:1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf",
-  "hook": "Your space is already deciding how you live. Most people decorate around that. Few redesign it to change how they rest, gather, and think.",
+  "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Shape the room that holds how you want to rest, gather, and think.",
   "projectOffer": {
     "title": "Full project",
     "body": "A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.",
@@ -13,18 +13,18 @@
     "body": "One hour session. Get a clear point of view on the change that would matter most, and your next step."
   },
   "primaryCta": {
-    "label": "Book a fit call",
+    "label": "Fit call",
     "href": "https://cal.com/jubili/fit-call",
-    "microcopy": "Free · 30 min"
+    "microcopy": "Free · 30 min · See if this is your work"
   },
   "quote": {
     "text": "My daughter started calling her room the room from the fairy tale.",
     "attribution": "Artashes · Vienna"
   },
   "secondaryCta": {
-    "label": "Book a Jumpstart",
+    "label": "Jumpstart",
     "href": "https://cal.com/jubili/jump-start",
-    "microcopy": "€290 · 60 min"
+    "microcopy": "€290 · 60 min · Leave knowing what to change"
   },
   "email": "contact@petrinasalema.com"
 }

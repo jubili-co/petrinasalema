@@ -6,12 +6,12 @@
     "gdrive:1iME7OmjE6DfIerVByVEklYAksq0jNoK-"
   ],
   "eyebrow": "Studio",
-  "hook": "Spaces that feel considered rather than styled. Clear in plan, grounded in material, built to hold up once you live in them.",
-  "body": "I started this practice in Vienna in 2021, after years studying interior design and working in architecture studios. A few homes and hospitality spaces a year, in Vienna, abroad, and remotely.",
+  "hook": "People usually ask for a nicer room. What they need is a room that shapes life toward how they want to live.",
+  "body": "I help people fix the rooms that shape how they live, and how guests feel when they stay. I started this practice in Vienna in 2021, after years studying interior design and working in architecture studios. A few homes and hospitality spaces a year, in Vienna, abroad, and remotely.",
   "principles": [
     {
-      "title": "Use over spectacle",
-      "body": "The work is tested in real rooms: daily life, how people move through the space, and what still feels right long after the photographs."
+      "title": "Daily life",
+      "body": "If it only looks good in photos, it is not finished. The room has to hold up on ordinary days."
     },
     {
       "title": "A few projects a year",
@@ -19,13 +19,19 @@
     },
     {
       "title": "Home and hospitality",
-      "body": "Whether you live there or guests do, the aim is the same: rooms for rest, gathering, and thinking."
+      "body": "Your own place, or a place for guests. Same job: rest, people over, somewhere quiet to think."
     }
   ],
+  "ctaLede": "A step toward rooms that shape what comes next.",
   "primaryCta": {
-    "label": "Book a fit call",
-    "href": "/book",
-    "microcopy": "Free · 30 min"
+    "label": "Fit call",
+    "href": "https://cal.com/jubili/fit-call",
+    "microcopy": "Free · 30 min · See if this is your work"
+  },
+  "secondaryCta": {
+    "label": "Jumpstart",
+    "href": "https://cal.com/jubili/jump-start",
+    "microcopy": "€290 · 60 min · Leave knowing what to change"
   },
   "extensions": [
     {

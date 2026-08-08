@@ -26,7 +26,9 @@ export type StudioContent = {
   hook: string;
   body: string;
   principles: StudioPrinciple[];
+  ctaLede?: string;
   primaryCta: StudioCta;
+  secondaryCta: StudioCta;
   extensions: StudioExtension[];
 };
 
@@ -35,7 +37,20 @@ type Props = {
 };
 
 export const StudioPanel: FC<Props> = ({ studio }) => {
-  const { eyebrow, hook, body, principles, primaryCta, extensions } = studio;
+  const {
+    eyebrow,
+    hook,
+    body,
+    principles,
+    ctaLede,
+    primaryCta,
+    secondaryCta,
+    extensions,
+  } = studio;
+  const microcopyClassName = cn(
+    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
+  );
 
   return (
     <div
@@ -83,19 +98,45 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           ))}
         </div>
 
-        <div data-id="studio-primary" className="mt-14">
-          <StudioActionLink cta={primaryCta} />
-          {primaryCta.microcopy && (
+        <div data-id="studio-cta-block" className="mt-14">
+          {ctaLede && (
             <p
-              data-id="studio-primary-microcopy"
+              data-id="studio-cta-lede"
               className={cn(
-                "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
-                "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
+                "m-0 mb-6 font-[family-name:var(--font-antiqua)]",
+                "text-[13px] leading-[18px] font-[350] text-dotto-brown",
               )}
             >
-              {primaryCta.microcopy}
+              {ctaLede}
             </p>
           )}
+          <div
+            data-id="studio-ctas"
+            className="flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-4"
+          >
+            <div data-id="studio-primary" className="min-w-0 flex-1">
+              <StudioActionLink cta={primaryCta} variant="primary" />
+              {primaryCta.microcopy && (
+                <p
+                  data-id="studio-primary-microcopy"
+                  className={microcopyClassName}
+                >
+                  {primaryCta.microcopy}
+                </p>
+              )}
+            </div>
+            <div data-id="studio-secondary" className="min-w-0 flex-1">
+              <StudioActionLink cta={secondaryCta} variant="secondary" />
+              {secondaryCta.microcopy && (
+                <p
+                  data-id="studio-secondary-microcopy"
+                  className={microcopyClassName}
+                >
+                  {secondaryCta.microcopy}
+                </p>
+              )}
+            </div>
+          </div>
         </div>
 
         <div
@@ -146,30 +187,38 @@ const PrincipleBlock: FC<PrincipleBlockProps> = ({ principle }) => {
 
 type StudioActionLinkProps = {
   cta: StudioCta;
+  variant: "primary" | "secondary";
 };
 
-const StudioActionLink: FC<StudioActionLinkProps> = ({ cta }) => {
+const StudioActionLink: FC<StudioActionLinkProps> = ({ cta, variant }) => {
   const { label, href } = cta;
   const isExternal = href.startsWith("http");
+  const isPrimary = variant === "primary";
   const className = cn(
-    "group/cta relative inline-flex min-h-11 items-center justify-center",
-    "overflow-hidden border border-dotto-brown bg-dotto-brown py-3 pl-8 pr-8",
-    "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em]",
-    "text-dotto-cream uppercase",
+    "group/cta relative inline-flex w-full min-h-11 items-center justify-center",
+    "overflow-hidden border border-dotto-brown py-3 pl-8 pr-8",
+    "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
+    { "bg-dotto-brown": isPrimary },
   );
+  const toneClassName = cn({
+    "text-dotto-cream": isPrimary,
+    "text-dotto-brown": !isPrimary,
+  });
   const labelClassName = cn(
-    "inline-block translate-x-0 text-dotto-cream will-change-transform",
+    "inline-block translate-x-0 will-change-transform",
     "transition-transform duration-300 ease-out",
     "group-hover/cta:-translate-x-1.5",
+    toneClassName,
   );
   const arrowClassName = cn(
     "pointer-events-none absolute inset-y-0 right-4",
-    "flex items-center text-[15px] leading-none text-dotto-cream",
+    "flex items-center text-[15px] leading-none",
     "opacity-0 will-change-transform",
     "[transform:translate3d(2px,0,0)]",
     "transition-[opacity,transform] duration-300 ease-out",
     "group-hover/cta:opacity-100",
     "group-hover/cta:[transform:translate3d(0,0,0)]",
+    toneClassName,
   );
   const content = (
     <>

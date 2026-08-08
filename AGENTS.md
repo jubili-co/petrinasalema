@@ -31,6 +31,8 @@ Skills before local style. Complete the relevant stop checklist and gate from pe
 
 Applies to UI copy, JSON content, MDX, metadata, and any visitor-facing strings agents write or edit.
 
+**Positioning:** Before writing or restructuring visitor-facing copy, offers, IA, or brand extensions, read and apply [`DRAPER.md`](./DRAPER.md). Tone (below) is how it sounds. Draper is what idea it serves. If they conflict, fix the idea first, then the voice.
+
 - **No em dashes (`—`).** Do not use them in product copy. Prefer a period, comma, or a shorter rewrite.
 - Avoid en dashes (`–`) as rhetorical separators in sentences for the same reason.
 - **Go easy on colons (`:`).** Prefer a new sentence or a comma when a colon is only acting as a dramatic pause.
@@ -59,7 +61,9 @@ Why it fails: every line opens with “I.” Human voice varies subject and rhyt
 
 > Guest flow, daily habits, and what still works when the photographer leaves. The list stays short so the work can go deep. Same bar whether you live there or guests do.
 
-Why it fails: consulting-speak, clever oppositions, three titled “principles.” Brand toolkit, not speech.
+> Use over spectacle.
+
+Why it fails: consulting-speak, clever oppositions (`X over Y`, `X rather than Y`), ethos-poster titles. Brand toolkit / AI doctrine, not speech. Prefer observation (“If it only looks good in photos…”) over a principle name doing the work.
 
 **Reject (fake-concrete slop):**
 
@@ -79,15 +83,13 @@ Why it fails: telegram voice. Accurate, but withholding. Reads like the writer i
 
 Why it works: one “I,” full sentences, calm. Training as background, not a service claim. Geography is Vienna, abroad, and remote (not Vienna-only with remote as an afterthought).
 
-**Also prefer (supporting copy, same temperature, keep the POV):**
+**Also prefer (Studio lead, same temperature):**
 
-> Spaces that feel considered rather than styled. Clear in plan, grounded in material, built to hold up once you live in them.
+> People usually ask for a nicer room. What they need is a room that shapes life toward how they want to live.
 
-> There is only room for a few at a time. That pace is how the work stays careful, and how each project gets the attention it needs.
+> I help people fix the rooms that shape how they live, and how guests feel when they stay.
 
-> Whether you live there or guests do, the aim is the same: rooms for rest, gathering, and thinking.
-
-Why it works: the original Studio angle (considered, material, use, few projects, home and hospitality) in warm full sentences, not clipped stubs and not consulting slogans.
+Why it works: insight, then a plain value proposition. No “considered rather than styled” oppositions. Effectiveness over polish.
 
 **Balance.** Avoid brochure posture, “I” spam, slogan triads, fake props, *and* curt stub lines. Warm + plain beats clever *and* beats clipped.
 
