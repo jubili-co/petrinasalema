@@ -17,7 +17,7 @@ type Props = {
 
 export const NewsletterSignup: FC<Props> = ({
   image,
-  title = "Sign up to my newsletter",
+  title = "Studio notes",
   description = null,
   imageAlt = "Petrina newsletter",
   contentAlign = "center",
@@ -105,7 +105,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
           "text-[13px] leading-[18px] font-[350]",
         )}
       >
-        Thank you — you&apos;re on the list.
+        Thank you. You&apos;re on the list.
       </p>
     );
   }

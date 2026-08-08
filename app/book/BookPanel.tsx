@@ -7,6 +7,7 @@ export type BookOffer = {
   title: string;
   body: string;
   note?: string;
+  finance?: string;
 };
 
 export type BookCta = {
@@ -141,7 +142,11 @@ type OfferBlockProps = {
 };
 
 const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
-  const { title, body, note } = offer;
+  const { title, body, note, finance } = offer;
+  const asideClassName = cn(
+    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "text-[13px] leading-[18px] font-[350] text-dotto-brown/85",
+  );
 
   return (
     <div data-id="book-offer">
@@ -164,14 +169,13 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
         {body}
       </p>
       {note && (
-        <p
-          data-id="book-offer-note"
-          className={cn(
-            "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
-            "text-[13px] leading-[18px] font-[350] text-dotto-brown/85",
-          )}
-        >
+        <p data-id="book-offer-note" className={asideClassName}>
           {note}
+        </p>
+      )}
+      {finance && (
+        <p data-id="book-offer-finance" className={asideClassName}>
+          {finance}
         </p>
       )}
       <div data-id="book-offer-action" className="mt-5">

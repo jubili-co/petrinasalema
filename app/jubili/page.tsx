@@ -5,13 +5,15 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import landing from "@/lib/data/landing.json";
+import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
 import { LogoJubiliWordmark } from "../components/LogoJubiliWordmark";
 import { SiteHeader } from "../components/SiteHeader";
 
 export const metadata: Metadata = {
   title: "Jubili | Petrina Salema",
-  description: "Furniture, art, hardware and rugs from the Jubili collection.",
+  description:
+    "Rooms designed to host and to earn. Furniture, art, hardware and rugs from the Jubili collection.",
 };
 
 const JubiliPage: FC = () => (
@@ -26,7 +28,7 @@ const JubiliPage: FC = () => (
         className="absolute inset-0 opacity-0 transition-opacity duration-1000 ease group-hover:opacity-100"
       >
         <Image
-          src={landing.jubiliImage}
+          src={resolveProjectImageSrc(landing.jubiliImage)}
           alt="Jubili collection"
           fill
           priority
@@ -49,8 +51,8 @@ const JubiliPage: FC = () => (
           data-id="jubili-hero-copy"
           className="mt-10 max-w-[36ch] font-[family-name:var(--font-antiqua)] text-[17px] leading-relaxed"
         >
-          Furniture, hardware, rugs and artist collaborations from the Jubili
-          collection.
+          Rooms designed to host and to earn. Furniture, hardware, rugs and
+          artist collaborations from the Jubili collection.
         </p>
         <Link
           href="/book"
