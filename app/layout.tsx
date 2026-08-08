@@ -7,9 +7,9 @@ import { CookieBanner } from "./components/CookieBanner";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Petrina Salema | Interior Design & Architecture",
+  title: "Petrina Salema | Spaces & Interiors",
   description:
-    "Petrina Salema is an architect and interior designer based in Vienna — spaces that feel considered rather than styled, grounded in material and built to hold up in use.",
+    "Your rooms are already deciding how you live. Petrina Salema fixes the rooms that shape daily life and guest stays, in Vienna, abroad, and remotely.",
   applicationName: "Petrina Salema",
 };
 

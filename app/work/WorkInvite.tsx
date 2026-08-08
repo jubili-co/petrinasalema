@@ -22,7 +22,7 @@ export const WorkInvite: FC = () => (
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
-        If the work fits, write.
+        If your rooms should work like this, write.
       </p>
       <div
         data-id="work-grid-invite-actions"
