@@ -1,6 +1,6 @@
 {
   "seoTitle": "Studio | Petrina Salema",
-  "seoDescription": "Petrina Salema's practice, based in Vienna. Homes and hospitality spaces, a few projects a year, in Vienna, abroad, and remotely.",
+  "seoDescription": "Petrina Salema's practice in Vienna. Rooms that shape how people live and how guests feel when they stay. A few projects a year, in Vienna, abroad, and remotely.",
   "images": [
     "gdrive:1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf",
     "gdrive:1iME7OmjE6DfIerVByVEklYAksq0jNoK-"
@@ -19,7 +19,7 @@
     },
     {
       "title": "Home and hospitality",
-      "body": "Your own place, or a place for guests. Same job: rest, people over, somewhere quiet to think."
+      "body": "Your own place, or a place that hosts guests. Either way the room has the same work to do. Rest, people over, somewhere quiet to think."
     }
   ],
   "ctaLede": "A step toward rooms that shape what comes next.",
@@ -42,12 +42,12 @@
     {
       "label": "Materiality",
       "href": "/materiality",
-      "note": "Interior packs with shopping lists"
+      "note": "Finished rooms you can order yourself"
     },
     {
       "label": "Jubili",
       "href": "https://jubili.co",
-      "note": "Hospitality design brand co-founded from this practice",
+      "note": "Rooms designed to host and to earn",
       "external": true
     }
   ]

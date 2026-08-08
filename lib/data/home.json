@@ -1,4 +1,18 @@
 {
   "seoTitle": "Petrina Salema | Spaces & Interiors",
-  "seoDescription": "Petrina Salema, Design Principal for Spaces & Interiors in Vienna. Spaces that feel considered rather than styled, grounded in material and built to hold up in use."
+  "seoDescription": "Your rooms are already deciding how you live. Petrina Salema fixes the rooms that shape daily life and guest stays. Homes and hospitality spaces, in Vienna, abroad, and remotely.",
+  "statement": {
+    "hook": "Your rooms are already deciding how you live.",
+    "support": "I help people fix the rooms that shape how they live, and how guests feel when they stay."
+  },
+  "invite": {
+    "hook": "Stop decorating around a life you didn't choose.",
+    "body": "A few homes and hospitality spaces a year, in Vienna, abroad, and remotely.",
+    "cta": {
+      "label": "Book a fit call",
+      "href": "/book",
+      "microcopy": "Free · 30 min"
+    }
+  },
+  "newsletterDescription": "A note now and then, when a room teaches something worth passing on."
 }
