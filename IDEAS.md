@@ -64,7 +64,7 @@ Side thought: people can take the idea (authorship of the cocoon) and still not 
 **Direction (not decided):**
 
 - **Yes** to reducing money as a false veto on authorship.
-- **No** to leading with Klarna (or retail BNPL) as the brand story on Fit call / Jumpstart. That cultural meaning is impulse checkout; CTAs here are initiation (`DRAPER.md`).
+- **No** to leading with Klarna (or retail BNPL) as the brand story on Fit call / Jumpstart. That cultural meaning is impulse checkout; CTAs here are initiation (`.cursor/skills/draper`).
 - The ladder already finances conviction in stages: free fit call → €290 Jumpstart → full project. Don’t skip that for a BNPL badge.
 - **Materiality / productized packs:** Klarna-like tools fit (SKU, goods, shopping list).
 - **Jumpstart:** usually unnecessary to BNPL; studio can split invoices if needed.
