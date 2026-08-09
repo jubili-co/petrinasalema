@@ -1,22 +1,36 @@
 {
   "seoTitle": "Petrina Salema | Spaces & Interiors",
-  "seoDescription": "Your rooms are already deciding how you live. Petrina Salema fixes the rooms that shape daily life and guest stays. Homes and hospitality spaces, in Vienna, abroad, and remotely.",
+  "seoDescription": "Your rooms are already deciding how you live. Petrina Salema helps change what they decide, for homes and guest stays in Vienna, abroad, and remotely.",
   "statement": {
     "hook": "Your rooms are already deciding how you live.",
     "support": "I help people change what the rooms decide, for themselves and for their guests."
   },
   "proof": {
-    "text": "My daughter started calling her room the room from the fairy tale.",
-    "attribution": "Artashes · Vienna"
+    "lede": "One Vienna home, tested on paying guests for five years.",
+    "results": [
+      {
+        "value": "4.97/5",
+        "label": "across 120+ guest reviews"
+      },
+      {
+        "value": "€120k+",
+        "label": "booking revenue"
+      },
+      {
+        "value": "Superhost",
+        "label": "held since month six"
+      }
+    ],
+    "href": "https://jubili.co",
+    "linkLabel": "See the hospitality work"
   },
   "invite": {
     "hook": "Stop decorating around a life you didn't choose.",
     "body": "A few homes and hospitality spaces a year, in Vienna, abroad, and remotely.",
     "cta": {
-      "label": "Book a fit call",
+      "label": "Fit call",
       "href": "/book",
-      "microcopy": "Free · 30 min"
+      "microcopy": "Free · 30 min · with Petrina Salema"
     }
-  },
-  "newsletterDescription": "A note now and then, when a room teaches something worth passing on."
+  }
 }

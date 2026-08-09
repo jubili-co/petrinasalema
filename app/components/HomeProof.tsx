@@ -2,12 +2,19 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
-type Props = {
-  text: string;
-  attribution: string;
+export type HomeProofResult = {
+  value: string;
+  label: string;
 };
 
-export const HomeProof: FC<Props> = ({ text, attribution }) => (
+type Props = {
+  lede: string;
+  results: HomeProofResult[];
+  href: string;
+  linkLabel: string;
+};
+
+export const HomeProof: FC<Props> = ({ lede, results, href, linkLabel }) => (
   <section
     data-id="home-proof"
     className={cn(
@@ -15,29 +22,72 @@ export const HomeProof: FC<Props> = ({ text, attribution }) => (
       "px-6 py-16 md:px-12 md:py-24",
     )}
   >
-    <blockquote
-      data-id="home-proof-quote"
-      className="m-0 w-full max-w-[560px] text-center"
+    <div
+      data-id="home-proof-inner"
+      className="flex w-full max-w-[560px] flex-col items-center gap-10 text-center"
     >
       <p
-        data-id="home-proof-text"
+        data-id="home-proof-lede"
         className={cn(
           "m-0 font-[family-name:var(--font-antiqua)]",
           "text-[17px] leading-[1.55] font-[350] text-balance text-dotto-brown",
           "md:text-[19px]",
         )}
       >
-        “{text}”
+        {lede}
       </p>
-      <cite
-        data-id="home-proof-attribution"
+      <ul
+        data-id="home-proof-results"
+        className="m-0 flex w-full list-none flex-col gap-6 p-0 sm:flex-row sm:justify-between sm:gap-4"
+      >
+        {results.map((result) => (
+          <HomeProofMetric key={`${result.value}-${result.label}`} result={result} />
+        ))}
+      </ul>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        data-id="home-proof-link"
         className={cn(
-          "mt-4 block font-[family-name:var(--font-antiqua)] not-italic",
+          "font-[family-name:var(--font-antiqua)]",
+          "text-[13px] leading-[18px] font-[350] text-dotto-brown",
+          "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
+        )}
+      >
+        {linkLabel}
+      </a>
+    </div>
+  </section>
+);
+
+type HomeProofMetricProps = {
+  result: HomeProofResult;
+};
+
+const HomeProofMetric: FC<HomeProofMetricProps> = ({ result }) => {
+  const { value, label } = result;
+
+  return (
+    <li data-id="home-proof-metric" className="min-w-0 flex-1">
+      <p
+        data-id="home-proof-metric-value"
+        className={cn(
+          "m-0 font-[family-name:var(--font-matter)]",
+          "text-[13px] leading-[18px] tracking-[0.08em] text-dotto-brown uppercase",
+        )}
+      >
+        {value}
+      </p>
+      <p
+        data-id="home-proof-metric-label"
+        className={cn(
+          "m-0 mt-2 font-[family-name:var(--font-antiqua)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-brown/70",
         )}
       >
-        {attribution}
-      </cite>
-    </blockquote>
-  </section>
-);
+        {label}
+      </p>
+    </li>
+  );
+};

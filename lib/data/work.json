@@ -19,7 +19,7 @@
         "Styling",
         "Guest-experience design"
       ],
-      "description": "This apartment grew in phases over five years, from two bedrooms to four. Guests lived with every decision, so layout, material, and styling were kept when they worked and corrected when they did not. Designed for Jubili, the hospitality design brand co-founded as this practice took shape.",
+      "description": "This apartment had to earn while people still lived in it. Over five years it grew from two bedrooms to four, with guests in the rooms for every decision. Layout, material, and styling stayed when they worked under real stays, and changed when they did not.",
       "tags": [
         "Residential",
         "Hospitality",
@@ -30,53 +30,53 @@
       ],
       "images": [
         {
-          "src": "gdrive:1ygnbZrxmyKLJP7I1OKut8rJfnKK-Vumt",
-          "alt": "Tegelweg",
+          "src": "/media/1ygnbZrxmyKLJP7I1OKut8rJfnKK-Vumt.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 1",
           "caption": ""
         },
         {
-          "src": "gdrive:1jgbIEXVEzfNXU2MQuoorQvkWiPLHc3FX",
-          "alt": "Tegelweg",
+          "src": "/media/1jgbIEXVEzfNXU2MQuoorQvkWiPLHc3FX.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 2",
           "caption": ""
         },
         {
-          "src": "gdrive:1-G3z6MXx_jpHZxjg_Ef-vD9_R0qMWAG3",
-          "alt": "Tegelweg",
+          "src": "/media/1-G3z6MXx_jpHZxjg_Ef-vD9_R0qMWAG3.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 3",
           "caption": ""
         },
         {
-          "src": "gdrive:1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf",
-          "alt": "Tegelweg",
+          "src": "/media/1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 4",
           "caption": ""
         },
         {
-          "src": "gdrive:1WDKh6xyv2xDJvIvf5XGwFQg1O67Bh7_y",
-          "alt": "Tegelweg",
+          "src": "/media/1WDKh6xyv2xDJvIvf5XGwFQg1O67Bh7_y.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 5",
           "caption": ""
         },
         {
-          "src": "gdrive:1hfkOe3jLygQnkmVKDZKzglQ4YjdU1_sL",
-          "alt": "Tegelweg",
+          "src": "/media/1hfkOe3jLygQnkmVKDZKzglQ4YjdU1_sL.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 6",
           "caption": ""
         },
         {
-          "src": "gdrive:1IPAIx7Pv22owL2vjqY5sJibaCHq_4kQ3",
-          "alt": "Tegelweg",
+          "src": "/media/1IPAIx7Pv22owL2vjqY5sJibaCHq_4kQ3.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 7",
           "caption": ""
         },
         {
-          "src": "gdrive:1edJ65jc4kxU2Dg5J6JgXyXaC4rTUFyZX",
-          "alt": "Tegelweg",
+          "src": "/media/1edJ65jc4kxU2Dg5J6JgXyXaC4rTUFyZX.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 8",
           "caption": ""
         },
         {
-          "src": "gdrive:1KJykIyKFWsaCFvRJv0B5R-s4H1jDj5Bg",
-          "alt": "Tegelweg",
+          "src": "/media/1KJykIyKFWsaCFvRJv0B5R-s4H1jDj5Bg.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 9",
           "caption": ""
         },
         {
-          "src": "gdrive:1ZPDCFKUdTRgUtDo0mnf7p3cuNQYeHw4T",
-          "alt": "Tegelweg",
+          "src": "/media/1ZPDCFKUdTRgUtDo0mnf7p3cuNQYeHw4T.webp",
+          "alt": "Tegelweg, Vienna. home interior, view 10",
           "caption": ""
         }
       ],
@@ -84,9 +84,33 @@
         {
           "href": "https://www.stephanzagler.com/",
           "text": "Photography by Stephan Zagler"
+        },
+        {
+          "href": "https://jubili.co",
+          "text": "Jubili hospitality brand"
         }
       ],
-      "featured": true
+      "featured": true,
+      "chapter": "homes",
+      "caseStudy": {
+        "problem": "The apartment had to earn as a guest stay while a family still used it. Two bedrooms were not enough for the demand, and every change had to survive real check-ins, not a photoshoot.",
+        "decisions": "The plan grew in phases over five years, from two bedrooms to four, while the home stayed open. Layout, materials, and styling were kept when guests and turnover proved them, and corrected when they did not. Designed for Jubili, the hospitality brand of this practice.",
+        "result": "Superhost within the first six months, held since. Guest Favorite recognition. The same rooms that photograph well still work on ordinary turnover days.",
+        "results": [
+          {
+            "value": "4.97/5",
+            "label": "average rating across 120+ guest reviews"
+          },
+          {
+            "value": "\u20ac120k+",
+            "label": "booking revenue on one property"
+          },
+          {
+            "value": "2 \u2192 4",
+            "label": "bedrooms, redesigned while in operation"
+          }
+        ]
+      }
     },
     {
       "id": "brabbeegasse-vienna",
@@ -106,7 +130,7 @@
         "FF&E sourcing",
         "Reversible design interventions"
       ],
-      "description": "A rented apartment, redesigned for Jubili as the brand took on more properties. The rooms had to carry a distinct aesthetic for guests and still be handed back as found when the lease ends, so every intervention was designed to be undone.",
+      "description": "A rented apartment, redesigned so guests feel a clear stay and the lease can still end cleanly. Every intervention was planned to be undone, from finishes to furniture, without leaving a scar on the landlord's walls.",
       "tags": [
         "Residential",
         "Hospitality",
@@ -117,23 +141,24 @@
       ],
       "images": [
         {
-          "src": "gdrive:1iME7OmjE6DfIerVByVEklYAksq0jNoK-",
-          "alt": "Brabbeegasse",
+          "src": "/media/1iME7OmjE6DfIerVByVEklYAksq0jNoK-.webp",
+          "alt": "Brabbeegasse, Vienna. home interior, view 1",
           "caption": ""
         },
         {
-          "src": "gdrive:1maSN4UElhjm6T4BiTWC-M7oWUhTsodD8",
-          "alt": "Brabbeegasse",
+          "src": "/media/1maSN4UElhjm6T4BiTWC-M7oWUhTsodD8.webp",
+          "alt": "Brabbeegasse, Vienna. home interior, view 2",
           "caption": ""
         },
         {
-          "src": "gdrive:10xJO8tpFkq3gAJBfWBqzadwIavizb7Eo",
-          "alt": "Brabbeegasse",
+          "src": "/media/10xJO8tpFkq3gAJBfWBqzadwIavizb7Eo.webp",
+          "alt": "Brabbeegasse, Vienna. home interior, view 3",
           "caption": ""
         }
       ],
       "links": [],
-      "featured": true
+      "featured": true,
+      "chapter": "homes"
     },
     {
       "id": "analytical-fingerprint-laboratory-amgc",
@@ -167,8 +192,8 @@
       ],
       "images": [
         {
-          "src": "gdrive:1CjnAIszMnDwjFCeto8ctAONizGMAJ13X",
-          "alt": "Analytical Fingerprint Laboratory Building",
+          "src": "/media/1CjnAIszMnDwjFCeto8ctAONizGMAJ13X.webp",
+          "alt": "Analytical Fingerprint Laboratory Building, Dar es Salaam. architecture project, view 1",
           "caption": ""
         }
       ],
@@ -178,7 +203,8 @@
           "text": "African Minerals and Geosciences Centre"
         }
       ],
-      "featured": true
+      "featured": false,
+      "chapter": "prior"
     },
     {
       "id": "ccbrt-maternity-hospital",
@@ -211,13 +237,14 @@
       ],
       "images": [
         {
-          "src": "gdrive:14KqThPSVMNtujgd6xgnkMIGVOkI3w-nV",
-          "alt": "CCBRT Maternity Hospital",
+          "src": "/media/14KqThPSVMNtujgd6xgnkMIGVOkI3w-nV.webp",
+          "alt": "CCBRT Maternity Hospital, Dar es Salaam. architecture project, view 1",
           "caption": ""
         }
       ],
       "links": [],
-      "featured": true
+      "featured": false,
+      "chapter": "prior"
     },
     {
       "id": "ist-athletic-centre",
@@ -251,29 +278,30 @@
       ],
       "images": [
         {
-          "src": "gdrive:19zqXD5auRvn1MHFDbQDEcfyyr18VI1_u",
-          "alt": "International School of Tanganyika",
+          "src": "/media/19zqXD5auRvn1MHFDbQDEcfyyr18VI1_u.webp",
+          "alt": "International School of Tanganyika, Dar es Salaam. architecture project, view 1",
           "caption": ""
         },
         {
-          "src": "gdrive:1Lygj2ey-dMu10mEL47oBcrOGKiTWVYMm",
-          "alt": "International School of Tanganyika",
+          "src": "/media/1Lygj2ey-dMu10mEL47oBcrOGKiTWVYMm.webp",
+          "alt": "International School of Tanganyika, Dar es Salaam. architecture project, view 2",
           "caption": ""
         },
         {
-          "src": "gdrive:1MHcPx7V9De9QjOH2XZlC-nCM-uiI6fPM",
-          "alt": "International School of Tanganyika",
+          "src": "/media/1MHcPx7V9De9QjOH2XZlC-nCM-uiI6fPM.webp",
+          "alt": "International School of Tanganyika, Dar es Salaam. architecture project, view 3",
           "caption": ""
         }
       ],
       "links": [],
-      "featured": false
+      "featured": false,
+      "chapter": "prior"
     },
     {
       "id": "montessori-childrens-house-primary-school",
       "slug": "montessori-childrens-house-primary-school-competition",
       "name": "Montessori Children's House and Primary School",
-      "subtitle": "Competition Entry · 2nd Prize",
+      "subtitle": "Competition Entry \u00b7 2nd Prize",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -299,7 +327,8 @@
       ],
       "images": [],
       "links": [],
-      "featured": false
+      "featured": false,
+      "chapter": "prior"
     },
     {
       "id": "ist-classroom-blocks-d-e",
@@ -332,18 +361,19 @@
       ],
       "images": [
         {
-          "src": "gdrive:1bRJabPBL_RjcEFopOQAen1dJxRRVT6QT",
-          "alt": "International School of Tanganyika",
+          "src": "/media/1bRJabPBL_RjcEFopOQAen1dJxRRVT6QT.webp",
+          "alt": "International School of Tanganyika, Dar es Salaam. architecture project, view 1",
           "caption": ""
         },
         {
-          "src": "gdrive:17ho08KPacPpdykADk63DbnX49ZTGqssz",
-          "alt": "International School of Tanganyika",
+          "src": "/media/17ho08KPacPpdykADk63DbnX49ZTGqssz.webp",
+          "alt": "International School of Tanganyika, Dar es Salaam. architecture project, view 2",
           "caption": ""
         }
       ],
       "links": [],
-      "featured": false
+      "featured": false,
+      "chapter": "prior"
     },
     {
       "id": "bank-of-tanzania-mwanza",
@@ -378,18 +408,18 @@
       ],
       "images": [
         {
-          "src": "gdrive:1Oks6SJQ3d_U3Iy1sUHImfquHAsmUEMPT",
-          "alt": "Bank of Tanzania",
+          "src": "/media/1Oks6SJQ3d_U3Iy1sUHImfquHAsmUEMPT.webp",
+          "alt": "Bank of Tanzania, Mwanza. architecture project, view 1",
           "caption": ""
         },
         {
-          "src": "gdrive:1AHezdeSAQ_UA-aJapQucHHK2IzHb4fy-",
-          "alt": "Bank of Tanzania",
+          "src": "/media/1AHezdeSAQ_UA-aJapQucHHK2IzHb4fy-.webp",
+          "alt": "Bank of Tanzania, Mwanza. architecture project, view 2",
           "caption": ""
         },
         {
-          "src": "gdrive:1qZ_Z2Fq_JG6YzfAbrlJqEP0f_HSyyLLr",
-          "alt": "Bank of Tanzania",
+          "src": "/media/1qZ_Z2Fq_JG6YzfAbrlJqEP0f_HSyyLLr.webp",
+          "alt": "Bank of Tanzania, Mwanza. architecture project, view 3",
           "caption": ""
         }
       ],
@@ -403,7 +433,8 @@
           "text": "Bank of Tanzania"
         }
       ],
-      "featured": false
+      "featured": false,
+      "chapter": "prior"
     }
   ]
 }
