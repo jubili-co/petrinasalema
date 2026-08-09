@@ -59,17 +59,28 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             >
               {workPlace(location)}
             </p>
-            <p
-              data-id="work-details-body"
-              className={cn(
-                "m-0 font-[family-name:var(--font-antiqua)]",
-                "text-[13px] leading-[18px] font-[350]",
-              )}
-            >
-              {description}
-            </p>
-          </div>
+          <p
+            data-id="work-details-body"
+            className={cn(
+              "m-0 font-[family-name:var(--font-antiqua)]",
+              "text-[13px] leading-[18px] font-[350]",
+            )}
+          >
+            {description}
+          </p>
+          <Link
+            href="/book"
+            data-id="work-details-door"
+            className={cn(
+              "mt-[18px] inline-block font-[family-name:var(--font-antiqua)]",
+              "text-[13px] leading-[18px] font-[350] text-dotto-cream",
+              "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
+            )}
+          >
+            If one of your rooms is next, start with a fit call.
+          </Link>
         </div>
+      </div>
 
         <div data-id="work-details-meta" className="w-full md:w-[35%]">
           <div className="mb-[18px] flex justify-end md:hidden">

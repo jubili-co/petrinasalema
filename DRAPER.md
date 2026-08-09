@@ -130,6 +130,9 @@ If the page or chrome answers “holding company,” cut or demote until the nam
 - **The home echo pair.** Hook: “Your rooms are already deciding how you live.” Answer: “I help people change what the rooms decide.” The second line reuses the hook’s verb and flips the agency. Prefer this echo over remedial verbs (“fix”) at masthead level; “fix” stays right on practical pages (Studio, Book).
 - **Studio lead** in the same family: nicer room is the false ask; the room should shape life toward how they want to live; value prop about fixing rooms that shape living and guest feeling.
 - **Work as proof, not brochure.** Rooms as evidence. Imagery does half the close (move 6).
+- **Project descriptions open with the stake, not the résumé.** First sentence names what the building had to do for the people in it (“A maternity hospital leaves no margin for a wall in the wrong place.” “Guests lived with every decision.”). Professional facts follow plainly. Stacked past-tense verbs (“Led… Directed… Managed…”) are arguing, not showing.
+- **The fairy-tale quote is the reinvention proof.** A child renaming her room is move 9 in one sentence. It closes Book and whispers on Home between the work grid and the invite band. Images, one client sentence, then the door.
+- **Every project page has a door.** One quiet line under the description (“If one of your rooms is next, start with a fit call.”). Proof must not dead-end, especially on mobile where the More-work box is hidden.
 - **Legal constraint as Lucky Strike.** Cannot sell licensed “architecture / interior design” on commercial pages. Sell the human verb. Biography may state training.
 - **Scarcity as initiation.** A few projects a year; paid Jumpstart; free fit call as the low-risk first irreversible-feeling step.
 
