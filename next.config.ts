@@ -34,6 +34,11 @@ const nextConfig: NextConfig = {
         destination: "/work/:slug",
         permanent: true,
       },
+      {
+        source: "/materiality",
+        destination: "https://jubili.co",
+        permanent: false,
+      },
     ];
   },
 };

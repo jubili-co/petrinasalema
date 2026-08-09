@@ -12,7 +12,7 @@ import {
 } from "./AboutInviteCta";
 import { AboutTitle } from "./AboutTitle";
 
-export type AboutMdxKey = "petrina" | "jubili" | "materiality";
+export type AboutMdxKey = "petrina" | "jubili";
 
 export type TextImageSection = {
   type: "textImage";

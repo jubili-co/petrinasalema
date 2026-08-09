@@ -1,13 +1,13 @@
 {
   "seoTitle": "Book | Petrina Salema",
   "seoDescription": "Your space is already deciding how you live. Book a free fit call, or a one hour Design Jumpstart, with Petrina Salema in Vienna.",
-  "image": "gdrive:1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf",
+  "image": "/media/1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf.webp",
   "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Shape the room that holds how you want to rest, gather, and think.",
   "projectOffer": {
     "title": "Full project",
     "body": "A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.",
     "note": "I take on a few residences a year, in Vienna, abroad, and remotely.",
-    "finance": "Projects are billed in stages, deposit to final. If a payment plan would help, say so on the call."
+    "finance": "Quoted after the fit call, then billed in stages from deposit to final. Full projects are custom-scoped; Jumpstart is €290 if you want a clear first hour. Say on the call if a payment plan would help."
   },
   "jumpstartOffer": {
     "title": "Design Jumpstart",
@@ -16,7 +16,7 @@
   "primaryCta": {
     "label": "Fit call",
     "href": "https://cal.com/jubili/fit-call",
-    "microcopy": "Free · 30 min · See if this is your work"
+    "microcopy": "Free · 30 min · with Petrina Salema"
   },
   "quote": {
     "text": "My daughter started calling her room the room from the fairy tale.",

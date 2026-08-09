@@ -2,7 +2,14 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import { workPlace, type WorkItem, type WorkLink } from "@/lib/work";
+import {
+  workOffersDoor,
+  workPlace,
+  type WorkCaseStudy,
+  type WorkItem,
+  type WorkLink,
+  type WorkResult,
+} from "@/lib/work";
 
 type Props = {
   item: WorkItem;
@@ -10,10 +17,12 @@ type Props = {
 };
 
 export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
-  const { name, subtitle, location, description, scope, links } = item;
+  const { name, subtitle, location, description, scope, links, caseStudy } =
+    item;
   const hasScope = scope.length > 0;
   const hasLinks = links.length > 0;
   const linksHeading = links.length === 1 ? "Link" : "Links";
+  const showDoor = workOffersDoor(item);
 
   return (
     <section
@@ -59,28 +68,31 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             >
               {workPlace(location)}
             </p>
-          <p
-            data-id="work-details-body"
-            className={cn(
-              "m-0 font-[family-name:var(--font-antiqua)]",
-              "text-[13px] leading-[18px] font-[350]",
+            <p
+              data-id="work-details-body"
+              className={cn(
+                "m-0 font-[family-name:var(--font-antiqua)]",
+                "text-[13px] leading-[18px] font-[350]",
+              )}
+            >
+              {description}
+            </p>
+            {caseStudy && <WorkCaseStudyBlock caseStudy={caseStudy} />}
+            {showDoor && (
+              <Link
+                href="/book"
+                data-id="work-details-door"
+                className={cn(
+                  "mt-[18px] inline-block font-[family-name:var(--font-antiqua)]",
+                  "text-[13px] leading-[18px] font-[350] text-dotto-cream",
+                  "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
+                )}
+              >
+                If one of your rooms is next, start with a fit call.
+              </Link>
             )}
-          >
-            {description}
-          </p>
-          <Link
-            href="/book"
-            data-id="work-details-door"
-            className={cn(
-              "mt-[18px] inline-block font-[family-name:var(--font-antiqua)]",
-              "text-[13px] leading-[18px] font-[350] text-dotto-cream",
-              "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
-            )}
-          >
-            If one of your rooms is next, start with a fit call.
-          </Link>
+          </div>
         </div>
-      </div>
 
         <div data-id="work-details-meta" className="w-full md:w-[35%]">
           <div className="mb-[18px] flex justify-end md:hidden">
@@ -161,6 +173,92 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
         </div>
       </div>
     </section>
+  );
+};
+
+type WorkCaseStudyBlockProps = {
+  caseStudy: WorkCaseStudy;
+};
+
+const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({ caseStudy }) => {
+  const { problem, decisions, result, results } = caseStudy;
+  const bodyClassName = cn(
+    "m-0 font-[family-name:var(--font-antiqua)]",
+    "text-[13px] leading-[18px] font-[350]",
+  );
+  const labelClassName = cn(
+    "m-0 mb-2 font-[family-name:var(--font-matter)]",
+    "text-[11px] leading-[15px] tracking-[0.15em] uppercase text-dotto-cream/70",
+  );
+
+  return (
+    <div data-id="work-case-study" className="mt-8 flex flex-col gap-6">
+      <div data-id="work-case-study-problem">
+        <p className={labelClassName}>The brief</p>
+        <p data-id="work-case-study-problem-body" className={bodyClassName}>
+          {problem}
+        </p>
+      </div>
+      <div data-id="work-case-study-decisions">
+        <p className={labelClassName}>What changed</p>
+        <p data-id="work-case-study-decisions-body" className={bodyClassName}>
+          {decisions}
+        </p>
+      </div>
+      <div data-id="work-case-study-result">
+        <p className={labelClassName}>What held</p>
+        <p data-id="work-case-study-result-body" className={bodyClassName}>
+          {result}
+        </p>
+      </div>
+      {results.length > 0 && <WorkResultsList results={results} />}
+    </div>
+  );
+};
+
+type WorkResultsListProps = {
+  results: WorkResult[];
+};
+
+const WorkResultsList: FC<WorkResultsListProps> = ({ results }) => (
+  <ul
+    data-id="work-case-study-results"
+    className="m-0 flex list-none flex-col gap-4 border-t border-dotto-cream/25 p-0 pt-6"
+  >
+    {results.map((entry) => (
+      <WorkResultRow key={`${entry.value}-${entry.label}`} result={entry} />
+    ))}
+  </ul>
+);
+
+type WorkResultRowProps = {
+  result: WorkResult;
+};
+
+const WorkResultRow: FC<WorkResultRowProps> = ({ result }) => {
+  const { value, label } = result;
+
+  return (
+    <li data-id="work-case-study-result-row">
+      <p
+        data-id="work-case-study-result-value"
+        className={cn(
+          "m-0 font-[family-name:var(--font-matter)]",
+          "text-[13px] leading-[18px] tracking-[0.08em] uppercase",
+        )}
+      >
+        {value}
+      </p>
+      <p
+        data-id="work-case-study-result-label"
+        className={cn(
+          "m-0 mt-1 font-[family-name:var(--font-antiqua)]",
+          "text-[13px] leading-[18px] font-[350] text-dotto-cream/85",
+        )}
+      >
+        {label}
+      </p>
+    </li>
   );
 };
 

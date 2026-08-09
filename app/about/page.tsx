@@ -3,7 +3,6 @@ import type { FC, ReactNode } from "react";
 
 import { DsMarkdown } from "@/app/components/ds/DsMarkdown";
 import AboutJubiliCopy from "@/content/about-jubili.mdx";
-import AboutMaterialityCopy from "@/content/about-materiality.mdx";
 import AboutPetrinaCopy from "@/content/about-petrina.mdx";
 import about from "@/lib/data/about.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
@@ -34,11 +33,6 @@ const AboutPage: FC = () => {
     jubili: (
       <DsMarkdown className={aboutMarkdownClassName}>
         <AboutJubiliCopy />
-      </DsMarkdown>
-    ),
-    materiality: (
-      <DsMarkdown className={aboutMarkdownClassName}>
-        <AboutMaterialityCopy />
       </DsMarkdown>
     ),
   };
@@ -156,5 +150,5 @@ function toTextImageSection(section: AboutSection): TextImageSection | null {
 }
 
 function isAboutMdxKey(value: string | undefined): value is AboutMdxKey {
-  return value === "petrina" || value === "jubili" || value === "materiality";
+  return value === "petrina" || value === "jubili";
 }

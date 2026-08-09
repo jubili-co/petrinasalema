@@ -22,7 +22,7 @@ export const WorkInvite: FC = () => (
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
-        If your rooms should work like this, write.
+        If your rooms should work like this, book a fit call.
       </p>
       <div
         data-id="work-grid-invite-actions"
@@ -40,7 +40,7 @@ export const WorkInvite: FC = () => (
           )}
         >
           <span className="text-dotto-brown transition-colors duration-200 ease-out group-hover/cta:text-dotto-cream">
-            Send a note
+            Fit call
           </span>
         </Link>
         <p

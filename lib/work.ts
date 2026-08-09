@@ -1,6 +1,8 @@
 import workData from "@/lib/data/work.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
+export type WorkChapter = "homes" | "prior";
+
 export type WorkRole = {
   name: string;
   role: string;
@@ -17,15 +19,29 @@ export type WorkLink = {
   text: string;
 };
 
+export type WorkResult = {
+  value: string;
+  label: string;
+};
+
+export type WorkCaseStudy = {
+  problem: string;
+  decisions: string;
+  result: string;
+  results: WorkResult[];
+};
+
 export type WorkItem = {
   id: string;
   slug: string;
   name: string;
   subtitle: string;
   location: string;
+  chapter: WorkChapter;
   roles: WorkRole[];
   scope: string[];
   description: string;
+  caseStudy?: WorkCaseStudy;
   tags: string[];
   images: WorkImage[];
   links: WorkLink[];
@@ -35,6 +51,23 @@ export type WorkItem = {
 export type Work = {
   work: WorkItem[];
 };
+
+export const WORK_CHAPTERS: {
+  id: WorkChapter;
+  label: string;
+  note: string;
+}[] = [
+  {
+    id: "homes",
+    label: "Homes & hospitality",
+    note: "Rooms designed for how people live, and for guests who pay to stay.",
+  },
+  {
+    id: "prior",
+    label: "Prior architecture",
+    note: "A decade inside architecture practices, before the homes.",
+  },
+];
 
 export const WORK_DATA = workData as Work;
 export const WORK = WORK_DATA.work.map(withResolvedImageSrcs);
@@ -66,6 +99,10 @@ export function workPlace(location: string): string {
   return place?.trim() || location;
 }
 
+export function workOffersDoor(item: WorkItem): boolean {
+  return item.chapter === "homes";
+}
+
 export function getNextWork(slug: string): WorkItem {
   const index = WORK.findIndex((entry) => entry.slug === slug);
   const next = WORK[(index + 1) % WORK.length];
@@ -77,14 +114,49 @@ export type MoreWorkLink = {
   slug: string;
 };
 
-/** Leading portfolio peers for the current piece. Excludes `slug`. */
+/** Leading portfolio peers for the current piece. Prefers the same chapter. */
 export function getMoreWork(slug: string, limit = 4): MoreWorkLink[] {
-  return WORK.filter((item) => item.slug !== slug)
-    .slice(0, limit)
-    .map(({ name, slug: workSlug }) => ({
-      name,
-      slug: workSlug,
-    }));
+  const current = getWork(slug);
+  if (!current) {
+    return [];
+  }
+
+  const { chapter } = current;
+  const peers = WORK.filter((item) => item.slug !== slug);
+  const sameChapter = peers.filter((item) => item.chapter === chapter);
+  const otherChapter = peers.filter((item) => item.chapter !== chapter);
+  const ordered = [...sameChapter, ...otherChapter];
+
+  return ordered.slice(0, limit).map(({ name, slug: workSlug }) => ({
+    name,
+    slug: workSlug,
+  }));
+}
+
+export type WorkChapterGroup = {
+  id: WorkChapter;
+  label: string;
+  note: string;
+  items: WorkItem[];
+};
+
+/** Work grid groups in sell/show order: homes first, prior architecture after. */
+export function workChapterGroups(items: WorkItem[] = WORK): WorkChapterGroup[] {
+  return WORK_CHAPTERS.flatMap((chapter) => {
+    const chapterItems = items.filter((item) => item.chapter === chapter.id);
+    if (chapterItems.length === 0) {
+      return [];
+    }
+
+    return [
+      {
+        id: chapter.id,
+        label: chapter.label,
+        note: chapter.note,
+        items: chapterItems,
+      },
+    ];
+  });
 }
 
 export type HomeWorkCardItem = {

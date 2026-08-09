@@ -2,8 +2,8 @@
   "seoTitle": "Studio | Petrina Salema",
   "seoDescription": "Petrina Salema's practice in Vienna. Rooms that shape how people live and how guests feel when they stay. A few projects a year, in Vienna, abroad, and remotely.",
   "images": [
-    "gdrive:1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf",
-    "gdrive:1iME7OmjE6DfIerVByVEklYAksq0jNoK-"
+    "/media/1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf.webp",
+    "/media/1iME7OmjE6DfIerVByVEklYAksq0jNoK-.webp"
   ],
   "eyebrow": "Studio",
   "hook": "People usually ask for a nicer room. What they need is a room that shapes life toward how they want to live.",
@@ -22,11 +22,11 @@
       "body": "Your own place, or a place that hosts guests. Either way the room has the same work to do. Rest, people over, somewhere quiet to think."
     }
   ],
-  "ctaLede": "A step toward rooms that shape what comes next.",
+  "ctaLede": "Start with a fit call. We will look at the rooms that are already deciding your days, and whether a full project or a Jumpstart hour is the right next step.",
   "primaryCta": {
     "label": "Fit call",
     "href": "https://cal.com/jubili/fit-call",
-    "microcopy": "Free · 30 min · See if this is your work"
+    "microcopy": "Free · 30 min · with Petrina Salema"
   },
   "secondaryCta": {
     "label": "Jumpstart",
@@ -40,14 +40,9 @@
       "note": "Background, experience, and selected work"
     },
     {
-      "label": "Materiality",
-      "href": "/materiality",
-      "note": "Finished rooms you can order yourself"
-    },
-    {
       "label": "Jubili",
       "href": "https://jubili.co",
-      "note": "Rooms designed to host and to earn",
+      "note": "Furnished rentals that have to earn, including shopping-list concepts",
       "external": true
     }
   ]
