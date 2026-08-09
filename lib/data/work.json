@@ -156,9 +156,33 @@
           "caption": ""
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "href": "https://jubili.co",
+          "text": "Jubili hospitality brand"
+        }
+      ],
       "featured": true,
-      "chapter": "homes"
+      "chapter": "homes",
+      "caseStudy": {
+        "problem": "The flat was leased. Guests needed a clear stay, and the landlord still needed the walls back when the lease ended.",
+        "decisions": "Every finish and furniture move was planned to reverse. Paint, hardware, and freestanding pieces carried the look. Nothing that would leave a scar at handover.",
+        "result": "A rental that reads as a finished guest home while it earns, and can be returned as found.",
+        "results": [
+          {
+            "value": "Rented",
+            "label": "flat, not owned stock"
+          },
+          {
+            "value": "Reversible",
+            "label": "interventions planned for clean handover"
+          },
+          {
+            "value": "Guest-ready",
+            "label": "styled for stays, not only for photos"
+          }
+        ]
+      }
     },
     {
       "id": "analytical-fingerprint-laboratory-amgc",

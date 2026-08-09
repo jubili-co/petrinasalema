@@ -60,12 +60,12 @@ export const WORK_CHAPTERS: {
   {
     id: "homes",
     label: "Homes & hospitality",
-    note: "Rooms designed for how people live, and for guests who pay to stay.",
+    note: "Vienna homes and guest stays first. Layout, materials, and how the place works when people actually use it.",
   },
   {
     id: "prior",
     label: "Prior architecture",
-    note: "A decade inside architecture practices, before the homes.",
+    note: "Hospitals, schools, labs, and banks from a decade inside architecture practices, before the homes.",
   },
 ];
 
