@@ -127,6 +127,7 @@ If the page or chrome answers “holding company,” cut or demote until the nam
 ## Site audit: protect
 
 - **Book’s Don sentence** (and its kin): space already deciding how you live; stop decorating around a life you didn’t choose; shape the room that holds the life you want.
+- **The home echo pair.** Hook: “Your rooms are already deciding how you live.” Answer: “I help people change what the rooms decide.” The second line reuses the hook’s verb and flips the agency. Prefer this echo over remedial verbs (“fix”) at masthead level; “fix” stays right on practical pages (Studio, Book).
 - **Studio lead** in the same family: nicer room is the false ask; the room should shape life toward how they want to live; value prop about fixing rooms that shape living and guest feeling.
 - **Work as proof, not brochure.** Rooms as evidence. Imagery does half the close (move 6).
 - **Legal constraint as Lucky Strike.** Cannot sell licensed “architecture / interior design” on commercial pages. Sell the human verb. Biography may state training.
