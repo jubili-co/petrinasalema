@@ -27,81 +27,18 @@ Skills before local style. Complete the relevant stop checklist and gate from pe
 - Prefer named `FC` exports, `cn()` for Tailwind, static `data-id` string literals
 - Gate: `npm run format` (if wired) → `npm run lint` → `npx tsc --noEmit`; run `npm run skill-check` on touched scope when changing UI/orchestrators
 
-## Copywriting
+## Copywriting (always apply for visitor-facing strings)
 
 Applies to UI copy, JSON content, MDX, metadata, and any visitor-facing strings agents write or edit.
 
-**Positioning:** Before writing or restructuring visitor-facing copy, offers, IA, or brand extensions, read and apply [`DRAPER.md`](./DRAPER.md). Tone (below) is how it sounds. Draper is what idea it serves. If they conflict, fix the idea first, then the voice.
+Before writing or restructuring visitor-facing copy, offers, IA, or brand extensions, read and apply these skills in order:
 
-- **No em dashes (`—`).** Do not use them in product copy. Prefer a period, comma, or a shorter rewrite.
-- Avoid en dashes (`–`) as rhetorical separators in sentences for the same reason.
-- **Go easy on colons (`:`).** Prefer a new sentence or a comma when a colon is only acting as a dramatic pause.
-- Solo studio voice: avoid corporate “we” when the speaker is Petrina / the practice unless plural is clearly true.
-- Prefer concrete verbs and short sentences over brochure filler.
+1. `.cursor/skills/draper/SKILL.md` — positioning and idea (the wound, one door, initiation CTAs)
+2. `.cursor/skills/human-register/SKILL.md` — voice (sound like a person, not a brand deck or AI summary)
 
-### Tone of voice (hard)
+Draper is what idea the copy serves. Human register is how it sounds. If they conflict, fix the idea first, then the voice.
 
-Write like a person who runs a small practice, not like a brand deck or an AI summary. Sound human. Do not abstract into “positioning.”
-
-First person is allowed, sparingly. One “I” in a short block can make it personal. A page where every sentence starts with “I” sounds like a LinkedIn bio, not a person talking.
-
-**Reject (brochure / AI):**
-
-> Independent practice in Vienna since 2021. Formed by architectural training and years inside design studios. Today: a few homes and hospitality spaces a year, in Vienna and remote.
-
-Why it fails: noun-stack opener, passive origin myth (“Formed by…”), colon beat (“Today:”).
-
-**Reject (first-person spam):**
-
-> I care more about how a room works than how it photographs. I design for how you actually use the room. I keep the list short so I can go deep.
-
-Why it fails: every line opens with “I.” Human voice varies subject and rhythm.
-
-**Reject (slogan / manifesto slop):**
-
-> Guest flow, daily habits, and what still works when the photographer leaves. The list stays short so the work can go deep. Same bar whether you live there or guests do.
-
-> Use over spectacle.
-
-Why it fails: consulting-speak, clever oppositions (`X over Y`, `X rather than Y`), ethos-poster titles. Brand toolkit / AI doctrine, not speech. Prefer observation (“If it only looks good in photos…”) over a principle name doing the work.
-
-**Reject (fake-concrete slop):**
-
-> A room should still feel right on a Tuesday, not only in the photos. Where the coats go… If that isn't right, the rest is decoration.
-
-Why it fails: AI faking warmth with Tuesday / coats / photographer. Still essay voice.
-
-**Reject (clipped / cold):**
-
-> Layout, materials, sourcing, and styling. Most take one to three months. Only a few each year. Vienna, and remote.
-
-Why it fails: telegram voice. Accurate, but withholding. Reads like the writer is annoyed, not clear. Cutting slogans must not strip warmth.
-
-**Prefer (anchor):**
-
-> I started this practice in Vienna in 2021, after years studying interior design and working in architecture studios. A few homes and hospitality spaces a year, in Vienna, abroad, and remotely.
-
-Why it works: one “I,” full sentences, calm. Training as background, not a service claim. Geography is Vienna, abroad, and remote (not Vienna-only with remote as an afterthought).
-
-**Also prefer (Studio lead, same temperature):**
-
-> People usually ask for a nicer room. What they need is a room that shapes life toward how they want to live.
-
-> I help people fix the rooms that shape how they live, and how guests feel when they stay.
-
-Why it works: insight, then a plain value proposition. No “considered rather than styled” oppositions. Effectiveness over polish.
-
-**Balance.** Avoid brochure posture, “I” spam, slogan triads, fake props, *and* curt stub lines. Warm + plain beats clever *and* beats clipped.
-
-**Checklist before shipping copy**
-
-- Can you hear someone say it out loud without wincing?
-- Does it sound glad to explain, not bored or punitive?
-- On a page or section, do fewer than half the sentences start with “I”?
-- Would you say this to a friend, or only put it on a website?
-- Full sentences where a list would feel cold?
-- Did you avoid “Formed by / Built on / Rooted in / Dedicated to / Today: / go deep / same bar / Tuesday / coats / photographer leaves”?
-- Credentials = background and competence. Do not sell “architecture” or “interior design” as licensed services on commercial pages (Studio, Book, Home SEO). Biography/About may state training and past roles plainly.
+Root pointer: [`DRAPER.md`](./DRAPER.md).
 
 ## Cursor Cloud specific instructions
 

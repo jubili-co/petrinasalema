@@ -27,6 +27,8 @@ Open [http://localhost:3000](http://localhost:3000).
 - `lib/data/` — JSON content (`work.json`, about, careers, …)
 - `lib/work.ts` — `Work` types and portfolio helpers
 - `.cursor/skills/petro-code-*` — agent coding standards (see `AGENTS.md`)
+- `.cursor/skills/draper` — positioning / marketing logic for visitor copy
+- `.cursor/skills/human-register` — human voice for visitor copy (not brand-deck / AI tone)
 
 ## Stack
 
