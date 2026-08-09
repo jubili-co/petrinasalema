@@ -22,7 +22,7 @@ export const WorkInvite: FC = () => (
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
-        If your rooms should work like this, book a fit call.
+        If a home like these is next, book a fit call.
       </p>
       <div
         data-id="work-grid-invite-actions"
@@ -50,7 +50,8 @@ export const WorkInvite: FC = () => (
             "text-[12px] leading-[16px] font-[350] text-dotto-brown/75",
           )}
         >
-          I take on a few residences a year, in Vienna or wherever you call home.
+          A few residences a year. Most take one to three months, in Vienna or
+          wherever you call home.
         </p>
       </div>
     </div>
