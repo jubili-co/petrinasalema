@@ -7,6 +7,7 @@ import { resolveProjectImageSrc } from "@/lib/googleDrive";
 import { homeWorkBlocks } from "@/lib/work";
 
 import { HomeInvite } from "./components/HomeInvite";
+import { HomeProof } from "./components/HomeProof";
 import { HomeStatement } from "./components/HomeStatement";
 import { HomeWork } from "./components/HomeWork";
 import { NewsletterSignup } from "./components/NewsletterSignup";
@@ -19,13 +20,14 @@ export const metadata: Metadata = {
 };
 
 const HomePage: FC = () => {
-  const { statement, invite, newsletterDescription } = home;
+  const { statement, proof, invite, newsletterDescription } = home;
 
   return (
     <main data-id="home-page" className="min-h-dvh">
       <SiteHeader />
       <HomeStatement hook={statement.hook} support={statement.support} />
       <HomeWork blocks={homeWorkBlocks()} />
+      <HomeProof text={proof.text} attribution={proof.attribution} />
       <HomeInvite hook={invite.hook} body={invite.body} cta={invite.cta} />
       <NewsletterSignup
         image={resolveProjectImageSrc(landing.newsletterImage)}
