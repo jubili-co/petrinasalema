@@ -117,6 +117,13 @@ Principle: tactility enters at the input (her hand making the stroke) or the out
 - [fala atelier](https://architizer.com/blog/inspiration/stories/fala-atelier-the-comeback-of-architectural-collage/) — collages made a young practice's global name; caution: a signature style invites imitators. Atelier Bow-Wow's hand-drawn sections = drawing as rigor.
 - [Corporate Memphis](https://en.wikipedia.org/wiki/Corporate_Memphis) — the cautionary tale: Facebook's Alegria, imitated into "soulless." Mailchimp / Notion: authored hands knocked off to death.
 
+**Execution-level references (verified; what to look at, not just who):**
+
+- [Drawing Matter](https://drawingmatter.org/) — archive devoted to drawings as architectural thinking, from first scribbles to working sets (Le Corbusier, Siza, Scarpa, contemporary practices). The whole site is the artifact idea.
+- [Charlap Hyman & Herrero](https://www.ch-herrero.com/projects) — Adam Charlap Hyman begins every residential project with watercolor renderings, presented to clients in pairs; drawings as working documents inside a live interiors portfolio, shown beside photography.
+- [Licia He](https://www.eyesofpanda.com/project/fictional_lullaby/) — plotter paintings: Python-generated files physically rendered with fountain pen ink and watermedia on AxiDraw. Proof that route B (plotter) yields art-grade real texture from digital files.
+- [Linda Merad portfolio](https://www.lindamerad.com/) — the Hermès execution up close: pen and India ink, lithographic texture, scanned and animated.
+
 ## "My Favorite Things" — second newsletter (distribution idea, later)
 
 Beata Heuman energy × Maria from The Sound of Music. A monthly curation of the absolute best of everything — one cutlery set, one wallpaper, one ice cube maker. Oprah's Book Club cadence: one pick list, her taste, no roundup filler.
