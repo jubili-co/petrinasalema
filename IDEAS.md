@@ -101,6 +101,17 @@ Direction locked with Petrina (Aug 2026 research thread). Verdict: yes to illust
 - **New register — background × chrome.** Floor plans and ink-sketch artifacts may also live between background and chrome: large, ghosted, cropped by section edges so they read as substrate, low contrast (brown-muted `#ae9891` or brown at low opacity over cream), no captions, decorative only (`aria-hidden`), never under body text at legibility cost. Still authored and project-specific — a real plan ghosted, not wallpaper. Economy: one artifact, two registers — the same scanned drawing serves the captioned proof block and the ghosted mid-layer at different scale and opacity. Keep to one per page.
 - **Tile provenance band: scoped to one or two projects,** where the material story is true — first candidate the AMGC laboratory rehabilitation (`analytical-fingerprint-laboratory-rehabilitation`, the actual 3D ceramic tile feature wall with local craftsmen). Not sitewide chrome.
 
+**Assets in hand (Aug 2026): the Tegelweg house papers.**
+
+Petrina supplied 16 PDFs — scans (~200 dpi A4, raster inside PDF) of the original 1976 planning submission for Tegelweg 4, Wien XXII (the Aufstockung / storey addition): Alt + Neu plan sets, sections A-B and C-D, front and back elevations, including the stamped sheet with Austrian revenue stamps, hand-lettered area table, and "MASSTAB 1:100". Hand-drafted, hand-lettered, aged paper, fold creases. Already-tactile authored artifacts; no redraw needed for these.
+
+- **What they are not:** documentation of Petrina's own redesign. Alt/Neu is the 1976 addition by previous owners. House biography, not her before/after. Her 2-bed → 4-bed phases still need her own drawings (ink over CAD, route A).
+- **Story gift:** the archive makes "your rooms are writing your biography" a documented physical fact for this house — its rooms have been redirecting lives on paper since 1976. Case-study block: "the house's papers."
+- **Roles:** Tegelweg page story/proof block + mid-layer ghosts (section, plans) + street elevation as hero artifact + stamps detail as object shot (original color, not extracted).
+- **Treatment pipeline (proven on these scans):** flatten background (Gaussian-blur divide), noise floor ~0.08, darkness → alpha, recolor `#633b2f`, composite over cream; ghost register at ~15% opacity. 200 dpi holds at ~1000 px display width; avoid extreme zoom.
+- **Redaction rule (hard):** the 1976 owners' names and private address are legible on the lettering blocks (section A-B, Bereiche sheet). Crop or soften before anything ships publicly.
+- **Reuse rule:** full strength on Tegelweg pages. Ghosted/cropped is honest on non-project surfaces (home, studio, book, 404, OG) where no project claim is implied. Not on other projects' pages — a ghosted Tegelweg plan under Brabbeegasse photos implies false provenance. Other projects get their own drawings.
+
 **Production routes (computer-first practice):**
 
 Principle: tactility enters at the input (her hand making the stroke) or the output (real ink on real paper). The digital file stays the source of truth. What kills the signal is texture applied as a style instead of produced by a process. Ranked:
