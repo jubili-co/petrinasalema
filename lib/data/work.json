@@ -110,6 +110,28 @@
             "label": "bedrooms, redesigned while in operation"
           }
         ]
+      },
+      "papers": {
+        "heading": "The house's papers",
+        "lede": "The house keeps its own records. When the upper floor was added in 1976, the plans were drawn and lettered by hand, filed with the city, and stamped. The rooms guests sleep in now were drawn on these sheets first.",
+        "figures": [
+          {
+            "src": "/papers/elevation-1976.webp",
+            "alt": "Hand-drawn street elevation of the Tegelweg house, from the 1976 planning submission",
+            "caption": "Street elevation, hand-lettered. From the 1976 submission."
+          },
+          {
+            "src": "/papers/ground-floor-before-1976.webp",
+            "alt": "Hand-drawn ground floor plan of the house before the 1976 addition",
+            "caption": "Ground floor before the addition."
+          },
+          {
+            "src": "/papers/ground-floor-1976.webp",
+            "alt": "Hand-drawn ground floor plan of the house as approved in 1976",
+            "caption": "Ground floor as approved in 1976."
+          }
+        ],
+        "ghost": "/papers/section-1976.webp"
       }
     },
     {

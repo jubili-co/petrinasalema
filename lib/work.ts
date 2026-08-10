@@ -31,6 +31,14 @@ export type WorkCaseStudy = {
   results: WorkResult[];
 };
 
+/** Archival drawings that belong to this project (line art on cream). */
+export type WorkPapers = {
+  heading: string;
+  lede: string;
+  figures: WorkImage[];
+  ghost?: string;
+};
+
 export type WorkItem = {
   id: string;
   slug: string;
@@ -42,6 +50,7 @@ export type WorkItem = {
   scope: string[];
   description: string;
   caseStudy?: WorkCaseStudy;
+  papers?: WorkPapers;
   tags: string[];
   images: WorkImage[];
   links: WorkLink[];
