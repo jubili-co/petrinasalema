@@ -86,13 +86,20 @@ Direction locked with Petrina (Aug 2026 research thread). Verdict: yes to illust
 
 - Authored or nothing. One recognizable hand: Petrina's own, or one commissioned artist, credited (patronage itself reads as exclusivity — the Ffern model). Generic vector (Corporate Memphis) or AI-generated imagery inverts the whole signal.
 - Post-AI logic: visible pen texture, wobbly lines, paper grain = proof a human was here. Hermès rebuilt hermes.com around exactly this, Jan 2026.
-- Photography stays the proof (Draper move 6). Illustration never sits between the visitor and the rooms. It lives in case studies as thinking artifacts, and in quiet chrome: drawn signature mark, dividers, 404, newsletter confirmation, OG images, endpaper moments.
+- Photography stays the proof (Draper move 6). Illustration never sits between the visitor and the rooms. It lives in case studies as thinking artifacts, in quiet chrome (drawn signature mark, dividers, 404, newsletter confirmation, OG images, endpaper moments), and in a middle register between background and chrome (see Decided below).
 - A before/after plan sketch is the most literal "change what the rooms decide" with zero copy.
 - Scarcity of use mirrors scarcity of offer. A few drawings placed deliberately read exclusive; a doodle per section reads theme.
 - The palette is already an ink set: brown line on cream, one accent (mustard / maroon / blue) per drawing.
 - No heritage cosplay. Engraved crests suit 1803, not a 2021 practice. A drawn mark or her sketch hand is honest.
 
 **First move:** one project page, one drawing that earns its place — e.g. Tegelweg before/after plan sketch, brown ink on cream. If it reads as decoration next to the photos, stop there; nothing lost.
+
+**Decided after concept mockups (Aug 2026):**
+
+- **Approved: footer drawn mark.** Room outline in plan with a single dot inside — the dot does the Dotto work, the wobble does the human work. Chrome stays otherwise typographic.
+- **Approved: before/after ink plans on project pages.** Photography keeps the top; plans below; the changed zone in one accent wash; caption names the process ("Plan, before / after. Ink over CAD print").
+- **New register — background × chrome.** Floor plans and ink-sketch artifacts may also live between background and chrome: large, ghosted, cropped by section edges so they read as substrate, low contrast (brown-muted `#ae9891` or brown at low opacity over cream), no captions, decorative only (`aria-hidden`), never under body text at legibility cost. Still authored and project-specific — a real plan ghosted, not wallpaper. Economy: one artifact, two registers — the same scanned drawing serves the captioned proof block and the ghosted mid-layer at different scale and opacity. Keep to one per page.
+- **Tile provenance band: scoped to one or two projects,** where the material story is true — first candidate the AMGC laboratory rehabilitation (`analytical-fingerprint-laboratory-rehabilitation`, the actual 3D ceramic tile feature wall with local craftsmen). Not sitewide chrome.
 
 **Production routes (computer-first practice):**
 
