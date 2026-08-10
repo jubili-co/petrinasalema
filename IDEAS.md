@@ -79,7 +79,7 @@ Direction locked with Petrina (Aug 2026 research thread). Verdict: yes to illust
 
 **Petrina's notes (anchor the direction):**
 
-- Most day-to-day work happens on computer now, but she values tactile things. The drawing layer is where the tactile re-enters the practice: real ink / pencil on paper, scanned with the grain kept. No vector faux-hand brushes.
+- Most day-to-day work happens on computer now, but she values tactile things. The drawing layer is where the tactile re-enters the practice: real ink / pencil on paper, scanned with the grain kept. No vector faux-hand brushes. (Production routes below reconcile this with a computer-first workflow.)
 - She mixes African and European influences (Dar es Salaam years; e.g. the AMGC feature wall designed with local craftsmen's custom 3D ceramic tiles). A drawing hand can carry that mix as authored provenance no European-only studio can copy. Danger: "African pattern" as wallpaper is the style-skin failure again — it must come from her projects and references, not a mood board.
 
 **Rules:**
@@ -93,6 +93,18 @@ Direction locked with Petrina (Aug 2026 research thread). Verdict: yes to illust
 - No heritage cosplay. Engraved crests suit 1803, not a 2021 practice. A drawn mark or her sketch hand is honest.
 
 **First move:** one project page, one drawing that earns its place — e.g. Tegelweg before/after plan sketch, brown ink on cream. If it reads as decoration next to the photos, stop there; nothing lost.
+
+**Production routes (computer-first practice):**
+
+Principle: tactility enters at the input (her hand making the stroke) or the output (real ink on real paper). The digital file stays the source of truth. What kills the signal is texture applied as a style instead of produced by a process. Ranked:
+
+- **A — CAD underlay, hand overlay.** Print the digital plan at scale, trace paper over it, redraw walls + furniture freehand in ink, scan. ~20 min per project. Accuracy from the file, life from the hand; the hand drawing carries no dimensions, which is what frees it to be loose. The classic office presentation technique. Start here (Tegelweg).
+- **B — pen plotter.** Her exported linework drawn by an AxiDraw-class plotter with a real pen on real paper, then scanned. Real ink, zero redraw labor, consistent house standard (same pen + same paper across projects). Honest, not a workaround: the file she drew, inked physically. Caution: plotted lines are uniform in speed/pressure; use pens that vary (fountain, brush tip). Scaling route once A proves out.
+- **C — her hand on screen.** iPad + pressure pencil brush = authored strokes; the rule refines to drawn strokes yes, style filters no. No applied "sketch look," no auto-smoothing, no fake scan grain. Weakest tactile signal; fine for quick concept sketches and chrome.
+- **D — harvest real process.** Trace-paper studies, redlines, notebook pages, material boards — scanned, or photographed as objects (sheet on desk). Provenance visible. Only if they genuinely exist; staged process theater is fake-concrete slop in image form.
+- **E — commission the decorative chrome** (mark, dividers, 404, OG) from one credited artist; the African + European mix as the commissioning brief, anchored in her projects and references. Her artifacts keep the proof role.
+
+**Web pipeline (any route):** scan high-res, keep the grain; recolor line to dotto-brown and drop the paper (knockout, or multiply-blend over cream) so the site's background becomes the paper — artifact of the site, not a picture of a drawing in a white box. Export raster (WebP/AVIF); vectorizing smooths away the evidence (exception: the small mark may need SVG, test it). Captions name the process honestly ("Plan, before / after. Ink over CAD print") — for a computer practice that reads stronger, not weaker. Computer = truth, hand = story.
 
 **References (verified):**
 
