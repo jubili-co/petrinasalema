@@ -72,3 +72,57 @@ Side thought: people can take the idea (authorship of the cocoon) and still not 
 - If a partner: quiet, serious credit for larger balances, linked as “payment plans available” from Book/FAQ, not a fintech strip on every CTA.
 
 **Rule of thumb:** Finance the cocoon when scope is clear and the ticket is large. Don’t finance the moment of conviction with a retail checkout badge.
+
+## Illustration — drawing layer, not illustration skin
+
+Direction locked with Petrina (Aug 2026 research thread). Verdict: yes to illustration, as **artifacts of the designer/architect's craft** first — plans, axonometrics, concept sketches, material studies. Nice-looking decoration can also be made to work, but only in quiet chrome, never as the lead.
+
+**Petrina's notes (anchor the direction):**
+
+- Most day-to-day work happens on computer now, but she values tactile things. The drawing layer is where the tactile re-enters the practice: real ink / pencil on paper, scanned with the grain kept. No vector faux-hand brushes.
+- She mixes African and European influences (Dar es Salaam years; e.g. the AMGC feature wall designed with local craftsmen's custom 3D ceramic tiles). A drawing hand can carry that mix as authored provenance no European-only studio can copy. Danger: "African pattern" as wallpaper is the style-skin failure again — it must come from her projects and references, not a mood board.
+
+**Rules:**
+
+- Authored or nothing. One recognizable hand: Petrina's own, or one commissioned artist, credited (patronage itself reads as exclusivity — the Ffern model). Generic vector (Corporate Memphis) or AI-generated imagery inverts the whole signal.
+- Post-AI logic: visible pen texture, wobbly lines, paper grain = proof a human was here. Hermès rebuilt hermes.com around exactly this, Jan 2026.
+- Photography stays the proof (Draper move 6). Illustration never sits between the visitor and the rooms. It lives in case studies as thinking artifacts, and in quiet chrome: drawn signature mark, dividers, 404, newsletter confirmation, OG images, endpaper moments.
+- A before/after plan sketch is the most literal "change what the rooms decide" with zero copy.
+- Scarcity of use mirrors scarcity of offer. A few drawings placed deliberately read exclusive; a doodle per section reads theme.
+- The palette is already an ink set: brown line on cream, one accent (mustard / maroon / blue) per drawing.
+- No heritage cosplay. Engraved crests suit 1803, not a 2021 practice. A drawn mark or her sketch hand is honest.
+
+**First move:** one project page, one drawing that earns its place — e.g. Tegelweg before/after plan sketch, brown ink on cream. If it reads as decoration next to the photos, stop there; nothing lost.
+
+**References (verified):**
+
+- [Hermès × Linda Merad, Jan 2026](https://www.fastcompany.com/91471305/hermes-hand-illustrated-website-is-the-ultimate-luxury) — pen-and-India-ink site takeover, 12 category icons; the brief was that viewers should feel a human made it.
+- [Buly 1803](https://buly1803.com/en-us) — total engraved world plus calligraphy / monogram services. Commitment lesson; heritage register not to copy.
+- [The Newt in Somerset](https://thenewtinsomerset.com/) — pencil-and-ink garden menus (Ice House Design), woodcut cyder identity (Here Design). Illustration always carries provenance. Jubili-relevant.
+- [Ffern](https://ffern.co/artists) — one artist per season, hand-painted watercolour web icons, ledger scarcity. Closest structural match to this practice.
+- [Beata Heuman](https://beataheuman.com/) — AD100 interiors brand threaded with bespoke illustration; began with childhood fairy-tale house drawings (real affinity with the Tegelweg fairy-tale quote).
+- [Luke Edward Hall](https://www.lukeedwardhall.com/info) — illustration as the entire authority (hotels, Chateau Orlando). Boundary marker, not model: here the rooms are the authority.
+- [fala atelier](https://architizer.com/blog/inspiration/stories/fala-atelier-the-comeback-of-architectural-collage/) — collages made a young practice's global name; caution: a signature style invites imitators. Atelier Bow-Wow's hand-drawn sections = drawing as rigor.
+- [Corporate Memphis](https://en.wikipedia.org/wiki/Corporate_Memphis) — the cautionary tale: Facebook's Alegria, imitated into "soulless." Mailchimp / Notion: authored hands knocked off to death.
+
+## "My Favorite Things" — second newsletter (distribution idea, later)
+
+Beata Heuman energy × Maria from The Sound of Music. A monthly curation of the absolute best of everything — one cutlery set, one wallpaper, one ice cube maker. Oprah's Book Club cadence: one pick list, her taste, no roundup filler.
+
+- Distribution logic: taste is the product; every issue proves the eye that designs the rooms.
+- Draper filter: passes only as one woman's authority downstream (curation = authorship of objects). If it reads as a parallel shop or affiliate feed, it snaps back to retail.
+- Adjacent model: Beata Heuman's Shoppa — sub-brand on a subdomain, portfolio site left intact.
+- Natural bridge to Materiality (kits = a smaller key to the same kingdom).
+- Existing newsletter (studio updates) stays; this would be a second list, not a rename.
+
+## TODO — audit beataheuman.com against this site
+
+Structured comparison, then an adopt / reject list run through the Draper hard filter:
+
+- IA: work / press / studio / shop / courses; how the shelf avoids holding-company smell.
+- How illustration threads the brand without covering the photography.
+- Project-page anatomy: image rhythm, text length, doors out.
+- Scarcity phrasing ("a handful of projects each year") vs. ours.
+- Shoppa as sub-brand on a subdomain: one-woman authority preserved while selling products.
+- Press, book, BBC Maestro course as authority props, not side hustles.
+- Newsletter door placement and voice.
