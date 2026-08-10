@@ -60,12 +60,12 @@ export const WORK_CHAPTERS: {
   {
     id: "homes",
     label: "Homes & hospitality",
-    note: "Vienna homes and guest stays first. Layout, materials, and how the place works when people actually use it.",
+    note: "Homes and hospitality spaces, mostly in Vienna. Layout, materials, and what the rooms are like to live in.",
   },
   {
     id: "prior",
     label: "Prior architecture",
-    note: "Hospitals, schools, labs, and banks from a decade inside architecture practices, before the homes.",
+    note: "These came out of architecture studios. Mostly hospitals and schools, and a few labs and banks.",
   },
 ];
 

@@ -22,7 +22,7 @@ export const WorkInvite: FC = () => (
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
-        If a home like these is next, book a fit call.
+        If one of your rooms is next, book a fit call.
       </p>
       <div
         data-id="work-grid-invite-actions"
