@@ -2,9 +2,10 @@ import Image from "next/image";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import { probeRemoteImageSize } from "@/lib/imageSize";
 import type { WorkPapers as Papers } from "@/lib/work";
 import { withGalleryDimensions, type GalleryImage } from "@/lib/workGallery";
+
+import { GhostDrawing } from "../../components/GhostDrawing";
 
 type Props = {
   papers: Papers;
@@ -12,11 +13,10 @@ type Props = {
 
 /** Archival drawings block: lead figure, paired sheets, and a ghosted drawing. */
 export const WorkPapers: FC<Props> = async ({ papers }) => {
-  const { heading, lede, figures, ghost: ghostSrc } = papers;
+  const { heading, lede, figures, ghost } = papers;
   const framed = await withGalleryDimensions(figures);
   const [lead, ...rest] = framed;
   const pairs = chunkPairs(rest);
-  const ghost = ghostSrc && (await frameGhost(ghostSrc));
 
   return (
     <section
@@ -27,7 +27,14 @@ export const WorkPapers: FC<Props> = async ({ papers }) => {
         "px-6 pt-14 pb-16 md:px-12 md:pt-20 md:pb-24",
       )}
     >
-      {ghost && <PapersGhost image={ghost} />}
+      {ghost && (
+        <GhostDrawing
+          src={ghost}
+          sizes="(min-width: 768px) 44vw, 0px"
+          data-id="work-papers-ghost"
+          className="-top-6 right-[-6%] hidden w-[44vw] max-w-[720px] md:block"
+        />
+      )}
       <header data-id="work-papers-header" className="relative max-w-[520px]">
         <h2
           data-id="work-papers-heading"
@@ -106,44 +113,6 @@ const PapersFigure: FC<FigureProps> = ({ figure, isPaired }) => {
     </figure>
   );
 };
-
-type Ghost = {
-  src: string;
-  width: number;
-  height: number;
-};
-
-type GhostProps = {
-  image: Ghost;
-};
-
-/** Background × chrome register: decorative, low opacity, cropped by the section. */
-const PapersGhost: FC<GhostProps> = ({ image }) => {
-  const { src, width, height } = image;
-
-  return (
-    <Image
-      src={src}
-      alt=""
-      width={width}
-      height={height}
-      sizes="(min-width: 768px) 44vw, 0px"
-      aria-hidden
-      data-id="work-papers-ghost"
-      className={cn(
-        "absolute -top-6 right-[-6%]",
-        "hidden w-[44vw] max-w-[720px] md:block",
-        "opacity-[0.13]",
-        "pointer-events-none",
-      )}
-    />
-  );
-};
-
-async function frameGhost(src: string): Promise<Ghost | null> {
-  const size = await probeRemoteImageSize(src);
-  return size && { src, ...size };
-}
 
 function chunkPairs(figures: GalleryImage[]): GalleryImage[][] {
   if (figures.length === 0) {

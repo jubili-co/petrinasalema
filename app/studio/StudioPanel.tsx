@@ -3,6 +3,8 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { GhostDrawing } from "../components/GhostDrawing";
+
 export type StudioPrinciple = {
   title: string;
   body: string;
@@ -30,6 +32,7 @@ export type StudioContent = {
   primaryCta: StudioCta;
   secondaryCta: StudioCta;
   extensions: StudioExtension[];
+  ghost?: string;
 };
 
 type Props = {
@@ -46,6 +49,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     primaryCta,
     secondaryCta,
     extensions,
+    ghost,
   } = studio;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
@@ -56,11 +60,26 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     <div
       data-id="studio-panel"
       className={cn(
+        "relative overflow-hidden",
         "flex w-full flex-col justify-start",
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
     >
-      <div data-id="studio-panel-inner" className="mx-auto w-full max-w-[420px]">
+      {ghost && (
+        <GhostDrawing
+          src={ghost}
+          sizes="(min-width: 768px) 34vw, 72vw"
+          data-id="studio-ghost"
+          className={cn(
+            "right-[-16%] bottom-[-8%] md:right-[-6%] md:bottom-[-10%]",
+            "w-[72vw] max-w-[480px] md:w-[34vw]",
+          )}
+        />
+      )}
+      <div
+        data-id="studio-panel-inner"
+        className="relative mx-auto w-full max-w-[420px]"
+      >
         <p
           data-id="studio-eyebrow"
           className={cn(

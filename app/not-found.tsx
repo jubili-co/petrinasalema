@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
-import { probeRemoteImageSize } from "@/lib/imageSize";
 
+import { GhostDrawing } from "./components/GhostDrawing";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
@@ -15,65 +14,53 @@ export const metadata: Metadata = {
   title: "Not found | Petrina Salema",
 };
 
-const NotFoundPage: FC = async () => {
-  const plan = await probeRemoteImageSize(PLAN_SRC);
-
-  return (
-    <main
-      data-id="not-found-page"
-      className="flex min-h-dvh flex-col bg-dotto-cream"
+const NotFoundPage: FC = () => (
+  <main
+    data-id="not-found-page"
+    className="flex min-h-dvh flex-col bg-dotto-cream"
+  >
+    <SiteHeader />
+    <section
+      data-id="not-found-hero"
+      className={cn(
+        "relative overflow-hidden",
+        "flex flex-1 flex-col items-start justify-center",
+        "px-6 pt-[110px] pb-20 md:px-12",
+      )}
     >
-      <SiteHeader />
-      <section
-        data-id="not-found-hero"
+      <GhostDrawing
+        src={PLAN_SRC}
+        sizes="(min-width: 768px) 40vw, 82vw"
+        data-id="not-found-ghost"
         className={cn(
-          "relative overflow-hidden",
-          "flex flex-1 flex-col items-start justify-center",
-          "px-6 pt-[110px] pb-20 md:px-12",
+          "top-1/2 right-[-14%] -translate-y-1/2 md:right-[4%]",
+          "w-[82vw] max-w-[640px] md:w-[40vw]",
+        )}
+      />
+      <h1
+        data-id="not-found-line"
+        className={cn(
+          "relative m-0 max-w-[420px] font-[family-name:var(--font-antiqua)]",
+          "text-[24px] leading-[1.4] font-[350] text-dotto-brown",
+          "md:text-[28px] md:leading-[1.38]",
         )}
       >
-        {plan && (
-          <Image
-            src={PLAN_SRC}
-            alt=""
-            width={plan.width}
-            height={plan.height}
-            sizes="(min-width: 768px) 40vw, 82vw"
-            aria-hidden
-            data-id="not-found-ghost"
-            className={cn(
-              "absolute top-1/2 right-[-14%] -translate-y-1/2 md:right-[4%]",
-              "w-[82vw] max-w-[640px] md:w-[40vw]",
-              "opacity-[0.15]",
-              "pointer-events-none",
-            )}
-          />
+        This page is not on the plan.
+      </h1>
+      <Link
+        href="/work"
+        data-id="not-found-door"
+        className={cn(
+          "relative mt-6 font-[family-name:var(--font-antiqua)]",
+          "text-[14px] leading-[21px] font-[350] text-dotto-brown",
+          "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
         )}
-        <h1
-          data-id="not-found-line"
-          className={cn(
-            "relative m-0 max-w-[420px] font-[family-name:var(--font-antiqua)]",
-            "text-[24px] leading-[1.4] font-[350] text-dotto-brown",
-            "md:text-[28px] md:leading-[1.38]",
-          )}
-        >
-          This page is not on the plan.
-        </h1>
-        <Link
-          href="/work"
-          data-id="not-found-door"
-          className={cn(
-            "relative mt-6 font-[family-name:var(--font-antiqua)]",
-            "text-[14px] leading-[21px] font-[350] text-dotto-brown",
-            "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
-          )}
-        >
-          Back to the work
-        </Link>
-      </section>
-      <SiteFooter />
-    </main>
-  );
-};
+      >
+        Back to the work
+      </Link>
+    </section>
+    <SiteFooter />
+  </main>
+);
 
 export default NotFoundPage;
