@@ -10,12 +10,11 @@ export const LogoPetina: FC<Props> = ({ className }) => (
   <div
     data-id="logo-petrina"
     className={cn(
-      "block font-[family-name:var(--font-beaux)]",
-      "font-semibold text-base leading-none tracking-[0.12em] uppercase",
+      "block whitespace-nowrap",
+      "font-[family-name:var(--font-playfair)] font-normal text-[20px] leading-none tracking-tight uppercase md:text-[22px]",
       className,
     )}
   >
-    <div aria-label="Petrina">Petrina</div>
-    <div aria-label="Salema">Salema</div>
+    Petrina Salema
   </div>
 );

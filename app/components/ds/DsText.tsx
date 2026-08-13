@@ -23,7 +23,7 @@ const dsTextVariants = cva("", {
       caption:
         "font-[family-name:var(--font-matter)] text-xs text-dotto-brown-muted",
       h1: cn(
-        "m-0 font-[family-name:var(--font-beaux)]",
+        "m-0 font-[family-name:var(--font-playfair)]",
         "text-[clamp(40px,6vw,72px)] leading-none tracking-[0.08em] uppercase",
       ),
       // Matches AboutTitle / about-page section heading.
