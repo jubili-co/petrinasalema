@@ -3,6 +3,8 @@ import type { FC, ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { PaperFigure } from "../components/PaperFigure";
+
 export type BookOffer = {
   title: string;
   body: string;
@@ -16,9 +18,16 @@ export type BookCta = {
   microcopy?: string;
 };
 
+export type BookQuoteFigure = {
+  src: string;
+  alt: string;
+  caption: string;
+};
+
 export type BookQuote = {
   text: string;
   attribution: string;
+  figure?: BookQuoteFigure;
 };
 
 export type BookContent = {
@@ -45,6 +54,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
     secondaryCta,
     email,
   } = book;
+  const { text, attribution, figure } = quote;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
     "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
@@ -103,16 +113,25 @@ export const BookPanel: FC<Props> = ({ book }) => {
                 "text-[15px] leading-[22px] font-[350] text-dotto-brown",
               )}
             >
-              “{quote.text}”
+              “{text}”
               <cite
                 data-id="book-quote-attribution"
                 className="not-italic text-dotto-brown/85"
               >
                 {" · "}
-                {quote.attribution}
+                {attribution}
               </cite>
             </p>
           </blockquote>
+          {figure && (
+            <PaperFigure
+              src={figure.src}
+              alt={figure.alt}
+              caption={figure.caption}
+              sizes="(min-width: 768px) 420px, 100vw"
+              className="mt-8"
+            />
+          )}
 
           <div
             data-id="book-email-divider"
