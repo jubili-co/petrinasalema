@@ -72,7 +72,7 @@ const MoreWorkItem: FC<MoreWorkItemProps> = ({ item }) => {
         href={`/work/${slug}`}
         data-id="work-gallery-more-link"
         className={cn(
-          "font-[family-name:var(--font-antiqua)] text-[15px] leading-[22px] font-[350] text-dotto-brown",
+          "font-[family-name:var(--font-playfair)] text-[15px] leading-[22px] font-[350] text-dotto-brown",
           "underline-offset-4 transition-opacity duration-200 hover:opacity-50 hover:underline",
         )}
       >

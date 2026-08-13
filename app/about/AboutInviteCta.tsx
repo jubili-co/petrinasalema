@@ -65,7 +65,7 @@ const InviteLine: FC<InviteLineProps> = ({ name, role }) => (
     <span
       data-id="about-invite-cta-role"
       className={cn(
-        "font-[family-name:var(--font-antiqua)]",
+        "font-[family-name:var(--font-playfair)]",
         "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
         "underline decoration-dotto-cream/50 underline-offset-4",
         "transition-colors duration-200 group-hover/cta:decoration-dotto-cream",

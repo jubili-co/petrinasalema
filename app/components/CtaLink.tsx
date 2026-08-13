@@ -96,7 +96,7 @@ function shellClass(
       // ghost — no fill, no border, no underline
       "justify-start gap-2 bg-transparent py-0 no-underline outline-none hover:no-underline":
         isGhost,
-      "font-[family-name:var(--font-antiqua)] text-[14px] leading-[21px] font-[350]":
+      "font-[family-name:var(--font-playfair)] text-[14px] leading-[21px] font-[350]":
         isGhost,
       "focus-visible:opacity-70": isGhost,
       "-ml-6": isGhost && isLeft,
