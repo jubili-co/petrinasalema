@@ -1,8 +1,8 @@
-import Link from "next/link";
 import type { FC, ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { CtaLink } from "../components/CtaLink";
 import { PaperFigure } from "../components/PaperFigure";
 
 export type BookOffer = {
@@ -61,7 +61,13 @@ export const BookPanel: FC<Props> = ({ book }) => {
   );
   const projectAction = (
     <div data-id="book-primary">
-      <BookActionLink cta={primaryCta} variant="primary" />
+      <CtaLink
+        href={primaryCta.href}
+        variant="primary"
+        data-id="book-action-link"
+      >
+        {primaryCta.label}
+      </CtaLink>
       {primaryCta.microcopy && (
         <p data-id="book-primary-microcopy" className={microcopyClassName}>
           {primaryCta.microcopy}
@@ -71,7 +77,13 @@ export const BookPanel: FC<Props> = ({ book }) => {
   );
   const jumpstartAction = (
     <div data-id="book-secondary">
-      <BookActionLink cta={secondaryCta} variant="secondary" />
+      <CtaLink
+        href={secondaryCta.href}
+        variant="secondary"
+        data-id="book-action-link"
+      >
+        {secondaryCta.label}
+      </CtaLink>
       {secondaryCta.microcopy && (
         <p data-id="book-secondary-microcopy" className={microcopyClassName}>
           {secondaryCta.microcopy}
@@ -201,72 +213,5 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
         {action}
       </div>
     </div>
-  );
-};
-
-type BookActionLinkProps = {
-  cta: BookCta;
-  variant: "primary" | "secondary";
-};
-
-const BookActionLink: FC<BookActionLinkProps> = ({ cta, variant }) => {
-  const { label, href } = cta;
-  const isExternal = href.startsWith("http");
-  const isPrimary = variant === "primary";
-  const className = cn(
-    "group/cta relative inline-flex min-h-11 items-center justify-center",
-    "overflow-hidden border border-dotto-brown py-3 pl-8 pr-8",
-    "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
-    { "bg-dotto-brown": isPrimary },
-  );
-  const toneClassName = cn({
-    "text-dotto-cream": isPrimary,
-    "text-dotto-brown": !isPrimary,
-  });
-  const labelClassName = cn(
-    "inline-block translate-x-0 will-change-transform",
-    "transition-transform duration-300 ease-out",
-    "group-hover/cta:-translate-x-1.5",
-    toneClassName,
-  );
-  const arrowClassName = cn(
-    "pointer-events-none absolute inset-y-0 right-4",
-    "flex items-center text-[15px] leading-none",
-    "opacity-0 will-change-transform",
-    "[transform:translate3d(2px,0,0)]",
-    "transition-[opacity,transform] duration-300 ease-out",
-    "group-hover/cta:opacity-100",
-    "group-hover/cta:[transform:translate3d(0,0,0)]",
-    toneClassName,
-  );
-  const content = (
-    <>
-      <span data-id="book-action-label" className={labelClassName}>
-        {label}
-      </span>
-      <span data-id="book-action-arrow" aria-hidden className={arrowClassName}>
-        →
-      </span>
-    </>
-  );
-
-  if (isExternal) {
-    return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        data-id="book-action-link"
-        className={className}
-      >
-        {content}
-      </a>
-    );
-  }
-
-  return (
-    <Link href={href} data-id="book-action-link" className={className}>
-      {content}
-    </Link>
   );
 };

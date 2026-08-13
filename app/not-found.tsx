@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { CtaLink } from "./components/CtaLink";
 import { GhostDrawing } from "./components/GhostDrawing";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
@@ -47,17 +47,15 @@ const NotFoundPage: FC = () => (
       >
         This page is not on the plan.
       </h1>
-      <Link
+      <CtaLink
         href="/work"
+        variant="ghost"
+        arrow="left"
         data-id="not-found-door"
-        className={cn(
-          "relative mt-6 font-[family-name:var(--font-antiqua)]",
-          "text-[14px] leading-[21px] font-[350] text-dotto-brown",
-          "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
-        )}
+        className="relative mt-6"
       >
         Back to the work
-      </Link>
+      </CtaLink>
     </section>
     <SiteFooter />
   </main>
