@@ -53,7 +53,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             <p
               data-id="work-details-subtitle"
               className={cn(
-                "m-0 mb-[10px] font-[family-name:var(--font-antiqua)]",
+                "m-0 mb-[10px] font-[family-name:var(--font-playfair)]",
                 "text-[13px] leading-[18px] font-[350]",
               )}
             >
@@ -62,7 +62,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             <p
               data-id="work-details-location"
               className={cn(
-                "m-0 mb-[18px] font-[family-name:var(--font-antiqua)]",
+                "m-0 mb-[18px] font-[family-name:var(--font-playfair)]",
                 "text-[13px] leading-[18px] font-[350]",
               )}
             >
@@ -71,7 +71,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             <p
               data-id="work-details-body"
               className={cn(
-                "m-0 font-[family-name:var(--font-antiqua)]",
+                "m-0 font-[family-name:var(--font-playfair)]",
                 "text-[13px] leading-[18px] font-[350]",
               )}
             >
@@ -83,7 +83,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 href="/book"
                 data-id="work-details-door"
                 className={cn(
-                  "mt-[18px] inline-block font-[family-name:var(--font-antiqua)]",
+                  "mt-[18px] inline-block font-[family-name:var(--font-playfair)]",
                   "text-[13px] leading-[18px] font-[350] text-dotto-cream",
                   "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
                 )}
@@ -123,7 +123,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
               <p
                 data-id="work-details-scope-list"
                 className={cn(
-                  "m-0 font-[family-name:var(--font-antiqua)]",
+                  "m-0 font-[family-name:var(--font-playfair)]",
                   "text-[13px] leading-[18px] font-[350]",
                 )}
               >
@@ -183,7 +183,7 @@ type WorkCaseStudyBlockProps = {
 const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({ caseStudy }) => {
   const { problem, decisions, result, results } = caseStudy;
   const bodyClassName = cn(
-    "m-0 font-[family-name:var(--font-antiqua)]",
+    "m-0 font-[family-name:var(--font-playfair)]",
     "text-[13px] leading-[18px] font-[350]",
   );
   const labelClassName = cn(
@@ -252,7 +252,7 @@ const WorkResultRow: FC<WorkResultRowProps> = ({ result }) => {
       <p
         data-id="work-case-study-result-label"
         className={cn(
-          "m-0 mt-1 font-[family-name:var(--font-antiqua)]",
+          "m-0 mt-1 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-cream/85",
         )}
       >
@@ -277,7 +277,7 @@ const ExternalLinkItem: FC<ExternalLinkItemProps> = ({ link }) => {
         rel="noopener noreferrer"
         data-id="work-details-link-anchor"
         className={cn(
-          "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
+          "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350]",
           "underline transition-opacity duration-200 hover:opacity-50",
         )}
       >

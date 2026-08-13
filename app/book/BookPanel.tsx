@@ -56,7 +56,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
   } = book;
   const { text, attribution, figure } = quote;
   const microcopyClassName = cn(
-    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
   );
   const projectAction = (
@@ -103,7 +103,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
         <p
           data-id="book-hook"
           className={cn(
-            "m-0 font-[family-name:var(--font-antiqua)]",
+            "m-0 font-[family-name:var(--font-playfair)]",
             "text-[22px] leading-[1.45] font-[350] text-dotto-brown",
             "md:text-[24px] md:leading-[1.42]",
           )}
@@ -121,7 +121,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
             <p
               data-id="book-quote-text"
               className={cn(
-                "m-0 font-[family-name:var(--font-antiqua)]",
+                "m-0 font-[family-name:var(--font-playfair)]",
                 "text-[15px] leading-[22px] font-[350] text-dotto-brown",
               )}
             >
@@ -154,7 +154,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
             href={`mailto:${email}`}
             data-id="book-email"
             className={cn(
-              "mt-6 block font-[family-name:var(--font-antiqua)]",
+              "mt-6 block font-[family-name:var(--font-playfair)]",
               "text-[13px] leading-[18px] font-[350] text-dotto-brown",
               "transition-opacity duration-200 hover:opacity-70",
             )}
@@ -175,7 +175,7 @@ type OfferBlockProps = {
 const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
   const { title, body, note, finance } = offer;
   const asideClassName = cn(
-    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[13px] leading-[18px] font-[350] text-dotto-brown/85",
   );
 
@@ -193,7 +193,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
       <p
         data-id="book-offer-body"
         className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
+          "m-0 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-brown",
         )}
       >

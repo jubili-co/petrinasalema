@@ -22,7 +22,7 @@ export const HomeStatement: FC<Props> = ({ hook, support }) => (
       <h1
         data-id="home-statement-hook"
         className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
+          "m-0 font-[family-name:var(--font-playfair)]",
           "text-[24px] leading-[1.4] font-[350] text-balance text-dotto-brown",
           "md:text-[28px] md:leading-[1.38]",
         )}
@@ -32,7 +32,7 @@ export const HomeStatement: FC<Props> = ({ hook, support }) => (
       <p
         data-id="home-statement-support"
         className={cn(
-          "m-0 max-w-[46ch] font-[family-name:var(--font-antiqua)]",
+          "m-0 max-w-[46ch] font-[family-name:var(--font-playfair)]",
           "text-[14px] leading-[21px] font-[350] text-balance text-dotto-brown/90",
         )}
       >

@@ -48,7 +48,7 @@ export const WorkPapers: FC<Props> = async ({ papers }) => {
         <p
           data-id="work-papers-lede"
           className={cn(
-            "m-0 font-[family-name:var(--font-antiqua)]",
+            "m-0 font-[family-name:var(--font-playfair)]",
             "text-[14px] leading-[21px] font-[350] text-dotto-brown",
           )}
         >
@@ -103,7 +103,7 @@ const PapersFigure: FC<FigureProps> = ({ figure, isPaired }) => {
         <figcaption
           data-id="work-papers-caption"
           className={cn(
-            "mt-3 font-[family-name:var(--font-antiqua)]",
+            "mt-3 font-[family-name:var(--font-playfair)]",
             "text-[13px] leading-[18px] font-[350] text-dotto-brown/80",
           )}
         >

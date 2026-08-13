@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Playfair_Display } from "next/font/google";
 import type { FC, ReactNode } from "react";
 
 import { COLOR_HEX } from "@/lib/colors";
@@ -6,6 +7,13 @@ import { SITE } from "@/lib/site";
 
 import { CookieBanner } from "./components/CookieBanner";
 import "./globals.css";
+
+const playfair = Playfair_Display({
+  subsets: ["latin", "latin-ext"],
+  display: "swap",
+  variable: "--font-playfair-face",
+  style: ["normal", "italic"],
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -72,7 +80,7 @@ const personJsonLd = {
 };
 
 const RootLayout: FC<Props> = ({ children }) => (
-  <html lang="en" className="h-full antialiased">
+  <html lang="en" className={`${playfair.variable} h-full antialiased`}>
     <body
       data-id="app-body"
       className="flex min-h-full flex-col bg-dotto-cream text-dotto-brown"

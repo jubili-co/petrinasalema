@@ -40,7 +40,7 @@ const NotFoundPage: FC = () => (
       <h1
         data-id="not-found-line"
         className={cn(
-          "relative m-0 max-w-[420px] font-[family-name:var(--font-antiqua)]",
+          "relative m-0 max-w-[420px] font-[family-name:var(--font-playfair)]",
           "text-[24px] leading-[1.4] font-[350] text-dotto-brown",
           "md:text-[28px] md:leading-[1.38]",
         )}

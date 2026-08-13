@@ -118,7 +118,7 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
         <figcaption
           data-id="work-gallery-caption"
           className={cn(
-            "px-6 py-3 font-[family-name:var(--font-antiqua)]",
+            "px-6 py-3 font-[family-name:var(--font-playfair)]",
             "text-[13px] leading-[18px] font-[350] text-dotto-brown md:px-12",
           )}
         >
