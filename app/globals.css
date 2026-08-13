@@ -10,14 +10,6 @@
 }
 
 @font-face {
-  font-family: "Allrounder Antiqua";
-  src: url("/fonts/AllrounderAntiqua.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "BEAUX Display";
   src: url("/fonts/BEAUX-Display.woff") format("woff");
   font-weight: 400;
@@ -41,7 +33,7 @@
 
 @theme inline {
   --font-matter: "Matter", sans-serif;
-  --font-antiqua: "Allrounder Antiqua", georgia, serif;
+  --font-playfair: var(--font-playfair-face), georgia, serif;
   --font-beaux: "BEAUX Display", sans-serif;
 }
 

@@ -87,7 +87,7 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
       <span
         data-id="about-work-list-role"
         className={cn(
-          "font-[family-name:var(--font-antiqua)]",
+          "font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
         )}
       >

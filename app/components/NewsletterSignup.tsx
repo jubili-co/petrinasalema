@@ -75,7 +75,7 @@ export const NewsletterSignup: FC<Props> = ({
             <p
               data-id="newsletter-signup-description"
               className={cn(
-                "m-0 font-[family-name:var(--font-antiqua)]",
+                "m-0 font-[family-name:var(--font-playfair)]",
                 "text-[13px] leading-[18px] font-[350]",
               )}
             >
@@ -101,7 +101,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
       <p
         data-id="newsletter-signup-success"
         className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
+          "m-0 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350]",
         )}
       >
@@ -124,7 +124,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         placeholder="Your Email"
         className={cn(
           "mb-0 w-full border-0 border-b border-dotto-cream bg-transparent",
-          "py-2 font-[family-name:var(--font-antiqua)]",
+          "py-2 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-cream outline-none",
           "placeholder:text-dotto-cream/50",
         )}

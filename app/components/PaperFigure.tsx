@@ -42,7 +42,7 @@ export const PaperFigure: FC<Props> = async ({
         <figcaption
           data-id="paper-figure-caption"
           className={cn(
-            "mt-3 font-[family-name:var(--font-antiqua)]",
+            "mt-3 font-[family-name:var(--font-playfair)]",
             "text-[13px] leading-[18px] font-[350] text-dotto-brown/80",
           )}
         >

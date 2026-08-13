@@ -49,7 +49,7 @@ const JubiliPage: FC = () => (
         </div>
         <p
           data-id="jubili-hero-copy"
-          className="mt-10 max-w-[36ch] font-[family-name:var(--font-antiqua)] text-[17px] leading-relaxed"
+          className="mt-10 max-w-[36ch] font-[family-name:var(--font-playfair)] text-[17px] leading-relaxed"
         >
           Rooms designed to host and to earn. Furniture, hardware, rugs and
           artist collaborations from the Jubili collection.

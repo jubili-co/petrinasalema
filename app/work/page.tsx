@@ -86,7 +86,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({ label, note }) => (
     <p
       data-id="work-chapter-note"
       className={cn(
-        "m-0 mt-3 max-w-[46ch] font-[family-name:var(--font-antiqua)]",
+        "m-0 mt-3 max-w-[46ch] font-[family-name:var(--font-playfair)]",
         "text-[13px] leading-[18px] font-[350] text-dotto-brown/80",
       )}
     >
@@ -134,13 +134,13 @@ const WorkGridCard: FC<WorkGridCardProps> = ({ item }) => {
         </h3>
         <p
           data-id="work-grid-card-subtitle"
-          className="m-0 mt-2 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream"
+          className="m-0 mt-2 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-dotto-cream"
         >
           {subtitle}
         </p>
         <p
           data-id="work-grid-card-location"
-          className="m-0 mt-1 font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-cream/80"
+          className="m-0 mt-1 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-dotto-cream/80"
         >
           {workPlace(location)}
         </p>

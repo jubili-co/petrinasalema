@@ -19,7 +19,7 @@ export const WorkInvite: FC = () => (
       <p
         data-id="work-grid-invite-close"
         className={cn(
-          "m-0 max-w-[18ch] font-[family-name:var(--font-antiqua)]",
+          "m-0 max-w-[18ch] font-[family-name:var(--font-playfair)]",
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
@@ -39,7 +39,7 @@ export const WorkInvite: FC = () => (
         <p
           data-id="work-grid-invite-lede"
           className={cn(
-            "m-0 max-w-[28ch] font-[family-name:var(--font-antiqua)]",
+            "m-0 max-w-[28ch] font-[family-name:var(--font-playfair)]",
             "text-[12px] leading-[16px] font-[350] text-dotto-brown/75",
           )}
         >

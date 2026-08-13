@@ -53,7 +53,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     ghost,
   } = studio;
   const microcopyClassName = cn(
-    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
   );
 
@@ -94,7 +94,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
         <p
           data-id="studio-hook"
           className={cn(
-            "m-0 font-[family-name:var(--font-antiqua)]",
+            "m-0 font-[family-name:var(--font-playfair)]",
             "text-[22px] leading-[1.45] font-[350] text-dotto-brown",
             "md:text-[24px] md:leading-[1.42]",
           )}
@@ -105,7 +105,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
         <p
           data-id="studio-body"
           className={cn(
-            "m-0 mt-8 font-[family-name:var(--font-antiqua)]",
+            "m-0 mt-8 font-[family-name:var(--font-playfair)]",
             "text-[13px] leading-[18px] font-[350] text-dotto-brown",
           )}
         >
@@ -123,7 +123,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
             <p
               data-id="studio-cta-lede"
               className={cn(
-                "m-0 mb-6 font-[family-name:var(--font-antiqua)]",
+                "m-0 mb-6 font-[family-name:var(--font-playfair)]",
                 "text-[13px] leading-[18px] font-[350] text-dotto-brown",
               )}
             >
@@ -209,7 +209,7 @@ const PrincipleBlock: FC<PrincipleBlockProps> = ({ principle }) => {
       <p
         data-id="studio-principle-body"
         className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
+          "m-0 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-brown",
         )}
       >
@@ -247,7 +247,7 @@ const ExtensionRow: FC<ExtensionRowProps> = ({ extension }) => {
     <span
       data-id="studio-extension-note"
       className={cn(
-        "font-[family-name:var(--font-antiqua)]",
+        "font-[family-name:var(--font-playfair)]",
         "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
       )}
     >

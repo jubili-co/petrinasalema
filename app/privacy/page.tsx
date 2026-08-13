@@ -35,7 +35,7 @@ const PrivacyPage: FC = () => (
           data-id="privacy-textarea-content"
           className={cn(
             "w-4/5 max-w-[960px] text-left text-dotto-brown",
-            "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350]",
+            "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350]",
           )}
         >
           {blocks.map((block, index) => (
@@ -74,7 +74,7 @@ const PrivacyBlockView: FC<PrivacyBlockViewProps> = ({ block }) => {
       data-id="privacy-paragraph"
       className={cn(
         "m-0 mb-[30px] whitespace-pre-line",
-        "font-[family-name:var(--font-antiqua)] text-[13px] leading-[18px] font-[350] text-dotto-brown",
+        "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-dotto-brown",
         "last:mb-0",
       )}
     >
