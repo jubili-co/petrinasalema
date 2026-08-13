@@ -88,57 +88,62 @@ export const SiteHeader: FC = () => {
           <Link
             href="/"
             data-id="site-header-logo"
-            className="relative z-10 block w-[180px] md:w-[274px]"
+            className="relative z-10"
             aria-label="Petrina Salema home"
           >
             <LogoPetina />
           </Link>
 
-          <nav data-id="site-header-nav" className="hidden md:block">
-            <ul className="flex items-center font-semibold">
-              {NAV_LINKS.map(({ href, label }) => {
-                const isCurrent = isCurrentNavPath(pathname, href);
-
-                return (
-                  <li key={href} className="ml-[40px] lg:ml-[54px]">
-                    <Link
-                      href={href}
-                      data-id="site-header-nav-link"
-                      aria-current={isCurrent ? "page" : undefined}
-                      className={cn(
-                        "border-b-2 border-transparent pb-2",
-                        "transition-[opacity,border-color] duration-200 ease-out hover:opacity-50",
-                        { "border-dotto-brown": isCurrent },
-                      )}
-                    >
-                      {label}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </nav>
-
-          <button
-            type="button"
-            data-id="site-header-hamburger"
-            className="relative z-10 flex min-h-11 min-w-11 items-center justify-end md:hidden"
-            aria-label={isOpen ? "Close menu" : "Open menu"}
-            aria-expanded={isOpen}
-            onClick={onToggle}
+          <div
+            data-id="site-header-end"
+            className="flex items-center justify-end"
           >
-            <span
-              className={cn(
-                "relative block h-[11px] w-[22px]",
-                "before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-current before:transition-transform before:duration-200",
-                "after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-current after:transition-transform after:duration-200",
-                {
-                  "before:top-1/2 before:-translate-y-1/2 before:rotate-45 after:bottom-auto after:top-1/2 after:-translate-y-1/2 after:-rotate-45":
-                    isOpen,
-                },
-              )}
-            />
-          </button>
+            <nav data-id="site-header-nav" className="hidden md:block">
+              <ul className="flex items-center gap-[40px] font-semibold lg:gap-[54px]">
+                {NAV_LINKS.map(({ href, label }) => {
+                  const isCurrent = isCurrentNavPath(pathname, href);
+
+                  return (
+                    <li key={href}>
+                      <Link
+                        href={href}
+                        data-id="site-header-nav-link"
+                        aria-current={isCurrent ? "page" : undefined}
+                        className={cn(
+                          "border-b-2 border-transparent pb-2",
+                          "transition-[opacity,border-color] duration-200 ease-out hover:opacity-50",
+                          { "border-dotto-brown": isCurrent },
+                        )}
+                      >
+                        {label}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </nav>
+
+            <button
+              type="button"
+              data-id="site-header-hamburger"
+              className="relative z-10 flex min-h-11 min-w-11 items-center justify-end md:hidden"
+              aria-label={isOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isOpen}
+              onClick={onToggle}
+            >
+              <span
+                className={cn(
+                  "relative block h-[11px] w-[22px]",
+                  "before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-current before:transition-transform before:duration-200",
+                  "after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-current after:transition-transform after:duration-200",
+                  {
+                    "before:top-1/2 before:-translate-y-1/2 before:rotate-45 after:bottom-auto after:top-1/2 after:-translate-y-1/2 after:-rotate-45":
+                      isOpen,
+                  },
+                )}
+              />
+            </button>
+          </div>
         </div>
       </header>
 

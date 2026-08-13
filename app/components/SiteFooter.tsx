@@ -30,7 +30,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         <Link
           href="/"
           data-id="site-footer-logo"
-          className="block w-full max-w-[223px] text-dotto-cream"
+          className="block text-dotto-cream"
           aria-label="Petrina Salema home"
         >
           <LogoPetina />

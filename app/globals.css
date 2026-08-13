@@ -9,14 +9,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "BEAUX Display";
-  src: url("/fonts/BEAUX-Display.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --border-hairline: 1px;
   --ease-out-soft: cubic-bezier(0.23, 1, 0.32, 1);
@@ -34,7 +26,6 @@
 @theme inline {
   --font-matter: "Matter", sans-serif;
   --font-playfair: var(--font-playfair-face), georgia, serif;
-  --font-beaux: "BEAUX Display", sans-serif;
 }
 
 * {
