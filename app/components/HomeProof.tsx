@@ -29,7 +29,7 @@ export const HomeProof: FC<Props> = ({ lede, results, href, linkLabel }) => (
       <p
         data-id="home-proof-lede"
         className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
+          "m-0 font-[family-name:var(--font-playfair)]",
           "text-[17px] leading-[1.55] font-[350] text-balance text-dotto-brown",
           "md:text-[19px]",
         )}
@@ -50,7 +50,7 @@ export const HomeProof: FC<Props> = ({ lede, results, href, linkLabel }) => (
         rel="noopener noreferrer"
         data-id="home-proof-link"
         className={cn(
-          "font-[family-name:var(--font-antiqua)]",
+          "font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-brown",
           "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
         )}
@@ -82,7 +82,7 @@ const HomeProofMetric: FC<HomeProofMetricProps> = ({ result }) => {
       <p
         data-id="home-proof-metric-label"
         className={cn(
-          "m-0 mt-2 font-[family-name:var(--font-antiqua)]",
+          "m-0 mt-2 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-brown/70",
         )}
       >

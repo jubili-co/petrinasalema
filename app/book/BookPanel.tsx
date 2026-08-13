@@ -3,6 +3,7 @@ import type { FC, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
+import { PaperFigure } from "../components/PaperFigure";
 
 export type BookOffer = {
   title: string;
@@ -17,9 +18,16 @@ export type BookCta = {
   microcopy?: string;
 };
 
+export type BookQuoteFigure = {
+  src: string;
+  alt: string;
+  caption: string;
+};
+
 export type BookQuote = {
   text: string;
   attribution: string;
+  figure?: BookQuoteFigure;
 };
 
 export type BookContent = {
@@ -46,8 +54,9 @@ export const BookPanel: FC<Props> = ({ book }) => {
     secondaryCta,
     email,
   } = book;
+  const { text, attribution, figure } = quote;
   const microcopyClassName = cn(
-    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
   );
   const projectAction = (
@@ -94,7 +103,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
         <p
           data-id="book-hook"
           className={cn(
-            "m-0 font-[family-name:var(--font-antiqua)]",
+            "m-0 font-[family-name:var(--font-playfair)]",
             "text-[22px] leading-[1.45] font-[350] text-dotto-brown",
             "md:text-[24px] md:leading-[1.42]",
           )}
@@ -112,20 +121,29 @@ export const BookPanel: FC<Props> = ({ book }) => {
             <p
               data-id="book-quote-text"
               className={cn(
-                "m-0 font-[family-name:var(--font-antiqua)]",
+                "m-0 font-[family-name:var(--font-playfair)]",
                 "text-[15px] leading-[22px] font-[350] text-dotto-brown",
               )}
             >
-              “{quote.text}”
+              “{text}”
               <cite
                 data-id="book-quote-attribution"
                 className="not-italic text-dotto-brown/85"
               >
                 {" · "}
-                {quote.attribution}
+                {attribution}
               </cite>
             </p>
           </blockquote>
+          {figure && (
+            <PaperFigure
+              src={figure.src}
+              alt={figure.alt}
+              caption={figure.caption}
+              sizes="(min-width: 768px) 420px, 100vw"
+              className="mt-8"
+            />
+          )}
 
           <div
             data-id="book-email-divider"
@@ -136,7 +154,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
             href={`mailto:${email}`}
             data-id="book-email"
             className={cn(
-              "mt-6 block font-[family-name:var(--font-antiqua)]",
+              "mt-6 block font-[family-name:var(--font-playfair)]",
               "text-[13px] leading-[18px] font-[350] text-dotto-brown",
               "transition-opacity duration-200 hover:opacity-70",
             )}
@@ -157,7 +175,7 @@ type OfferBlockProps = {
 const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
   const { title, body, note, finance } = offer;
   const asideClassName = cn(
-    "m-0 mt-3 font-[family-name:var(--font-antiqua)]",
+    "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[13px] leading-[18px] font-[350] text-dotto-brown/85",
   );
 
@@ -175,7 +193,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
       <p
         data-id="book-offer-body"
         className={cn(
-          "m-0 font-[family-name:var(--font-antiqua)]",
+          "m-0 font-[family-name:var(--font-playfair)]",
           "text-[13px] leading-[18px] font-[350] text-dotto-brown",
         )}
       >

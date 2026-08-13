@@ -17,7 +17,7 @@ const dsTextVariants = cva("", {
       title:
         "font-[family-name:var(--font-matter)] text-base font-semibold tracking-tight",
       body: cn(
-        "font-[family-name:var(--font-antiqua)]",
+        "font-[family-name:var(--font-playfair)]",
         "text-[13px] leading-[18px] font-[350]",
       ),
       caption:
@@ -40,11 +40,11 @@ const dsTextVariants = cva("", {
         "text-[13px] leading-[18px] tracking-[0.1em] uppercase",
       ),
       h5: cn(
-        "m-0 mb-2 font-[family-name:var(--font-antiqua)]",
+        "m-0 mb-2 font-[family-name:var(--font-playfair)]",
         "text-[13px] leading-[18px] font-[350]",
       ),
       h6: cn(
-        "m-0 mb-2 font-[family-name:var(--font-antiqua)]",
+        "m-0 mb-2 font-[family-name:var(--font-playfair)]",
         "text-[12px] leading-4 font-[350] text-dotto-brown-muted",
       ),
     },
