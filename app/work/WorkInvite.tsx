@@ -1,7 +1,8 @@
-import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+
+import { CtaLink } from "../components/CtaLink";
 
 export const WorkInvite: FC = () => (
   <div
@@ -28,21 +29,13 @@ export const WorkInvite: FC = () => (
         data-id="work-grid-invite-actions"
         className="flex flex-col items-center gap-4"
       >
-        <Link
+        <CtaLink
           href="/book"
+          variant="secondary"
           data-id="work-grid-invite-cta"
-          className={cn(
-            "group/cta inline-flex min-h-11 items-center justify-center whitespace-nowrap",
-            "border border-dotto-brown px-8 py-3",
-            "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase",
-            "transition-colors duration-200 ease-out",
-            "hover:bg-dotto-brown active:scale-[0.97]",
-          )}
         >
-          <span className="text-dotto-brown transition-colors duration-200 ease-out group-hover/cta:text-dotto-cream">
-            Fit call
-          </span>
-        </Link>
+          Fit call
+        </CtaLink>
         <p
           data-id="work-grid-invite-lede"
           className={cn(
