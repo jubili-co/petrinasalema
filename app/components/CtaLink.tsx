@@ -27,19 +27,24 @@ export const CtaLink: FC<Props> = ({
 }) => {
   const isExternal = href.startsWith("http");
   const isLeft = arrow === "left";
+  const isGhost = variant === "ghost";
   const inkClassName = inkClass(variant, tone);
   const shellClassName = shellClass(variant, tone, isLeft, className);
-  const labelClassName = labelClass(isLeft, inkClassName);
+  const labelClassName = labelClass(isLeft, isGhost, inkClassName);
   const arrowClassName = arrowClass(variant, isLeft, inkClassName);
   const mark = isLeft ? "←" : "→";
+  const arrowMark = (
+    <span data-id="cta-link-arrow" aria-hidden className={arrowClassName}>
+      {mark}
+    </span>
+  );
   const content = (
     <>
+      {isLeft && arrowMark}
       <span data-id="cta-link-label" className={labelClassName}>
         {children}
       </span>
-      <span data-id="cta-link-arrow" aria-hidden className={arrowClassName}>
-        {mark}
-      </span>
+      {!isLeft && arrowMark}
     </>
   );
 
@@ -77,10 +82,10 @@ function shellClass(
   const isCream = tone === "cream";
 
   return cn(
-    "group/cta relative inline-flex min-h-11 items-center overflow-hidden",
+    "group/cta relative inline-flex min-h-11 items-center",
     {
       // boxed layout
-      "justify-center border py-3 pl-8 pr-8": !isGhost,
+      "justify-center overflow-hidden border py-3 pl-8 pr-8": !isGhost,
       // boxed type
       "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase":
         !isGhost,
@@ -88,25 +93,30 @@ function shellClass(
       "border-dotto-cream bg-dotto-cream": isPrimary && isCream,
       "border-dotto-brown": isSecondary && isBrown,
       "border-dotto-cream": isSecondary && isCream,
-      // ghost — no fill, no border, no focus ring
-      "justify-start bg-transparent py-0 outline-none": isGhost,
+      // ghost — no fill, no border, no underline
+      "justify-start gap-2 bg-transparent py-0 no-underline outline-none hover:no-underline":
+        isGhost,
       "font-[family-name:var(--font-antiqua)] text-[14px] leading-[21px] font-[350]":
         isGhost,
       "focus-visible:opacity-70": isGhost,
-      "-ml-5 pl-5": isGhost && isLeft,
-      "-mr-5 pr-5": isGhost && !isLeft,
+      "-ml-6": isGhost && isLeft,
+      "-mr-6": isGhost && !isLeft,
     },
     className,
   );
 }
 
-function labelClass(isLeft: boolean, inkClassName: string): string {
+function labelClass(
+  isLeft: boolean,
+  isGhost: boolean,
+  inkClassName: string,
+): string {
   return cn(
     "inline-block translate-x-0 will-change-transform",
     "transition-transform duration-300 ease-out",
     {
-      "group-hover/cta:-translate-x-1.5": !isLeft,
-      "group-hover/cta:translate-x-1.5": isLeft,
+      "group-hover/cta:-translate-x-1.5": !isGhost && !isLeft,
+      "group-hover/cta:translate-x-1.5": !isGhost && isLeft,
     },
     inkClassName,
   );
@@ -120,16 +130,17 @@ function arrowClass(
   const isGhost = variant === "ghost";
 
   return cn(
-    "pointer-events-none absolute inset-y-0 flex items-center",
-    "text-[15px] leading-none",
-    "opacity-0 will-change-transform",
-    "transition-[opacity,transform] duration-300 ease-out",
-    "group-hover/cta:opacity-100",
-    "group-hover/cta:[transform:translate3d(0,0,0)]",
+    "pointer-events-none flex items-center text-[15px] leading-none",
     {
-      "right-4 [transform:translate3d(2px,0,0)]": !isLeft,
-      "left-4 [transform:translate3d(-2px,0,0)]": isLeft && !isGhost,
-      "left-0 [transform:translate3d(-2px,0,0)]": isLeft && isGhost,
+      "absolute inset-y-0 opacity-0 will-change-transform": !isGhost,
+      "transition-[opacity,transform] duration-300 ease-out": !isGhost,
+      "group-hover/cta:opacity-100": !isGhost,
+      "group-hover/cta:[transform:translate3d(0,0,0)]": !isGhost,
+      "right-4 [transform:translate3d(2px,0,0)]": !isGhost && !isLeft,
+      "left-4 [transform:translate3d(-2px,0,0)]": !isGhost && isLeft,
+      "inline-block transition-transform duration-200 ease-out": isGhost,
+      "group-hover/cta:-translate-x-0.5": isGhost && isLeft,
+      "group-hover/cta:translate-x-0.5": isGhost && !isLeft,
     },
     inkClassName,
   );
