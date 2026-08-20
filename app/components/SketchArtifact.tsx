@@ -3,7 +3,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
-type Fade = "right" | "left" | "up" | "down" | "in" | "diag";
+type Fade = "right" | "left" | "up" | "down" | "in" | "inset" | "diag";
 
 type Props = {
   src: string;
@@ -71,6 +71,10 @@ const FADE_MASK: Record<Fade, string> = {
   in: cn(
     "[mask-image:radial-gradient(ellipse_at_center,#000_0%,rgb(0_0_0_/_0.85)_32%,rgb(0_0_0_/_0.4)_58%,rgb(0_0_0_/_0.08)_78%,transparent_100%)]",
     "[-webkit-mask-image:radial-gradient(ellipse_at_center,#000_0%,rgb(0_0_0_/_0.85)_32%,rgb(0_0_0_/_0.4)_58%,rgb(0_0_0_/_0.08)_78%,transparent_100%)]",
+  ),
+  inset: cn(
+    "[mask-image:radial-gradient(ellipse_closest-side_at_center,#000_0%,rgb(0_0_0_/_0.82)_42%,rgb(0_0_0_/_0.35)_68%,rgb(0_0_0_/_0.08)_88%,transparent_100%)]",
+    "[-webkit-mask-image:radial-gradient(ellipse_closest-side_at_center,#000_0%,rgb(0_0_0_/_0.82)_42%,rgb(0_0_0_/_0.35)_68%,rgb(0_0_0_/_0.08)_88%,transparent_100%)]",
   ),
   diag: cn(
     "[mask-image:linear-gradient(to_bottom_right,transparent_0%,rgb(0_0_0_/_0.08)_18%,rgb(0_0_0_/_0.4)_42%,rgb(0_0_0_/_0.85)_72%,#000_100%)]",

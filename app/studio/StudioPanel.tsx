@@ -59,18 +59,18 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     <div
       data-id="studio-panel"
       className={cn(
-        "relative overflow-hidden",
+        "relative",
         "flex w-full flex-col justify-start",
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
     >
       <SketchArtifact
         src="/papers/neu-obergeschoss--plan-line.webp"
-        fade="down"
+        fade="inset"
         sizes="(min-width: 768px) 50vw, 90vw"
         data-id="studio-sketch"
-        className="-left-[20%] top-0 h-[60%] w-[125%]"
-        imageClassName="-rotate-[18deg] scale-110 object-left"
+        className="top-[6%] right-0 left-[8%] h-[62%]"
+        imageClassName="-rotate-[18deg] scale-110 object-[20%_30%]"
       />
       <div
         data-id="studio-panel-inner"

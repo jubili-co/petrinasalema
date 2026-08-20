@@ -96,18 +96,18 @@ export const BookPanel: FC<Props> = ({ book }) => {
     <div
       data-id="book-panel"
       className={cn(
-        "relative overflow-hidden",
+        "relative",
         "flex w-full flex-col justify-start",
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
     >
       <SketchArtifact
         src="/papers/schnitt-a-b--schnitt-line.webp"
-        fade="up"
+        fade="inset"
         sizes="(min-width: 768px) 50vw, 100vw"
         data-id="book-sketch"
-        className="-bottom-[8%] -left-[12%] h-[52%] w-[125%]"
-        imageClassName="-rotate-[8deg] scale-[1.85] object-top"
+        className="right-0 bottom-[8%] left-[10%] h-[48%]"
+        imageClassName="-rotate-[8deg] scale-[1.45] object-top"
       />
       <div
         data-id="book-panel-inner"
