@@ -33,7 +33,7 @@ export const WorkInvite: FC = () => (
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
-        If a home like these is next, book a fit call.
+        {"If you're looking for a home like these, book an Intro Call now."}
       </p>
       <div
         data-id="work-grid-invite-actions"
@@ -44,7 +44,7 @@ export const WorkInvite: FC = () => (
           variant="secondary"
           data-id="work-grid-invite-cta"
         >
-          Fit call
+          Intro Call
         </CtaLink>
         <p
           data-id="work-grid-invite-lede"
@@ -53,8 +53,8 @@ export const WorkInvite: FC = () => (
             "text-[12px] leading-[16px] font-[350] text-dotto-brown/75",
           )}
         >
-          A few residences a year. Most take one to three months, in Vienna or
-          wherever you call home.
+          Taking on a few homes and hospitality spaces a year. Projects last for
+          one to three months. Working locally in Vienna, and remotely worldwide.
         </p>
       </div>
     </div>

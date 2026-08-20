@@ -1,12 +1,12 @@
 {
   "seoTitle": "Petrina Salema | Spaces & Interiors",
-  "seoDescription": "Your rooms are already deciding how you live. Petrina Salema helps change what they decide, for homes and guest stays in Vienna, abroad, and remotely.",
+  "seoDescription": "Your space shapes how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests, in Vienna and remotely abroad.",
   "statement": {
-    "hook": "Your rooms are already deciding how you live.",
-    "support": "I help people change what the rooms decide, for themselves and for their guests."
+    "hook": "Your space shapes how you live.",
+    "support": "I help people transform spaces to redefine the living experience, for themselves or their guests."
   },
   "proof": {
-    "lede": "One Vienna home, tested on paying guests for five years.",
+    "lede": "Successfully completed a Vienna home, now tested on paying guests for five years.",
     "results": [
       {
         "value": "4.97/5",
@@ -22,15 +22,15 @@
       }
     ],
     "href": "https://jubili.co",
-    "linkLabel": "See the hospitality work"
+    "linkLabel": "See how a transformation makes hospitality work."
   },
   "invite": {
-    "hook": "Stop decorating around a life you didn't choose.",
-    "body": "A few homes and hospitality spaces a year. Most take one to three months, from the plan through materials, sourcing, and styling, in Vienna, abroad, and remotely.",
+    "hook": "Stop decorating around a life you wouldn't choose.",
+    "body": "Working on a few homes and hospitality spaces a year. A space takes one to three months, from planning until material sourcing and styling. Available in-person in Vienna, and remotely abroad.",
     "cta": {
-      "label": "Fit call",
+      "label": "Let's talk",
       "href": "/book",
-      "microcopy": "Free · 30 min · with Petrina Salema"
+      "microcopy": "Free · 30 min call · with Petrina"
     }
   }
 }
