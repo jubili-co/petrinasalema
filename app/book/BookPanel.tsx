@@ -3,7 +3,6 @@ import type { FC, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
-import { PaperFigure } from "../components/PaperFigure";
 import { SketchArtifact } from "../components/SketchArtifact";
 
 export type BookOffer = {
@@ -19,16 +18,9 @@ export type BookCta = {
   microcopy?: string;
 };
 
-export type BookQuoteFigure = {
-  src: string;
-  alt: string;
-  caption: string;
-};
-
 export type BookQuote = {
   text: string;
   attribution: string;
-  figure?: BookQuoteFigure;
 };
 
 export type BookContent = {
@@ -55,7 +47,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
     secondaryCta,
     email,
   } = book;
-  const { text, attribution, figure } = quote;
+  const { text, attribution } = quote;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
@@ -148,15 +140,6 @@ export const BookPanel: FC<Props> = ({ book }) => {
               </cite>
             </p>
           </blockquote>
-          {figure && (
-            <PaperFigure
-              src={figure.src}
-              alt={figure.alt}
-              caption={figure.caption}
-              sizes="(min-width: 768px) 420px, 100vw"
-              className="mt-8"
-            />
-          )}
 
           <div
             data-id="book-email-divider"
