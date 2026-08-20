@@ -69,8 +69,8 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
         fade="inset"
         sizes="(min-width: 768px) 50vw, 90vw"
         data-id="studio-sketch"
-        className="top-[6%] right-0 left-[8%] h-[62%]"
-        imageClassName="-rotate-[18deg] scale-110 object-[20%_30%]"
+        className="right-0 bottom-0 left-[6%] h-[28rem] md:h-[34rem]"
+        imageClassName="-rotate-[18deg] scale-110 object-[20%_85%]"
       />
       <div
         data-id="studio-panel-inner"

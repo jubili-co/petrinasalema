@@ -2,6 +2,8 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { SketchArtifact } from "./SketchArtifact";
+
 export type HomeProofResult = {
   value: string;
   label: string;
@@ -18,13 +20,21 @@ export const HomeProof: FC<Props> = ({ lede, results, href, linkLabel }) => (
   <section
     data-id="home-proof"
     className={cn(
-      "flex w-full justify-center bg-dotto-cream",
+      "relative flex w-full justify-center bg-dotto-cream",
       "px-6 py-16 md:px-12 md:py-24",
     )}
   >
+    <SketchArtifact
+      src="/papers/hofansicht--haus-line.webp"
+      fade="inset"
+      sizes="(min-width: 768px) 28vw, 42vw"
+      data-id="home-proof-sketch"
+      className="top-0 left-0 h-full w-[42%] md:w-[28%]"
+      imageClassName="-rotate-[12deg] scale-[1.4] object-bottom"
+    />
     <div
       data-id="home-proof-inner"
-      className="flex w-full max-w-[560px] flex-col items-center gap-10 text-center"
+      className="relative flex w-full max-w-[560px] flex-col items-center gap-10 text-center"
     >
       <p
         data-id="home-proof-lede"

@@ -7,6 +7,7 @@ import { cn } from "@/lib/cn";
 import {
   workChapterGroups,
   workPlace,
+  type WorkChapter,
   type WorkChapterGroup,
   type WorkItem,
 } from "@/lib/work";
@@ -53,7 +54,7 @@ const WorkChapterBlock: FC<WorkChapterBlockProps> = ({ group }) => {
 
   return (
     <Fragment>
-      <WorkChapterHeading label={label} note={note} hasSketch={isHomes} />
+      <WorkChapterHeading chapter={id} label={label} note={note} />
       {items.map((item) => (
         <WorkGridCard key={item.id} item={item} />
       ))}
@@ -63,56 +64,71 @@ const WorkChapterBlock: FC<WorkChapterBlockProps> = ({ group }) => {
 };
 
 type WorkChapterHeadingProps = {
+  chapter: WorkChapter;
   label: string;
   note: string;
-  hasSketch: boolean;
 };
 
 const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
+  chapter,
   label,
   note,
-  hasSketch,
-}) => (
-  <div
-    data-id="work-chapter-heading"
-    className={cn(
-      "relative overflow-hidden",
-      "col-span-full bg-dotto-cream px-6 py-10",
-      "md:px-12 md:py-12",
-    )}
-  >
-    {hasSketch && (
-      <SketchArtifact
-        src="/papers/strassenansicht--haus-line.webp"
-        fade="right"
-        sizes="(min-width: 768px) 26vw, 42vw"
-        data-id="work-chapter-sketch"
-        className="-top-10 -left-[8%] h-[180%] w-[42%] md:w-[26%]"
-        imageClassName="-rotate-[6deg] scale-[1.35] object-bottom"
-      />
-    )}
-    <div data-id="work-chapter-copy" className="relative">
-      <h2
-        data-id="work-chapter-title"
-        className={cn(
-          "m-0 font-[family-name:var(--font-matter)]",
-          "text-[13px] tracking-[0.15em] text-dotto-brown uppercase",
-        )}
-      >
-        {label}
-      </h2>
-      <p
-        data-id="work-chapter-note"
-        className={cn(
-          "m-0 mt-3 max-w-[46ch] font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-dotto-brown/80",
-        )}
-      >
-        {note}
-      </p>
+}) => {
+  const isPrior = chapter === "prior";
+  const isHomes = chapter === "homes";
+
+  return (
+    <div
+      data-id="work-chapter-heading"
+      className={cn(
+        "relative overflow-hidden",
+        "col-span-full bg-dotto-cream px-6 py-10",
+        "md:px-12 md:py-12",
+      )}
+    >
+      {isPrior && (
+        <SketchArtifact
+          src="/papers/schnitt-c-d--schnitt-line.webp"
+          fade="inset"
+          sizes="(min-width: 768px) 52vw, 75vw"
+          data-id="work-chapter-sketch"
+          className="top-0 right-0 h-full w-[75%] md:w-[52%]"
+          imageClassName="rotate-[16deg] scale-[1.2] object-left"
+        />
+      )}
+      {isHomes && (
+        <SketchArtifact
+          src="/papers/strassenansicht--haus-line.webp"
+          fade="inset"
+          sizes="(min-width: 768px) 32vw, 52vw"
+          data-id="work-chapter-sketch"
+          className="top-0 left-0 h-full w-[52%] md:w-[32%]"
+          imageClassName="-rotate-[6deg] scale-[1.35] object-bottom"
+        />
+      )}
+      <div data-id="work-chapter-copy" className="relative">
+        <h2
+          data-id="work-chapter-title"
+          className={cn(
+            "m-0 font-[family-name:var(--font-matter)]",
+            "text-[13px] tracking-[0.15em] text-dotto-brown uppercase",
+          )}
+        >
+          {label}
+        </h2>
+        <p
+          data-id="work-chapter-note"
+          className={cn(
+            "m-0 mt-3 max-w-[46ch] font-[family-name:var(--font-playfair)]",
+            "text-[13px] leading-[18px] font-[350] text-dotto-brown/80",
+          )}
+        >
+          {note}
+        </p>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 type WorkGridCardProps = {
   item: WorkItem;
