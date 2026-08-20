@@ -39,15 +39,55 @@
       "color": "dotto-blue",
       "items": [
         {
-          "name": "Tegelweg - Rental Maisonette",
+          "name": "Tegelweg",
           "role": "Designer"
         },
         {
-          "name": "Brabbeegasse - Single-Unit Apartment",
+          "name": "Brabbeegasse",
           "role": "Designer"
         },
         {
-          "name": "Analytical Fingerprint Laboratory Rehabilitation",
+          "name": "Tan House Office Building",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "NHC Eco Residence",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "Bank of Tanzania, Mwanza Branch",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "PPF Commercial Property / Head Office",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "IST Athletic Centre",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "IST Classrooms",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "AMGC Science Campus Rehabilitation",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "House on Chake Chake Road",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "Ministry of Foreign Affairs office",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "Bugando Medical Centre theatre block",
+          "role": "Prior architecture"
+        },
+        {
+          "name": "Aga Khan Hospital",
           "role": "Prior architecture"
         },
         {
@@ -55,19 +95,11 @@
           "role": "Prior architecture"
         },
         {
-          "name": "International School of Tanganyika Athletic Centre",
+          "name": "Bank M Headquarters",
           "role": "Prior architecture"
         },
         {
           "name": "Montessori Children's House Primary School Competition",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "International School of Tanganyika Classroom Blocks D & E",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "Bank of Tanzania Mwanza Branch",
           "role": "Prior architecture"
         }
       ],

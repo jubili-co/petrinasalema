@@ -8,8 +8,13 @@ export function googleDriveThumbnailUrl(
   return `https://lh3.googleusercontent.com/d/${fileId}=w${widthPx}`;
 }
 
-/** `gdrive:<fileId>` → thumbnail URL; other src values pass through. */
+/** `gdrive:<fileId>` → thumbnail URL; local `/public` paths are encodeURI'd for the browser. */
 export function resolveProjectImageSrc(src: string): string {
+  const resolved = resolveGdriveSrc(src);
+  return encodeLocalPublicSrc(resolved);
+}
+
+function resolveGdriveSrc(src: string): string {
   if (!src.startsWith(GDRIVE_SRC_PREFIX)) {
     return src;
   }
@@ -20,4 +25,16 @@ export function resolveProjectImageSrc(src: string): string {
   }
 
   return googleDriveThumbnailUrl(fileId);
+}
+
+function encodeLocalPublicSrc(src: string): string {
+  if (!src.startsWith("/")) {
+    return src;
+  }
+
+  if (src.startsWith("//")) {
+    return src;
+  }
+
+  return encodeURI(src);
 }
