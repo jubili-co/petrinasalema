@@ -28,84 +28,84 @@
       "imageColor": null,
       "imageBorder": false,
       "cta": {
-        "name": "If the space has to earn",
-        "role": "Fit call",
+        "name": "If your space needs to earn",
+        "role": "Intro Call",
         "href": "/book"
       }
     },
     {
       "type": "workList",
-      "title": "Work",
+      "title": "List of Projects",
       "color": "dotto-blue",
       "items": [
         {
-          "name": "Tan House Office Building",
-          "role": "Prior architecture"
+          "name": "Tegelweg - Rental Maisonette",
+          "role": "Designer"
         },
         {
-          "name": "NHC Eco Residence",
-          "role": "Prior architecture"
+          "name": "Brabbeegasse - Single-Unit Apartment",
+          "role": "Designer"
         },
         {
-          "name": "Bank of Tanzania, Mwanza Branch",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "PPF Commercial Property / Head Office",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "IST Athletic Centre",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "IST Classrooms",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "AMGC Science Campus Rehabilitation",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "House on Chake Chake Road",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "Ministry of Foreign Affairs office",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "Bugando Medical Centre theatre block",
-          "role": "Prior architecture"
-        },
-        {
-          "name": "Aga Khan Hospital",
-          "role": "Prior architecture"
+          "name": "Analytical Fingerprint Laboratory Rehabilitation",
+          "role": "Project Manager"
         },
         {
           "name": "New CCBRT Maternity Hospital",
-          "role": "Prior architecture"
+          "role": "Project Manager"
         },
         {
-          "name": "Bank M Headquarters",
-          "role": "Prior architecture"
+          "name": "International School of Tanganyika Athletic Centre",
+          "role": "Project Manager"
         },
         {
           "name": "Montessori Children's House Primary School Competition",
-          "role": "Prior architecture"
+          "role": "Project Manager"
         },
         {
-          "name": "Tegelweg",
-          "role": "Designer"
+          "name": "International School of Tanganyika Classroom Blocks D & E",
+          "role": "Project Manager"
         },
         {
-          "name": "Brabbeegasse",
-          "role": "Designer"
+          "name": "Bank of Tanzania Mwanza Branch",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "Tan House Office Building",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "National Housing Corporation Eco Residence",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "PPF Commercial Property and New PPF Head Office, Competition",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "Chakechake - Alterations & Extension to Existing House",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "New Office Accommodation for the Ministry of Foreign Affairs and International Cooperation",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "Operational Theatre Block to be Built at Bugando Medical Centre",
+          "role": "Assistant Architect and Interior Designer"
+        },
+        {
+          "name": "Aga Khan Hospital",
+          "role": "Project Manager"
+        },
+        {
+          "name": "Bank M Headquarters",
+          "role": "Assistant Architect and Interior Designer"
         }
       ],
       "cta": {
         "name": "If the work fits",
-        "role": "Fit call",
+        "role": "let's do an Intro Call",
         "href": "/book"
       }
     }

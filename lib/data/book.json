@@ -1,20 +1,20 @@
 {
   "seoTitle": "Book | Petrina Salema",
-  "seoDescription": "Your space is already deciding how you live. Book a free fit call, or a one hour Design Jumpstart, with Petrina Salema in Vienna.",
+  "seoDescription": "Your space is already deciding how you live. Book a free Intro Call, or a one hour Design Kick-off, with Petrina Salema in Vienna.",
   "image": "/media/1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf.webp",
-  "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Shape the room that holds how you want to rest, gather, and think.",
+  "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Actively shape the room that holds how you want to rest, gather, and think.",
   "projectOffer": {
     "title": "Full project",
-    "body": "A redesign of how a home or room operates. Layout and material first, then sourcing, styling, and how family or guests move through the day.",
-    "note": "I take on a few residences a year. Most take one to three months, in Vienna, abroad, and remotely.",
-    "finance": "Quoted after the fit call, then billed in stages from deposit to final. Full projects are custom-scoped. Jumpstart is €290 if you want a clear first hour. Say on the call if a payment plan would help."
+    "body": "A redesign of how a home or room operates. Considering how a family or guests move through the space, layout and material, improving layout and material choices, then sourcing and styling.",
+    "note": "I take on a few residences a year. Most take one to three months, working in-person in Vienna, and remotely abroad.",
+    "finance": "I provide a quote after the initial Intro Call. A deposit is requested at the start of the project, then you are billed in stages up to the final stage. Do a first call for €290 and get clarity on what to do with your space."
   },
   "jumpstartOffer": {
-    "title": "Design Jumpstart",
-    "body": "One hour on the plan. We name the change that would matter most, and you leave with a clear next step."
+    "title": "Design Kick-off",
+    "body": "Spend one hour discussing the plan. We identify the changes that would have the biggest impact. You leave with a clear next step."
   },
   "primaryCta": {
-    "label": "Fit call",
+    "label": "Intro Call",
     "href": "https://cal.com/jubili/fit-call",
     "microcopy": "Free · 30 min · with Petrina Salema"
   },
@@ -28,7 +28,7 @@
     }
   },
   "secondaryCta": {
-    "label": "Jumpstart",
+    "label": "Kick-off",
     "href": "https://cal.com/jubili/jump-start",
     "microcopy": "€290 · 60 min · Leave knowing what to change"
   },

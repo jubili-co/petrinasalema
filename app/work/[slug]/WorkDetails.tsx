@@ -88,7 +88,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                   "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
                 )}
               >
-                If a home like this is next, start with a fit call.
+                {"If you're looking for a home like this, book an Intro Call now."}
               </Link>
             )}
           </div>

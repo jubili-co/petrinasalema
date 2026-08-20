@@ -68,13 +68,13 @@ export const WORK_CHAPTERS: {
 }[] = [
   {
     id: "prior",
-    label: "Prior architecture",
-    note: "Hospitals, schools, labs, and banks from a decade inside architecture practices, before the homes.",
+    label: "Architectural Projects",
+    note: "Hospitals, schools, corporate and residential buildings from a decade inside architecture practices before setting up my own studio.",
   },
   {
     id: "homes",
-    label: "Homes & hospitality",
-    note: "Vienna homes and guest stays. Layout, materials, and how the place works when people actually use it.",
+    label: "Homes & Hospitality",
+    note: "Keen focus on Vienna homes and guest stays first. Solving layout, materials, and how people actually use the space.",
   },
 ];
 

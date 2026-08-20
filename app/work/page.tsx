@@ -19,7 +19,7 @@ import { WorkInvite } from "./WorkInvite";
 export const metadata: Metadata = {
   title: "Work | Petrina Salema",
   description:
-    "Homes and hospitality spaces by Petrina Salema, with prior architecture from a decade in practice. Vienna, and projects abroad.",
+    "Homes and hospitality spaces by Petrina Salema, with architectural projects from a decade in practice. Vienna, and projects abroad.",
 };
 
 const WorkPage: FC = () => {

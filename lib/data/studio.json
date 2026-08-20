@@ -1,35 +1,35 @@
 {
   "seoTitle": "Studio | Petrina Salema",
-  "seoDescription": "Petrina Salema's practice in Vienna. Homes and hospitality spaces, a few projects a year, from the plan through materials, sourcing, and styling.",
+  "seoDescription": "Petrina Salema's practice in Vienna. Homes and hospitality spaces, a handful of projects a year, from the plan through materials, sourcing, and styling.",
   "images": [
     "/media/1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf.webp",
     "/media/1iME7OmjE6DfIerVByVEklYAksq0jNoK-.webp"
   ],
-  "eyebrow": "Studio",
-  "hook": "People usually ask for a nicer room. What they need is a room that shapes life toward how they want to live.",
-  "body": "I help people fix the rooms they live in, and the ones guests pay to stay in. I started this practice in Vienna in 2021, after years studying interior design and working in architecture studios. Most projects run one to three months, from the plan through materials, sourcing, and styling. Only a few each year, in Vienna, abroad, and remotely.",
+  "eyebrow": "Studio solutions",
+  "hook": "People usually ask for a nicer room. What they need is a room that shapes their life toward how they want to live.",
+  "body": "I help people fix the rooms they live in, and the ones guests pay to stay in. I started this practice in Vienna in 2021, after years studying interior design and working in architecture studios. Most projects run one to three months, from the plan through materials, sourcing, and styling. I take on only a handful of projects each year, in Vienna, abroad, and remotely.",
   "principles": [
     {
-      "title": "Daily life",
-      "body": "If it only looks good in photos, it is not finished. The room has to hold up on ordinary days, including cleaning, storage, and how people actually move."
+      "title": "Daily life demands",
+      "body": "If a room only looks good in photos, then it's not finished. The room has to hold up on ordinary days, including cleaning, storage, and how people actually move. You want to live in a finished space, which can keep up with the demands of your daily life."
     },
     {
-      "title": "A few projects a year",
-      "body": "There is only room for a few at a time. That pace is how each project gets careful attention from first plan to final styling."
+      "title": "Projects per year",
+      "body": "There is only room for a few projects at a time. With this pace, each project gets the careful attention it deserves from the first call to final styling."
     },
     {
       "title": "Home and hospitality",
-      "body": "Your own place, or a place that hosts guests. Either way the work is the same. Rest, people over, somewhere quiet to think, and a plan that survives real use."
+      "body": "Whether you're figuring out your own place, or a place that hosts guests, either way the work is the same. What everyone needs is a place to rest that can also have people over, somewhere quiet to think, that will survive real use."
     }
   ],
-  "ctaLede": "Start with a fit call. Bring the floor plan if you have one. In thirty minutes we will know whether a full project or a Jumpstart hour is the right next step.",
+  "ctaLede": "Start with an Intro Call. Bring the floor plan if you have one. In 30 minutes we will know whether a full project or kick-off meeting is the right next step.",
   "primaryCta": {
-    "label": "Fit call",
+    "label": "Intro Call",
     "href": "https://cal.com/jubili/fit-call",
-    "microcopy": "Free · 30 min · with Petrina Salema"
+    "microcopy": "Free call · 30 min · with Petrina"
   },
   "secondaryCta": {
-    "label": "Jumpstart",
+    "label": "Kick-off",
     "href": "https://cal.com/jubili/jump-start",
     "microcopy": "€290 · 60 min · Leave knowing what to change"
   },
@@ -42,7 +42,7 @@
     {
       "label": "Jubili",
       "href": "https://jubili.co",
-      "note": "Furnished rentals that have to earn, including shopping-list concepts",
+      "note": "Furnished rentals that have to earn, with planned room concepts and get-the-look full shopping lists",
       "external": true
     }
   ]
