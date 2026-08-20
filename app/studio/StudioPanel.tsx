@@ -4,7 +4,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
-import { GhostDrawing } from "../components/GhostDrawing";
+import { SketchArtifact } from "../components/SketchArtifact";
 
 export type StudioPrinciple = {
   title: string;
@@ -33,7 +33,6 @@ export type StudioContent = {
   primaryCta: StudioCta;
   secondaryCta: StudioCta;
   extensions: StudioExtension[];
-  ghost?: string;
 };
 
 type Props = {
@@ -50,7 +49,6 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     primaryCta,
     secondaryCta,
     extensions,
-    ghost,
   } = studio;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
@@ -66,17 +64,14 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
     >
-      {ghost && (
-        <GhostDrawing
-          src={ghost}
-          sizes="(min-width: 768px) 34vw, 72vw"
-          data-id="studio-ghost"
-          className={cn(
-            "right-[-16%] bottom-[-8%] md:right-[-6%] md:bottom-[-10%]",
-            "w-[72vw] max-w-[480px] md:w-[34vw]",
-          )}
-        />
-      )}
+      <SketchArtifact
+        src="/papers/neu-obergeschoss--plan-line.webp"
+        fade="down"
+        sizes="(min-width: 768px) 50vw, 90vw"
+        data-id="studio-sketch"
+        className="-left-[20%] top-0 h-[60%] w-[125%]"
+        imageClassName="-rotate-[18deg] scale-110 object-left"
+      />
       <div
         data-id="studio-panel-inner"
         className="relative mx-auto w-full max-w-[420px]"

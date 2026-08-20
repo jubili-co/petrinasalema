@@ -4,11 +4,11 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "./components/CtaLink";
-import { GhostDrawing } from "./components/GhostDrawing";
+import { SketchArtifact } from "./components/SketchArtifact";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
-const PLAN_SRC = "/papers/ground-floor-1976.webp";
+const ELEVATION_SRC = "/papers/hofansicht--haus-line.webp";
 
 export const metadata: Metadata = {
   title: "Not found | Petrina Salema",
@@ -28,14 +28,13 @@ const NotFoundPage: FC = () => (
         "px-6 pt-[110px] pb-20 md:px-12",
       )}
     >
-      <GhostDrawing
-        src={PLAN_SRC}
-        sizes="(min-width: 768px) 40vw, 82vw"
-        data-id="not-found-ghost"
-        className={cn(
-          "top-1/2 right-[-14%] -translate-y-1/2 md:right-[4%]",
-          "w-[82vw] max-w-[640px] md:w-[40vw]",
-        )}
+      <SketchArtifact
+        src={ELEVATION_SRC}
+        fade="left"
+        sizes="(min-width: 768px) 48vw, 70vw"
+        data-id="not-found-sketch"
+        className="-top-[15%] -right-[20%] h-[130%] w-[70%] md:w-[48%]"
+        imageClassName="rotate-[22deg] scale-90 object-right"
       />
       <h1
         data-id="not-found-line"

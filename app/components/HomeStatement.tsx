@@ -1,7 +1,8 @@
-import Image from "next/image";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+
+import { SketchArtifact } from "./SketchArtifact";
 
 type Props = {
   hook: string;
@@ -9,8 +10,6 @@ type Props = {
 };
 
 const PLAN_SRC = "/papers/alt-erdgeschoss--plan-line.webp";
-const PLAN_ALT =
-  "Hand-drawn ground floor plan of the house before the 1976 addition";
 
 export const HomeStatement: FC<Props> = ({ hook, support }) => (
   <section
@@ -20,23 +19,14 @@ export const HomeStatement: FC<Props> = ({ hook, support }) => (
       "px-6 pt-[130px] pb-16 md:px-12 md:pt-[170px] md:pb-24",
     )}
   >
-    <div
+    <SketchArtifact
+      src={PLAN_SRC}
+      fade="right"
+      sizes="50vw"
       data-id="home-statement-plan"
-      className={cn(
-        "absolute top-0 right-0 h-full w-1/2 overflow-hidden",
-        "[mask-image:linear-gradient(to_right,transparent_0%,rgb(0_0_0_/_0.08)_18%,rgb(0_0_0_/_0.4)_42%,rgb(0_0_0_/_0.85)_72%,#000_100%)]",
-        "[-webkit-mask-image:linear-gradient(to_right,transparent_0%,rgb(0_0_0_/_0.08)_18%,rgb(0_0_0_/_0.4)_42%,rgb(0_0_0_/_0.85)_72%,#000_100%)]",
-      )}
-    >
-      <Image
-        src={PLAN_SRC}
-        alt={PLAN_ALT}
-        fill
-        sizes="300px"
-        data-id="home-statement-plan-image"
-        className="object-cover rotate-30 scale-150 opacity-15"
-      />
-    </div>
+      className="top-0 right-0 h-full w-1/2"
+      imageClassName="rotate-30 scale-150"
+    />
     <div
       data-id="home-statement-inner"
       className="relative flex w-full max-w-[640px] flex-col items-center gap-7 text-center"

@@ -3,6 +3,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "./CtaLink";
+import { SketchArtifact } from "./SketchArtifact";
 
 export type HomeInviteCta = {
   label: string;
@@ -23,13 +24,22 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
     <section
       data-id="home-invite"
       className={cn(
+        "relative overflow-hidden",
         "flex w-full justify-center bg-dotto-brown",
         "px-6 py-28 md:px-12 md:py-40",
       )}
     >
+      <SketchArtifact
+        src="/papers/alt-obergeschoss--plan-line.webp"
+        fade="left"
+        sizes="(min-width: 768px) 55vw, 80vw"
+        data-id="home-invite-sketch"
+        className="-bottom-[20%] -left-[18%] h-[95%] w-[80%] md:w-[55%]"
+        imageClassName="rotate-[16deg] scale-[1.3] object-right brightness-0 invert opacity-[0.18]"
+      />
       <div
         data-id="home-invite-inner"
-        className="flex w-full max-w-[640px] flex-col items-center gap-8 text-center"
+        className="relative flex w-full max-w-[640px] flex-col items-center gap-8 text-center"
       >
         <p
           data-id="home-invite-hook"

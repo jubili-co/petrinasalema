@@ -4,6 +4,7 @@ import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
 import { PaperFigure } from "../components/PaperFigure";
+import { SketchArtifact } from "../components/SketchArtifact";
 
 export type BookOffer = {
   title: string;
@@ -95,11 +96,23 @@ export const BookPanel: FC<Props> = ({ book }) => {
     <div
       data-id="book-panel"
       className={cn(
+        "relative overflow-hidden",
         "flex w-full flex-col justify-start",
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
     >
-      <div data-id="book-panel-inner" className="mx-auto w-full max-w-[420px]">
+      <SketchArtifact
+        src="/papers/schnitt-a-b--schnitt-line.webp"
+        fade="up"
+        sizes="(min-width: 768px) 50vw, 100vw"
+        data-id="book-sketch"
+        className="-bottom-[8%] -left-[12%] h-[52%] w-[125%]"
+        imageClassName="-rotate-[8deg] scale-[1.85] object-top"
+      />
+      <div
+        data-id="book-panel-inner"
+        className="relative mx-auto w-full max-w-[420px]"
+      >
         <p
           data-id="book-hook"
           className={cn(
