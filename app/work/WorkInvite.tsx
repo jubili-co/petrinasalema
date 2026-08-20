@@ -3,6 +3,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
+import { SketchArtifact } from "../components/SketchArtifact";
 
 export const WorkInvite: FC = () => (
   <div
@@ -12,14 +13,23 @@ export const WorkInvite: FC = () => (
     <div
       data-id="work-grid-invite-inner"
       className={cn(
+        "relative overflow-hidden",
         "flex h-full w-full flex-col items-center justify-center gap-10",
         "border border-dotto-brown bg-dotto-cream px-6 text-center",
       )}
     >
+      <SketchArtifact
+        src="/papers/neu-mansarde--plan-line.webp"
+        fade="in"
+        sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+        data-id="work-invite-sketch"
+        className="inset-0"
+        imageClassName="rotate-[48deg] scale-[1.7]"
+      />
       <p
         data-id="work-grid-invite-close"
         className={cn(
-          "m-0 max-w-[18ch] font-[family-name:var(--font-playfair)]",
+          "relative m-0 max-w-[18ch] font-[family-name:var(--font-playfair)]",
           "text-[17px] leading-relaxed font-[350] text-dotto-brown",
         )}
       >
@@ -27,7 +37,7 @@ export const WorkInvite: FC = () => (
       </p>
       <div
         data-id="work-grid-invite-actions"
-        className="flex flex-col items-center gap-4"
+        className="relative flex flex-col items-center gap-4"
       >
         <CtaLink
           href="/book"

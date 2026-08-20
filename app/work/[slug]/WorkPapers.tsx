@@ -5,7 +5,7 @@ import { cn } from "@/lib/cn";
 import type { WorkPapers as Papers } from "@/lib/work";
 import { withGalleryDimensions, type GalleryImage } from "@/lib/workGallery";
 
-import { GhostDrawing } from "../../components/GhostDrawing";
+import { SketchArtifact } from "../../components/SketchArtifact";
 
 type Props = {
   papers: Papers;
@@ -28,11 +28,13 @@ export const WorkPapers: FC<Props> = async ({ papers }) => {
       )}
     >
       {ghost && (
-        <GhostDrawing
+        <SketchArtifact
           src={ghost}
-          sizes="(min-width: 768px) 44vw, 0px"
-          data-id="work-papers-ghost"
-          className="-top-6 right-[-6%] hidden w-[44vw] max-w-[720px] md:block"
+          fade="right"
+          sizes="(min-width: 768px) 60vw, 80vw"
+          data-id="work-papers-sketch"
+          className="-bottom-8 -left-[12%] h-[72%] w-[80%] md:w-[58%]"
+          imageClassName="rotate-[11deg] scale-[1.2] object-left"
         />
       )}
       <header data-id="work-papers-header" className="relative max-w-[520px]">

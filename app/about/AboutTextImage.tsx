@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { FC, ReactNode } from "react";
 
 import { LogoJubiliMark } from "@/app/components/LogoJubiliMark";
+import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
 
@@ -91,9 +92,19 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
 
       <div
         data-id="about-text-image-media"
-        className="relative flex min-h-[100vw] w-full items-center justify-center md:min-h-[100dvh] md:w-1/2"
+        className="relative flex min-h-[100vw] w-full items-center justify-center overflow-hidden md:min-h-[100dvh] md:w-1/2"
         style={{ backgroundColor: mediaBackground }}
       >
+        {imageBorder && (
+          <SketchArtifact
+            src="/papers/neu-erdgeschoss--plan-line.webp"
+            fade="in"
+            sizes="(min-width: 768px) 50vw, 100vw"
+            data-id="about-portrait-sketch"
+            className="-top-[18%] -left-[22%] h-[130%] w-[140%]"
+            imageClassName="-rotate-[9deg] scale-[1.4] object-[30%_60%]"
+          />
+        )}
         {image && (
           <AboutMediaImage
             image={image}
@@ -134,7 +145,7 @@ const AboutMediaImage: FC<AboutMediaImageProps> = ({
     return (
       <div
         data-id="about-text-image-border"
-        className="flex h-full w-full items-center justify-center px-[20%] py-[10%]"
+        className="relative flex h-full w-full items-center justify-center px-[20%] py-[10%]"
       >
         <Image
           src={image}

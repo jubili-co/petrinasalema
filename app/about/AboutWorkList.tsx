@@ -3,6 +3,7 @@ import type { FC } from "react";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
 
+import { SketchArtifact } from "../components/SketchArtifact";
 import {
   AboutInviteCtaLink,
   type AboutInviteCta,
@@ -35,12 +36,20 @@ export const AboutWorkList: FC<Props> = ({ section }) => {
   return (
     <section
       data-id="about-work-list"
-      className="flex min-h-[100dvh] w-full items-center"
+      className="relative flex min-h-[100dvh] w-full items-center overflow-hidden"
       style={{ backgroundColor: background }}
     >
+      <SketchArtifact
+        src="/papers/bereiche--flaechen-tabelle-line.webp"
+        fade="diag"
+        sizes="(min-width: 768px) 55vw, 80vw"
+        data-id="about-work-list-sketch"
+        className="-top-[10%] -right-[8%] h-[120%] w-[70%] md:w-[55%]"
+        imageClassName="-rotate-[24deg] scale-[1.6] object-left brightness-0 invert opacity-[0.22]"
+      />
       <div
         data-id="about-work-list-inner"
-        className="w-full px-6 py-16 text-dotto-cream md:px-12 md:py-20"
+        className="relative w-full px-6 py-16 text-dotto-cream md:px-12 md:py-20"
       >
         <AboutTitle title={title} />
         <ul
