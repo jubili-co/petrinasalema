@@ -150,8 +150,8 @@ const AboutMediaImage: FC<AboutMediaImageProps> = ({
         <Image
           src={image}
           alt={alt}
-          width={1440}
-          height={1860}
+          width={1023}
+          height={1537}
           sizes="(min-width: 768px) 30vw, 60vw"
           data-id="about-text-image-photo"
           className="h-auto w-full object-cover"
