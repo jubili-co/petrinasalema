@@ -67,14 +67,14 @@ export const WORK_CHAPTERS: {
   note: string;
 }[] = [
   {
-    id: "homes",
-    label: "Homes & hospitality",
-    note: "Vienna homes and guest stays first. Layout, materials, and how the place works when people actually use it.",
-  },
-  {
     id: "prior",
     label: "Prior architecture",
     note: "Hospitals, schools, labs, and banks from a decade inside architecture practices, before the homes.",
+  },
+  {
+    id: "homes",
+    label: "Homes & hospitality",
+    note: "Vienna homes and guest stays. Layout, materials, and how the place works when people actually use it.",
   },
 ];
 
@@ -149,7 +149,7 @@ export type WorkChapterGroup = {
   items: WorkItem[];
 };
 
-/** Work grid groups in sell/show order: homes first, prior architecture after. */
+/** Work grid groups in spreadsheet Rank order, then Vienna homes. */
 export function workChapterGroups(items: WorkItem[] = WORK): WorkChapterGroup[] {
   return WORK_CHAPTERS.flatMap((chapter) => {
     const chapterItems = items.filter((item) => item.chapter === chapter.id);

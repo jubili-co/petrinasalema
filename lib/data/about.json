@@ -39,14 +39,6 @@
       "color": "dotto-blue",
       "items": [
         {
-          "name": "Tegelweg",
-          "role": "Designer"
-        },
-        {
-          "name": "Brabbeegasse",
-          "role": "Designer"
-        },
-        {
           "name": "Tan House Office Building",
           "role": "Prior architecture"
         },
@@ -101,6 +93,14 @@
         {
           "name": "Montessori Children's House Primary School Competition",
           "role": "Prior architecture"
+        },
+        {
+          "name": "Tegelweg",
+          "role": "Designer"
+        },
+        {
+          "name": "Brabbeegasse",
+          "role": "Designer"
         }
       ],
       "cta": {
