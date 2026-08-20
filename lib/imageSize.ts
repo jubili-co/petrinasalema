@@ -24,10 +24,10 @@ export async function probeRemoteImageSize(
 async function probeLocalPublicImage(
   src: string,
 ): Promise<ImageDimensions | null> {
-  const relativePath = src.replace(/^\//, "");
-  const filePath = path.join(process.cwd(), "public", relativePath);
-
   try {
+    const decoded = decodeURI(src);
+    const relativePath = decoded.replace(/^\//, "");
+    const filePath = path.join(process.cwd(), "public", relativePath);
     const buffer = await readFile(filePath);
     return dimensionsFromBuffer(buffer);
   } catch {
