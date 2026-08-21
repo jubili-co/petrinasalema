@@ -112,7 +112,7 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
         <Link
           href={href}
           data-id="about-work-list-link"
-          className="group/row relative inline-block pb-1"
+          className="relative inline-block pb-1"
         >
           {line}
           <span
@@ -120,10 +120,8 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
             aria-hidden
             className={cn(
               "pointer-events-none absolute inset-x-0 bottom-0 block h-px",
-              "bg-dotto-cream/30 opacity-0",
+              "bg-dotto-cream opacity-0",
               "transition-opacity duration-150 ease-[var(--ease-out-soft)]",
-              "group-hover/row:opacity-100",
-              "group-focus-visible/row:opacity-100",
               "motion-reduce:transition-none",
             )}
           />

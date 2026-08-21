@@ -90,6 +90,12 @@ a.ds-markdown-link:hover {
   text-decoration-color: color-mix(in srgb, currentColor 80%, transparent);
 }
 
+/* Native :hover so the underline still shows when (hover: hover) is false. */
+[data-id="about-work-list-link"]:hover [data-id="about-work-list-link-rule"],
+[data-id="about-work-list-link"]:focus-visible [data-id="about-work-list-link-rule"] {
+  opacity: 0.3;
+}
+
 img,
 svg {
   display: block;
