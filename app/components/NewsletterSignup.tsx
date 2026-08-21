@@ -1,10 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState, type FC, type FormEvent } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
+import { placeholderSrc } from "@/lib/placeholderSrc";
 
 type Props = {
   image: string;
@@ -25,6 +26,7 @@ export const NewsletterSignup: FC<Props> = ({
 }) => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const sectionId = hasSectionId ? "newsletter" : undefined;
+  const placeholder = placeholderSrc(image);
 
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -41,12 +43,14 @@ export const NewsletterSignup: FC<Props> = ({
         data-id="newsletter-signup-image"
         className="relative order-2 min-h-[50vw] w-full overflow-hidden md:order-1 md:min-h-[100dvh] md:w-1/2"
       >
-        <Image
+        <FadeImage
           src={image}
           alt={imageAlt}
+          placeholder={placeholder}
           fill
           sizes="(min-width: 768px) 50vw, 100vw"
           className="object-cover"
+          data-id="newsletter-signup-photo"
         />
       </div>
 

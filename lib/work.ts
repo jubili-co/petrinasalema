@@ -1,5 +1,6 @@
 import workData from "@/lib/data/work.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
+import { placeholderSrc } from "@/lib/placeholderSrc";
 
 export type WorkChapter = "homes" | "prior";
 
@@ -12,6 +13,7 @@ export type WorkImage = {
   src: string;
   alt: string;
   caption: string;
+  placeholder?: string;
 };
 
 export type WorkLink = {
@@ -82,19 +84,32 @@ export const WORK_DATA = workData as Work;
 export const WORK = WORK_DATA.work.map(withResolvedImageSrcs);
 
 function withResolvedImageSrcs(item: WorkItem): WorkItem {
-  const { images } = item;
+  const { images, papers } = item;
 
   return {
     ...item,
-    images: images.map((image) => {
-      const { src, alt, caption } = image;
+    images: images.map(resolveImage),
+    papers: papers && resolvePapers(papers),
+  };
+}
 
-      return {
-        src: resolveProjectImageSrc(src),
-        alt,
-        caption,
-      };
-    }),
+function resolveImage({ src, alt, caption }: WorkImage): WorkImage {
+  return {
+    src: resolveProjectImageSrc(src),
+    placeholder: placeholderSrc(src),
+    alt,
+    caption,
+  };
+}
+
+function resolvePapers(papers: WorkPapers): WorkPapers {
+  const { heading, lede, figures, ghost } = papers;
+
+  return {
+    heading,
+    lede,
+    figures: figures.map(resolveImage),
+    ghost,
   };
 }
 
@@ -173,6 +188,7 @@ export type HomeWorkCardItem = {
   slug: string;
   image: string;
   alt: string;
+  placeholder?: string;
 };
 
 export type HomeWorkBlock =
@@ -200,13 +216,14 @@ function toHomeCard(item: WorkItem): HomeWorkCardItem | undefined {
   }
 
   const { slug, name } = item;
-  const { src, alt } = cover;
+  const { src, alt, placeholder } = cover;
 
   return {
     title: name,
     slug,
     image: src,
     alt: alt || name,
+    placeholder,
   };
 }
 

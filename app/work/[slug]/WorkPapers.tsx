@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { FC } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 import type { WorkPapers as Papers } from "@/lib/work";
 import { withGalleryDimensions, type GalleryImage } from "@/lib/workGallery";
@@ -84,7 +84,7 @@ type FigureProps = {
 };
 
 const PapersFigure: FC<FigureProps> = ({ figure, isPaired }) => {
-  const { src, alt, caption, width, height } = figure;
+  const { src, alt, caption, width, height, placeholder } = figure;
   const sizes = isPaired ? "(min-width: 768px) 45vw, 100vw" : "100vw";
 
   return (
@@ -92,9 +92,10 @@ const PapersFigure: FC<FigureProps> = ({ figure, isPaired }) => {
       data-id="work-papers-figure"
       className={cn("m-0 w-full", { "md:w-1/2": isPaired })}
     >
-      <Image
+      <FadeImage
         src={src}
         alt={alt}
+        placeholder={placeholder}
         width={width}
         height={height}
         sizes={sizes}

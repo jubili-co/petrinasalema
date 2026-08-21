@@ -1,10 +1,11 @@
-import Image from "next/image";
 import type { FC, ReactNode } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { LogoJubiliMark } from "@/app/components/LogoJubiliMark";
 import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
+import { placeholderSrc } from "@/lib/placeholderSrc";
 
 import { AboutBody, type TextParagraph } from "./AboutBody";
 import {
@@ -141,15 +142,18 @@ const AboutMediaImage: FC<AboutMediaImageProps> = ({
   alt,
   hasBorder,
 }) => {
+  const placeholder = placeholderSrc(image);
+
   if (hasBorder) {
     return (
       <div
         data-id="about-text-image-border"
         className="relative flex h-full w-full items-center justify-center px-[20%] py-[10%]"
       >
-        <Image
+        <FadeImage
           src={image}
           alt={alt}
+          placeholder={placeholder}
           width={1023}
           height={1537}
           sizes="(min-width: 768px) 30vw, 60vw"
@@ -161,9 +165,10 @@ const AboutMediaImage: FC<AboutMediaImageProps> = ({
   }
 
   return (
-    <Image
+    <FadeImage
       src={image}
       alt={alt}
+      placeholder={placeholder}
       fill
       sizes="(min-width: 768px) 50vw, 100vw"
       data-id="about-text-image-photo"
