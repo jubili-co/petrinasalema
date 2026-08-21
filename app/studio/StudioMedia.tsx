@@ -1,8 +1,9 @@
-import Image from "next/image";
 import type { FC } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
+import { placeholderSrc } from "@/lib/placeholderSrc";
 
 type Props = {
   images: string[];
@@ -19,7 +20,7 @@ export const StudioMedia: FC<Props> = ({ images }) => (
     {images.map((image, index) => (
       <StudioMediaFrame
         key={image}
-        src={resolveProjectImageSrc(image)}
+        image={image}
         priority={index === 0}
       />
     ))}
@@ -27,26 +28,33 @@ export const StudioMedia: FC<Props> = ({ images }) => (
 );
 
 type StudioMediaFrameProps = {
-  src: string;
+  image: string;
   priority: boolean;
 };
 
-const StudioMediaFrame: FC<StudioMediaFrameProps> = ({ src, priority }) => (
-  <div
-    data-id="studio-media-frame"
-    className={cn(
-      "relative w-full",
-      "min-h-[70vw] flex-1",
-      "md:min-h-0",
-    )}
-  >
-    <Image
-      src={src}
-      alt="Petrina Salema studio"
-      fill
-      priority={priority}
-      sizes="(min-width: 768px) 50vw, 100vw"
-      className="object-cover"
-    />
-  </div>
-);
+const StudioMediaFrame: FC<StudioMediaFrameProps> = ({ image, priority }) => {
+  const src = resolveProjectImageSrc(image);
+  const placeholder = placeholderSrc(image);
+
+  return (
+    <div
+      data-id="studio-media-frame"
+      className={cn(
+        "relative w-full",
+        "min-h-[70vw] flex-1",
+        "md:min-h-0",
+      )}
+    >
+      <FadeImage
+        src={src}
+        alt="Petrina Salema studio"
+        placeholder={placeholder}
+        fill
+        priority={priority}
+        sizes="(min-width: 768px) 50vw, 100vw"
+        className="object-cover"
+        data-id="studio-media-image"
+      />
+    </div>
+  );
+};

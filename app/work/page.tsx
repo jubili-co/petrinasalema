@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Fragment, type FC } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 import {
   workChapterGroups,
@@ -145,13 +145,20 @@ const WorkGridCard: FC<WorkGridCardProps> = ({ item }) => {
       className="group relative aspect-[1440/1860] overflow-hidden bg-dotto-brown"
     >
       {cover && (
-        <Image
-          src={cover.src}
-          alt={cover.alt || name}
-          fill
-          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-        />
+        <div
+          data-id="work-grid-card-media"
+          className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+        >
+          <FadeImage
+            src={cover.src}
+            alt={cover.alt || name}
+            placeholder={cover.placeholder}
+            fill
+            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+            className="object-cover"
+            data-id="work-grid-card-image"
+          />
+        </div>
       )}
       <div
         data-id="work-grid-card-overlay"

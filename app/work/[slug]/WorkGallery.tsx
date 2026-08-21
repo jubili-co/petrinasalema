@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { FC } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 import {
   isLandscape,
@@ -95,7 +95,7 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
   name,
   isHalfWidth,
 }) => {
-  const { src, alt, caption, width, height } = image;
+  const { src, alt, caption, width, height, placeholder } = image;
   const sizes = isHalfWidth ? "(min-width: 768px) 50vw, 100vw" : "100vw";
 
   return (
@@ -105,9 +105,10 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
         "md:w-1/2": isHalfWidth,
       })}
     >
-      <Image
+      <FadeImage
         src={src}
         alt={alt || name}
+        placeholder={placeholder}
         width={width}
         height={height}
         sizes={sizes}

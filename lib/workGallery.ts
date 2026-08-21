@@ -47,7 +47,6 @@ export function isLandscape(image: Pick<GalleryImage, "width" | "height">): bool
 async function frameImage(image: WorkImage): Promise<GalleryImage> {
   const size = await probeRemoteImageSize(image.src);
   const { width, height } = size ?? FALLBACK_LANDSCAPE;
-  const { src, alt, caption } = image;
 
-  return { src, alt, caption, width, height };
+  return { ...image, width, height };
 }
