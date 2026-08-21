@@ -6,9 +6,11 @@ export const SITE = {
     "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1200&h=630&fit=crop&auto=format",
 } as const;
 
+/** Primary path — proof, offer, person, initiation. */
 export const NAV_LINKS = [
   { href: "/work", label: "Work" },
   { href: "/studio", label: "Studio" },
+  { href: "/about", label: "About" },
   { href: "/book", label: "Book" },
 ] as const;
 
