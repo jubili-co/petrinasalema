@@ -112,17 +112,21 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
         <Link
           href={href}
           data-id="about-work-list-link"
-          className={cn(
-            "relative inline-block",
-            "after:pointer-events-none after:absolute after:inset-x-0 after:-bottom-1",
-            "after:h-px after:bg-dotto-cream/30 after:opacity-0 after:content-['']",
-            "after:transition-opacity after:duration-150 after:ease-[var(--ease-out-soft)]",
-            "hover:after:opacity-100",
-            "focus-visible:after:opacity-100",
-            "motion-reduce:after:transition-none",
-          )}
+          className="group/row relative inline-block pb-1"
         >
           {line}
+          <span
+            data-id="about-work-list-link-rule"
+            aria-hidden
+            className={cn(
+              "pointer-events-none absolute inset-x-0 bottom-0 block h-px",
+              "bg-dotto-cream/30 opacity-0",
+              "transition-opacity duration-150 ease-[var(--ease-out-soft)]",
+              "group-hover/row:opacity-100",
+              "group-focus-visible/row:opacity-100",
+              "motion-reduce:transition-none",
+            )}
+          />
         </Link>
       )}
       {!href && line}
