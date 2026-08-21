@@ -9,11 +9,19 @@ export type WorkRole = {
   role: string;
 };
 
+/** Crop the photo to this box. Omit to keep the file's own aspect. */
+export type WorkImageFrame = "square" | "portrait" | "landscape";
+
+/** How many images share this row, including on mobile. Set on the first image. */
+export type WorkImageRow = 1 | 2 | 3;
+
 export type WorkImage = {
   src: string;
   alt: string;
   caption: string;
   placeholder?: string;
+  frame?: WorkImageFrame;
+  row?: WorkImageRow;
 };
 
 export type WorkLink = {
@@ -93,12 +101,16 @@ function withResolvedImageSrcs(item: WorkItem): WorkItem {
   };
 }
 
-function resolveImage({ src, alt, caption }: WorkImage): WorkImage {
+function resolveImage(image: WorkImage): WorkImage {
+  const { src, alt, caption, frame, row } = image;
+
   return {
     src: resolveProjectImageSrc(src),
     placeholder: placeholderSrc(src),
     alt,
     caption,
+    frame,
+    row,
   };
 }
 

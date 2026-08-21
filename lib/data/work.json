@@ -32,7 +32,8 @@
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 1.jpg",
           "alt": "Tegelweg, Vienna. living room 1",
-          "caption": ""
+          "caption": "",
+          "frame": "landscape"
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_bathroom 1.jpg",
@@ -42,42 +43,53 @@
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_blue room 1.jpg",
           "alt": "Tegelweg, Vienna. blue room 1",
-          "caption": ""
+          "caption": "",
+          "frame": "square",
+          "row": 2
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_blue room 2.jpg",
           "alt": "Tegelweg, Vienna. blue room 2",
-          "caption": ""
+          "caption": "",
+          "frame": "square"
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 1.jpg",
           "alt": "Tegelweg, Vienna. coral room 1",
-          "caption": ""
+          "caption": "",
+          "frame": "square",
+          "row": 3
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 2.jpg",
           "alt": "Tegelweg, Vienna. coral room 2",
-          "caption": ""
+          "caption": "",
+          "frame": "square"
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 3.jpg",
           "alt": "Tegelweg, Vienna. coral room 3",
-          "caption": ""
+          "caption": "",
+          "frame": "square"
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 4.jpg",
           "alt": "Tegelweg, Vienna. coral room 4",
-          "caption": ""
+          "caption": "",
+          "frame": "portrait",
+          "row": 3
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 5.jpg",
           "alt": "Tegelweg, Vienna. coral room 5",
-          "caption": ""
+          "caption": "",
+          "frame": "portrait"
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 6.jpg",
           "alt": "Tegelweg, Vienna. coral room 6",
-          "caption": ""
+          "caption": "",
+          "frame": "portrait"
         },
         {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_dining room 1.jpg",

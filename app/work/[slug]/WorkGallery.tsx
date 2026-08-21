@@ -1,15 +1,10 @@
 import type { FC } from "react";
 
-import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
-import {
-  isLandscape,
-  type GalleryImage,
-  type GalleryRow,
-} from "@/lib/workGallery";
 import type { MoreWorkLink } from "@/lib/work";
+import type { GalleryRow } from "@/lib/workGallery";
 
-import { GalleryMoreWork } from "./GalleryMoreWork";
+import { GalleryRowView } from "./GalleryRowView";
 
 type Props = {
   name: string;
@@ -53,98 +48,6 @@ export const WorkGallery: FC<Props> = ({ name, rows, moreWork }) => {
     </section>
   );
 };
-
-type GalleryRowViewProps = {
-  row: GalleryRow;
-  name: string;
-  moreWork: MoreWorkLink[];
-};
-
-const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name, moreWork }) => {
-  const shouldPair = row.length > 1;
-  const shouldShowMore = shouldFillWithMoreWork(row, moreWork);
-
-  return (
-    <div
-      data-id="work-gallery-row"
-      className={cn("flex w-full flex-col gap-0.5", {
-        "md:flex-row md:items-stretch": shouldPair || shouldShowMore,
-      })}
-    >
-      {row.map((image) => (
-        <GalleryFigure
-          key={`${image.src}-${image.alt}`}
-          image={image}
-          name={name}
-          isHalfWidth={shouldPair || shouldShowMore}
-        />
-      ))}
-      {shouldShowMore && <GalleryMoreWork items={moreWork} />}
-    </div>
-  );
-};
-
-type GalleryFigureProps = {
-  image: GalleryImage;
-  name: string;
-  isHalfWidth: boolean;
-};
-
-const GalleryFigure: FC<GalleryFigureProps> = ({
-  image,
-  name,
-  isHalfWidth,
-}) => {
-  const { src, alt, caption, width, height, placeholder } = image;
-  const sizes = isHalfWidth ? "(min-width: 768px) 50vw, 100vw" : "100vw";
-
-  return (
-    <figure
-      data-id="work-gallery-figure"
-      className={cn("relative m-0 w-full", {
-        "md:w-1/2": isHalfWidth,
-      })}
-    >
-      <FadeImage
-        src={src}
-        alt={alt || name}
-        placeholder={placeholder}
-        width={width}
-        height={height}
-        sizes={sizes}
-        data-id="work-gallery-image"
-        className="h-auto w-full"
-      />
-      {caption.length > 0 && (
-        <figcaption
-          data-id="work-gallery-caption"
-          className={cn(
-            "px-6 py-3 font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-dotto-brown md:px-12",
-          )}
-        >
-          {caption}
-        </figcaption>
-      )}
-    </figure>
-  );
-};
-
-function shouldFillWithMoreWork(
-  row: GalleryRow,
-  moreWork: MoreWorkLink[],
-): boolean {
-  if (moreWork.length === 0) {
-    return false;
-  }
-
-  const [sole] = row;
-  if (!sole || row.length !== 1) {
-    return false;
-  }
-
-  return !isLandscape(sole);
-}
 
 function rowKey(row: GalleryRow): string {
   return row.map((image) => image.src).join("|");

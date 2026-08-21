@@ -1,4 +1,4 @@
-import type { WorkImage } from "@/lib/work";
+import type { WorkImage, WorkImageRow } from "@/lib/work";
 
 import { probeRemoteImageSize } from "./imageSize";
 
@@ -17,7 +17,11 @@ export async function withGalleryDimensions(
   return Promise.all(images.map(frameImage));
 }
 
-/** Landscape alone; consecutive portrait/square images pair on desktop. */
+/**
+ * Explicit `row` on the first image wins. Otherwise landscape (or
+ * `frame: "landscape"`) stands alone; consecutive square/portrait images pair
+ * on desktop.
+ */
 export function packGalleryRows(images: GalleryImage[]): GalleryRow[] {
   if (images.length === 0) {
     return [];
@@ -28,19 +32,86 @@ export function packGalleryRows(images: GalleryImage[]): GalleryRow[] {
     return [];
   }
 
-  if (isLandscape(head)) {
-    return [[head], ...packGalleryRows(tail)];
-  }
-
-  const [next, ...rest] = tail;
-  if (next && !isLandscape(next)) {
-    return [[head, next], ...packGalleryRows(rest)];
-  }
-
-  return [[head], ...packGalleryRows(tail)];
+  const taken = takeRow(head, tail);
+  const rest = images.slice(taken.length);
+  return [taken, ...packGalleryRows(rest)];
 }
 
-export function isLandscape(image: Pick<GalleryImage, "width" | "height">): boolean {
+export function isWide(image: GalleryImage): boolean {
+  const { frame } = image;
+  if (frame === "landscape") {
+    return true;
+  }
+  if (frame === "square" || frame === "portrait") {
+    return false;
+  }
+  return isLandscape(image);
+}
+
+export function shouldShareMobile(row: GalleryRow): boolean {
+  const [head] = row;
+  if (!head) {
+    return false;
+  }
+  if (row.length < 2) {
+    return false;
+  }
+  return isSharedRow(head.row);
+}
+
+function takeRow(head: GalleryImage, tail: GalleryImage[]): GalleryRow {
+  const explicit = takeExplicit(head, tail);
+  if (explicit) {
+    return explicit;
+  }
+
+  return takeAuto(head, tail);
+}
+
+function takeExplicit(
+  head: GalleryImage,
+  tail: GalleryImage[],
+): GalleryRow | undefined {
+  const { row } = head;
+  if (!isExplicitRow(row)) {
+    return undefined;
+  }
+
+  return [head, ...tail.slice(0, row - 1)];
+}
+
+function takeAuto(head: GalleryImage, tail: GalleryImage[]): GalleryRow {
+  if (isWide(head)) {
+    return [head];
+  }
+
+  const [next] = tail;
+  if (!next) {
+    return [head];
+  }
+  if (canAutoPair(next)) {
+    return [head, next];
+  }
+
+  return [head];
+}
+
+function canAutoPair(image: GalleryImage): boolean {
+  if (isExplicitRow(image.row)) {
+    return false;
+  }
+  return !isWide(image);
+}
+
+function isExplicitRow(row: WorkImageRow | undefined): row is WorkImageRow {
+  return row === 1 || row === 2 || row === 3;
+}
+
+function isSharedRow(row: WorkImageRow | undefined): boolean {
+  return row === 2 || row === 3;
+}
+
+function isLandscape(image: Pick<GalleryImage, "width" | "height">): boolean {
   return image.width > image.height;
 }
 
