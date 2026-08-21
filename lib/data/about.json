@@ -35,28 +35,33 @@
     },
     {
       "type": "workList",
-      "title": "List of Projects",
+      "title": "Projects",
       "color": "dotto-blue",
       "items": [
         {
           "name": "Tegelweg - Rental Maisonette",
-          "role": "Designer"
+          "role": "Designer",
+          "slug": "tegelweg-rental-maisonette-vienna"
         },
         {
           "name": "Brabbeegasse - Single-Unit Apartment",
-          "role": "Designer"
+          "role": "Designer",
+          "slug": "brabbeegasse-single-unit-apartment-vienna"
         },
         {
           "name": "Analytical Fingerprint Laboratory Rehabilitation",
-          "role": "Project Manager"
+          "role": "Project Manager",
+          "slug": "analytical-fingerprint-laboratory-rehabilitation"
         },
         {
           "name": "New CCBRT Maternity Hospital",
-          "role": "Project Manager"
+          "role": "Project Manager",
+          "slug": "new-ccbrt-maternity-hospital"
         },
         {
           "name": "International School of Tanganyika Athletic Centre",
-          "role": "Project Manager"
+          "role": "Project Manager",
+          "slug": "international-school-of-tanganyika-athletic-centre"
         },
         {
           "name": "Montessori Children's House Primary School Competition",
@@ -64,43 +69,53 @@
         },
         {
           "name": "International School of Tanganyika Classroom Blocks D & E",
-          "role": "Project Manager"
+          "role": "Project Manager",
+          "slug": "international-school-of-tanganyika-classroom-blocks-d-e"
         },
         {
           "name": "Bank of Tanzania Mwanza Branch",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "bank-of-tanzania-mwanza-branch"
         },
         {
           "name": "Tan House Office Building",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "tan-house-office-building"
         },
         {
           "name": "National Housing Corporation Eco Residence",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "nhc-eco-residence"
         },
         {
           "name": "PPF Commercial Property and New PPF Head Office, Competition",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "ppf-commercial-property-head-office-competition"
         },
         {
           "name": "Chakechake - Alterations & Extension to Existing House",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "house-on-chake-chake-road"
         },
         {
           "name": "New Office Accommodation for the Ministry of Foreign Affairs and International Cooperation",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "ministry-of-foreign-affairs-office"
         },
         {
           "name": "Operational Theatre Block to be Built at Bugando Medical Centre",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "bugando-medical-centre-theatre-block"
         },
         {
           "name": "Aga Khan Hospital",
-          "role": "Project Manager"
+          "role": "Project Manager",
+          "slug": "aga-khan-hospital"
         },
         {
           "name": "Bank M Headquarters",
-          "role": "Assistant Architect and Interior Designer"
+          "role": "Assistant Architect and Interior Designer",
+          "slug": "bank-m-headquarters"
         }
       ],
       "cta": {
