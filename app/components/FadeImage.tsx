@@ -33,31 +33,38 @@ export const FadeImage: FC<Props> = ({
   const [isLoaded, setIsLoaded] = useState(false);
 
   const markLoaded = (): void => {
-    setIsLoaded(true);
+    afterPaint(() => {
+      setIsLoaded(true);
+    });
   };
 
   return (
     <div
       data-id={dataId}
-      className={cn("overflow-hidden", {
+      className={cn("isolate overflow-hidden", {
         "absolute inset-0": fill,
         "relative block w-full": !fill,
       })}
     >
       {placeholder && (
-        // Tiny local/CDN stand-in — skip next/image so it paints without the optimizer hop.
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={placeholder}
-          alt=""
+        <div
+          data-id="fade-image-placeholder-clip"
           aria-hidden
-          decoding="async"
-          data-id="fade-image-placeholder"
-          className={cn(
-            "absolute inset-0 h-full w-full",
-            "scale-110 object-cover blur-md",
-          )}
-        />
+          className="absolute inset-0 overflow-hidden"
+        >
+          {/* Tiny stand-in — skip next/image so it paints without the optimizer hop. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={placeholder}
+            alt=""
+            decoding="async"
+            data-id="fade-image-placeholder"
+            className={cn(
+              "size-full object-cover",
+              "scale-110 blur-sm",
+            )}
+          />
+        </div>
       )}
       <Image
         src={src}
@@ -71,9 +78,9 @@ export const FadeImage: FC<Props> = ({
         data-id="fade-image-photo"
         className={cn(
           className,
-          "transition-opacity duration-200 ease-[var(--ease-out-soft)] motion-reduce:transition-none",
+          "z-[1] transition-opacity duration-300 ease-[var(--ease-out-soft)] motion-reduce:transition-none",
           {
-            "relative z-[1]": !fill,
+            relative: !fill,
             "opacity-0": !isLoaded,
             "opacity-100": isLoaded,
           },
@@ -82,3 +89,9 @@ export const FadeImage: FC<Props> = ({
     </div>
   );
 };
+
+function afterPaint(callback: () => void): void {
+  requestAnimationFrame(() => {
+    requestAnimationFrame(callback);
+  });
+}
