@@ -113,11 +113,11 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
           href={href}
           data-id="about-work-list-link"
           className={cn(
-            "block",
-            "underline-offset-4 decoration-dotto-cream/50",
-            "transition-opacity duration-200 ease-out",
-            "hover:opacity-70 hover:underline",
-            "focus-visible:opacity-70 focus-visible:underline",
+            "block underline underline-offset-4 decoration-transparent",
+            "transition-[text-decoration-color] duration-150 ease-[var(--ease-out-soft)]",
+            "hover:decoration-dotto-cream/30",
+            "focus-visible:decoration-dotto-cream/30",
+            "motion-reduce:transition-none",
           )}
         >
           {line}
