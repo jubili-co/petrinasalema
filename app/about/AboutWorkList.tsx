@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { FC } from "react";
 
 import { resolveCssColor } from "@/lib/colors";
@@ -13,6 +14,7 @@ import { AboutTitle } from "./AboutTitle";
 export type WorkListItem = {
   name: string;
   role: string;
+  href?: string;
 };
 
 export type WorkListCta = AboutInviteCta;
@@ -30,8 +32,8 @@ type Props = {
 };
 
 export const AboutWorkList: FC<Props> = ({ section }) => {
-  const { title, items, cta } = section;
-  const background = resolveCssColor(section.color, "dotto-olive");
+  const { title, items, cta, color } = section;
+  const background = resolveCssColor(color, "dotto-olive");
 
   return (
     <section
@@ -71,10 +73,9 @@ type WorkListRowProps = {
 };
 
 const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
-  const { name, role } = item;
-
-  return (
-    <li data-id="about-work-list-row">
+  const { name, role, href } = item;
+  const line = (
+    <>
       <span
         data-id="about-work-list-name"
         className={cn(
@@ -102,6 +103,31 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
       >
         {role}
       </span>
+    </>
+  );
+
+  return (
+    <li data-id="about-work-list-row">
+      {href && (
+        <Link
+          href={href}
+          data-id="about-work-list-link"
+          className="relative inline-block pb-1"
+        >
+          {line}
+          <span
+            data-id="about-work-list-link-rule"
+            aria-hidden
+            className={cn(
+              "pointer-events-none absolute inset-x-0 bottom-0 block h-px",
+              "bg-dotto-cream opacity-0",
+              "transition-opacity duration-150 ease-[var(--ease-out-soft)]",
+              "motion-reduce:transition-none",
+            )}
+          />
+        </Link>
+      )}
+      {!href && line}
     </li>
   );
 };

@@ -9,7 +9,11 @@ import { resolveProjectImageSrc } from "@/lib/googleDrive";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
-import { AboutWorkList, type WorkListSection } from "./AboutWorkList";
+import {
+  AboutWorkList,
+  type WorkListItem,
+  type WorkListSection,
+} from "./AboutWorkList";
 import {
   AboutTextImage,
   type AboutMdxKey,
@@ -94,10 +98,7 @@ function toWorkListSection(section: AboutSection): WorkListSection | null {
     type: "workList",
     title,
     color,
-    items: items.map((item) => ({
-      name: item.name,
-      role: item.role,
-    })),
+    items: items.map(toWorkListItem),
     cta: cta
       ? {
           name: cta.name,
@@ -106,6 +107,22 @@ function toWorkListSection(section: AboutSection): WorkListSection | null {
         }
       : null,
   };
+}
+
+type WorkListSource = {
+  name: string;
+  role: string;
+  slug?: string;
+};
+
+function toWorkListItem({ name, role, slug }: WorkListSource): WorkListItem {
+  const href = slug && workHref(slug);
+
+  return { name, role, href };
+}
+
+function workHref(slug: string): string {
+  return `/work/${slug}`;
 }
 
 function toTextImageSection(section: AboutSection): TextImageSection | null {
