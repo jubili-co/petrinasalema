@@ -2,22 +2,14 @@ import type { FC } from "react";
 
 import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
-import {
-  isLandscape,
-  type GalleryImage,
-  type GalleryRow,
-} from "@/lib/workGallery";
-import type { MoreWorkLink } from "@/lib/work";
-
-import { GalleryMoreWork } from "./GalleryMoreWork";
+import type { GalleryImage, GalleryRow } from "@/lib/workGallery";
 
 type Props = {
   name: string;
   rows: GalleryRow[];
-  moreWork: MoreWorkLink[];
 };
 
-export const WorkGallery: FC<Props> = ({ name, rows, moreWork }) => {
+export const WorkGallery: FC<Props> = ({ name, rows }) => {
   if (rows.length === 0) {
     return (
       <section
@@ -43,12 +35,7 @@ export const WorkGallery: FC<Props> = ({ name, rows, moreWork }) => {
       className="flex w-full flex-col gap-0.5 bg-dotto-cream pt-[74px] md:pt-[79px]"
     >
       {rows.map((row) => (
-        <GalleryRowView
-          key={rowKey(row)}
-          row={row}
-          name={name}
-          moreWork={moreWork}
-        />
+        <GalleryRowView key={rowKey(row)} row={row} name={name} />
       ))}
     </section>
   );
@@ -57,18 +44,16 @@ export const WorkGallery: FC<Props> = ({ name, rows, moreWork }) => {
 type GalleryRowViewProps = {
   row: GalleryRow;
   name: string;
-  moreWork: MoreWorkLink[];
 };
 
-const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name, moreWork }) => {
+const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
   const shouldPair = row.length > 1;
-  const shouldShowMore = shouldFillWithMoreWork(row, moreWork);
 
   return (
     <div
       data-id="work-gallery-row"
       className={cn("flex w-full flex-col gap-0.5", {
-        "md:flex-row md:items-stretch": shouldPair || shouldShowMore,
+        "md:flex-row md:items-stretch": shouldPair,
       })}
     >
       {row.map((image) => (
@@ -76,10 +61,9 @@ const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name, moreWork }) => {
           key={`${image.src}-${image.alt}`}
           image={image}
           name={name}
-          isHalfWidth={shouldPair || shouldShowMore}
+          isHalfWidth={shouldPair}
         />
       ))}
-      {shouldShowMore && <GalleryMoreWork items={moreWork} />}
     </div>
   );
 };
@@ -129,22 +113,6 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
     </figure>
   );
 };
-
-function shouldFillWithMoreWork(
-  row: GalleryRow,
-  moreWork: MoreWorkLink[],
-): boolean {
-  if (moreWork.length === 0) {
-    return false;
-  }
-
-  const [sole] = row;
-  if (!sole || row.length !== 1) {
-    return false;
-  }
-
-  return !isLandscape(sole);
-}
 
 function rowKey(row: GalleryRow): string {
   return row.map((image) => image.src).join("|");

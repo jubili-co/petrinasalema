@@ -133,30 +133,6 @@ export function getNextWork(slug: string): WorkItem {
   return next ?? WORK[0]!;
 }
 
-export type MoreWorkLink = {
-  name: string;
-  slug: string;
-};
-
-/** Leading portfolio peers for the current piece. Prefers the same chapter. */
-export function getMoreWork(slug: string, limit = 4): MoreWorkLink[] {
-  const current = getWork(slug);
-  if (!current) {
-    return [];
-  }
-
-  const { chapter } = current;
-  const peers = WORK.filter((item) => item.slug !== slug);
-  const sameChapter = peers.filter((item) => item.chapter === chapter);
-  const otherChapter = peers.filter((item) => item.chapter !== chapter);
-  const ordered = [...sameChapter, ...otherChapter];
-
-  return ordered.slice(0, limit).map(({ name, slug: workSlug }) => ({
-    name,
-    slug: workSlug,
-  }));
-}
-
 export type WorkChapterGroup = {
   id: WorkChapter;
   label: string;

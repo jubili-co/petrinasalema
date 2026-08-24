@@ -6,12 +6,7 @@ import {
   packGalleryRows,
   withGalleryDimensions,
 } from "@/lib/workGallery";
-import {
-  getMoreWork,
-  getNextWork,
-  getWork,
-  WORK,
-} from "@/lib/work";
+import { getNextWork, getWork, WORK } from "@/lib/work";
 
 import { SiteFooter } from "../../components/SiteFooter";
 import { SiteHeader } from "../../components/SiteHeader";
@@ -52,7 +47,6 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
   }
 
   const nextItem = getNextWork(slug);
-  const moreWork = getMoreWork(slug);
   const { name, images, papers } = item;
   const framed = await withGalleryDimensions(images);
   const rows = packGalleryRows(framed);
@@ -60,7 +54,7 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
   return (
     <main data-id="work-item-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader />
-      <WorkGallery name={name} rows={rows} moreWork={moreWork} />
+      <WorkGallery name={name} rows={rows} />
       {papers && <WorkPapers papers={papers} />}
       <WorkDetails item={item} nextSlug={nextItem.slug} />
       <SiteFooter />
