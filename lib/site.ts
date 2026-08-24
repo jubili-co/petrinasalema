@@ -5,6 +5,11 @@ export const SITE = {
   ogImage: "/og.jpg",
 } as const;
 
+export function deploymentOrigin(): string {
+  const vercelHost = process.env.VERCEL_URL;
+  return vercelHost ? `https://${vercelHost}` : SITE.url;
+}
+
 /** Primary path — proof, offer, person, initiation. */
 export const NAV_LINKS = [
   { href: "/work", label: "Work" },
