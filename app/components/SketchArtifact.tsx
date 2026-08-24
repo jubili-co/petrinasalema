@@ -3,11 +3,14 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
-type Fade = "right" | "left" | "up" | "down" | "in" | "inset" | "diag";
+export type SketchFade = "right" | "left" | "up" | "down" | "in" | "inset" | "diag";
+
+type Tone = "ink" | "chalk";
 
 type Props = {
   src: string;
-  fade: Fade;
+  fade: SketchFade;
+  tone?: Tone;
   className?: string;
   imageClassName?: string;
   sizes?: string;
@@ -22,12 +25,14 @@ type Props = {
 export const SketchArtifact: FC<Props> = ({
   src,
   fade,
+  tone = "ink",
   className,
   imageClassName,
   sizes = "50vw",
   "data-id": dataId = "sketch-artifact",
 }) => {
   const maskClassName = FADE_MASK[fade];
+  const isChalk = tone === "chalk";
 
   return (
     <div
@@ -45,13 +50,20 @@ export const SketchArtifact: FC<Props> = ({
         fill
         sizes={sizes}
         data-id="sketch-artifact-image"
-        className={cn("object-cover opacity-15", imageClassName)}
+        className={cn(
+          "object-cover",
+          {
+            "opacity-15": !isChalk,
+            "brightness-0 invert opacity-[0.38]": isChalk,
+          },
+          imageClassName,
+        )}
       />
     </div>
   );
 };
 
-const FADE_MASK: Record<Fade, string> = {
+const FADE_MASK: Record<SketchFade, string> = {
   right: cn(
     "[mask-image:linear-gradient(to_right,transparent_0%,rgb(0_0_0_/_0.08)_18%,rgb(0_0_0_/_0.4)_42%,rgb(0_0_0_/_0.85)_72%,#000_100%)]",
     "[-webkit-mask-image:linear-gradient(to_right,transparent_0%,rgb(0_0_0_/_0.08)_18%,rgb(0_0_0_/_0.4)_42%,rgb(0_0_0_/_0.85)_72%,#000_100%)]",

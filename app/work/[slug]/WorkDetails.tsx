@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { DsText } from "@/app/components/ds/DsText";
+import { PaperWord } from "@/app/components/PaperWord";
+import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { cn } from "@/lib/cn";
 import {
   workOffersDoor,
@@ -12,26 +14,59 @@ import {
   type WorkResult,
 } from "@/lib/work";
 
+import { getChrome } from "./WorkDetailsChrome";
+
 type Props = {
   item: WorkItem;
   nextSlug: string;
 };
 
 export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
-  const { name, subtitle, location, description, scope, links, caseStudy } =
-    item;
+  const {
+    slug,
+    name,
+    subtitle,
+    location,
+    description,
+    scope,
+    links,
+    caseStudy,
+  } = item;
   const place = workPlace(location);
   const hasSubtitle = Boolean(subtitle);
   const hasScope = scope.length > 0;
   const hasLinks = links.length > 0;
   const linksHeading = links.length === 1 ? "Link" : "Links";
   const showDoor = workOffersDoor(item);
+  const { sketch, stamps } = getChrome(slug);
+  const { src, fade, className: sketchClassName, imageClassName } = sketch;
 
   return (
     <section
       data-id="work-details"
-      className="relative overflow-hidden bg-dotto-brown px-6 py-[30px] pb-10 text-dotto-cream md:px-12"
+      className={cn(
+        "relative overflow-hidden bg-dotto-brown text-dotto-cream",
+        "px-6 pt-[30px] pb-20 md:min-h-[40rem] md:px-12 md:pb-28",
+      )}
     >
+      <SketchArtifact
+        src={src}
+        fade={fade}
+        tone="chalk"
+        sizes="(min-width: 768px) 58vw, 90vw"
+        data-id="work-details-sketch"
+        className={sketchClassName}
+        imageClassName={imageClassName}
+      />
+      {stamps.map(({ word, className }) => (
+        <PaperWord
+          key={word}
+          word={word}
+          tone="chalk"
+          className={className}
+          data-id="work-details-word"
+        />
+      ))}
       <div
         data-id="work-details-inner"
         className={cn(
