@@ -2,6 +2,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { PaperWord } from "./PaperWord";
 import { SketchArtifact } from "./SketchArtifact";
 
 export type HomeProofResult = {
@@ -18,16 +19,25 @@ type Props = {
   lede: string;
   quote: HomeProofQuote;
   results: HomeProofResult[];
+  href: string;
+  linkLabel: string;
 };
 
-export const HomeProof: FC<Props> = ({ lede, quote, results }) => {
+export const HomeProof: FC<Props> = ({
+  lede,
+  quote,
+  results,
+  href,
+  linkLabel,
+}) => {
   const { text, attribution } = quote;
 
   return (
     <section
       data-id="home-proof"
       className={cn(
-        "relative flex w-full justify-center bg-dotto-cream",
+        "relative overflow-hidden",
+        "flex w-full justify-center bg-dotto-cream",
         "px-6 py-16 md:px-12 md:py-24",
       )}
     >
@@ -38,6 +48,11 @@ export const HomeProof: FC<Props> = ({ lede, quote, results }) => {
         data-id="home-proof-sketch"
         className="top-0 left-0 h-full w-[42%] md:w-[28%]"
         imageClassName="-rotate-[12deg] scale-[1.4] object-bottom"
+      />
+      <PaperWord
+        word="keller"
+        data-id="home-proof-word"
+        className="top-7 -right-3 w-[4.75rem] rotate-[9deg] md:top-10 md:w-24"
       />
       <div
         data-id="home-proof-inner"
@@ -84,6 +99,19 @@ export const HomeProof: FC<Props> = ({ lede, quote, results }) => {
             />
           ))}
         </ul>
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-id="home-proof-link"
+          className={cn(
+            "font-[family-name:var(--font-playfair)]",
+            "text-[13px] leading-[18px] font-[350] text-dotto-brown",
+            "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
+          )}
+        >
+          {linkLabel}
+        </a>
       </div>
     </section>
   );
