@@ -3,6 +3,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
+import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
 
 export const WorkInvite: FC = () => (
@@ -25,6 +26,11 @@ export const WorkInvite: FC = () => (
         data-id="work-invite-sketch"
         className="inset-0"
         imageClassName="rotate-[48deg] scale-[1.7]"
+      />
+      <PaperWord
+        word="fassadeDolomit"
+        data-id="work-invite-word"
+        className="-right-12 top-[18%] w-48 rotate-[28deg]"
       />
       <p
         data-id="work-grid-invite-close"

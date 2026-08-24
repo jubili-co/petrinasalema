@@ -5,6 +5,7 @@ import { cn } from "@/lib/cn";
 import { FOOTER_LEGAL_LINKS, FOOTER_PRIMARY_LINKS } from "@/lib/site";
 
 import { LogoPetina } from "./LogoDotto";
+import { PaperWord } from "./PaperWord";
 
 type Props = {
   className?: string;
@@ -14,15 +15,21 @@ export const SiteFooter: FC<Props> = ({ className }) => (
   <footer
     data-id="site-footer"
     className={cn(
-      "relative z-[99] mt-auto w-full bg-dotto-brown text-dotto-cream",
+      "relative z-[99] mt-auto w-full overflow-hidden bg-dotto-brown text-dotto-cream",
       "px-6 py-8 md:h-[96px] md:px-12 md:py-8 md:pb-[35px]",
       className,
     )}
   >
+    <PaperWord
+      word="dachfenster"
+      tone="chalk"
+      data-id="site-footer-word"
+      className="bottom-1 left-[22%] hidden w-20 -rotate-[8deg] md:block"
+    />
     <div
       data-id="site-footer-inner"
       className={cn(
-        "flex flex-col items-start justify-between gap-10",
+        "relative flex flex-col items-start justify-between gap-10",
         "md:h-full md:flex-row md:items-center md:gap-4",
       )}
     >

@@ -4,6 +4,7 @@ import type { FC } from "react";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
 
+import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
 import {
   AboutInviteCtaLink,
@@ -48,6 +49,12 @@ export const AboutWorkList: FC<Props> = ({ section }) => {
         data-id="about-work-list-sketch"
         className="-top-[10%] -right-[8%] h-[120%] w-[70%] md:w-[55%]"
         imageClassName="-rotate-[24deg] scale-[1.6] object-left brightness-0 invert opacity-[0.22]"
+      />
+      <PaperWord
+        word="kellerAlt"
+        tone="chalk"
+        data-id="about-work-list-word"
+        className="-left-4 bottom-[16%] w-20 -rotate-[24deg] md:w-24"
       />
       <div
         data-id="about-work-list-inner"

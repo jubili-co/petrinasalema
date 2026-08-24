@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { FC } from "react";
 
+import { PaperWord } from "@/app/components/PaperWord";
 import { cn } from "@/lib/cn";
 import {
   workOffersDoor,
@@ -21,18 +22,27 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
     item;
   const hasScope = scope.length > 0;
   const hasLinks = links.length > 0;
+  const hasPapers = Boolean(item.papers);
   const linksHeading = links.length === 1 ? "Link" : "Links";
   const showDoor = workOffersDoor(item);
 
   return (
     <section
       data-id="work-details"
-      className="bg-dotto-brown px-6 py-[30px] pb-10 text-dotto-cream md:px-12"
+      className="relative overflow-hidden bg-dotto-brown px-6 py-[30px] pb-10 text-dotto-cream md:px-12"
     >
+      {hasPapers && (
+        <PaperWord
+          word="strassenansicht"
+          tone="chalk"
+          data-id="work-details-word"
+          className="-right-12 top-6 w-44 rotate-[10deg] md:w-56"
+        />
+      )}
       <div
         data-id="work-details-inner"
         className={cn(
-          "flex flex-col gap-12",
+          "relative flex flex-col gap-12",
           "md:flex-row md:flex-nowrap md:items-start md:gap-0",
         )}
       >

@@ -4,6 +4,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "./components/CtaLink";
+import { PaperWord } from "./components/PaperWord";
 import { SketchArtifact } from "./components/SketchArtifact";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
@@ -35,6 +36,11 @@ const NotFoundPage: FC = () => (
         data-id="not-found-sketch"
         className="-top-[15%] -right-[20%] h-[130%] w-[70%] md:w-[48%]"
         imageClassName="rotate-[22deg] scale-90 object-right"
+      />
+      <PaperWord
+        word="dachfenster"
+        data-id="not-found-word"
+        className="-left-6 bottom-[22%] w-28 rotate-[18deg] md:w-36"
       />
       <h1
         data-id="not-found-line"

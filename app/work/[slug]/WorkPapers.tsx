@@ -1,6 +1,7 @@
 import type { FC } from "react";
 
 import { FadeImage } from "@/app/components/FadeImage";
+import { PaperWord } from "@/app/components/PaperWord";
 import { cn } from "@/lib/cn";
 import type { WorkPapers as Papers } from "@/lib/work";
 import { withGalleryDimensions, type GalleryImage } from "@/lib/workGallery";
@@ -37,6 +38,21 @@ export const WorkPapers: FC<Props> = async ({ papers }) => {
           imageClassName="rotate-[11deg] scale-[1.2] object-left"
         />
       )}
+      <PaperWord
+        word="erdgeschoss"
+        data-id="work-papers-word"
+        className="-right-8 top-8 w-36 rotate-[8deg] md:w-44"
+      />
+      <PaperWord
+        word="mansarde"
+        data-id="work-papers-word"
+        className="right-[12%] bottom-[18%] w-28 -rotate-[16deg] md:w-36"
+      />
+      <PaperWord
+        word="hofansicht"
+        data-id="work-papers-word"
+        className="top-[42%] -left-10 w-32 rotate-[78deg] md:w-40"
+      />
       <header data-id="work-papers-header" className="relative max-w-[520px]">
         <h2
           data-id="work-papers-heading"

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, type FC, type FormEvent } from "react";
 
 import { FadeImage } from "@/app/components/FadeImage";
+import { PaperWord } from "@/app/components/PaperWord";
 import { cn } from "@/lib/cn";
 import { placeholderSrc } from "@/lib/placeholderSrc";
 
@@ -56,14 +57,23 @@ export const NewsletterSignup: FC<Props> = ({
 
       <div
         data-id="newsletter-signup-form-col"
-        className={cn("order-1 flex w-full p-9 md:order-2 md:w-1/2", {
-          "items-center justify-center": contentAlign === "center",
-          "items-end": contentAlign === "end",
-        })}
+        className={cn(
+          "relative order-1 flex w-full overflow-hidden p-9 md:order-2 md:w-1/2",
+          {
+            "items-center justify-center": contentAlign === "center",
+            "items-end": contentAlign === "end",
+          },
+        )}
       >
+        <PaperWord
+          word="zentralBeheiztAlt"
+          tone="chalk"
+          data-id="newsletter-signup-word"
+          className="-right-8 top-10 w-36 -rotate-[12deg] md:w-44"
+        />
         <div
           data-id="newsletter-signup-form-inner"
-          className="flex w-full max-w-[408px] flex-col gap-[18px] text-dotto-cream"
+          className="relative flex w-full max-w-[408px] flex-col gap-[18px] text-dotto-cream"
         >
           <h2
             data-id="newsletter-signup-title"

@@ -4,6 +4,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 import impressum from "@/lib/data/impressum.json";
 
+import { PaperWord } from "../components/PaperWord";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
@@ -23,10 +24,16 @@ const ImpressumPage: FC = () => (
     <section
       data-id="impressum-textarea"
       className={cn(
+        "relative overflow-hidden",
         "my-[38px] w-full max-w-full px-6",
         "min-[900px]:my-[138px] min-[900px]:px-12",
       )}
     >
+      <PaperWord
+        word="ersterStock"
+        data-id="impressum-word"
+        className="-right-8 top-0 w-28 rotate-[16deg] md:w-36"
+      />
       <div
         data-id="impressum-textarea-inner"
         className="flex w-full justify-start min-[900px]:justify-center"
@@ -34,7 +41,7 @@ const ImpressumPage: FC = () => (
         <div
           data-id="impressum-textarea-content"
           className={cn(
-            "w-4/5 max-w-[960px] text-left text-dotto-brown",
+            "relative w-4/5 max-w-[960px] text-left text-dotto-brown",
             "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350]",
           )}
         >
