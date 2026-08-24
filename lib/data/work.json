@@ -45,38 +45,13 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_blue room 2.jpg",
-          "alt": "Tegelweg, Vienna. blue room 2",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 1.jpg",
           "alt": "Tegelweg, Vienna. coral room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 2.jpg",
-          "alt": "Tegelweg, Vienna. coral room 2",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 3.jpg",
-          "alt": "Tegelweg, Vienna. coral room 3",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 4.jpg",
           "alt": "Tegelweg, Vienna. coral room 4",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 5.jpg",
-          "alt": "Tegelweg, Vienna. coral room 5",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 6.jpg",
-          "alt": "Tegelweg, Vienna. coral room 6",
           "caption": ""
         },
         {
@@ -90,18 +65,8 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_green room 2.jpg",
-          "alt": "Tegelweg, Vienna. green room 2",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_kitchen 1.jpg",
           "alt": "Tegelweg, Vienna. kitchen 1",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_kitchen 2.jpg",
-          "alt": "Tegelweg, Vienna. kitchen 2",
           "caption": ""
         },
         {
@@ -110,28 +75,8 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_kitchen 4.jpg",
-          "alt": "Tegelweg, Vienna. kitchen 4",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 2.jpg",
-          "alt": "Tegelweg, Vienna. living room 2",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 3.jpg",
           "alt": "Tegelweg, Vienna. living room 3",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 4.jpg",
-          "alt": "Tegelweg, Vienna. living room 4",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 5.jpg",
-          "alt": "Tegelweg, Vienna. living room 5",
           "caption": ""
         },
         {
@@ -228,28 +173,8 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 2.jpg",
-          "alt": "Brabbeegasse, Vienna. blue room 2",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 3.jpg",
           "alt": "Brabbeegasse, Vienna. blue room 3",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 4.jpg",
-          "alt": "Brabbeegasse, Vienna. blue room 4",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 5.jpg",
-          "alt": "Brabbeegasse, Vienna. blue room 5",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 6.jpg",
-          "alt": "Brabbeegasse, Vienna. blue room 6",
           "caption": ""
         },
         {
@@ -260,11 +185,6 @@
         {
           "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_kitchen 2.png",
           "alt": "Brabbeegasse, Vienna. kitchen 2",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_kitchen 3.png",
-          "alt": "Brabbeegasse, Vienna. kitchen 3",
           "caption": ""
         }
       ],
@@ -308,16 +228,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Construction phase"
-      ],
+      "scope": ["Construction phase"],
       "description": "An office building already on site still has to work for the people who will sit in it. Construction drawings followed the variations as they appeared, then the extra detail and interior fit-out.",
-      "tags": [
-        "Office",
-        "Construction",
-        "Architecture",
-        "Interior fit-out"
-      ],
+      "tags": ["Office", "Construction", "Architecture", "Interior fit-out"],
       "links": [
         {
           "href": "https://www.epitome-arc.com/tan-house",
@@ -337,36 +250,18 @@
         {
           "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Petrina 2.jpg",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Petrina 2",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         },
         {
           "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Petrina 3.jpg",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Petrina 3",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - jengo sanifu magazine 3.jpg",
-          "alt": "Tan House Office Building, Dar es Salaam. TanHouse - jengo sanifu magazine 3",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         },
         {
           "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - jengo sanifu magazine 4.JPG",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - jengo sanifu magazine 4",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - jengo sanifu magazine 6.JPG",
-          "alt": "Tan House Office Building, Dar es Salaam. TanHouse - jengo sanifu magazine 6",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - jengo sanifu magazine 7.jpg",
-          "alt": "Tan House Office Building, Dar es Salaam. TanHouse - jengo sanifu magazine 7",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Tan House Office Building/Google Earth - Tan House 1.png",
-          "alt": "Tan House Office Building, Dar es Salaam. Google Earth, Tan House 1",
           "caption": ""
         }
       ],
@@ -385,16 +280,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Detail design to DLP"
-      ],
+      "scope": ["Detail design to DLP"],
       "description": "A housing estate has to live with the drawings long after the competition is won. This one went from tender through handover and the defects period, with construction drawings for the variations, and interior fit-out toward Green Mark standards.",
-      "tags": [
-        "Housing",
-        "Residential",
-        "Construction",
-        "Architecture"
-      ],
+      "tags": ["Housing", "Residential", "Construction", "Architecture"],
       "links": [
         {
           "href": "https://www.google.com/maps/place/Eco+Residence./@-6.7962338,39.2666758,1037m/data=!3m2!1e3!4b1!4m6!3m5!1s0x185c4b862e78dbd1:0x14a25e09b522080c!8m2!3d-6.7962391!4d39.2692561!16s%2Fg%2F1tfd96t1?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
@@ -431,11 +319,6 @@
           "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence - Nkeno Kapya.jpg",
           "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence - Nkeno Kapya",
           "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/Google Earth - NHC Eco Residence 1.png",
-          "alt": "NHC Eco Residence, Dar es Salaam. Google Earth, NHC Eco Residence 1",
-          "caption": ""
         }
       ],
       "featured": false,
@@ -453,16 +336,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Feasibility study to first phase of construction"
-      ],
+      "scope": ["Feasibility study to first phase of construction"],
       "description": "A regional headquarters for the Bank of Tanzania had to fit how the bank actually works, not a generic office plan. Before programming a single room, the branches in Dar es Salaam, Zanzibar, and Dodoma were visited to see how each department used space. Feasibility through tender, then the first phase of construction below ground.",
-      "tags": [
-        "Banking",
-        "Headquarters",
-        "Workplace",
-        "Architecture"
-      ],
+      "tags": ["Banking", "Headquarters", "Workplace", "Architecture"],
       "links": [
         {
           "href": "https://www.epitome-arc.com/bank-of-tanzania",
@@ -493,16 +369,6 @@
           "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/image_BOT - CCECC.png",
           "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. BOT - CCECC",
           "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/image_BOT - Epitome 1.png",
-          "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. BOT - Epitome 1",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/Google Earth - BOT Mwanza Branch 1.png",
-          "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. Google Earth, BOT Mwanza Branch 1",
-          "caption": ""
         }
       ],
       "featured": false,
@@ -520,16 +386,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Competition scheme design"
-      ],
+      "scope": ["Competition scheme design"],
       "description": "A head office and a commercial property on the same site, drawn as a competition scheme for PPF. It was never built.",
-      "tags": [
-        "Competition",
-        "Office",
-        "Unbuilt",
-        "Architecture"
-      ],
+      "tags": ["Competition", "Office", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
         {
@@ -568,11 +427,7 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": [
-        "Permitting",
-        "Detail design",
-        "Tender action"
-      ],
+      "scope": ["Permitting", "Detail design", "Tender action"],
       "description": "A school athletic centre cannot sit on a wrong survey. The site needed a full topographical resurvey and a revised building permit before the design could stand. Detail design, statutory compliance, and the tender that chose the contractor followed from that.",
       "tags": [
         "Education",
@@ -592,34 +447,21 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Fielding Nair International (FNI) 3 -- cover.jpg",
-          "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Fielding Nair International (FNI) 3",
+          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre 3 - APC -- cover.jpg",
+          "alt": "IST Athletic Centre, Dar es Salaam. Built sports hall",
           "caption": ""
         },
         {
           "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Petrina 1.jpg",
           "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Petrina 1",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         },
         {
           "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Petrina 2.png",
           "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Petrina 2",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Fielding Nair International (FNI) 1a.png",
-          "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Fielding Nair International (FNI) 1a",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Fielding Nair International (FNI) 2.jpg",
-          "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Fielding Nair International (FNI) 2",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/Google Earth - International School of Tanganyika 1..png",
-          "alt": "IST Athletic Centre, Dar es Salaam. Google Earth, International School of Tanganyika 1.",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         }
       ],
       "featured": false,
@@ -637,17 +479,9 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": [
-        "Site supervision",
-        "Design and detailing to handover"
-      ],
+      "scope": ["Site supervision", "Design and detailing to handover"],
       "description": "Two classroom blocks only work if the rooms children sit in every day are right. Fixed furniture was detailed through construction, then watched on site through handover and the defects period, including an added classroom-block scope.",
-      "tags": [
-        "Education",
-        "Classrooms",
-        "Construction",
-        "Architecture"
-      ],
+      "tags": ["Education", "Classrooms", "Construction", "Architecture"],
       "links": [
         {
           "href": "https://www.apc-tz.com/work#/internationalschool/",
@@ -665,18 +499,8 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Classroom Blocks D & E/image_IST Classrooms - Petrina 1.jpg",
-          "alt": "IST Classrooms, Dar es Salaam. IST Classrooms - Petrina 1",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ International School of Tanganyika Classroom Blocks D & E/image_IST Classrooms - Petrina 2.png",
           "alt": "IST Classrooms, Dar es Salaam. IST Classrooms - Petrina 2",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ International School of Tanganyika Classroom Blocks D & E/image_IST Classrooms - Petrina 3.png",
-          "alt": "IST Classrooms, Dar es Salaam. IST Classrooms - Petrina 3",
           "caption": ""
         },
         {
@@ -700,16 +524,9 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": [
-        "Full project scope to handover"
-      ],
+      "scope": ["Full project scope to handover"],
       "description": "A government laboratory had to keep working as a science building while it was taken apart and put back together. The feature wall started in the client's own ceramic workshop, with local craftsmen on custom 3D tiles. Feasibility through construction and the defects period, including equipment delays and post-handover faults, until the building worked.",
-      "tags": [
-        "Government",
-        "Laboratory",
-        "Architecture",
-        "Adaptive reuse"
-      ],
+      "tags": ["Government", "Laboratory", "Architecture", "Adaptive reuse"],
       "links": [
         {
           "href": "https://www.apc-tz.com",
@@ -727,59 +544,28 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 1.png",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 1",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 2.jpg",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 2",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 3c.png",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 3c",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         },
         {
           "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 4.png",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 4",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 5.jpg",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 5",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 6.JPG",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 6",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         },
         {
           "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 11.jpg",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 11",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 12.JPG",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 12",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 13.JPG",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 13",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         },
         {
           "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 15.JPG",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 15",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/Google Earth - AMGC 1.png",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. Google Earth, AMGC 1",
-          "caption": ""
+          "caption": "",
+          "layout": "pair"
         }
       ],
       "featured": false,
@@ -797,16 +583,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Scheme design and presentation"
-      ],
+      "scope": ["Scheme design and presentation"],
       "description": "A house on Chake Chake Road that had to grow without losing the life already in it. Scheme design and presentation only. It was never built.",
-      "tags": [
-        "Residential",
-        "Scheme",
-        "Unbuilt",
-        "Architecture"
-      ],
+      "tags": ["Residential", "Scheme", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
         {
@@ -855,16 +634,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Scheme design and presentation"
-      ],
+      "scope": ["Scheme design and presentation"],
       "description": "A foreign ministry needs a building that can hold both ceremony and ordinary office days. This scheme for new office accommodation was drawn and presented. It was never built.",
-      "tags": [
-        "Civic",
-        "Office",
-        "Unbuilt",
-        "Architecture"
-      ],
+      "tags": ["Civic", "Office", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
         {
@@ -888,15 +660,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Feasibility study to tender action"
-      ],
+      "scope": ["Feasibility study to tender action"],
       "description": "An operating theatre block leaves no room for a plan that only looks complete on paper. Feasibility through tender for Bugando Medical Centre. The block was never built.",
-      "tags": [
-        "Healthcare",
-        "Unbuilt",
-        "Architecture"
-      ],
+      "tags": ["Healthcare", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
         {
@@ -930,16 +696,9 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": [
-        "Construction drawings"
-      ],
+      "scope": ["Construction drawings"],
       "description": "A hospital drawing set has to be buildable, or the wards pay for the gap. Construction drawings for Aga Khan Hospital.",
-      "tags": [
-        "Healthcare",
-        "Hospital",
-        "Construction",
-        "Architecture"
-      ],
+      "tags": ["Healthcare", "Hospital", "Construction", "Architecture"],
       "links": [
         {
           "href": "https://www.apc-tz.com/work#/agakhanhospital/",
@@ -965,11 +724,6 @@
           "src": "/Website Images/⭐️ Aga Khan Hospital/image_Aga Khan Hospital - Orujul Hassan.png",
           "alt": "Aga Khan Hospital, Dar es Salaam. Aga Khan Hospital - Orujul Hassan",
           "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Aga Khan Hospital/Google Earth - Aga Khan Hospital 1.png",
-          "alt": "Aga Khan Hospital, Dar es Salaam. Google Earth, Aga Khan Hospital 1",
-          "caption": ""
         }
       ],
       "featured": false,
@@ -987,16 +741,9 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": [
-        "Detail design"
-      ],
+      "scope": ["Detail design"],
       "description": "A maternity hospital leaves no margin for a wall in the wrong place. Detail design and production information meant overlaying every drawing to check medical equipment against the mechanical, electrical, and plumbing services behind it.",
-      "tags": [
-        "Healthcare",
-        "Maternity",
-        "Hospital",
-        "Architecture"
-      ],
+      "tags": ["Healthcare", "Maternity", "Hospital", "Architecture"],
       "links": [
         {
           "href": "https://www.apc-tz.com/work#/ccbrthospital/",
@@ -1011,11 +758,6 @@
         {
           "src": "/Website Images/New CCBRT Maternity Hospital/image_CCBRT.jpg",
           "alt": "New CCBRT Maternity Hospital, Dar es Salaam. CCBRT",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/New CCBRT Maternity Hospital/Google Earth - CCBRT Hospital 1.png",
-          "alt": "New CCBRT Maternity Hospital, Dar es Salaam. Google Earth, CCBRT Hospital 1",
           "caption": ""
         }
       ],
@@ -1034,16 +776,9 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": [
-        "Interior and exterior visuals"
-      ],
+      "scope": ["Interior and exterior visuals"],
       "description": "A bank headquarters has to look like an institution before a brick is laid. Interior and exterior visuals for a pitch to the owner, as part of winning the work.",
-      "tags": [
-        "Banking",
-        "Headquarters",
-        "Visuals",
-        "Architecture"
-      ],
+      "tags": ["Banking", "Headquarters", "Visuals", "Architecture"],
       "links": [],
       "images": [
         {

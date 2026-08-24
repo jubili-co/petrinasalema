@@ -14,6 +14,8 @@ export type WorkImage = {
   alt: string;
   caption: string;
   placeholder?: string;
+  /** Consecutive `pair` images share a half-width row. */
+  layout?: "pair";
 };
 
 export type WorkLink = {
@@ -93,12 +95,13 @@ function withResolvedImageSrcs(item: WorkItem): WorkItem {
   };
 }
 
-function resolveImage({ src, alt, caption }: WorkImage): WorkImage {
+function resolveImage({ src, alt, caption, layout }: WorkImage): WorkImage {
   return {
     src: resolveProjectImageSrc(src),
     placeholder: placeholderSrc(src),
     alt,
     caption,
+    layout,
   };
 }
 
@@ -141,7 +144,9 @@ export type WorkChapterGroup = {
 };
 
 /** Work grid groups in spreadsheet Rank order, then Vienna homes. */
-export function workChapterGroups(items: WorkItem[] = WORK): WorkChapterGroup[] {
+export function workChapterGroups(
+  items: WorkItem[] = WORK,
+): WorkChapterGroup[] {
   return WORK_CHAPTERS.flatMap((chapter) => {
     const chapterItems = items.filter((item) => item.chapter === chapter.id);
     if (chapterItems.length === 0) {

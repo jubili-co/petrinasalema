@@ -17,7 +17,7 @@ export async function withGalleryDimensions(
   return Promise.all(images.map(frameImage));
 }
 
-/** Landscape alone; consecutive portrait/square images pair on desktop. */
+/** Marked process shots pair; landscape alone; consecutive portrait/square pair. */
 export function packGalleryRows(images: GalleryImage[]): GalleryRow[] {
   if (images.length === 0) {
     return [];
@@ -28,20 +28,54 @@ export function packGalleryRows(images: GalleryImage[]): GalleryRow[] {
     return [];
   }
 
+  if (isPairLayout(head)) {
+    return packMarkedPair(head, tail);
+  }
+
   if (isLandscape(head)) {
     return [[head], ...packGalleryRows(tail)];
   }
 
+  return packPortraitRow(head, tail);
+}
+
+export function isLandscape(
+  image: Pick<GalleryImage, "width" | "height">,
+): boolean {
+  return image.width > image.height;
+}
+
+function packMarkedPair(
+  head: GalleryImage,
+  tail: GalleryImage[],
+): GalleryRow[] {
   const [next, ...rest] = tail;
-  if (next && !isLandscape(next)) {
+  if (next && isPairLayout(next)) {
     return [[head, next], ...packGalleryRows(rest)];
   }
 
   return [[head], ...packGalleryRows(tail)];
 }
 
-export function isLandscape(image: Pick<GalleryImage, "width" | "height">): boolean {
-  return image.width > image.height;
+function packPortraitRow(
+  head: GalleryImage,
+  tail: GalleryImage[],
+): GalleryRow[] {
+  const [next, ...rest] = tail;
+  if (!next) {
+    return [[head], ...packGalleryRows(tail)];
+  }
+
+  const shouldShareRow = !isLandscape(next) && !isPairLayout(next);
+  if (shouldShareRow) {
+    return [[head, next], ...packGalleryRows(rest)];
+  }
+
+  return [[head], ...packGalleryRows(tail)];
+}
+
+function isPairLayout(image: Pick<GalleryImage, "layout">): boolean {
+  return image.layout === "pair";
 }
 
 async function frameImage(image: WorkImage): Promise<GalleryImage> {

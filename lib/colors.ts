@@ -4,7 +4,7 @@
  */
 export const COLOR_HEX = {
   "dotto-cream": "#f9f3f0",
-  "dotto-brown": "#633b2f",
+  "dotto-brown": "#45519f",
   "dotto-brown-muted": "#ae9891",
   "dotto-mustard": "#b19e18",
   "dotto-orange": "#e87308",
