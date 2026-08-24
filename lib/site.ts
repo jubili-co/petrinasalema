@@ -2,8 +2,7 @@ export const SITE = {
   name: "Petrina Salema",
   url: "https://www.petrinasalema.com",
   email: "contact@petrinasalema.com",
-  ogImage:
-    "https://cdn.sanity.io/images/4jb8q7bc/production/7df063485634b97e723236ec1538bbfd9d62df74-1440x1860.jpg?w=1200&h=630&fit=crop&auto=format",
+  ogImage: "/og.jpg",
 } as const;
 
 /** Primary path — proof, offer, person, initiation. */
