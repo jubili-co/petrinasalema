@@ -1,6 +1,7 @@
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { PaperWord } from "./PaperWord";
 import { SketchArtifact } from "./SketchArtifact";
@@ -10,7 +11,7 @@ type Props = {
   support: string;
 };
 
-const PLAN_SRC = "/papers/alt-erdgeschoss--plan-line.webp";
+const PLAN_SRC = `${PAPERS}/alt-erdgeschoss--plan-line.webp`;
 
 export const HomeStatement: FC<Props> = ({ hook, support }) => (
   <section

@@ -3,6 +3,7 @@ import type { FC } from "react";
 
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
@@ -32,6 +33,8 @@ type Props = {
   section: WorkListSection;
 };
 
+const SKETCH_SRC = `${PAPERS}/bereiche--flaechen-tabelle-line.webp`;
+
 export const AboutWorkList: FC<Props> = ({ section }) => {
   const { title, items, cta, color } = section;
   const background = resolveCssColor(color, "dotto-olive");
@@ -43,7 +46,7 @@ export const AboutWorkList: FC<Props> = ({ section }) => {
       style={{ backgroundColor: background }}
     >
       <SketchArtifact
-        src="/papers/bereiche--flaechen-tabelle-line.webp"
+        src={SKETCH_SRC}
         fade="diag"
         sizes="(min-width: 768px) 55vw, 80vw"
         data-id="about-work-list-sketch"

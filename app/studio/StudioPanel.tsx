@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { CtaLink } from "../components/CtaLink";
 import { PaperWord } from "../components/PaperWord";
@@ -40,6 +41,8 @@ type Props = {
   studio: StudioContent;
 };
 
+const SKETCH_SRC = `${PAPERS}/neu-obergeschoss--plan-line.webp`;
+
 export const StudioPanel: FC<Props> = ({ studio }) => {
   const {
     eyebrow,
@@ -66,7 +69,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
       )}
     >
       <SketchArtifact
-        src="/papers/neu-obergeschoss--plan-line.webp"
+        src={SKETCH_SRC}
         fade="left"
         sizes="(min-width: 768px) 50vw, 90vw"
         data-id="studio-sketch"

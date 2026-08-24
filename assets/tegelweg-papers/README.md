@@ -23,15 +23,16 @@ re-verify the redaction zones before publishing.
 ## Folders
 
 - `full/` — 12 complete sheets. `*-line.webp` is transparent brown line
-  art (lossless), `*-cream.webp` is flattened on the site cream. Four
+  art (lossless), `*-line-blue.webp` is the same alpha in Dotto blue
+  (`#45519f`). `*-cream.webp` is flattened on the site cream. Four
   sheets with original color tints also ship as `*-tinted.webp`
   (transparent, hues preserved: the pink/green/yellow structural tints).
 - `details/` — 22 vignettes (plans without margins, the house portraits,
   the hand-written area tables, title block, stair / bath / balcony /
-  terrace cuts). Line + cream variants.
+  terrace cuts). Line, line-blue, and cream variants.
 - `words/` — 15 hand-lettered words and phrases (STRASSENANSICHT,
   HOFANSICHT, ERDGESCHOSS, MANSARDE, "x) Dachfenster", ZENTRAL BEHEIZT…).
-  Useful as headings and chrome. Line + cream variants.
+  Useful as headings and chrome. Line, line-blue, and cream variants.
 - `objects/` — 4 original-color document crops (revenue stamps, area
   table on aged paper, healed title block). Use as photographed objects,
   not as extracted line art.
@@ -49,9 +50,11 @@ for details. Sheet keys: `neu-erdgeschoss`, `neu-obergeschoss`,
 
 ## Usage rules
 
-- Line color is the Dotto brown (`#633b2f`), baked in. Transparent line
-  assets sit directly on `--dotto-cream` surfaces; that is the intended
-  pairing.
+- Line color is baked in: Dotto brown (`#633b2f`) on `*-line.webp`,
+  Dotto blue (`#45519f`) on `*-line-blue.webp`. The site decorative
+  register uses the blue set at `/papers/blue/`; brown originals stay
+  at `/papers/`. Transparent line assets sit directly on
+  `--dotto-cream` surfaces; that is the intended pairing.
 - Ghost register (background × chrome): use the transparent `-line`
   assets at CSS `opacity: 0.12–0.18`. Do not pre-bake ghost variants.
 - Honest provenance: full strength anywhere on Tegelweg pages; ghosted or
@@ -69,4 +72,7 @@ for details. Sheet keys: `neu-erdgeschoss`, `neu-obergeschoss`,
 ```sh
 pip install pymupdf pillow numpy
 UPLOADS_DIR=/path/to/source-pdfs python3 scripts/tegelweg_papers.py
+
+# Recolor committed line assets to blue without the source PDFs:
+python3 scripts/tegelweg_papers.py --from-existing
 ```

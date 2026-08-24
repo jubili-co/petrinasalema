@@ -1,6 +1,7 @@
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { CtaLink } from "./CtaLink";
 import { PaperWord } from "./PaperWord";
@@ -18,6 +19,8 @@ type Props = {
   cta: HomeInviteCta;
 };
 
+const SKETCH_SRC = `${PAPERS}/alt-obergeschoss--plan-line.webp`;
+
 export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
   const { label, href, microcopy } = cta;
 
@@ -31,7 +34,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
       )}
     >
       <SketchArtifact
-        src="/papers/alt-obergeschoss--plan-line.webp"
+        src={SKETCH_SRC}
         fade="left"
         sizes="(min-width: 768px) 55vw, 80vw"
         data-id="home-invite-sketch"

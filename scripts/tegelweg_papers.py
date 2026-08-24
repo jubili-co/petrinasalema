@@ -6,23 +6,32 @@ Wien XXII (16 PDFs supplied by Petrina; raster images inside PDF pages).
 This script extracts each embedded scan, straightens it to reading
 orientation, removes the 1976 owners' names (alpha-zeroed in line assets,
 healed with the estimated paper background in color assets), recolors the
-linework to the Dotto brown, and writes an organized library of reusable
-assets. See assets/tegelweg-papers/README.md for the catalogue and rules.
+linework to Dotto brown and Dotto blue, and writes an organized library of
+reusable assets. See assets/tegelweg-papers/README.md for the catalogue
+and rules.
 
 Usage:
     pip install pymupdf pillow numpy
     UPLOADS_DIR=/path/to/pdfs python3 scripts/tegelweg_papers.py
+    python3 scripts/tegelweg_papers.py --from-existing
 
 The uploaded source PDFs are intentionally not committed (they contain
 unredacted personal names). Keep them in private storage; any regeneration
-needs UPLOADS_DIR pointed at them.
+needs UPLOADS_DIR pointed at them. `--from-existing` recolors committed
+brown line assets to blue without the PDFs.
 """
 
 import os
+import sys
 
-import numpy as np
-import pymupdf
 from PIL import Image, ImageFilter
+
+try:
+    import numpy as np
+    import pymupdf
+except ImportError:
+    np = None
+    pymupdf = None
 
 UPLOADS = os.environ.get(
     "UPLOADS_DIR", "/home/ubuntu/.cursor/projects/workspace/uploads"
@@ -31,6 +40,7 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "tegelweg-papers")
 
 CREAM = (249, 243, 240)
 BROWN = (99, 59, 47)
+BLUE = (69, 81, 159)  # --dotto-blue
 
 # Working frame for every box below: AFTER rotation, full uncropped sheet.
 # rotate is CCW degrees (PIL convention). redact boxes are (x0, y0, x1, y1).
@@ -245,6 +255,8 @@ SOCIAL = [
 
 
 def load_sheet(cfg):
+    if pymupdf is None:
+        raise RuntimeError("pymupdf is required to regenerate from source PDFs")
     doc = pymupdf.open(os.path.join(UPLOADS, cfg["src"]))
     xref = doc[0].get_images(full=True)[0][0]
     pix = pymupdf.Pixmap(doc, xref)
@@ -305,6 +317,14 @@ def line_rgba(sheet_img, cfg):
     return Image.fromarray(rgba)
 
 
+def recolor_line(img, rgb=BLUE):
+    """Replace baked line RGB, keep the extracted alpha."""
+    rgba = img.convert("RGBA")
+    color = Image.new("RGBA", rgba.size, rgb + (255,))
+    color.putalpha(rgba.getchannel("A"))
+    return color
+
+
 def tinted_rgba(sheet_img, cfg):
     """Line extraction that keeps the original ink hues (color tints)."""
     gray = sheet_img.convert("L")
@@ -336,14 +356,18 @@ def save_webp(img, path, lossless=False):
 
 
 def main():
+    if np is None or pymupdf is None:
+        raise RuntimeError("pymupdf and numpy are required to regenerate from source PDFs")
     rendered = {}
     for key, cfg in SHEETS.items():
         sheet = load_sheet(cfg)
         line = line_rgba(sheet, cfg)
-        rendered[key] = {"sheet": sheet, "line": line, "cfg": cfg}
+        blue = recolor_line(line)
+        rendered[key] = {"sheet": sheet, "line": line, "blue": blue, "cfg": cfg}
 
         crop = cfg["crop"]
         save_webp(line.crop(crop), f"{OUT}/full/{key}-line.webp", lossless=True)
+        save_webp(blue.crop(crop), f"{OUT}/full/{key}-line-blue.webp", lossless=True)
         save_webp(on_cream(line.crop(crop)), f"{OUT}/full/{key}-cream.webp")
         if cfg.get("tinted"):
             tinted = tinted_rgba(sheet, cfg)
@@ -353,13 +377,17 @@ def main():
 
     for sheet_key, name, box in DETAILS:
         line = rendered[sheet_key]["line"].crop(box)
+        blue = rendered[sheet_key]["blue"].crop(box)
         save_webp(line, f"{OUT}/details/{sheet_key}--{name}-line.webp", lossless=True)
+        save_webp(blue, f"{OUT}/details/{sheet_key}--{name}-line-blue.webp", lossless=True)
         save_webp(on_cream(line), f"{OUT}/details/{sheet_key}--{name}-cream.webp")
     print("details:", len(DETAILS))
 
     for sheet_key, name, box in WORDS:
         line = rendered[sheet_key]["line"].crop(box)
+        blue = rendered[sheet_key]["blue"].crop(box)
         save_webp(line, f"{OUT}/words/{name}-line.webp", lossless=True)
+        save_webp(blue, f"{OUT}/words/{name}-line-blue.webp", lossless=True)
         save_webp(on_cream(line), f"{OUT}/words/{name}-cream.webp")
     print("words:", len(WORDS))
 
@@ -399,5 +427,51 @@ def main():
     print("social:", len(SOCIAL))
 
 
+def recolor_existing():
+    """Recolor committed line assets to Dotto blue. Keeps brown originals."""
+    repo = os.path.join(os.path.dirname(__file__), "..")
+    library = os.path.join(repo, "assets", "tegelweg-papers")
+    public = os.path.join(repo, "public", "papers")
+    count = 0
+
+    for folder in ("full", "details", "words"):
+        folder_path = os.path.join(library, folder)
+        for name in os.listdir(folder_path):
+            if not name.endswith("-line.webp"):
+                continue
+            src = os.path.join(folder_path, name)
+            dest_name = name.replace("-line.webp", "-line-blue.webp")
+            dest = os.path.join(folder_path, dest_name)
+            img = Image.open(src)
+            save_webp(recolor_line(img), dest, lossless=True)
+            count += 1
+            print("library:", os.path.relpath(dest, repo), flush=True)
+
+    for dirpath, dirnames, filenames in os.walk(public):
+        dirnames[:] = [d for d in dirnames if d != "blue"]
+        rel = os.path.relpath(dirpath, public)
+        for name in filenames:
+            if not name.endswith(".webp"):
+                continue
+            src = os.path.join(dirpath, name)
+            img = Image.open(src)
+            if "A" not in img.getbands():
+                continue
+            dest_dir = (
+                os.path.join(public, "blue")
+                if rel == "."
+                else os.path.join(public, "blue", rel)
+            )
+            dest = os.path.join(dest_dir, name)
+            save_webp(recolor_line(img), dest, lossless=True)
+            count += 1
+            print("public:", os.path.relpath(dest, repo), flush=True)
+
+    print("recolored:", count)
+
+
 if __name__ == "__main__":
-    main()
+    if "--from-existing" in sys.argv:
+        recolor_existing()
+    else:
+        main()
