@@ -6,7 +6,11 @@
     "support": "I help people transform spaces to redefine the living experience, for themselves or their guests."
   },
   "proof": {
-    "lede": "Successfully completed a Vienna home, now tested on paying guests for five years.",
+    "lede": "One Vienna home has been taking guests for five years.",
+    "quote": {
+      "text": "My daughter started calling her room the room from the fairy tale.",
+      "attribution": "Artashes · Vienna"
+    },
     "results": [
       {
         "value": "4.97/5",
@@ -20,13 +24,11 @@
         "value": "Superhost",
         "label": "held since month six"
       }
-    ],
-    "href": "https://jubili.co",
-    "linkLabel": "See how a transformation makes hospitality work."
+    ]
   },
   "invite": {
-    "hook": "Stop decorating around a life you wouldn't choose.",
-    "body": "Working on a few homes and hospitality spaces a year. A space takes one to three months, from planning until material sourcing and styling. Available in-person in Vienna, and remotely abroad.",
+    "hook": "Stop decorating around a life you didn't choose.",
+    "body": "I take on a few homes and hospitality spaces a year. Most take one to three months. Vienna in person, and remotely abroad.",
     "cta": {
       "label": "Let's talk",
       "href": "/book",
