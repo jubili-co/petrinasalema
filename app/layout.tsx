@@ -3,7 +3,7 @@ import { Playfair_Display } from "next/font/google";
 import type { FC, ReactNode } from "react";
 
 import { COLOR_HEX } from "@/lib/colors";
-import { SITE, deploymentOrigin } from "@/lib/site";
+import { SITE } from "@/lib/site";
 
 import { CookieBanner } from "./components/CookieBanner";
 import "./globals.css";
@@ -15,8 +15,7 @@ const playfair = Playfair_Display({
   style: ["normal", "italic"],
 });
 
-const origin = deploymentOrigin();
-const metadataBase = new URL(origin);
+const metadataBase = new URL(SITE.origin);
 
 export const metadata: Metadata = {
   metadataBase,
@@ -30,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_AT",
-    url: origin,
+    url: SITE.origin,
     siteName: SITE.name,
     title: "Petrina Salema | Spaces & Interiors",
     description:

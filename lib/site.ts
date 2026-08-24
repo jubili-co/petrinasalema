@@ -1,14 +1,10 @@
 export const SITE = {
   name: "Petrina Salema",
   url: "https://www.petrinasalema.com",
+  origin: "https://petrinasalema.vercel.app",
   email: "contact@petrinasalema.com",
   ogImage: "/og.jpg",
 } as const;
-
-export function deploymentOrigin(): string {
-  const vercelHost = process.env.VERCEL_URL;
-  return vercelHost ? `https://${vercelHost}` : SITE.url;
-}
 
 /** Primary path — proof, offer, person, initiation. */
 export const NAV_LINKS = [
