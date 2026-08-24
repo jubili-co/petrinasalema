@@ -193,7 +193,7 @@
       "id": "tan-house-office-building",
       "slug": "tan-house-office-building",
       "name": "Tan House Office Building",
-      "subtitle": "Construction phase, 2014",
+      "subtitle": "Construction drawings and interior fit-out",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -201,8 +201,12 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Construction phase"],
-      "description": "An office building already on site still has to work for the people who will sit in it. Construction drawings followed the variations as they appeared, then the extra detail and interior fit-out.",
+      "scope": [
+        "Construction drawings",
+        "Variation design",
+        "Interior fit-out"
+      ],
+      "description": "Participated in the construction of the office building. Working closely with the project architect, I prepared designs up to construction drawings to address variations that occurred during construction. Carried out additional detail and interior fitout.",
       "tags": ["Office", "Construction", "Architecture", "Interior fit-out"],
       "links": [
         {
@@ -238,7 +242,6 @@
       "id": "nhc-eco-residence",
       "slug": "nhc-eco-residence",
       "name": "NHC Eco Residence",
-      "subtitle": "Detail design to DLP, 2013-2016",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -246,8 +249,14 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Detail design to DLP"],
-      "description": "A housing estate has to live with the drawings long after the competition is won. This one went from tender through handover and the defects period, with construction drawings for the variations, and interior fit-out toward Green Mark standards.",
+      "scope": [
+        "Tender through DLP",
+        "Construction drawings",
+        "Variation design",
+        "Interior fit-out",
+        "Green Mark coordination"
+      ],
+      "description": "Participated in the project from tendering phase to handover and DLP of the National Housing Corporation Eco Residence apartments. I worked directly with the project architect and leased with the contractor in this Design and Build competition win. I prepared designs up to construction drawings to address variations that occurred during construction. Carried out additional detail and interior fitout, working with light consultant and other experts to ensure that the building met the required standard to receive a Green-mark award.",
       "tags": ["Housing", "Residential", "Construction", "Architecture"],
       "links": [
         {
@@ -279,7 +288,7 @@
       "id": "bank-of-tanzania-mwanza",
       "slug": "bank-of-tanzania-mwanza-branch",
       "name": "Bank of Tanzania, Mwanza Branch",
-      "subtitle": "New Mwanza Branch",
+      "subtitle": "A new branch for the national bank",
       "location": "Mwanza, Tanzania",
       "roles": [
         {
@@ -297,7 +306,7 @@
         "Tender documentation",
         "Site supervision"
       ],
-      "description": "Design and construction of the new regional headquarters for the Bank of Tanzania. I led the project from feasibility study, through tender award and the first phase of construction (sub-structure). Before programming a single office I visited the bank's branches in Dar es Salaam, Zanzibar, and Dodoma to see how each department worked. I coordinated a technically demanding building with the MEP engineers and specialist consultants, contributed to the cost reduction exercise that kept the project within budget, and presented to stakeholders at different stages of design and approval.",
+      "description": "Contributed across the full pre-construction lifecycle of a regional bank headquarters, from feasibility (including comparative site visits to BOT branches in Dar es Salaam, Zanzibar, and Dodoma) through tender award. Led office space programming based on departmental needs, coordinated with MEP engineers and specialist sub-consultants on a technically complex building, and contributed to a cost-reduction exercise to keep the project within budget. Carried out site supervision in the initial construction phase.",
       "tags": ["Banking", "Headquarters", "Workplace", "Architecture"],
       "links": [
         {
@@ -338,7 +347,6 @@
       "id": "ppf-commercial-property-head-office-competition",
       "slug": "ppf-commercial-property-head-office-competition",
       "name": "PPF Commercial Property / Head Office",
-      "subtitle": "Competition, 2015",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -346,8 +354,13 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Competition scheme design"],
-      "description": "A head office and a commercial property on the same site, drawn as a competition scheme for PPF. It was never built.",
+      "scope": [
+        "Competition scheme design",
+        "Facade concept",
+        "Consultant coordination",
+        "Cost estimate"
+      ],
+      "description": "Participated in the Design and Build competition to propose a multi-use building for the pension fund. Carried out meetings with a team of professionals including, engineers and quantity surveyors to give a comprehensive competition entry with a cost estimate. The concept focused on form and distinctive facade treatment to demarcate the different functions of the mixed-use building.",
       "tags": ["Competition", "Office", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
@@ -396,7 +409,7 @@
         "Tender management",
         "Board presentations"
       ],
-      "description": "A new athletic centre for the International School of Tanganyika. The site demanded a full topographical resurvey and a revised building permit before the design could stand. I led the design team through both, ran the tender to select the contractor, and presented the project to the school's board at every key stage.",
+      "description": "Led the architectural design and design-team direction through a full topographical survey and revised building permit submission, and coordination of statutory building compliance. Directed the tendering activities to select the contractor based on professional track record, and presented project status and recommendations to the client's board of directors and representatives at key stages.",
       "tags": [
         "Education",
         "Athletics",
@@ -448,7 +461,7 @@
         "Site supervision",
         "Defects-liability supervision"
       ],
-      "description": "Two classroom blocks we added as part of ongoing redevelopment on the school campus. I joined the team during the construction phase and led the refinement of fixed-furniture detailing through construction and managing the added scopes due to variations. I worked closely with and trained junior architects, until project handover.",
+      "description": "Led design refinement of fixed furniture detailing through construction, working closely with junior team members during the construction phase. Carried out supervision during the defects-liability period, including an added scope of detailing and construction for the classroom blocks.",
       "tags": ["Education", "Classrooms", "Construction", "Architecture"],
       "links": [
         {
@@ -499,9 +512,10 @@
         "Construction administration",
         "Defects-liability supervision",
         "Team mentoring",
-        "Client presentations"
+        "Client presentations",
+        "Feature wall with on-site ceramics"
       ],
-      "description": "A laboratory rehabilitation for a pan-African regional mineral service provider and technical center. Carried from feasibility through construction and handover. Working closely with local craftsmen to create the customized 3D tiles used on the feature wall. I led the architectural design, mentored junior architects and supervised construction on site.",
+      "description": "Managed this government-client project through its complete lifecycle, feasibility through construction and defects liability, leading the architectural design work and mentoring junior team members throughout. Collaborated with local craftsmen on the design of a feature wall using custom 3D tiles sourced from the client's own on-site ceramic workshop, and delivered client presentations explaining the building's hybrid system design. Resolved equipment delays and post-handover technical faults during the defects liability period.",
       "tags": ["Government", "Laboratory", "Architecture", "Adaptive reuse"],
       "links": [
         {
@@ -552,8 +566,12 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Scheme design and presentation"],
-      "description": "A house on Chake Chake Road that had to grow without losing the life already in it. Scheme design and presentation only. It was never built.",
+      "scope": [
+        "Scheme design",
+        "Plot planning",
+        "Presentation"
+      ],
+      "description": "Worked on a scheme design for a residential apartment complex. Focused on meeting the clients brief to maximise the plot, but also ensured that each line house has their own designated garden space to give a sense of seclusion and privacy. Incorporating locally available natural materials such as stone on the facade.",
       "tags": ["Residential", "Scheme", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
@@ -603,8 +621,11 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Scheme design and presentation"],
-      "description": "A foreign ministry needs a building that can hold both ceremony and ordinary office days. This scheme for new office accommodation was drawn and presented. It was never built.",
+      "scope": [
+        "Scheme design",
+        "Pitch documents"
+      ],
+      "description": "The Ministry of Foreign Affairs and International Cooperation was finally ready to build their own headquarters. I participated in the design process and prepared the presentation documents for the project pitch that focused on giving the office building a statement feature and bold colour that matched the organisation's corporate image. We designed the building to have a visible presence that holds its own in the built-up city centre.",
       "tags": ["Civic", "Office", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
@@ -630,7 +651,7 @@
         }
       ],
       "scope": ["Feasibility study to tender action"],
-      "description": "An operating theatre block leaves no room for a plan that only looks complete on paper. Feasibility through tender for Bugando Medical Centre. The block was never built.",
+      "description": "Designed a small block with operational theaters as overflows for the main hospital. Finishing materials that were similar to existing buildings were used so that the new structure fits in seamlessly. Carried out the project from initial design to tender action.",
       "tags": ["Healthcare", "Unbuilt", "Architecture"],
       "links": [],
       "images": [
@@ -652,7 +673,7 @@
       "id": "aga-khan-hospital",
       "slug": "aga-khan-hospital",
       "name": "Aga Khan Hospital",
-      "subtitle": "Construction drawings, 2018",
+      "subtitle": "Jali screen construction drawings",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -660,8 +681,8 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": ["Construction drawings"],
-      "description": "A hospital drawing set has to be buildable, or the wards pay for the gap. Construction drawings for Aga Khan Hospital.",
+      "scope": ["Jali screen construction drawings"],
+      "description": "Involved in preparing the construction drawings for the jali screens that are a prominent feature of the hospital facade.",
       "tags": ["Healthcare", "Hospital", "Construction", "Architecture"],
       "links": [
         {
@@ -692,7 +713,7 @@
       "id": "ccbrt-maternity-hospital",
       "slug": "new-ccbrt-maternity-hospital",
       "name": "CCBRT Maternity Hospital",
-      "subtitle": "Detail Design and Construction Supervision (initial stages)",
+      "subtitle": "Detail design and production information",
       "location": "Dar es Salaam, Tanzania",
       "roles": [
         {
@@ -706,10 +727,9 @@
         "Design-team leadership",
         "Medical-equipment coordination",
         "MEP coordination",
-        "Technical drawing review",
-        "Site supervision"
+        "Technical drawing review"
       ],
-      "description": "A hospital leaves no margins for errors. I led a team of architects through detail design and production information, making sure to cross-check every drawing to ensure correct placement of medical equipment against the mechanical, electrical, and plumbing services. I also participated in site supervision in the initial stages of construction.",
+      "description": "Led a team of architects in preparing detail design drawings and production information for a healthcare facility with high services complexity, directing the team's work overlaying design-development drawings to verify correct placement of medical equipment against MEP services.",
       "tags": ["Healthcare", "Maternity", "Hospital", "Architecture"],
       "links": [
         {
@@ -743,8 +763,8 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Interior and exterior visuals"],
-      "description": "A bank headquarters has to look like an institution before a brick is laid. Interior and exterior visuals for a pitch to the owner, as part of winning the work.",
+      "scope": ["Entry-treatment visuals"],
+      "description": "Prepared visuals to demonstrate the proposed entry treatment for a small bank building, translating drawings into visual representation that the client could understand.",
       "tags": ["Banking", "Headquarters", "Visuals", "Architecture"],
       "links": [],
       "images": [
