@@ -96,11 +96,11 @@ export const BookPanel: FC<Props> = ({ book }) => {
     >
       <SketchArtifact
         src="/papers/schnitt-a-b--schnitt-line.webp"
-        fade="inset"
+        fade="left"
         sizes="(min-width: 768px) 50vw, 100vw"
         data-id="book-sketch"
-        className="right-0 bottom-[8%] left-[10%] h-[48%]"
-        imageClassName="-rotate-[8deg] scale-[1.45] object-top"
+        className="inset-x-0 -bottom-32 h-[16rem] md:h-[18rem]"
+        imageClassName="object-[50%_30%]"
       />
       <PaperWord
         word="hofansicht"

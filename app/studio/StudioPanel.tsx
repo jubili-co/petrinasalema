@@ -67,11 +67,11 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     >
       <SketchArtifact
         src="/papers/neu-obergeschoss--plan-line.webp"
-        fade="inset"
+        fade="left"
         sizes="(min-width: 768px) 50vw, 90vw"
         data-id="studio-sketch"
-        className="right-0 bottom-0 left-[6%] h-[28rem] md:h-[34rem]"
-        imageClassName="-rotate-[18deg] scale-110 object-[20%_85%]"
+        className="inset-x-0 -bottom-32 h-[16rem] md:h-[18rem]"
+        imageClassName="object-[45%_40%]"
       />
       <PaperWord
         word="obergeschoss"
