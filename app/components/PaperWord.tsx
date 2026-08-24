@@ -4,12 +4,12 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 import { PAPERS } from "@/lib/papers";
 
-type Word = keyof typeof WORDS;
+export type PaperWordKey = keyof typeof WORDS;
 
 type Tone = "ink" | "chalk";
 
 type Props = {
-  word: Word;
+  word: PaperWordKey;
   tone?: Tone;
   className?: string;
   imageClassName?: string;
