@@ -35,14 +35,6 @@ export type WorkCaseStudy = {
   results: WorkResult[];
 };
 
-/** Archival drawings that belong to this project (line art on cream). */
-export type WorkPapers = {
-  heading: string;
-  lede: string;
-  figures: WorkImage[];
-  ghost?: string;
-};
-
 export type WorkItem = {
   id: string;
   slug: string;
@@ -54,7 +46,6 @@ export type WorkItem = {
   scope: string[];
   description: string;
   caseStudy?: WorkCaseStudy;
-  papers?: WorkPapers;
   tags: string[];
   images: WorkImage[];
   links: WorkLink[];
@@ -86,12 +77,11 @@ export const WORK_DATA = workData as Work;
 export const WORK = WORK_DATA.work.map(withResolvedImageSrcs);
 
 function withResolvedImageSrcs(item: WorkItem): WorkItem {
-  const { images, papers } = item;
+  const { images } = item;
 
   return {
     ...item,
     images: images.map(resolveImage),
-    papers: papers && resolvePapers(papers),
   };
 }
 
@@ -102,17 +92,6 @@ function resolveImage({ src, alt, caption, layout }: WorkImage): WorkImage {
     alt,
     caption,
     layout,
-  };
-}
-
-function resolvePapers(papers: WorkPapers): WorkPapers {
-  const { heading, lede, figures, ghost } = papers;
-
-  return {
-    heading,
-    lede,
-    figures: figures.map(resolveImage),
-    ghost,
   };
 }
 

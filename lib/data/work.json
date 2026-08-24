@@ -115,28 +115,6 @@
             "label": "bedrooms, redesigned while in operation"
           }
         ]
-      },
-      "papers": {
-        "heading": "The house's papers",
-        "lede": "The house keeps its own records. When the upper floor was added in 1976, the plans were drawn and lettered by hand, filed with the city, and stamped. The rooms guests sleep in now were drawn on these sheets first.",
-        "figures": [
-          {
-            "src": "/papers/elevation-1976.webp",
-            "alt": "Hand-drawn street elevation of the Tegelweg house, from the 1976 planning submission",
-            "caption": "Street elevation, hand-lettered. From the 1976 submission."
-          },
-          {
-            "src": "/papers/ground-floor-before-1976.webp",
-            "alt": "Hand-drawn ground floor plan of the house before the 1976 addition",
-            "caption": "Ground floor before the addition."
-          },
-          {
-            "src": "/papers/ground-floor-1976.webp",
-            "alt": "Hand-drawn ground floor plan of the house as approved in 1976",
-            "caption": "Ground floor as approved in 1976."
-          }
-        ],
-        "ghost": "/papers/schnitt-c-d--schnitt-line.webp"
       }
     },
     {
@@ -173,13 +151,13 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_kitchen 1.png",
-          "alt": "Brabbeegasse, Vienna. kitchen 1",
+          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 6.jpg",
+          "alt": "Brabbeegasse, Vienna. blue room 6",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_kitchen 2.png",
-          "alt": "Brabbeegasse, Vienna. kitchen 2",
+          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_kitchen 1.png",
+          "alt": "Brabbeegasse, Vienna. kitchen 1",
           "caption": ""
         }
       ],
@@ -442,16 +420,9 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Petrina 1.jpg",
-          "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Petrina 1",
-          "caption": "",
-          "layout": "pair"
-        },
-        {
           "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Petrina 2.png",
           "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Petrina 2",
-          "caption": "",
-          "layout": "pair"
+          "caption": ""
         }
       ],
       "featured": false,
@@ -546,6 +517,11 @@
         {
           "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC small - AMGC--hero.jpg",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC small - AMGC",
+          "caption": ""
+        },
+        {
+          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 5.jpg",
+          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 5",
           "caption": ""
         },
         {
