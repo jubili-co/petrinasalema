@@ -4,6 +4,7 @@ import { Fragment, type FC } from "react";
 
 import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 import {
   workChapterGroups,
   workPlace,
@@ -77,6 +78,8 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
 }) => {
   const isPrior = chapter === "prior";
   const isHomes = chapter === "homes";
+  const priorSketchSrc = `${PAPERS}/schnitt-c-d--schnitt-line.webp`;
+  const homesSketchSrc = `${PAPERS}/strassenansicht--haus-line.webp`;
 
   return (
     <div
@@ -89,7 +92,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
     >
       {isPrior && (
         <SketchArtifact
-          src="/papers/schnitt-c-d--schnitt-line.webp"
+          src={priorSketchSrc}
           fade="inset"
           sizes="(min-width: 768px) 52vw, 75vw"
           data-id="work-chapter-sketch"
@@ -106,7 +109,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
       )}
       {isHomes && (
         <SketchArtifact
-          src="/papers/strassenansicht--haus-line.webp"
+          src={homesSketchSrc}
           fade="inset"
           sizes="(min-width: 768px) 32vw, 52vw"
           data-id="work-chapter-sketch"

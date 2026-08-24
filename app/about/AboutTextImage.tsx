@@ -6,6 +6,7 @@ import { PaperWord } from "@/app/components/PaperWord";
 import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 import { placeholderSrc } from "@/lib/placeholderSrc";
 
 import { AboutBody, type TextParagraph } from "./AboutBody";
@@ -60,6 +61,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
   const sectionParagraphs = paragraphs ?? [];
   const hasParagraphs = sectionParagraphs.length > 0;
   const shouldShowJubiliMark = mdx === "jubili";
+  const sketchSrc = `${PAPERS}/neu-erdgeschoss--plan-line.webp`;
 
   return (
     <section
@@ -107,7 +109,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
       >
         {imageBorder && (
           <SketchArtifact
-            src="/papers/neu-erdgeschoss--plan-line.webp"
+            src={sketchSrc}
             fade="in"
             sizes="(min-width: 768px) 50vw, 100vw"
             data-id="about-portrait-sketch"

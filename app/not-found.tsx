@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { CtaLink } from "./components/CtaLink";
 import { PaperWord } from "./components/PaperWord";
@@ -9,7 +10,7 @@ import { SketchArtifact } from "./components/SketchArtifact";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
-const ELEVATION_SRC = "/papers/hofansicht--haus-line.webp";
+const ELEVATION_SRC = `${PAPERS}/hofansicht--haus-line.webp`;
 
 export const metadata: Metadata = {
   title: "Not found | Petrina Salema",

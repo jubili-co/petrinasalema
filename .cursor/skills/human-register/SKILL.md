@@ -12,6 +12,7 @@ description: >-
 ## Trace
 
 Before anything else when this skill applies, run its `scripts/trace.sh`. It prints a `[skill-trace]` line so the run's terminal log shows the skill fired.
+
 <!-- skill-trace-block -->
 
 # Human register
@@ -20,7 +21,7 @@ Agents are bad at sounding human. This skill exists to make that failure expensi
 
 **Job:** generate or rewrite visitor-facing copy so it reads like speech from a calm person who runs a small practice. Not a brand toolkit. Not an AI summary. Not a manifesto.
 
-**Pair with** [draper](../draper/SKILL.md) for the idea. Draper is *what* the copy serves. Human register is *how it sounds*. If they conflict, fix the idea first, then the voice.
+**Pair with** [draper](../draper/SKILL.md) for the idea. Draper is _what_ the copy serves. Human register is _how it sounds_. If they conflict, fix the idea first, then the voice.
 
 ## Agent contract
 
@@ -49,13 +50,13 @@ It is **not**:
 
 These are common AI fingerprints in product copy. Treat them as defects unless a rare exception is obviously right.
 
-| Tell | Rule |
-| ---- | ---- |
-| Em dash (`—`) | **Forbidden** in product copy. Prefer a period, comma, or shorter rewrite. |
-| En dash (`–`) as rhetorical separator | Avoid in sentences for the same reason. |
-| Colon as drama (`Today:`, `The point:`) | Go easy. Prefer a new sentence or a comma when the colon is only a pause. |
-| Corporate “we” | Solo studio voice. Avoid “we” for Petrina / the practice unless plural is clearly true. |
-| Brochure nouns stacked as openers | Lead with a verb or a plain observation, not a résumé header. |
+| Tell                                    | Rule                                                                                    |
+| --------------------------------------- | --------------------------------------------------------------------------------------- |
+| Em dash (`—`)                           | **Forbidden** in product copy. Prefer a period, comma, or shorter rewrite.              |
+| En dash (`–`) as rhetorical separator   | Avoid in sentences for the same reason.                                                 |
+| Colon as drama (`Today:`, `The point:`) | Go easy. Prefer a new sentence or a comma when the colon is only a pause.               |
+| Corporate “we”                          | Solo studio voice. Avoid “we” for Petrina / the practice unless plural is clearly true. |
+| Brochure nouns stacked as openers       | Lead with a verb or a plain observation, not a résumé header.                           |
 
 ## First-person budget
 
@@ -115,15 +116,15 @@ Why it works: one “I,” full sentences, calm. Training as background, not a s
 
 ### Studio lead temperature
 
-> People usually ask for a nicer room. What they need is a room that shapes life toward how they want to live.
+> People usually ask for nicer rooms. But what they are really looking for are rooms to shape how they want to live.
 
-> I help people fix the rooms that shape how they live, and how guests feel when they stay.
+> I help people setup spaces to shape how they want live, and how they want their guests to feel.
 
 Why it works: insight, then a plain value proposition. No clever oppositions. Effectiveness over polish.
 
 ### Balance
 
-Avoid brochure posture, “I” spam, slogan triads, fake props, *and* curt stub lines. Warm + plain beats clever *and* beats clipped.
+Avoid brochure posture, “I” spam, slogan triads, fake props, _and_ curt stub lines. Warm + plain beats clever _and_ beats clipped.
 
 ## Craft moves that fight the model
 
@@ -174,14 +175,14 @@ Training and past roles may appear in Biography / About. On commercial pages (St
 
 ## Page-level habits
 
-| Surface | Register note |
-| ------- | ------------- |
-| Home hero | One wound + one answer. No feature stack. Echo pair preferred (see draper). |
-| Studio | Insight then value prop. Practical “fix” language is fine here. |
-| Book / CTAs | Initiation, not checkout logistics. Button carries the chapter-break; price/time may sit under it. |
-| Work / project | Open on the stake for the people in the building. Facts after. No résumé verb stacks. |
-| About | Prove the person. One “I” early is fine. Not a holding-company shelf. |
-| Microcopy | Short can still be warm. Prefer “Start with a fit call” energy over “Submit.” |
+| Surface        | Register note                                                                                      |
+| -------------- | -------------------------------------------------------------------------------------------------- |
+| Home hero      | One wound + one answer. No feature stack. Echo pair preferred (see draper).                        |
+| Studio         | Insight then value prop. Practical “fix” language is fine here.                                    |
+| Book / CTAs    | Initiation, not checkout logistics. Button carries the chapter-break; price/time may sit under it. |
+| Work / project | Open on the stake for the people in the building. Facts after. No résumé verb stacks.              |
+| About          | Prove the person. One “I” early is fine. Not a holding-company shelf.                              |
+| Microcopy      | Short can still be warm. Prefer “Start with a fit call” energy over “Submit.”                      |
 
 ## Revision loop (mandatory)
 

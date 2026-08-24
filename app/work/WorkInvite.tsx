@@ -1,10 +1,13 @@
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { CtaLink } from "../components/CtaLink";
 import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
+
+const SKETCH_SRC = `${PAPERS}/neu-mansarde--plan-line.webp`;
 
 export const WorkInvite: FC = () => (
   <div
@@ -20,7 +23,7 @@ export const WorkInvite: FC = () => (
       )}
     >
       <SketchArtifact
-        src="/papers/neu-mansarde--plan-line.webp"
+        src={SKETCH_SRC}
         fade="in"
         sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
         data-id="work-invite-sketch"

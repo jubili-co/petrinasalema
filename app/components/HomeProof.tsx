@@ -1,6 +1,7 @@
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { PaperWord } from "./PaperWord";
 import { SketchArtifact } from "./SketchArtifact";
@@ -23,6 +24,8 @@ type Props = {
   linkLabel: string;
 };
 
+const SKETCH_SRC = `${PAPERS}/hofansicht--haus-line.webp`;
+
 export const HomeProof: FC<Props> = ({
   lede,
   quote,
@@ -42,7 +45,7 @@ export const HomeProof: FC<Props> = ({
       )}
     >
       <SketchArtifact
-        src="/papers/hofansicht--haus-line.webp"
+        src={SKETCH_SRC}
         fade="inset"
         sizes="(min-width: 768px) 28vw, 42vw"
         data-id="home-proof-sketch"

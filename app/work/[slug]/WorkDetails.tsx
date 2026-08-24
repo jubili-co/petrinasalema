@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { FC } from "react";
 
+import { DsText } from "@/app/components/ds/DsText";
 import { cn } from "@/lib/cn";
 import {
   workOffersDoor,
@@ -19,6 +20,8 @@ type Props = {
 export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
   const { name, subtitle, location, description, scope, links, caseStudy } =
     item;
+  const place = workPlace(location);
+  const hasSubtitle = Boolean(subtitle);
   const hasScope = scope.length > 0;
   const hasLinks = links.length > 0;
   const linksHeading = links.length === 1 ? "Link" : "Links";
@@ -41,33 +44,33 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             data-id="work-details-copy"
             className="mb-[54px] max-w-full md:mb-[70px] md:max-w-[70%]"
           >
-            <h2
+            <DsText
               data-id="work-details-title"
-              className={cn(
-                "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-                "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-              )}
+              variant="h2"
+              className={cn({ "mb-[10px]": hasSubtitle })}
             >
-              {name}
-            </h2>
-            <p
-              data-id="work-details-subtitle"
-              className={cn(
-                "m-0 mb-[10px] font-[family-name:var(--font-playfair)]",
-                "text-[13px] leading-[18px] font-[350]",
-              )}
-            >
-              {subtitle}
-            </p>
-            <p
-              data-id="work-details-location"
-              className={cn(
-                "m-0 mb-[18px] font-[family-name:var(--font-playfair)]",
-                "text-[13px] leading-[18px] font-[350]",
-              )}
-            >
-              {workPlace(location)}
-            </p>
+              {name},
+              <span
+                data-id="work-details-location"
+                className={cn(
+                  "ml-[10px] inline-block font-[family-name:var(--font-playfair)]",
+                  "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
+                )}
+              >
+                {place}
+              </span>
+            </DsText>
+            {hasSubtitle && (
+              <p
+                data-id="work-details-subtitle"
+                className={cn(
+                  "m-0 mb-[18px] font-[family-name:var(--font-playfair)]",
+                  "text-[13px] leading-[18px] font-[350]",
+                )}
+              >
+                {subtitle}
+              </p>
+            )}
             <p
               data-id="work-details-body"
               className={cn(
@@ -77,6 +80,28 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             >
               {description}
             </p>
+            {hasScope && (
+              <div data-id="work-details-scope" className="mt-[30px]">
+                <h3
+                  data-id="work-details-scope-title"
+                  className={cn(
+                    "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
+                    "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+                  )}
+                >
+                  Scope
+                </h3>
+                <p
+                  data-id="work-details-scope-list"
+                  className={cn(
+                    "m-0 font-[family-name:var(--font-playfair)]",
+                    "text-[13px] leading-[18px] font-[350]",
+                  )}
+                >
+                  {scope.join(" · ")}
+                </p>
+              </div>
+            )}
             {caseStudy && <WorkCaseStudyBlock caseStudy={caseStudy} />}
             {showDoor && (
               <Link
@@ -108,29 +133,6 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
               Next
             </Link>
           </div>
-
-          {hasScope && (
-            <div data-id="work-details-scope" className="mb-[30px]">
-              <h3
-                data-id="work-details-scope-title"
-                className={cn(
-                  "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-                )}
-              >
-                Scope
-              </h3>
-              <p
-                data-id="work-details-scope-list"
-                className={cn(
-                  "m-0 font-[family-name:var(--font-playfair)]",
-                  "text-[13px] leading-[18px] font-[350]",
-                )}
-              >
-                {scope.join(" · ")}
-              </p>
-            </div>
-          )}
 
           {hasLinks && (
             <div data-id="work-details-links">

@@ -2,6 +2,7 @@ import Image from "next/image";
 import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 type Word = keyof typeof WORDS;
 
@@ -58,77 +59,77 @@ export const PaperWord: FC<Props> = ({
 
 const WORDS = {
   dachfenster: {
-    src: "/papers/words/dachfenster-line.webp",
+    src: `${PAPERS}/words/dachfenster-line.webp`,
     width: 380,
     height: 105,
   },
   erdgeschoss: {
-    src: "/papers/words/erdgeschoss-line.webp",
+    src: `${PAPERS}/words/erdgeschoss-line.webp`,
     width: 455,
     height: 80,
   },
   erdgeschossAlt: {
-    src: "/papers/words/erdgeschoss-alt-line.webp",
+    src: `${PAPERS}/words/erdgeschoss-alt-line.webp`,
     width: 455,
     height: 75,
   },
   ersterStock: {
-    src: "/papers/words/erster-stock-line.webp",
+    src: `${PAPERS}/words/erster-stock-line.webp`,
     width: 350,
     height: 90,
   },
   fassadeDolomit: {
-    src: "/papers/words/fassade-dolomit-line.webp",
+    src: `${PAPERS}/words/fassade-dolomit-line.webp`,
     width: 875,
     height: 120,
   },
   hofansicht: {
-    src: "/papers/words/hofansicht-line.webp",
+    src: `${PAPERS}/words/hofansicht-line.webp`,
     width: 465,
     height: 90,
   },
   keller: {
-    src: "/papers/words/keller-line.webp",
+    src: `${PAPERS}/words/keller-line.webp`,
     width: 280,
     height: 75,
   },
   kellerAlt: {
-    src: "/papers/words/keller-alt-line.webp",
+    src: `${PAPERS}/words/keller-alt-line.webp`,
     width: 240,
     height: 80,
   },
   mansarde: {
-    src: "/papers/words/mansarde-line.webp",
+    src: `${PAPERS}/words/mansarde-line.webp`,
     width: 455,
     height: 110,
   },
   obergeschoss: {
-    src: "/papers/words/obergeschoss-line.webp",
+    src: `${PAPERS}/words/obergeschoss-line.webp`,
     width: 520,
     height: 87,
   },
   schnittAb: {
-    src: "/papers/words/schnitt-a-b-line.webp",
+    src: `${PAPERS}/words/schnitt-a-b-line.webp`,
     width: 485,
     height: 110,
   },
   schnittCd: {
-    src: "/papers/words/schnitt-c-d-line.webp",
+    src: `${PAPERS}/words/schnitt-c-d-line.webp`,
     width: 480,
     height: 100,
   },
   strassenansicht: {
-    src: "/papers/words/strassenansicht-line.webp",
+    src: `${PAPERS}/words/strassenansicht-line.webp`,
     width: 660,
     height: 115,
   },
   zentralBeheizt: {
-    src: "/papers/words/zentral-beheizt-line.webp",
+    src: `${PAPERS}/words/zentral-beheizt-line.webp`,
     width: 515,
     height: 65,
   },
   zentralBeheiztAlt: {
-    src: "/papers/words/zentral-beheizt-alt-line.webp",
+    src: `${PAPERS}/words/zentral-beheizt-alt-line.webp`,
     width: 460,
     height: 70,
   },

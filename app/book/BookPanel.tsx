@@ -1,6 +1,7 @@
 import type { FC, ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
+import { PAPERS } from "@/lib/papers";
 
 import { CtaLink } from "../components/CtaLink";
 import { PaperWord } from "../components/PaperWord";
@@ -37,6 +38,8 @@ export type BookContent = {
 type Props = {
   book: BookContent;
 };
+
+const SKETCH_SRC = `${PAPERS}/schnitt-a-b--schnitt-line.webp`;
 
 export const BookPanel: FC<Props> = ({ book }) => {
   const {
@@ -95,7 +98,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
       )}
     >
       <SketchArtifact
-        src="/papers/schnitt-a-b--schnitt-line.webp"
+        src={SKETCH_SRC}
         fade="left"
         sizes="(min-width: 768px) 50vw, 100vw"
         data-id="book-sketch"
