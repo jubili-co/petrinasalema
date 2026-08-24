@@ -3,6 +3,7 @@ import type { FC, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
+import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
 
 export type BookOffer = {
@@ -88,7 +89,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
     <div
       data-id="book-panel"
       className={cn(
-        "relative",
+        "relative overflow-hidden",
         "flex w-full flex-col justify-start",
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
@@ -100,6 +101,16 @@ export const BookPanel: FC<Props> = ({ book }) => {
         data-id="book-sketch"
         className="right-0 bottom-[8%] left-[10%] h-[48%]"
         imageClassName="-rotate-[8deg] scale-[1.45] object-top"
+      />
+      <PaperWord
+        word="hofansicht"
+        data-id="book-word"
+        className="-right-8 top-[4.5rem] w-32 -rotate-[20deg] md:w-40"
+      />
+      <PaperWord
+        word="schnittAb"
+        data-id="book-word"
+        className="top-[26rem] -left-5 w-[6.75rem] rotate-[16deg] md:w-32"
       />
       <div
         data-id="book-panel-inner"

@@ -2,6 +2,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 
+import { PaperWord } from "./PaperWord";
 import { SketchArtifact } from "./SketchArtifact";
 
 type Props = {
@@ -15,7 +16,8 @@ export const HomeStatement: FC<Props> = ({ hook, support }) => (
   <section
     data-id="home-statement"
     className={cn(
-      "relative flex w-full justify-center bg-dotto-cream",
+      "relative overflow-hidden",
+      "flex w-full justify-center bg-dotto-cream",
       "px-6 pt-[130px] pb-16 md:px-12 md:pt-[170px] md:pb-24",
     )}
   >
@@ -26,6 +28,16 @@ export const HomeStatement: FC<Props> = ({ hook, support }) => (
       data-id="home-statement-plan"
       className="top-0 right-0 h-full w-1/2"
       imageClassName="rotate-30 scale-150"
+    />
+    <PaperWord
+      word="erdgeschoss"
+      data-id="home-statement-word"
+      className="-left-5 top-[5.75rem] w-[6.75rem] -rotate-[18deg] md:top-[22%] md:-left-8 md:w-40"
+    />
+    <PaperWord
+      word="dachfenster"
+      data-id="home-statement-word"
+      className="bottom-3 left-[5%] w-[5.75rem] rotate-[16deg] md:right-[-1.25rem] md:bottom-[10%] md:left-auto md:w-32"
     />
     <div
       data-id="home-statement-inner"

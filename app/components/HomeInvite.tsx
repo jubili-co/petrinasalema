@@ -3,6 +3,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "./CtaLink";
+import { PaperWord } from "./PaperWord";
 import { SketchArtifact } from "./SketchArtifact";
 
 export type HomeInviteCta = {
@@ -36,6 +37,18 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
         data-id="home-invite-sketch"
         className="-bottom-[20%] -left-[18%] h-[95%] w-[80%] md:w-[55%]"
         imageClassName="rotate-[16deg] scale-[1.3] object-right brightness-0 invert opacity-[0.18]"
+      />
+      <PaperWord
+        word="zentralBeheizt"
+        tone="chalk"
+        data-id="home-invite-word"
+        className="-right-10 top-[16%] w-36 -rotate-[14deg] md:w-48"
+      />
+      <PaperWord
+        word="mansarde"
+        tone="chalk"
+        data-id="home-invite-word"
+        className="-left-8 bottom-[12%] w-24 rotate-[72deg] md:w-32"
       />
       <div
         data-id="home-invite-inner"

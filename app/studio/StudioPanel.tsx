@@ -4,6 +4,7 @@ import type { FC } from "react";
 import { cn } from "@/lib/cn";
 
 import { CtaLink } from "../components/CtaLink";
+import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
 
 export type StudioPrinciple = {
@@ -59,7 +60,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
     <div
       data-id="studio-panel"
       className={cn(
-        "relative",
+        "relative overflow-hidden",
         "flex w-full flex-col justify-start",
         "px-6 pt-10 pb-20 md:w-1/2 md:px-[30px] md:pt-12 md:pb-24 lg:px-12",
       )}
@@ -71,6 +72,16 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
         data-id="studio-sketch"
         className="right-0 bottom-0 left-[6%] h-[28rem] md:h-[34rem]"
         imageClassName="-rotate-[18deg] scale-110 object-[20%_85%]"
+      />
+      <PaperWord
+        word="obergeschoss"
+        data-id="studio-word"
+        className="-right-10 top-14 w-32 rotate-[12deg] md:top-16 md:w-40"
+      />
+      <PaperWord
+        word="ersterStock"
+        data-id="studio-word"
+        className="top-[17.5rem] -left-4 w-[6.5rem] -rotate-[9deg] md:w-28"
       />
       <div
         data-id="studio-panel-inner"

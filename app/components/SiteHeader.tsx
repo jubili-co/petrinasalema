@@ -8,6 +8,7 @@ import { cn } from "@/lib/cn";
 import { NAV_LINKS } from "@/lib/site";
 
 import { LogoPetina } from "./LogoDotto";
+import { PaperWord } from "./PaperWord";
 
 const SCROLL_DELTA = 1;
 const TOP_REVEAL_Y = 12;
@@ -154,14 +155,19 @@ export const SiteHeader: FC = () => {
             // position
             "fixed inset-0 z-[998]",
             // layout
-            "flex flex-col",
+            "flex flex-col overflow-hidden",
             // spacing
             "px-6 pt-28 pb-[max(2rem,var(--safe-bottom))]",
             // color
             "bg-dotto-cream text-dotto-brown",
           )}
         >
-          <nav data-id="site-off-canvas-nav">
+          <PaperWord
+            word="keller"
+            data-id="site-off-canvas-word"
+            className="-right-5 bottom-16 w-24 rotate-[16deg]"
+          />
+          <nav data-id="site-off-canvas-nav" className="relative">
             <ul className="flex flex-col gap-6">
               {NAV_LINKS.map(({ href, label }) => {
                 const isCurrent = isCurrentNavPath(pathname, href);

@@ -2,6 +2,7 @@ import type { FC, ReactNode } from "react";
 
 import { FadeImage } from "@/app/components/FadeImage";
 import { LogoJubiliMark } from "@/app/components/LogoJubiliMark";
+import { PaperWord } from "@/app/components/PaperWord";
 import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { resolveCssColor } from "@/lib/colors";
 import { cn } from "@/lib/cn";
@@ -72,12 +73,20 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
     >
       <div
         data-id="about-text-image-copy"
-        className="flex w-full text-dotto-cream md:w-1/2 md:min-h-[100dvh]"
+        className="relative flex w-full overflow-hidden text-dotto-cream md:w-1/2 md:min-h-[100dvh]"
         style={{ backgroundColor: background }}
       >
+        {imageBorder && (
+          <PaperWord
+            word="erdgeschossAlt"
+            tone="chalk"
+            data-id="about-text-image-word"
+            className="-right-8 top-12 w-32 rotate-[14deg] md:w-40"
+          />
+        )}
         <div
           data-id="about-text-image-content"
-          className={cn("flex w-full flex-col p-9 md:p-12", {
+          className={cn("relative flex w-full flex-col p-9 md:p-12", {
             "justify-start": isTextTop,
             "justify-end": !isTextTop,
           })}

@@ -14,6 +14,7 @@ import {
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
+import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
 import { WorkInvite } from "./WorkInvite";
 
@@ -96,6 +97,13 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
           imageClassName="rotate-[16deg] scale-[1.2] object-left"
         />
       )}
+      {isPrior && (
+        <PaperWord
+          word="schnittCd"
+          data-id="work-chapter-word"
+          className="-right-7 top-3 w-32 rotate-[11deg] md:w-40"
+        />
+      )}
       {isHomes && (
         <SketchArtifact
           src="/papers/strassenansicht--haus-line.webp"
@@ -104,6 +112,13 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
           data-id="work-chapter-sketch"
           className="top-0 left-0 h-full w-[52%] md:w-[32%]"
           imageClassName="-rotate-[6deg] scale-[1.35] object-bottom"
+        />
+      )}
+      {isHomes && (
+        <PaperWord
+          word="strassenansicht"
+          data-id="work-chapter-word"
+          className="-bottom-2 -left-10 w-44 -rotate-[7deg] md:w-56"
         />
       )}
       <div data-id="work-chapter-copy" className="relative">
