@@ -20,19 +20,12 @@ export type BookCta = {
   microcopy?: string;
 };
 
-export type BookQuote = {
-  text: string;
-  attribution: string;
-};
-
 export type BookContent = {
   hook: string;
   projectOffer: BookOffer;
   jumpstartOffer: BookOffer;
   primaryCta: BookCta;
-  quote: BookQuote;
   secondaryCta: BookCta;
-  email: string;
 };
 
 type Props = {
@@ -42,16 +35,7 @@ type Props = {
 const SKETCH_SRC = `${PAPERS}/schnitt-a-b--schnitt-line.webp`;
 
 export const BookPanel: FC<Props> = ({ book }) => {
-  const {
-    hook,
-    projectOffer,
-    jumpstartOffer,
-    primaryCta,
-    quote,
-    secondaryCta,
-    email,
-  } = book;
-  const { text, attribution } = quote;
+  const { hook, projectOffer, jumpstartOffer, primaryCta, secondaryCta } = book;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
@@ -133,44 +117,6 @@ export const BookPanel: FC<Props> = ({ book }) => {
         <div data-id="book-offers" className="mt-16 flex flex-col gap-14">
           <OfferBlock offer={projectOffer} action={projectAction} />
           <OfferBlock offer={jumpstartOffer} action={jumpstartAction} />
-        </div>
-
-        <div data-id="book-close" className="mt-16">
-          <blockquote data-id="book-quote" className="m-0">
-            <p
-              data-id="book-quote-text"
-              className={cn(
-                "m-0 font-[family-name:var(--font-playfair)]",
-                "text-[15px] leading-[22px] font-[350] text-dotto-brown",
-              )}
-            >
-              “{text}”
-              <cite
-                data-id="book-quote-attribution"
-                className="not-italic text-dotto-brown/85"
-              >
-                {" · "}
-                {attribution}
-              </cite>
-            </p>
-          </blockquote>
-
-          <div
-            data-id="book-email-divider"
-            role="presentation"
-            className="mt-10 border-t border-dotto-brown/25"
-          />
-          <a
-            href={`mailto:${email}`}
-            data-id="book-email"
-            className={cn(
-              "mt-6 block font-[family-name:var(--font-playfair)]",
-              "text-[13px] leading-[18px] font-[350] text-dotto-brown",
-              "transition-opacity duration-200 hover:opacity-70",
-            )}
-          >
-            {email}
-          </a>
         </div>
       </div>
     </div>
