@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Your space shapes how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests, in Vienna and remotely abroad.",
+    "Your space is shaping how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests, in Vienna and remotely abroad.",
   applicationName: SITE.name,
   openGraph: {
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     title: "Petrina Salema | Spaces & Interiors",
     description:
-      "Your space shapes how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests.",
+      "Your space is shaping how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests.",
     images: [
       {
         url: SITE.ogImage,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Petrina Salema | Spaces & Interiors",
     description:
-      "Your space shapes how you live. Homes and hospitality spaces, in Vienna and remotely abroad.",
+      "Your space is shaping how you live. Homes and hospitality spaces, in Vienna and remotely abroad.",
     images: [SITE.ogImage],
   },
   alternates: {
