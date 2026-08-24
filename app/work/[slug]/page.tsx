@@ -12,7 +12,6 @@ import { SiteFooter } from "../../components/SiteFooter";
 import { SiteHeader } from "../../components/SiteHeader";
 import { WorkDetails } from "./WorkDetails";
 import { WorkGallery } from "./WorkGallery";
-import { WorkPapers } from "./WorkPapers";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -47,7 +46,7 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
   }
 
   const nextItem = getNextWork(slug);
-  const { name, images, papers } = item;
+  const { name, images } = item;
   const framed = await withGalleryDimensions(images);
   const rows = packGalleryRows(framed);
 
@@ -55,7 +54,6 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
     <main data-id="work-item-page" className="min-h-dvh bg-dotto-cream">
       <SiteHeader />
       <WorkGallery name={name} rows={rows} />
-      {papers && <WorkPapers papers={papers} />}
       <WorkDetails item={item} nextSlug={nextItem.slug} />
       <SiteFooter />
     </main>
