@@ -35,7 +35,7 @@
     },
     {
       "type": "workList",
-      "title": "Projects",
+      "title": "List of Projects",
       "color": "dotto-blue",
       "items": [
         {
@@ -54,7 +54,7 @@
           "slug": "analytical-fingerprint-laboratory-rehabilitation"
         },
         {
-          "name": "New CCBRT Maternity Hospital",
+          "name": "CCBRT Maternity Hospital",
           "role": "Project Manager",
           "slug": "new-ccbrt-maternity-hospital"
         },

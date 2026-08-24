@@ -18,14 +18,20 @@ export const metadata: Metadata = {
 
 const HomePage: FC = () => {
   const { statement, proof, invite } = home;
-  const { lede, quote, results } = proof;
+  const { lede, quote, results, href, linkLabel } = proof;
 
   return (
     <main data-id="home-page" className="min-h-dvh">
       <SiteHeader />
       <HomeStatement hook={statement.hook} support={statement.support} />
       <HomeWork blocks={homeWorkBlocks()} />
-      <HomeProof lede={lede} quote={quote} results={results} />
+      <HomeProof
+        lede={lede}
+        quote={quote}
+        results={results}
+        href={href}
+        linkLabel={linkLabel}
+      />
       <HomeInvite hook={invite.hook} body={invite.body} cta={invite.cta} />
       <SiteFooter />
     </main>
