@@ -168,13 +168,8 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 1.jpg",
+          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 1 -- cover.jpg",
           "alt": "Brabbeegasse, Vienna. blue room 1",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 3.jpg",
-          "alt": "Brabbeegasse, Vienna. blue room 3",
           "caption": ""
         },
         {
@@ -243,21 +238,14 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Epitome --cover.jpg",
+          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Epitome -- cover.jpg",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Epitome",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Petrina 2.jpg",
-          "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Petrina 2",
-          "caption": "",
-          "layout": "pair"
-        },
-        {
           "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Petrina 3.jpg",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Petrina 3",
-          "caption": "",
-          "layout": "pair"
+          "caption": ""
         },
         {
           "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - jengo sanifu magazine 4.JPG",
@@ -296,16 +284,6 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence - Petrina 3.jpg",
-          "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence - Petrina 3",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence - Petrina 5.JPG",
-          "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence - Petrina 5",
-          "caption": ""
-        },
-        {
           "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence 1 - Epitome.jpg",
           "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence 1 - Epitome",
           "caption": ""
@@ -313,11 +291,6 @@
         {
           "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence 3 - Epitome.jpg",
           "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence 3 - Epitome",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence - Nkeno Kapya.jpg",
-          "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence - Nkeno Kapya",
           "caption": ""
         }
       ],
@@ -401,8 +374,8 @@
       "links": [],
       "images": [
         {
-          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 5 -- cover.png",
-          "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 5",
+          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 2 -- cover.png",
+          "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 2",
           "caption": ""
         },
         {
@@ -411,8 +384,8 @@
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 2.png",
-          "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 2",
+          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 5.png",
+          "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 5",
           "caption": ""
         },
         {
@@ -582,20 +555,8 @@
           "layout": "pair"
         },
         {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 4.png",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 4",
-          "caption": "",
-          "layout": "pair"
-        },
-        {
           "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 11.jpg",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 11",
-          "caption": "",
-          "layout": "pair"
-        },
-        {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 15.JPG",
-          "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 15",
           "caption": "",
           "layout": "pair"
         }
@@ -706,11 +667,6 @@
           "src": "/Website Images/⭐️ Edit - Bugando Medical Centre/image_Bugando OP Theatre - Petrina 2.png",
           "alt": "Bugando Medical Centre theatre block, Mwanza. Bugando OP Theatre - Petrina 2",
           "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Edit - Bugando Medical Centre/image_Bugando OP Theatre - Petrina 3.png",
-          "alt": "Bugando Medical Centre theatre block, Mwanza. Bugando OP Theatre - Petrina 3",
-          "caption": ""
         }
       ],
       "featured": false,
@@ -745,11 +701,6 @@
         {
           "src": "/Website Images/⭐️ Aga Khan Hospital/image_Aga Khan Hospital - FA TiMz --cover.png",
           "alt": "Aga Khan Hospital, Dar es Salaam. Aga Khan Hospital - FA TiMz",
-          "caption": ""
-        },
-        {
-          "src": "/Website Images/⭐️ Aga Khan Hospital/image_Aga Khan Hospital - Kamal Seif.png",
-          "alt": "Aga Khan Hospital, Dar es Salaam. Aga Khan Hospital - Kamal Seif",
           "caption": ""
         },
         {
