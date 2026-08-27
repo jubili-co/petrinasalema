@@ -15,8 +15,9 @@ export const NAV_LINKS = [
   { href: "/book", label: "Book" },
 ] as const;
 
-/** Primary close — conversion and one downstream brand. */
+/** Primary close — proof, conversion, person, and one downstream brand. */
 export const FOOTER_PRIMARY_LINKS = [
+  { href: "/work", label: "Work" },
   { href: "/book", label: "Book" },
   { href: "/about", label: "About" },
   {
