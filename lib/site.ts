@@ -4,6 +4,7 @@ export const SITE = {
   origin: "https://petrinasalema.vercel.app",
   email: "contact@petrinasalema.com",
   ogImage: "/og.jpg",
+  ogImageAlt: "Living room at Tegelweg, Vienna",
 } as const;
 
 /** Primary path — proof, offer, person, initiation. */
