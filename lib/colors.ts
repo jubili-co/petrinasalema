@@ -31,7 +31,7 @@ const THEMES = {
 } as const;
 
 /** One-line theme switch. */
-export const ACTIVE_THEME: keyof typeof THEMES = "trail";
+export const ACTIVE_THEME: keyof typeof THEMES = "petrina";
 
 export const COLOR_HEX = THEMES[ACTIVE_THEME];
 
