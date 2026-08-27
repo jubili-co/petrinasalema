@@ -63,7 +63,7 @@ export const CookieBanner: FC = () => {
       >
         <p
           data-id="cookie-banner-copy"
-          className="font-[family-name:var(--font-matter)] text-[13px] leading-[1.45] font-light"
+          className="font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-light"
         >
           We use cookies to enhance your browsing experience and analyse site
           usage. By clicking &apos;Accept All&apos;, you consent to our use of
@@ -84,7 +84,7 @@ export const CookieBanner: FC = () => {
             onClick={onDecline}
             className={cn(
               "min-h-11 border border-chalk px-5 py-2",
-              "text-[12px] tracking-[0.12em] uppercase",
+              "text-[13px] tracking-[0.12em] uppercase",
               "transition-colors duration-200 ease-out",
               "hover:bg-chalk/10",
             )}
@@ -97,7 +97,7 @@ export const CookieBanner: FC = () => {
             onClick={onAccept}
             className={cn(
               "min-h-11 bg-chalk px-5 py-2 text-ink",
-              "text-[12px] tracking-[0.12em] uppercase",
+              "text-[13px] tracking-[0.12em] uppercase",
               "transition-colors duration-200 ease-out",
               "hover:bg-wash",
             )}

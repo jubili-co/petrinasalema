@@ -129,7 +129,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
           data-id="work-chapter-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[13px] tracking-[0.15em] text-ink uppercase",
+            "text-[14px] tracking-[0.15em] text-ink uppercase",
           )}
         >
           {label}
@@ -138,7 +138,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
           data-id="work-chapter-note"
           className={cn(
             "m-0 mt-3 max-w-[46ch] font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-ink/80",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/80",
           )}
         >
           {note}
@@ -188,19 +188,19 @@ const WorkGridCard: FC<WorkGridCardProps> = ({ item }) => {
       >
         <h3
           data-id="work-grid-card-title"
-          className="m-0 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-chalk uppercase"
+          className="m-0 font-[family-name:var(--font-matter)] text-[14px] tracking-[0.15em] text-chalk uppercase"
         >
           {name}
         </h3>
         <p
           data-id="work-grid-card-subtitle"
-          className="m-0 mt-2 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-chalk"
+          className="m-0 mt-2 font-[family-name:var(--font-playfair)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-chalk"
         >
           {subtitle}
         </p>
         <p
           data-id="work-grid-card-location"
-          className="m-0 mt-1 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-chalk/80"
+          className="m-0 mt-1 font-[family-name:var(--font-playfair)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-chalk/80"
         >
           {workPlace(location)}
         </p>

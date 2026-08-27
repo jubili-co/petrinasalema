@@ -20,7 +20,7 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
           data-id="work-gallery-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] text-ink uppercase",
           )}
         >
           {name}
@@ -104,7 +104,7 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
           data-id="work-gallery-caption"
           className={cn(
             "px-6 py-3 font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-ink md:px-12",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink md:px-12",
           )}
         >
           {caption}

@@ -71,7 +71,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
           data-id="home-invite-body"
           className={cn(
             "m-0 max-w-[44ch] font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-balance text-chalk/85",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-balance text-chalk/85",
           )}
         >
           {body}
@@ -93,7 +93,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
               data-id="home-invite-microcopy"
               className={cn(
                 "m-0 mt-3 font-[family-name:var(--font-playfair)]",
-                "text-[12px] leading-[16px] font-[350] text-chalk/85",
+                "text-[13px] leading-[18px] font-[350] text-chalk/85",
               )}
             >
               {microcopy}

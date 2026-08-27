@@ -48,7 +48,7 @@ const InviteLine: FC<InviteLineProps> = ({ name, role }) => (
       data-id="about-invite-cta-name"
       className={cn(
         "font-[family-name:var(--font-matter)]",
-        "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
       )}
     >
       {name}
@@ -57,7 +57,7 @@ const InviteLine: FC<InviteLineProps> = ({ name, role }) => (
       data-id="about-invite-cta-sep"
       className={cn(
         "font-[family-name:var(--font-matter)]",
-        "text-[13px] leading-[18px] tracking-[0.15em]",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em]",
       )}
     >
       ,{" "}
@@ -66,7 +66,7 @@ const InviteLine: FC<InviteLineProps> = ({ name, role }) => (
       data-id="about-invite-cta-role"
       className={cn(
         "font-[family-name:var(--font-playfair)]",
-        "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
         "underline decoration-chalk/50 underline-offset-4",
         "transition-colors duration-200 group-hover/cta:decoration-chalk",
       )}

@@ -64,7 +64,7 @@ export const WORK_CHAPTERS: {
   {
     id: "prior",
     label: "Architectural Projects",
-    note: "Though formally contracted as Project Manager, my role across these projects centered on architectural design leadership: directing creative design development, training and mentoring junior architects, and delivering client presentations and competition pitches.",
+    note: "My role across these projects centred on architectural design leadership: directing creative design development, training and mentoring junior architects, and delivering client presentations and competition pitches.",
   },
   {
     id: "homes",

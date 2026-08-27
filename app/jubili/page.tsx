@@ -66,7 +66,7 @@ const JubiliPage: FC = () => {
             data-id="jubili-hero-cta"
             className={cn(
               "mt-10 min-h-11 border border-white px-8 py-3",
-              "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] text-white uppercase",
+              "font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-white uppercase",
               "transition-colors duration-200 ease-out",
               "hover:bg-white hover:text-black active:scale-[0.97]",
             )}

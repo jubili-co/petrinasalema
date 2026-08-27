@@ -11,17 +11,17 @@ const dsTextVariants = cva("", {
         "font-[family-name:var(--font-matter)] text-sm font-normal tracking-wide uppercase",
       // Louder editorial caps for section/group headings above content.
       eyebrow: cn(
-        "font-[family-name:var(--font-matter)] text-xs font-semibold",
+        "font-[family-name:var(--font-matter)] text-[13px] font-semibold",
         "tracking-widest uppercase text-ink-muted",
       ),
       title:
         "font-[family-name:var(--font-matter)] text-base font-semibold tracking-tight",
       body: cn(
         "font-[family-name:var(--font-playfair)]",
-        "text-[13px] leading-[18px] font-[350]",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
       ),
       caption:
-        "font-[family-name:var(--font-matter)] text-xs text-ink-muted",
+        "font-[family-name:var(--font-matter)] text-[13px] text-ink-muted",
       h1: cn(
         "m-0 font-[family-name:var(--font-playfair)]",
         "text-[clamp(40px,6vw,72px)] leading-none tracking-[0.08em] uppercase",
@@ -29,23 +29,23 @@ const dsTextVariants = cva("", {
       // Matches AboutTitle / about-page section heading.
       h2: cn(
         "m-0 mb-[18px] font-[family-name:var(--font-matter)]",
-        "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
       ),
       h3: cn(
         "m-0 mb-4 font-[family-name:var(--font-matter)]",
-        "text-[13px] leading-[18px] tracking-[0.12em] uppercase",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.12em] uppercase",
       ),
       h4: cn(
         "m-0 mb-3 font-[family-name:var(--font-matter)]",
-        "text-[13px] leading-[18px] tracking-[0.1em] uppercase",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.1em] uppercase",
       ),
       h5: cn(
         "m-0 mb-2 font-[family-name:var(--font-playfair)]",
-        "text-[13px] leading-[18px] font-[350]",
+        "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
       ),
       h6: cn(
         "m-0 mb-2 font-[family-name:var(--font-playfair)]",
-        "text-[12px] leading-4 font-[350] text-ink-muted",
+        "text-[13px] leading-[18px] font-[350] text-ink-muted",
       ),
     },
   },

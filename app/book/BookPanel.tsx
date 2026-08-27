@@ -38,7 +38,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
   const { hook, projectOffer, jumpstartOffer, primaryCta, secondaryCta } = book;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
-    "text-[12px] leading-[16px] font-[350] text-ink/85",
+    "text-[13px] leading-[18px] font-[350] text-ink/85",
   );
   const projectAction = (
     <div data-id="book-primary">
@@ -132,7 +132,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
   const { title, body, note, finance } = offer;
   const asideClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
-    "text-[13px] leading-[18px] font-[350] text-ink/85",
+    "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/85",
   );
 
   return (
@@ -141,7 +141,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
         data-id="book-offer-title"
         className={cn(
           "m-0 mb-2 font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] text-ink uppercase",
         )}
       >
         {title}
@@ -150,7 +150,7 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
         data-id="book-offer-body"
         className={cn(
           "m-0 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-ink",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
         )}
       >
         {body}

@@ -90,7 +90,7 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
         data-id="about-work-list-name"
         className={cn(
           "font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
         )}
       >
         {name}
@@ -99,7 +99,7 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
         data-id="about-work-list-sep"
         className={cn(
           "font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.15em]",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em]",
         )}
       >
         ,{" "}
@@ -108,7 +108,7 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
         data-id="about-work-list-role"
         className={cn(
           "font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
         )}
       >
         {role}

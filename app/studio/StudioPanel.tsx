@@ -56,7 +56,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
   } = studio;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
-    "text-[12px] leading-[16px] font-[350] text-ink/85",
+    "text-[13px] leading-[18px] font-[350] text-ink/85",
   );
 
   return (
@@ -94,7 +94,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           data-id="studio-eyebrow"
           className={cn(
             "m-0 mb-6 font-[family-name:var(--font-matter)]",
-            "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] text-ink uppercase",
           )}
         >
           {eyebrow}
@@ -115,7 +115,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           data-id="studio-body"
           className={cn(
             "m-0 mt-8 font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-ink",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
           )}
         >
           {body}
@@ -133,7 +133,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
               data-id="studio-cta-lede"
               className={cn(
                 "m-0 mb-6 font-[family-name:var(--font-playfair)]",
-                "text-[13px] leading-[18px] font-[350] text-ink",
+                "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
               )}
             >
               {ctaLede}
@@ -210,7 +210,7 @@ const PrincipleBlock: FC<PrincipleBlockProps> = ({ principle }) => {
         data-id="studio-principle-title"
         className={cn(
           "m-0 mb-2 font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] text-ink uppercase",
         )}
       >
         {title}
@@ -219,7 +219,7 @@ const PrincipleBlock: FC<PrincipleBlockProps> = ({ principle }) => {
         data-id="studio-principle-body"
         className={cn(
           "m-0 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-ink",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
         )}
       >
         {body}
@@ -243,7 +243,7 @@ const ExtensionRow: FC<ExtensionRowProps> = ({ extension }) => {
       data-id="studio-extension-label"
       className={cn(
         "font-[family-name:var(--font-matter)]",
-        "text-[13px] tracking-[0.15em] text-ink uppercase",
+        "text-[14px] tracking-[0.15em] text-ink uppercase",
       )}
     >
       {label}
@@ -257,7 +257,7 @@ const ExtensionRow: FC<ExtensionRowProps> = ({ extension }) => {
       data-id="studio-extension-note"
       className={cn(
         "font-[family-name:var(--font-playfair)]",
-        "text-[12px] leading-[16px] font-[350] text-ink/85",
+        "text-[13px] leading-[18px] font-[350] text-ink/85",
       )}
     >
       {note}

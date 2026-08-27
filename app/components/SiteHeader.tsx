@@ -73,7 +73,7 @@ export const SiteHeader: FC = () => {
           // spacing
           "px-6 py-[17px] md:px-12",
           // typography / color
-          "bg-canvas font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-ink uppercase",
+          "bg-canvas font-[family-name:var(--font-matter)] text-[14px] tracking-[0.15em] text-ink uppercase",
           // motion — translate only so the page behind doesn’t fade with the bar
           "transition-[translate] duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate]",
           {

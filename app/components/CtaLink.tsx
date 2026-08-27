@@ -87,7 +87,7 @@ function shellClass(
       // boxed layout
       "justify-center overflow-hidden border py-3 pl-8 pr-8": !isGhost,
       // boxed type
-      "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase":
+      "font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] uppercase":
         !isGhost,
       "border-inverse bg-inverse": isPrimary && isInk,
       "border-chalk bg-chalk": isPrimary && isChalk,
@@ -96,7 +96,7 @@ function shellClass(
       // ghost — no fill, no border, no underline
       "justify-start gap-2 bg-transparent py-0 no-underline outline-none hover:no-underline":
         isGhost,
-      "font-[family-name:var(--font-playfair)] text-[14px] leading-[21px] font-[350]":
+      "font-[family-name:var(--font-playfair)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]":
         isGhost,
       "focus-visible:opacity-70": isGhost,
       "-ml-6": isGhost && isLeft,

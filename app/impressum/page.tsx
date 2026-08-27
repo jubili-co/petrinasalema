@@ -42,7 +42,7 @@ const ImpressumPage: FC = () => (
           data-id="impressum-textarea-content"
           className={cn(
             "relative w-4/5 max-w-[960px] text-left text-ink",
-            "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350]",
+            "font-[family-name:var(--font-playfair)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
           )}
         >
           {blocks.map((block, index) => (
@@ -68,7 +68,7 @@ const ImpressumBlockView: FC<ImpressumBlockViewProps> = ({ block }) => {
         data-id="impressum-heading"
         className={cn(
           "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] font-normal tracking-[0.15em] text-ink uppercase",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-normal tracking-[0.15em] text-ink uppercase",
         )}
       >
         {block.text}
@@ -81,7 +81,7 @@ const ImpressumBlockView: FC<ImpressumBlockViewProps> = ({ block }) => {
       data-id="impressum-paragraph"
       className={cn(
         "m-0 mb-[30px] whitespace-pre-line",
-        "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-ink",
+        "font-[family-name:var(--font-playfair)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
         "last:mb-0",
       )}
     >

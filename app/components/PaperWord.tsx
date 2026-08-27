@@ -47,8 +47,8 @@ export const PaperWord: FC<Props> = ({
         className={cn(
           "h-auto w-full",
           {
-            "opacity-80 mix-blend-multiply": !isChalk,
-            "brightness-0 invert opacity-[0.58]": isChalk,
+            "opacity-20 mix-blend-multiply": !isChalk,
+            "brightness-0 invert opacity-[0.12]": isChalk,
           },
           imageClassName,
         )}

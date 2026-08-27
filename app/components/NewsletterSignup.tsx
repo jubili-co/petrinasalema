@@ -79,7 +79,7 @@ export const NewsletterSignup: FC<Props> = ({
             data-id="newsletter-signup-title"
             className={cn(
               "m-0 font-[family-name:var(--font-matter)]",
-              "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+              "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
             )}
           >
             {title}
@@ -90,7 +90,7 @@ export const NewsletterSignup: FC<Props> = ({
               data-id="newsletter-signup-description"
               className={cn(
                 "m-0 font-[family-name:var(--font-playfair)]",
-                "text-[13px] leading-[18px] font-[350]",
+                "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
               )}
             >
               {description}
@@ -116,7 +116,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         data-id="newsletter-signup-success"
         className={cn(
           "m-0 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350]",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
         )}
       >
         Thank you. You&apos;re on the list.
@@ -139,7 +139,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         className={cn(
           "mb-0 w-full border-0 border-b border-chalk bg-transparent",
           "py-2 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-chalk outline-none",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-chalk outline-none",
           "placeholder:text-chalk/50",
         )}
       />
@@ -148,7 +148,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         data-id="newsletter-signup-consent"
         className={cn(
           "my-5 flex items-start gap-[9px]",
-          "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
+          "font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)]",
           "tracking-[0.15em] text-chalk uppercase",
         )}
       >
@@ -179,7 +179,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         className={cn(
           "mb-[18px] inline-block !border !border-solid border-chalk bg-transparent",
           "px-[18px] py-2",
-          "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
+          "font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)]",
           "tracking-[0.15em] text-chalk uppercase",
           "transition-colors duration-200 ease-out",
           "hover:bg-chalk hover:text-ink active:scale-[0.97]",

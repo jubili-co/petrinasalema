@@ -93,7 +93,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         className={cn(
           "w-full md:w-1/5 text-right",
           "font-[family-name:var(--font-matter)]",
-          "text-[11px] leading-tight text-chalk/85",
+          "text-[12px] leading-tight text-chalk/85",
         )}
       >
         <p>Design + Furnishing</p>
@@ -117,7 +117,7 @@ const FooterNavLink: FC<FooterNavLinkProps> = ({ item }) => {
   const { href, label, external } = item;
   const className = cn(
     "font-[family-name:var(--font-matter)] uppercase no-underline",
-    "text-[11px] leading-[15px] tracking-[1.65px] text-chalk",
+    "text-[12px] leading-[16px] tracking-[1.65px] text-chalk",
     "transition-opacity duration-1000 ease-out hover:opacity-50",
   );
 

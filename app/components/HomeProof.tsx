@@ -85,7 +85,7 @@ export const HomeProof: FC<Props> = ({
             data-id="home-proof-quote-attribution"
             className={cn(
               "mt-3 block font-[family-name:var(--font-playfair)] not-italic",
-              "text-[13px] leading-[18px] font-[350] text-ink/70",
+              "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/70",
             )}
           >
             {attribution}
@@ -109,7 +109,7 @@ export const HomeProof: FC<Props> = ({
           data-id="home-proof-link"
           className={cn(
             "font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-ink",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
             "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
           )}
         >
@@ -133,7 +133,7 @@ const HomeProofMetric: FC<HomeProofMetricProps> = ({ result }) => {
         data-id="home-proof-metric-value"
         className={cn(
           "m-0 font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.08em] text-ink uppercase",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.08em] text-ink uppercase",
         )}
       >
         {value}
@@ -142,7 +142,7 @@ const HomeProofMetric: FC<HomeProofMetricProps> = ({ result }) => {
         data-id="home-proof-metric-label"
         className={cn(
           "m-0 mt-2 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-ink/70",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/70",
         )}
       >
         {label}

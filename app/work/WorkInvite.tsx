@@ -59,7 +59,7 @@ export const WorkInvite: FC = () => (
           data-id="work-grid-invite-lede"
           className={cn(
             "m-0 max-w-[28ch] font-[family-name:var(--font-playfair)]",
-            "text-[12px] leading-[16px] font-[350] text-ink/75",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/75",
           )}
         >
           Taking on a few homes and hospitality spaces a year. Projects last for

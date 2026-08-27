@@ -58,7 +58,7 @@ export const HomeStatement: FC<Props> = ({ hook, support }) => (
         data-id="home-statement-support"
         className={cn(
           "m-0 max-w-[46ch] font-[family-name:var(--font-playfair)]",
-          "text-[14px] leading-[21px] font-[350] text-balance text-ink/90",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-balance text-ink/90",
         )}
       >
         {support}

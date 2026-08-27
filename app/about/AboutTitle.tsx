@@ -22,7 +22,7 @@ export const AboutTitle: FC<Props> = ({ title, subtitle }) => {
           data-id="about-title-subtitle"
           className={cn(
             "ml-[10px] inline-block font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
+            "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
           )}
         >
           {subtitle}

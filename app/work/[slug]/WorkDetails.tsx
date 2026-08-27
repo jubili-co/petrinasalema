@@ -89,7 +89,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 data-id="work-details-location"
                 className={cn(
                   "ml-[10px] inline-block font-[family-name:var(--font-playfair)]",
-                  "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
+                  "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
                 )}
               >
                 {place}
@@ -100,7 +100,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 data-id="work-details-subtitle"
                 className={cn(
                   "m-0 mb-[18px] font-[family-name:var(--font-playfair)]",
-                  "text-[13px] leading-[18px] font-[350]",
+                  "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
                 )}
               >
                 {subtitle}
@@ -110,7 +110,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
               data-id="work-details-body"
               className={cn(
                 "m-0 font-[family-name:var(--font-playfair)]",
-                "text-[13px] leading-[18px] font-[350]",
+                "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
               )}
             >
               {description}
@@ -121,7 +121,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                   data-id="work-details-scope-title"
                   className={cn(
                     "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-                    "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+                    "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
                   )}
                 >
                   Scope
@@ -130,7 +130,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                   data-id="work-details-scope-list"
                   className={cn(
                     "m-0 font-[family-name:var(--font-playfair)]",
-                    "text-[13px] leading-[18px] font-[350]",
+                    "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
                   )}
                 >
                   {scope.join(" · ")}
@@ -144,7 +144,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 data-id="work-details-door"
                 className={cn(
                   "mt-[18px] inline-block font-[family-name:var(--font-playfair)]",
-                  "text-[13px] leading-[18px] font-[350] text-chalk",
+                  "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-chalk",
                   "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
                 )}
               >
@@ -160,7 +160,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
               href={`/work/${nextSlug}`}
               data-id="work-details-next-mobile"
               className={cn(
-                "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
+                "font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)]",
                 "tracking-[0.15em] uppercase",
                 "transition-opacity duration-200 hover:opacity-50",
               )}
@@ -175,7 +175,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 data-id="work-details-links-title"
                 className={cn(
                   "m-0 mb-[10px] font-[family-name:var(--font-matter)]",
-                  "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+                  "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
                 )}
               >
                 {linksHeading}
@@ -201,7 +201,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             data-id="work-details-next-link"
             className={cn(
               "font-[family-name:var(--font-matter)]",
-              "text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+              "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
               "transition-opacity duration-200 hover:opacity-50",
             )}
           >
@@ -221,11 +221,11 @@ const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({ caseStudy }) => {
   const { problem, decisions, result, results } = caseStudy;
   const bodyClassName = cn(
     "m-0 font-[family-name:var(--font-playfair)]",
-    "text-[13px] leading-[18px] font-[350]",
+    "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
   );
   const labelClassName = cn(
     "m-0 mb-2 font-[family-name:var(--font-matter)]",
-    "text-[11px] leading-[15px] tracking-[0.15em] uppercase text-chalk/70",
+    "text-[12px] leading-[16px] tracking-[0.15em] uppercase text-chalk/70",
   );
 
   return (
@@ -281,7 +281,7 @@ const WorkResultRow: FC<WorkResultRowProps> = ({ result }) => {
         data-id="work-case-study-result-value"
         className={cn(
           "m-0 font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.08em] uppercase",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.08em] uppercase",
         )}
       >
         {value}
@@ -290,7 +290,7 @@ const WorkResultRow: FC<WorkResultRowProps> = ({ result }) => {
         data-id="work-case-study-result-label"
         className={cn(
           "m-0 mt-1 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-chalk/85",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-chalk/85",
         )}
       >
         {label}
@@ -314,7 +314,7 @@ const ExternalLinkItem: FC<ExternalLinkItemProps> = ({ link }) => {
         rel="noopener noreferrer"
         data-id="work-details-link-anchor"
         className={cn(
-          "font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350]",
+          "font-[family-name:var(--font-playfair)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
           "underline transition-opacity duration-200 hover:opacity-50",
         )}
       >

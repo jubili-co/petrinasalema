@@ -57,7 +57,7 @@ export const HomeWorkCard: FC<Props> = ({
         className={cn(
           "absolute inset-0 z-[2] flex items-center justify-center p-12 text-center text-balance md:p-20",
           "font-semibold",
-          "font-[family-name:var(--font-matter)] text-[13px] leading-[18px] tracking-[0.15em] uppercase",
+          "font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
           "text-chalk opacity-0 transition-opacity duration-300 ease-out",
           "group-hover:opacity-100",
         )}

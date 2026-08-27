@@ -14,6 +14,9 @@
   --ease-out-soft: cubic-bezier(0.23, 1, 0.32, 1);
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
+  /* Body was 13/18 — one-step bump so visitor copy reads without crowding display type. */
+  --text-copy: 14px;
+  --leading-copy: 21px;
 }
 
 @media only screen and (min-device-pixel-ratio: 2),
