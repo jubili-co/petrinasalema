@@ -58,7 +58,7 @@ export const HomeWorkCard: FC<Props> = ({
           "absolute inset-0 z-[2] flex items-center justify-center p-12 text-center text-balance md:p-20",
           "font-semibold",
           "font-[family-name:var(--font-matter)] text-[13px] leading-[18px] tracking-[0.15em] uppercase",
-          "text-dotto-cream opacity-0 transition-opacity duration-300 ease-out",
+          "text-chalk opacity-0 transition-opacity duration-300 ease-out",
           "group-hover:opacity-100",
         )}
       >

@@ -56,7 +56,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
   } = studio;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
-    "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
+    "text-[12px] leading-[16px] font-[350] text-ink/85",
   );
 
   return (
@@ -94,7 +94,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           data-id="studio-eyebrow"
           className={cn(
             "m-0 mb-6 font-[family-name:var(--font-matter)]",
-            "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown uppercase",
+            "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
           )}
         >
           {eyebrow}
@@ -104,7 +104,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           data-id="studio-hook"
           className={cn(
             "m-0 font-[family-name:var(--font-playfair)]",
-            "text-[22px] leading-[1.45] font-[350] text-dotto-brown",
+            "text-[22px] leading-[1.45] font-[350] text-ink",
             "md:text-[24px] md:leading-[1.42]",
           )}
         >
@@ -115,7 +115,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           data-id="studio-body"
           className={cn(
             "m-0 mt-8 font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-dotto-brown",
+            "text-[13px] leading-[18px] font-[350] text-ink",
           )}
         >
           {body}
@@ -133,7 +133,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
               data-id="studio-cta-lede"
               className={cn(
                 "m-0 mb-6 font-[family-name:var(--font-playfair)]",
-                "text-[13px] leading-[18px] font-[350] text-dotto-brown",
+                "text-[13px] leading-[18px] font-[350] text-ink",
               )}
             >
               {ctaLede}
@@ -184,7 +184,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
 
         <div
           data-id="studio-extensions"
-          className="mt-16 border-t border-dotto-brown/25 pt-8"
+          className="mt-16 border-t border-ink/25 pt-8"
         >
           <ul className="m-0 flex list-none flex-col gap-5 p-0">
             {extensions.map((extension) => (
@@ -210,7 +210,7 @@ const PrincipleBlock: FC<PrincipleBlockProps> = ({ principle }) => {
         data-id="studio-principle-title"
         className={cn(
           "m-0 mb-2 font-[family-name:var(--font-matter)]",
-          "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown uppercase",
+          "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
         )}
       >
         {title}
@@ -219,7 +219,7 @@ const PrincipleBlock: FC<PrincipleBlockProps> = ({ principle }) => {
         data-id="studio-principle-body"
         className={cn(
           "m-0 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-dotto-brown",
+          "text-[13px] leading-[18px] font-[350] text-ink",
         )}
       >
         {body}
@@ -243,7 +243,7 @@ const ExtensionRow: FC<ExtensionRowProps> = ({ extension }) => {
       data-id="studio-extension-label"
       className={cn(
         "font-[family-name:var(--font-matter)]",
-        "text-[13px] tracking-[0.15em] text-dotto-brown uppercase",
+        "text-[13px] tracking-[0.15em] text-ink uppercase",
       )}
     >
       {label}
@@ -257,7 +257,7 @@ const ExtensionRow: FC<ExtensionRowProps> = ({ extension }) => {
       data-id="studio-extension-note"
       className={cn(
         "font-[family-name:var(--font-playfair)]",
-        "text-[12px] leading-[16px] font-[350] text-dotto-brown/85",
+        "text-[12px] leading-[16px] font-[350] text-ink/85",
       )}
     >
       {note}

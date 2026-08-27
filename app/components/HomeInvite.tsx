@@ -29,7 +29,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
       data-id="home-invite"
       className={cn(
         "relative overflow-hidden",
-        "flex w-full justify-center bg-dotto-brown",
+        "flex w-full justify-center bg-inverse",
         "px-6 py-28 md:px-12 md:py-40",
       )}
     >
@@ -61,7 +61,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
           data-id="home-invite-hook"
           className={cn(
             "m-0 font-[family-name:var(--font-playfair)]",
-            "text-[22px] leading-[1.45] font-[350] text-balance text-dotto-cream",
+            "text-[22px] leading-[1.45] font-[350] text-balance text-chalk",
             "md:text-[24px] md:leading-[1.42]",
           )}
         >
@@ -71,7 +71,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
           data-id="home-invite-body"
           className={cn(
             "m-0 max-w-[44ch] font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-balance text-dotto-cream/85",
+            "text-[13px] leading-[18px] font-[350] text-balance text-chalk/85",
           )}
         >
           {body}
@@ -83,7 +83,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
           <CtaLink
             href={href}
             variant="primary"
-            tone="cream"
+            tone="chalk"
             data-id="home-invite-cta"
           >
             {label}
@@ -93,7 +93,7 @@ export const HomeInvite: FC<Props> = ({ hook, body, cta }) => {
               data-id="home-invite-microcopy"
               className={cn(
                 "m-0 mt-3 font-[family-name:var(--font-playfair)]",
-                "text-[12px] leading-[16px] font-[350] text-dotto-cream/85",
+                "text-[12px] leading-[16px] font-[350] text-chalk/85",
               )}
             >
               {microcopy}

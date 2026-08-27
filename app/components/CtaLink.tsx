@@ -4,7 +4,7 @@ import type { FC, PropsWithChildren } from "react";
 import { cn } from "@/lib/cn";
 
 type Variant = "primary" | "secondary" | "ghost";
-type Tone = "brown" | "cream";
+type Tone = "ink" | "chalk";
 type Arrow = "left" | "right";
 
 type Props = PropsWithChildren<{
@@ -20,7 +20,7 @@ export const CtaLink: FC<Props> = ({
   href,
   children,
   variant = "primary",
-  tone = "brown",
+  tone = "ink",
   arrow = "right",
   className,
   "data-id": dataId = "cta-link",
@@ -78,8 +78,8 @@ function shellClass(
   const isGhost = variant === "ghost";
   const isPrimary = variant === "primary";
   const isSecondary = variant === "secondary";
-  const isBrown = tone === "brown";
-  const isCream = tone === "cream";
+  const isInk = tone === "ink";
+  const isChalk = tone === "chalk";
 
   return cn(
     "group/cta relative inline-flex min-h-11 items-center",
@@ -89,10 +89,10 @@ function shellClass(
       // boxed type
       "font-[family-name:var(--font-matter)] text-[12px] tracking-[0.15em] uppercase":
         !isGhost,
-      "border-dotto-brown bg-dotto-brown": isPrimary && isBrown,
-      "border-dotto-cream bg-dotto-cream": isPrimary && isCream,
-      "border-dotto-brown": isSecondary && isBrown,
-      "border-dotto-cream": isSecondary && isCream,
+      "border-inverse bg-inverse": isPrimary && isInk,
+      "border-chalk bg-chalk": isPrimary && isChalk,
+      "border-ink": isSecondary && isInk,
+      "border-chalk": isSecondary && isChalk,
       // ghost — no fill, no border, no underline
       "justify-start gap-2 bg-transparent py-0 no-underline outline-none hover:no-underline":
         isGhost,
@@ -148,8 +148,8 @@ function arrowClass(
 
 function inkClass(variant: Variant, tone: Tone): string {
   if (variant === "primary") {
-    return tone === "brown" ? "text-dotto-cream" : "text-dotto-brown";
+    return tone === "ink" ? "text-chalk" : "text-ink";
   }
 
-  return tone === "cream" ? "text-dotto-cream" : "text-dotto-brown";
+  return tone === "chalk" ? "text-chalk" : "text-ink";
 }

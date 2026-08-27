@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "./colors.css";
+@import "./themes/tokens.css";
 
 @font-face {
   font-family: "Matter";
@@ -45,8 +45,8 @@
 body {
   margin: 0;
   min-height: 100dvh;
-  background: var(--dotto-cream);
-  color: var(--dotto-brown);
+  background: var(--canvas);
+  color: var(--ink);
   font-family: var(--font-matter);
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
@@ -56,7 +56,7 @@ body {
 /*
  * Keep link/button resets in @layer base so Tailwind text-* utilities on
  * <a> / <Link> / <button> win. Unlayered `color: inherit` beat utilities and
- * made filled brown CTAs look empty (cream label lost to body brown).
+ * made filled inverse CTAs look empty (chalk label lost to body ink).
  */
 @layer base {
   a {
@@ -84,7 +84,8 @@ a.ds-markdown-link:hover {
 
 /* Native :hover so the underline still shows when (hover: hover) is false. */
 [data-id="about-work-list-link"]:hover [data-id="about-work-list-link-rule"],
-[data-id="about-work-list-link"]:focus-visible [data-id="about-work-list-link-rule"] {
+[data-id="about-work-list-link"]:focus-visible
+  [data-id="about-work-list-link-rule"] {
   opacity: 0.3;
 }
 

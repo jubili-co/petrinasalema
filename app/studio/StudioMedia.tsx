@@ -13,7 +13,7 @@ export const StudioMedia: FC<Props> = ({ images }) => (
   <div
     data-id="studio-media"
     className={cn(
-      "flex w-full flex-col gap-0.5 bg-dotto-cream",
+      "flex w-full flex-col gap-0.5 bg-canvas",
       "md:sticky md:top-[78px] md:h-[calc(100dvh-78px)] md:w-1/2",
     )}
   >

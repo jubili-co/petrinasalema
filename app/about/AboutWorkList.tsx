@@ -37,7 +37,7 @@ const SKETCH_SRC = `${PAPERS}/bereiche--flaechen-tabelle-line.webp`;
 
 export const AboutWorkList: FC<Props> = ({ section }) => {
   const { title, items, cta, color } = section;
-  const background = resolveCssColor(color, "dotto-olive");
+  const background = resolveCssColor(color, "band-b");
 
   return (
     <section
@@ -61,7 +61,7 @@ export const AboutWorkList: FC<Props> = ({ section }) => {
       />
       <div
         data-id="about-work-list-inner"
-        className="relative w-full px-6 py-16 text-dotto-cream md:px-12 md:py-20"
+        className="relative w-full px-6 py-16 text-chalk md:px-12 md:py-20"
       >
         <AboutTitle title={title} />
         <ul
@@ -130,7 +130,7 @@ const WorkListRow: FC<WorkListRowProps> = ({ item }) => {
             aria-hidden
             className={cn(
               "pointer-events-none absolute inset-x-0 bottom-0 block h-px",
-              "bg-dotto-cream opacity-0",
+              "bg-chalk opacity-0",
               "transition-opacity duration-150 ease-[var(--ease-out-soft)]",
               "motion-reduce:transition-none",
             )}

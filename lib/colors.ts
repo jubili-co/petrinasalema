@@ -1,19 +1,39 @@
 /**
- * Hex mirror of `app/colors.css` for non-CSS contexts (viewport theme-color, etc.).
- * Prefer Tailwind utilities (`bg-dotto-maroon`) or `cssColor()` for UI.
+ * Site palettes. Switch themes by changing `ACTIVE_THEME`.
+ * CSS roles (`bg-canvas`, `text-ink`, …) read these via `:root` vars.
  */
-export const COLOR_HEX = {
-  "dotto-cream": "#f9f3f0",
-  "dotto-brown": "#45519f",
-  "dotto-brown-muted": "#ae9891",
-  "dotto-mustard": "#b19e18",
-  "dotto-orange": "#e87308",
-  "dotto-blue": "#45519f",
-  "dotto-maroon": "#893521",
-  "dotto-olive": "#645e26",
-  "dotto-sand": "#eee9e2",
-  "dotto-blush": "#f2e5dc",
+
+const THEMES = {
+  petrina: {
+    canvas: "#f9f3f0",
+    ink: "#45519f",
+    "ink-muted": "#ae9891",
+    inverse: "#45519f",
+    chalk: "#f9f3f0",
+    wash: "#f2e5dc",
+    accent: "#b19e18",
+    "band-a": "#893521",
+    "band-b": "#645e26",
+    "band-c": "#45519f",
+  },
+  trail: {
+    canvas: "#f4f4ec",
+    ink: "#2f2e2a",
+    "ink-muted": "#9a9a94",
+    inverse: "#4f6719",
+    chalk: "#ffffff",
+    wash: "#eaedd4",
+    accent: "#867bdb",
+    "band-a": "#4f6719",
+    "band-b": "#867bdb",
+    "band-c": "#f56908",
+  },
 } as const;
+
+/** One-line theme switch. */
+export const ACTIVE_THEME: keyof typeof THEMES = "trail";
+
+export const COLOR_HEX = THEMES[ACTIVE_THEME];
 
 export type ColorToken = keyof typeof COLOR_HEX;
 
@@ -43,4 +63,12 @@ export function resolveCssColor(
   }
 
   return value;
+}
+
+/** `:root` custom properties for the active palette. */
+export function themeRootCss(): string {
+  const declarations = Object.entries(COLOR_HEX)
+    .map(([token, hex]) => `--${token}: ${hex}`)
+    .join("; ");
+  return `:root { ${declarations}; }`;
 }

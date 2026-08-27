@@ -15,7 +15,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
   <footer
     data-id="site-footer"
     className={cn(
-      "relative z-[99] mt-auto w-full overflow-hidden bg-dotto-brown text-dotto-cream",
+      "relative z-[99] mt-auto w-full overflow-hidden bg-inverse text-chalk",
       "px-6 py-8 md:h-[96px] md:px-12 md:py-8 md:pb-[35px]",
       className,
     )}
@@ -37,7 +37,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         <Link
           href="/"
           data-id="site-footer-logo"
-          className="block text-dotto-cream"
+          className="block text-chalk"
           aria-label="Petrina Salema home"
         >
           <LogoPetina />
@@ -93,7 +93,7 @@ export const SiteFooter: FC<Props> = ({ className }) => (
         className={cn(
           "w-full md:w-1/5 text-right",
           "font-[family-name:var(--font-matter)]",
-          "text-[11px] leading-tight text-dotto-cream/85",
+          "text-[11px] leading-tight text-chalk/85",
         )}
       >
         <p>Design + Furnishing</p>
@@ -117,7 +117,7 @@ const FooterNavLink: FC<FooterNavLinkProps> = ({ item }) => {
   const { href, label, external } = item;
   const className = cn(
     "font-[family-name:var(--font-matter)] uppercase no-underline",
-    "text-[11px] leading-[15px] tracking-[1.65px] text-dotto-cream",
+    "text-[11px] leading-[15px] tracking-[1.65px] text-chalk",
     "transition-opacity duration-1000 ease-out hover:opacity-50",
   );
 

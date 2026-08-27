@@ -49,7 +49,7 @@ export const CookieBanner: FC = () => {
         // spacing
         "px-[15px] py-[15px] md:px-[30px] md:py-[10px]",
         // color
-        "bg-dotto-brown text-dotto-cream",
+        "bg-inverse text-chalk",
         // motion
         "animate-[cookie-slide-up_0.5s_var(--ease-out-soft)]",
       )}
@@ -83,10 +83,10 @@ export const CookieBanner: FC = () => {
             data-id="cookie-banner-decline"
             onClick={onDecline}
             className={cn(
-              "min-h-11 border border-dotto-cream px-5 py-2",
+              "min-h-11 border border-chalk px-5 py-2",
               "text-[12px] tracking-[0.12em] uppercase",
               "transition-colors duration-200 ease-out",
-              "hover:bg-dotto-cream/10",
+              "hover:bg-chalk/10",
             )}
           >
             Decline
@@ -96,10 +96,10 @@ export const CookieBanner: FC = () => {
             data-id="cookie-banner-accept"
             onClick={onAccept}
             className={cn(
-              "min-h-11 bg-dotto-cream px-5 py-2 text-dotto-brown",
+              "min-h-11 bg-chalk px-5 py-2 text-ink",
               "text-[12px] tracking-[0.12em] uppercase",
               "transition-colors duration-200 ease-out",
-              "hover:bg-dotto-blush",
+              "hover:bg-wash",
             )}
           >
             Accept All

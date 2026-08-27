@@ -54,7 +54,7 @@ for details. Sheet keys: `neu-erdgeschoss`, `neu-obergeschoss`,
   Dotto blue (`#45519f`) on `*-line-blue.webp`. The site decorative
   register uses the blue set at `/papers/blue/`; brown originals stay
   at `/papers/`. Transparent line assets sit directly on
-  `--dotto-cream` surfaces; that is the intended pairing.
+  `--canvas` surfaces; that is the intended pairing.
 - Ghost register (background × chrome): use the transparent `-line`
   assets at CSS `opacity: 0.12–0.18`. Do not pre-bake ghost variants.
 - Honest provenance: full strength anywhere on Tegelweg pages; ghosted or

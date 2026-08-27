@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const NotFoundPage: FC = () => (
   <main
     data-id="not-found-page"
-    className="flex min-h-dvh flex-col bg-dotto-cream"
+    className="flex min-h-dvh flex-col bg-canvas"
   >
     <SiteHeader />
     <section
@@ -47,7 +47,7 @@ const NotFoundPage: FC = () => (
         data-id="not-found-line"
         className={cn(
           "relative m-0 max-w-[420px] font-[family-name:var(--font-playfair)]",
-          "text-[24px] leading-[1.4] font-[350] text-dotto-brown",
+          "text-[24px] leading-[1.4] font-[350] text-ink",
           "md:text-[28px] md:leading-[1.38]",
         )}
       >

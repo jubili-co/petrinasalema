@@ -45,7 +45,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
     <section
       data-id="work-details"
       className={cn(
-        "relative overflow-hidden bg-dotto-brown text-dotto-cream",
+        "relative overflow-hidden bg-inverse text-chalk",
         "px-6 pt-[30px] pb-20 md:min-h-[40rem] md:px-12 md:pb-28",
       )}
     >
@@ -144,7 +144,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 data-id="work-details-door"
                 className={cn(
                   "mt-[18px] inline-block font-[family-name:var(--font-playfair)]",
-                  "text-[13px] leading-[18px] font-[350] text-dotto-cream",
+                  "text-[13px] leading-[18px] font-[350] text-chalk",
                   "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
                 )}
               >
@@ -225,7 +225,7 @@ const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({ caseStudy }) => {
   );
   const labelClassName = cn(
     "m-0 mb-2 font-[family-name:var(--font-matter)]",
-    "text-[11px] leading-[15px] tracking-[0.15em] uppercase text-dotto-cream/70",
+    "text-[11px] leading-[15px] tracking-[0.15em] uppercase text-chalk/70",
   );
 
   return (
@@ -260,7 +260,7 @@ type WorkResultsListProps = {
 const WorkResultsList: FC<WorkResultsListProps> = ({ results }) => (
   <ul
     data-id="work-case-study-results"
-    className="m-0 flex list-none flex-col gap-4 border-t border-dotto-cream/25 p-0 pt-6"
+    className="m-0 flex list-none flex-col gap-4 border-t border-chalk/25 p-0 pt-6"
   >
     {results.map((entry) => (
       <WorkResultRow key={`${entry.value}-${entry.label}`} result={entry} />
@@ -290,7 +290,7 @@ const WorkResultRow: FC<WorkResultRowProps> = ({ result }) => {
         data-id="work-case-study-result-label"
         className={cn(
           "m-0 mt-1 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-dotto-cream/85",
+          "text-[13px] leading-[18px] font-[350] text-chalk/85",
         )}
       >
         {label}

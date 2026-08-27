@@ -12,7 +12,7 @@ const dsTextVariants = cva("", {
       // Louder editorial caps for section/group headings above content.
       eyebrow: cn(
         "font-[family-name:var(--font-matter)] text-xs font-semibold",
-        "tracking-widest uppercase text-dotto-brown-muted",
+        "tracking-widest uppercase text-ink-muted",
       ),
       title:
         "font-[family-name:var(--font-matter)] text-base font-semibold tracking-tight",
@@ -21,7 +21,7 @@ const dsTextVariants = cva("", {
         "text-[13px] leading-[18px] font-[350]",
       ),
       caption:
-        "font-[family-name:var(--font-matter)] text-xs text-dotto-brown-muted",
+        "font-[family-name:var(--font-matter)] text-xs text-ink-muted",
       h1: cn(
         "m-0 font-[family-name:var(--font-playfair)]",
         "text-[clamp(40px,6vw,72px)] leading-none tracking-[0.08em] uppercase",
@@ -45,7 +45,7 @@ const dsTextVariants = cva("", {
       ),
       h6: cn(
         "m-0 mb-2 font-[family-name:var(--font-playfair)]",
-        "text-[12px] leading-4 font-[350] text-dotto-brown-muted",
+        "text-[12px] leading-4 font-[350] text-ink-muted",
       ),
     },
   },

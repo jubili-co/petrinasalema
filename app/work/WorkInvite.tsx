@@ -19,7 +19,7 @@ export const WorkInvite: FC = () => (
       className={cn(
         "relative overflow-hidden",
         "flex h-full w-full flex-col items-center justify-center gap-10",
-        "border border-dotto-brown bg-dotto-cream px-6 text-center",
+        "border border-ink bg-canvas px-6 text-center",
       )}
     >
       <SketchArtifact
@@ -39,7 +39,7 @@ export const WorkInvite: FC = () => (
         data-id="work-grid-invite-close"
         className={cn(
           "relative m-0 max-w-[18ch] font-[family-name:var(--font-playfair)]",
-          "text-[17px] leading-relaxed font-[350] text-dotto-brown",
+          "text-[17px] leading-relaxed font-[350] text-ink",
         )}
       >
         {"If you're looking for a home like these, book an Intro Call now."}
@@ -59,7 +59,7 @@ export const WorkInvite: FC = () => (
           data-id="work-grid-invite-lede"
           className={cn(
             "m-0 max-w-[28ch] font-[family-name:var(--font-playfair)]",
-            "text-[12px] leading-[16px] font-[350] text-dotto-brown/75",
+            "text-[12px] leading-[16px] font-[350] text-ink/75",
           )}
         >
           Taking on a few homes and hospitality spaces a year. Projects last for

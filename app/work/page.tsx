@@ -29,7 +29,7 @@ const WorkPage: FC = () => {
   const groups = workChapterGroups();
 
   return (
-    <main data-id="work-page" className="min-h-dvh bg-dotto-cream">
+    <main data-id="work-page" className="min-h-dvh bg-canvas">
       <SiteHeader />
       <section
         data-id="work-grid"
@@ -86,7 +86,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
       data-id="work-chapter-heading"
       className={cn(
         "relative overflow-hidden",
-        "col-span-full bg-dotto-cream px-6 py-10",
+        "col-span-full bg-canvas px-6 py-10",
         "md:px-12 md:py-12",
       )}
     >
@@ -129,7 +129,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
           data-id="work-chapter-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[13px] tracking-[0.15em] text-dotto-brown uppercase",
+            "text-[13px] tracking-[0.15em] text-ink uppercase",
           )}
         >
           {label}
@@ -138,7 +138,7 @@ const WorkChapterHeading: FC<WorkChapterHeadingProps> = ({
           data-id="work-chapter-note"
           className={cn(
             "m-0 mt-3 max-w-[46ch] font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-dotto-brown/80",
+            "text-[13px] leading-[18px] font-[350] text-ink/80",
           )}
         >
           {note}
@@ -160,7 +160,7 @@ const WorkGridCard: FC<WorkGridCardProps> = ({ item }) => {
     <Link
       href={`/work/${slug}`}
       data-id="work-grid-card"
-      className="group relative aspect-[1440/1860] overflow-hidden bg-dotto-brown"
+      className="group relative aspect-[1440/1860] overflow-hidden bg-inverse"
     >
       {cover && (
         <div
@@ -188,19 +188,19 @@ const WorkGridCard: FC<WorkGridCardProps> = ({ item }) => {
       >
         <h3
           data-id="work-grid-card-title"
-          className="m-0 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-dotto-cream uppercase"
+          className="m-0 font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-chalk uppercase"
         >
           {name}
         </h3>
         <p
           data-id="work-grid-card-subtitle"
-          className="m-0 mt-2 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-dotto-cream"
+          className="m-0 mt-2 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-chalk"
         >
           {subtitle}
         </p>
         <p
           data-id="work-grid-card-location"
-          className="m-0 mt-1 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-dotto-cream/80"
+          className="m-0 mt-1 font-[family-name:var(--font-playfair)] text-[13px] leading-[18px] font-[350] text-chalk/80"
         >
           {workPlace(location)}
         </p>

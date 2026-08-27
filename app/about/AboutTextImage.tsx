@@ -56,8 +56,8 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
   } = section;
   const isImageLeft = imagePosition === "left";
   const isTextTop = textPosition !== "bottom";
-  const background = resolveCssColor(color, "dotto-brown");
-  const mediaBackground = resolveCssColor(imageColor, "dotto-sand");
+  const background = resolveCssColor(color, "inverse");
+  const mediaBackground = resolveCssColor(imageColor, "wash");
   const sectionParagraphs = paragraphs ?? [];
   const hasParagraphs = sectionParagraphs.length > 0;
   const shouldShowJubiliMark = mdx === "jubili";
@@ -75,7 +75,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
     >
       <div
         data-id="about-text-image-copy"
-        className="relative flex w-full overflow-hidden text-dotto-cream md:w-1/2 md:min-h-[100dvh]"
+        className="relative flex w-full overflow-hidden text-chalk md:w-1/2 md:min-h-[100dvh]"
         style={{ backgroundColor: background }}
       >
         {imageBorder && (
@@ -133,7 +133,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
             )}
           >
             <LogoJubiliMark
-              className={cn("h-[52px] md:h-[72px]", "text-dotto-cream")}
+              className={cn("h-[52px] md:h-[72px]", "text-chalk")}
             />
           </div>
         )}

@@ -20,7 +20,7 @@ const BookPage: FC = () => {
   const placeholder = placeholderSrc(book.image);
 
   return (
-    <main data-id="book-page" className="min-h-dvh bg-dotto-cream">
+    <main data-id="book-page" className="min-h-dvh bg-canvas">
       <SiteHeader />
       <section
         data-id="book-section"

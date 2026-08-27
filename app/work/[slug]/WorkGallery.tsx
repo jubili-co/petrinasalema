@@ -14,13 +14,13 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
     return (
       <section
         data-id="work-gallery"
-        className="flex min-h-[50dvh] items-end bg-dotto-cream px-6 pt-[100px] pb-9 md:px-12 md:pt-[120px]"
+        className="flex min-h-[50dvh] items-end bg-canvas px-6 pt-[100px] pb-9 md:px-12 md:pt-[120px]"
       >
         <h1
           data-id="work-gallery-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
-            "text-[13px] leading-[18px] tracking-[0.15em] text-dotto-brown uppercase",
+            "text-[13px] leading-[18px] tracking-[0.15em] text-ink uppercase",
           )}
         >
           {name}
@@ -32,7 +32,7 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
   return (
     <section
       data-id="work-gallery"
-      className="flex w-full flex-col gap-0.5 bg-dotto-cream pt-[74px] md:pt-[79px]"
+      className="flex w-full flex-col gap-0.5 bg-canvas pt-[74px] md:pt-[79px]"
     >
       {rows.map((row) => (
         <GalleryRowView key={rowKey(row)} row={row} name={name} />
@@ -104,7 +104,7 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
           data-id="work-gallery-caption"
           className={cn(
             "px-6 py-3 font-[family-name:var(--font-playfair)]",
-            "text-[13px] leading-[18px] font-[350] text-dotto-brown md:px-12",
+            "text-[13px] leading-[18px] font-[350] text-ink md:px-12",
           )}
         >
           {caption}

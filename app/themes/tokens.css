@@ -1,0 +1,19 @@
+/**
+ * Tailwind bridge for theme roles. Hex lives in `lib/colors.ts` (`ACTIVE_THEME`).
+ *
+ * CSS: `var(--canvas)`, `var(--ink)`, …
+ * Tailwind: `--color-*` → `bg-canvas` / `text-ink` / `border-chalk`
+ */
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-inverse: var(--inverse);
+  --color-chalk: var(--chalk);
+  --color-wash: var(--wash);
+  --color-accent: var(--accent);
+  --color-band-a: var(--band-a);
+  --color-band-b: var(--band-b);
+  --color-band-c: var(--band-c);
+}

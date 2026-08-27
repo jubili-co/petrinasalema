@@ -42,7 +42,7 @@ const AboutPage: FC = () => {
   };
 
   return (
-    <main data-id="about-page" className="min-h-dvh bg-dotto-cream">
+    <main data-id="about-page" className="min-h-dvh bg-canvas">
       <SiteHeader />
       <div data-id="about-sections" className="pt-[78px]">
         {about.sections.map((section, index) => (

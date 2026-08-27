@@ -10,7 +10,7 @@
       "title": "Petrina",
       "subtitle": "Founder & Designer",
       "textPosition": "bottom",
-      "color": "dotto-maroon",
+      "color": "band-a",
       "image": "/Website Images/2026-08-07_Petrina 1.png",
       "imageColor": null,
       "imageBorder": true
@@ -23,7 +23,7 @@
       "title": "Jubili",
       "subtitle": "Hospitality arm of this practice",
       "textPosition": "top",
-      "color": "dotto-olive",
+      "color": "band-b",
       "image": "/media/1edJ65jc4kxU2Dg5J6JgXyXaC4rTUFyZX.webp",
       "imageColor": null,
       "imageBorder": false,
@@ -36,7 +36,7 @@
     {
       "type": "workList",
       "title": "List of Projects",
-      "color": "dotto-blue",
+      "color": "band-c",
       "items": [
         {
           "name": "Tegelweg - Rental Maisonette",

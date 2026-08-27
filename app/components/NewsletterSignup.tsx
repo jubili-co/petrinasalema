@@ -38,7 +38,7 @@ export const NewsletterSignup: FC<Props> = ({
     <section
       id={sectionId}
       data-id="newsletter-signup"
-      className="flex min-h-[100dvh] w-full flex-col bg-dotto-brown md:flex-row"
+      className="flex min-h-[100dvh] w-full flex-col bg-inverse md:flex-row"
     >
       <div
         data-id="newsletter-signup-image"
@@ -73,7 +73,7 @@ export const NewsletterSignup: FC<Props> = ({
         />
         <div
           data-id="newsletter-signup-form-inner"
-          className="relative flex w-full max-w-[408px] flex-col gap-[18px] text-dotto-cream"
+          className="relative flex w-full max-w-[408px] flex-col gap-[18px] text-chalk"
         >
           <h2
             data-id="newsletter-signup-title"
@@ -137,10 +137,10 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         required
         placeholder="Your Email"
         className={cn(
-          "mb-0 w-full border-0 border-b border-dotto-cream bg-transparent",
+          "mb-0 w-full border-0 border-b border-chalk bg-transparent",
           "py-2 font-[family-name:var(--font-playfair)]",
-          "text-[13px] leading-[18px] font-[350] text-dotto-cream outline-none",
-          "placeholder:text-dotto-cream/50",
+          "text-[13px] leading-[18px] font-[350] text-chalk outline-none",
+          "placeholder:text-chalk/50",
         )}
       />
 
@@ -149,7 +149,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         className={cn(
           "my-5 flex items-start gap-[9px]",
           "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
-          "tracking-[0.15em] text-dotto-cream uppercase",
+          "tracking-[0.15em] text-chalk uppercase",
         )}
       >
         <input
@@ -157,8 +157,8 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
           name="consent"
           required
           className={cn(
-            "mt-0.5 size-3 shrink-0 appearance-none border border-solid border-dotto-cream bg-transparent",
-            "checked:bg-dotto-cream",
+            "mt-0.5 size-3 shrink-0 appearance-none border border-solid border-chalk bg-transparent",
+            "checked:bg-chalk",
           )}
         />
         <span>
@@ -177,12 +177,12 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
         type="submit"
         data-id="newsletter-signup-submit"
         className={cn(
-          "mb-[18px] inline-block !border !border-solid border-dotto-cream bg-transparent",
+          "mb-[18px] inline-block !border !border-solid border-chalk bg-transparent",
           "px-[18px] py-2",
           "font-[family-name:var(--font-matter)] text-[13px] leading-[18px]",
-          "tracking-[0.15em] text-dotto-cream uppercase",
+          "tracking-[0.15em] text-chalk uppercase",
           "transition-colors duration-200 ease-out",
-          "hover:bg-dotto-cream hover:text-dotto-brown active:scale-[0.97]",
+          "hover:bg-chalk hover:text-ink active:scale-[0.97]",
         )}
       >
         Subscribe

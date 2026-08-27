@@ -22,7 +22,7 @@ export const AboutInviteCtaLink: FC<Props> = ({ cta }) => {
   return (
     <div
       data-id="about-invite-cta"
-      className="mt-10 border-t border-dotto-cream/25 pt-8"
+      className="mt-10 border-t border-chalk/25 pt-8"
     >
       <Link
         href={href}
@@ -67,8 +67,8 @@ const InviteLine: FC<InviteLineProps> = ({ name, role }) => (
       className={cn(
         "font-[family-name:var(--font-playfair)]",
         "text-[13px] leading-[18px] font-[350] tracking-normal normal-case",
-        "underline decoration-dotto-cream/50 underline-offset-4",
-        "transition-colors duration-200 group-hover/cta:decoration-dotto-cream",
+        "underline decoration-chalk/50 underline-offset-4",
+        "transition-colors duration-200 group-hover/cta:decoration-chalk",
       )}
     >
       {role}

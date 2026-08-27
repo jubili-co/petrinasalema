@@ -16,7 +16,7 @@ const StudioPage: FC = () => {
   const content = studio as StudioContent;
 
   return (
-    <main data-id="studio-page" className="min-h-dvh bg-dotto-cream">
+    <main data-id="studio-page" className="min-h-dvh bg-canvas">
       <SiteHeader />
       <section
         data-id="studio-section"

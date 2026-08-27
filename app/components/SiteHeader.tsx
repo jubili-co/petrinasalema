@@ -73,7 +73,7 @@ export const SiteHeader: FC = () => {
           // spacing
           "px-6 py-[17px] md:px-12",
           // typography / color
-          "bg-dotto-cream font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-dotto-brown uppercase",
+          "bg-canvas font-[family-name:var(--font-matter)] text-[13px] tracking-[0.15em] text-ink uppercase",
           // motion — translate only so the page behind doesn’t fade with the bar
           "transition-[translate] duration-1000 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-[translate]",
           {
@@ -113,7 +113,7 @@ export const SiteHeader: FC = () => {
                         className={cn(
                           "border-b-2 border-transparent pb-2",
                           "transition-[opacity,border-color] duration-200 ease-out hover:opacity-50",
-                          { "border-dotto-brown": isCurrent },
+                          { "border-ink": isCurrent },
                         )}
                       >
                         {label}
@@ -159,7 +159,7 @@ export const SiteHeader: FC = () => {
             // spacing
             "px-6 pt-28 pb-[max(2rem,var(--safe-bottom))]",
             // color
-            "bg-dotto-cream text-dotto-brown",
+            "bg-canvas text-ink",
           )}
         >
           <PaperWord
@@ -181,7 +181,7 @@ export const SiteHeader: FC = () => {
                       className={cn(
                         "inline-block border-b-2 border-transparent pb-2",
                         "font-[family-name:var(--font-matter)] text-sm tracking-[0.15em] uppercase",
-                        { "border-dotto-brown": isCurrent },
+                        { "border-ink": isCurrent },
                       )}
                     >
                       {label}

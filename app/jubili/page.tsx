@@ -22,7 +22,7 @@ const JubiliPage: FC = () => {
   const placeholder = placeholderSrc(landing.jubiliImage);
 
   return (
-    <main data-id="jubili-page" className="min-h-dvh bg-dotto-mustard">
+    <main data-id="jubili-page" className="min-h-dvh bg-accent">
       <SiteHeader />
       <section
         data-id="jubili-hero"

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Playfair_Display } from "next/font/google";
 import type { FC, ReactNode } from "react";
 
-import { COLOR_HEX } from "@/lib/colors";
+import { COLOR_HEX, themeRootCss } from "@/lib/colors";
 import { SITE } from "@/lib/site";
 
 import { CookieBanner } from "./components/CookieBanner";
@@ -59,7 +59,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: COLOR_HEX["dotto-brown"],
+  themeColor: COLOR_HEX.inverse,
 };
 
 type Props = {
@@ -81,11 +81,18 @@ const personJsonLd = {
   sameAs: ["https://jubili.co", "https://www.linkedin.com/in/petrinasalema"],
 };
 
+const themeRoot = themeRootCss();
+
 const RootLayout: FC<Props> = ({ children }) => (
   <html lang="en" className={`${playfair.variable} h-full antialiased`}>
+    <style
+      href="theme-root"
+      precedence="default"
+      dangerouslySetInnerHTML={{ __html: themeRoot }}
+    />
     <body
       data-id="app-body"
-      className="flex min-h-full flex-col bg-dotto-cream text-dotto-brown"
+      className="flex min-h-full flex-col bg-canvas text-ink"
     >
       <script
         type="application/ld+json"

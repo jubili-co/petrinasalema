@@ -51,7 +51,7 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
   const rows = packGalleryRows(framed);
 
   return (
-    <main data-id="work-item-page" className="min-h-dvh bg-dotto-cream">
+    <main data-id="work-item-page" className="min-h-dvh bg-canvas">
       <SiteHeader />
       <WorkGallery name={name} rows={rows} />
       <WorkDetails item={item} nextSlug={nextItem.slug} />
