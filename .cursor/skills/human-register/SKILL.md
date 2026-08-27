@@ -46,6 +46,8 @@ It is **not**:
 
 **Temperature:** warm + plain. Effectiveness over polish. Sound like you’d say it to a friend who asked a real question.
 
+The speaking sample in [`DRAPER.md`](../../../DRAPER.md) (“How to say the idea”) is the floor. Copywriting pressure is allowed. Hyper-terse AI speak is not. If a line could be a poster, a telegram, or a slogan triad, rewrite until it is a sentence someone would actually say.
+
 ## Hard punctuation and grammar tells
 
 These are common AI fingerprints in product copy. Treat them as defects unless a rare exception is obviously right.
@@ -99,6 +101,14 @@ Why it fails: AI faking warmth with Tuesday / coats / photographer. Still essay 
 > Layout, materials, sourcing, and styling. Most take one to three months. Only a few each year. Vienna, and remote.
 
 Why it fails: telegram voice. Accurate, but withholding. Reads like the writer is annoyed, not clear. Cutting slogans must not strip warmth.
+
+### Hyper-terse AI speak
+
+> Your rooms decide. I change that. Few projects a year. Vienna, and remote.
+
+> Stop decorating around a life you didn’t choose. Shape the room.
+
+Why it fails: the words might be right and the person is gone. This is the voice that appears when a model “uplifts” copy by deleting articles, warmth, and the second sentence. Prefer the long, simple paragraph in [`DRAPER.md`](../../../DRAPER.md). Full sentences. Glad to explain. Then apply copywriting pressure without clipping the humanity out.
 
 ### Banned sludge phrases
 
@@ -192,7 +202,7 @@ Run this on every visitor-facing block you write or heavily edit. Do not skip be
 2. **Aloud test** — Read it out loud. If you wince, rewrite. If you wouldn’t say it to a friend, rewrite.
 3. **Tell sweep** — Kill em dashes, drama colons, banned phrases, `X over Y` leads, fake props.
 4. **I-ratio** — Count sentence openings. If half or more start with “I,” rebalance subjects.
-5. **Warmth vs clip** — If it reads like a telegram, add one plain human sentence. If it reads like a brochure, cut nouns and name the wound.
+5. **Warmth vs clip** — If it reads like a telegram or like hyper-terse AI speak, add the missing human sentence. If it reads like a brochure, cut nouns and name the wound. The [`DRAPER.md`](../../../DRAPER.md) speaking sample is the floor.
 6. **Second aloud** — After edits, read again. Ship only if it still sounds glad and plain.
 
 ## Shipping checklist

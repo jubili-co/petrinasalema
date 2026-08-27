@@ -20,7 +20,7 @@ Marketing and positioning logic for this site. Modeled on how Don Draper actuall
 
 **Pair with** [human-register](../human-register/SKILL.md) for voice. Draper is the *idea*. Human register is the *voice*. If they conflict, fix the idea first, then the voice.
 
-Root pointer for humans browsing the repo: [`DRAPER.md`](../../../DRAPER.md).
+Root pointer for humans browsing the repo: [`DRAPER.md`](../../../DRAPER.md). Proposed visitor lines (not live): [`COPY.md`](../../../COPY.md).
 
 ## Agent contract
 
@@ -147,15 +147,15 @@ Applies to Studio Notes, Materiality, Jubili, About shelves.
 
 ## Word choice that matters
 
-- **Deciding** beats **defining.** “Your space is already deciding how you live” has agency and threat. “Defining” is sociology. Prefer the wound that feels alive.
-- **Shape the cocoon / the room** beats **decide to live better.** Willpower copy is self-help. Container copy is this practice.
+- The wound needs a verb with agency: the room is doing something to you. **Make / write / run** are spoken options with similar force to *deciding*. *Shaping* is Petrina’s word for the work, and a little too kind for the problem. *Deciding* has teeth and has failed her aloud test. Do not force it. See [`DRAPER.md`](../../../DRAPER.md) (The wound verb).
+- **Shape the cocoon / the room** beats **decide to live better.** Willpower copy is self-help. Container copy is this practice. *Shape* belongs on the offer, not on the wound, so the two lines do not blur.
 - Reject clever oppositions as lead ideas: `considered rather than styled`, `use over spectacle`, `X rather than Y` as aesthetic slogan. That is category language (mood-board war). He wants the wound, not a taste badge.
 - Home SEO, About blurbs, and Studio principles are common places this sludge returns. Audit them when the hero has already moved on.
 
 ## Site audit: protect
 
-- **Book’s Don sentence** (and its kin): space already deciding how you live; stop decorating around a life you didn’t choose; shape the room that holds the life you want.
-- **The home echo pair.** Hook: “Your rooms are already deciding how you live.” Answer: “I help people change what the rooms decide.” The second line reuses the hook’s verb and flips the agency. Prefer this echo over remedial verbs (“fix”) at masthead level; “fix” stays right on practical pages (Studio, Book).
+- **Book’s Don sentence** (and its kin): stop decorating around a life you didn’t choose; shape the room that holds the life you want. The wound verb is spoken (make / write / run), not forced *deciding*. See [`DRAPER.md`](../../../DRAPER.md) and [`COPY.md`](../../../COPY.md).
+- **The home pair.** Hook names the wound in a verb she can say. Answer is glad and plain, not a slogan echo that only a copywriter would write. Drafts live in [`COPY.md`](../../../COPY.md).
 - **Studio lead** in the same family: nicer room is the false ask; the room should shape life toward how they want to live; value prop about fixing rooms that shape living and guest feeling.
 - **Work as proof, not brochure.** Rooms as evidence. Imagery does half the close (move 6).
 - **Project descriptions open with the stake, not the résumé.** First sentence names what the building had to do for the people in it (“A maternity hospital leaves no margin for a wall in the wrong place.” “Guests lived with every decision.”). Professional facts follow plainly. Stacked past-tense verbs (“Led… Directed… Managed…”) are arguing, not showing.

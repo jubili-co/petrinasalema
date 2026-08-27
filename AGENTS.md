@@ -38,7 +38,7 @@ Before writing or restructuring visitor-facing copy, offers, IA, or brand extens
 
 Draper is what idea the copy serves. Human register is how it sounds. If they conflict, fix the idea first, then the voice.
 
-Root pointer: [`DRAPER.md`](./DRAPER.md).
+Root pointer: [`DRAPER.md`](./DRAPER.md). Proposed visitor lines (not live): [`COPY.md`](./COPY.md).
 
 ## Cursor Cloud specific instructions
 
