@@ -30,62 +30,62 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room balcony.webp",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_living-room-balcony.webp",
           "alt": "Tegelweg, Vienna. living room opening onto the balcony",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_living-room-1.webp",
           "alt": "Tegelweg, Vienna. living room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_bathroom 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_bathroom-1.webp",
           "alt": "Tegelweg, Vienna. bathroom 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_blue room 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_blue-room-1.webp",
           "alt": "Tegelweg, Vienna. blue room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_coral-room-1.webp",
           "alt": "Tegelweg, Vienna. coral room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_coral room 4.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_coral-room-4.webp",
           "alt": "Tegelweg, Vienna. coral room 4",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_dining room 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_dining-room-1.webp",
           "alt": "Tegelweg, Vienna. dining room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_green room 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_green-room-1.webp",
           "alt": "Tegelweg, Vienna. green room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_kitchen 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_kitchen-1.webp",
           "alt": "Tegelweg, Vienna. kitchen 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_kitchen 3.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_kitchen-3.webp",
           "alt": "Tegelweg, Vienna. kitchen 3",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_living room 3.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_living-room-3.webp",
           "alt": "Tegelweg, Vienna. living room 3",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tegelweg/tegelweg_white room 1.jpg",
+          "src": "/images/work/tegelweg-rental-maisonette-vienna/tegelweg_white-room-1.webp",
           "alt": "Tegelweg, Vienna. white room 1",
           "caption": ""
         }
@@ -151,17 +151,17 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 1 -- cover.jpg",
+          "src": "/images/work/brabbeegasse-single-unit-apartment-vienna/brabbegasse_blue-room-1-cover.webp",
           "alt": "Brabbeegasse, Vienna. blue room 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_blue room 6.jpg",
+          "src": "/images/work/brabbeegasse-single-unit-apartment-vienna/brabbegasse_blue-room-6.webp",
           "alt": "Brabbeegasse, Vienna. blue room 6",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Brabbegasse/brabbegasse_kitchen 1.png",
+          "src": "/images/work/brabbeegasse-single-unit-apartment-vienna/brabbegasse_kitchen-1.webp",
           "alt": "Brabbeegasse, Vienna. kitchen 1",
           "caption": ""
         }
@@ -212,7 +212,12 @@
         "Interior fit-out"
       ],
       "description": "Participated in the construction of the office building. Working closely with the project architect, I prepared designs up to construction drawings to address variations that occurred during construction. Carried out additional detail and interior fitout.",
-      "tags": ["Office", "Construction", "Architecture", "Interior fit-out"],
+      "tags": [
+        "Office",
+        "Construction",
+        "Architecture",
+        "Interior fit-out"
+      ],
       "links": [
         {
           "href": "https://www.epitome-arc.com/tan-house",
@@ -225,17 +230,17 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Epitome -- cover.jpg",
+          "src": "/images/work/tan-house-office-building/image_TanHouse-Epitome-cover.webp",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Epitome",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - Petrina 3.jpg",
+          "src": "/images/work/tan-house-office-building/image_TanHouse-Petrina-3.webp",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - Petrina 3",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Tan House Office Building/image_TanHouse - jengo sanifu magazine 4.JPG",
+          "src": "/images/work/tan-house-office-building/image_TanHouse-jengo-sanifu-magazine-4.webp",
           "alt": "Tan House Office Building, Dar es Salaam. TanHouse - jengo sanifu magazine 4",
           "caption": ""
         }
@@ -262,7 +267,12 @@
         "Green Mark coordination"
       ],
       "description": "Participated in the project from tendering phase to handover and DLP of the National Housing Corporation Eco Residence apartments. I worked directly with the project architect and leased with the contractor in this Design and Build competition win. I prepared designs up to construction drawings to address variations that occurred during construction. Carried out additional detail and interior fitout, working with light consultant and other experts to ensure that the building met the required standard to receive a Green-mark award.",
-      "tags": ["Housing", "Residential", "Construction", "Architecture"],
+      "tags": [
+        "Housing",
+        "Residential",
+        "Construction",
+        "Architecture"
+      ],
       "links": [
         {
           "href": "https://www.google.com/maps/place/Eco+Residence./@-6.7962338,39.2666758,1037m/data=!3m2!1e3!4b1!4m6!3m5!1s0x185c4b862e78dbd1:0x14a25e09b522080c!8m2!3d-6.7962391!4d39.2692561!16s%2Fg%2F1tfd96t1?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D",
@@ -271,17 +281,17 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence - Godfrey Mwakabole -- cover.webp",
+          "src": "/images/work/nhc-eco-residence/image_NHC-Eco-Residence-Godfrey-Mwakabole-cover.webp",
           "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence - Godfrey Mwakabole",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence 1 - Epitome.jpg",
+          "src": "/images/work/nhc-eco-residence/image_NHC-Eco-Residence-1-Epitome.webp",
           "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence 1 - Epitome",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ National Housing Corporation Eco Village/image_NHC Eco Residence 3 - Epitome.jpg",
+          "src": "/images/work/nhc-eco-residence/image_NHC-Eco-Residence-3-Epitome.webp",
           "alt": "NHC Eco Residence, Dar es Salaam. NHC Eco Residence 3 - Epitome",
           "caption": ""
         }
@@ -312,7 +322,12 @@
         "Site supervision"
       ],
       "description": "Contributed across the full pre-construction lifecycle of a regional bank headquarters, from feasibility (including comparative site visits to BOT branches in Dar es Salaam, Zanzibar, and Dodoma) through tender award. Led office space programming based on departmental needs, coordinated with MEP engineers and specialist sub-consultants on a technically complex building, and contributed to a cost-reduction exercise to keep the project within budget. Carried out site supervision in the initial construction phase.",
-      "tags": ["Banking", "Headquarters", "Workplace", "Architecture"],
+      "tags": [
+        "Banking",
+        "Headquarters",
+        "Workplace",
+        "Architecture"
+      ],
       "links": [
         {
           "href": "https://www.epitome-arc.com/bank-of-tanzania",
@@ -325,22 +340,22 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/image_BOT - Petrina 1 -- cover.png",
+          "src": "/images/work/bank-of-tanzania-mwanza-branch/image_BOT-Petrina-1-cover.webp",
           "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. BOT - Petrina 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/image_BOT - Petrina 2b.png",
+          "src": "/images/work/bank-of-tanzania-mwanza-branch/image_BOT-Petrina-2b.webp",
           "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. BOT - Petrina 2b",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/image_BOT - Petrina 3.png",
+          "src": "/images/work/bank-of-tanzania-mwanza-branch/image_BOT-Petrina-3.webp",
           "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. BOT - Petrina 3",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Bank of Tanzania Mwanza Branch/image_BOT - CCECC.png",
+          "src": "/images/work/bank-of-tanzania-mwanza-branch/image_BOT-CCECC.webp",
           "alt": "Bank of Tanzania, Mwanza Branch, Mwanza. BOT - CCECC",
           "caption": ""
         }
@@ -366,26 +381,31 @@
         "Cost estimate"
       ],
       "description": "Participated in the Design and Build competition to propose a multi-use building for the pension fund. Carried out meetings with a team of professionals including, engineers and quantity surveyors to give a comprehensive competition entry with a cost estimate. The concept focused on form and distinctive facade treatment to demarcate the different functions of the mixed-use building.",
-      "tags": ["Competition", "Office", "Unbuilt", "Architecture"],
+      "tags": [
+        "Competition",
+        "Office",
+        "Unbuilt",
+        "Architecture"
+      ],
       "links": [],
       "images": [
         {
-          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 2 -- cover.png",
+          "src": "/images/work/ppf-commercial-property-head-office-competition/PPF-Competition-Epitome-Petrina-2-cover.webp",
           "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 2",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 1.png",
+          "src": "/images/work/ppf-commercial-property-head-office-competition/PPF-Competition-Epitome-Petrina-1.webp",
           "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 5.png",
+          "src": "/images/work/ppf-commercial-property-head-office-competition/PPF-Competition-Epitome-Petrina-5.webp",
           "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 5",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ PPF Competition/PPF Competition - Epitome - Petrina 3.png",
+          "src": "/images/work/ppf-commercial-property-head-office-competition/PPF-Competition-Epitome-Petrina-3.webp",
           "alt": "PPF Commercial Property / Head Office, Dar es Salaam. PPF Competition - Epitome - Petrina 3",
           "caption": ""
         }
@@ -433,12 +453,12 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre 3 - APC -- cover.jpg",
+          "src": "/images/work/international-school-of-tanganyika-athletic-centre/image_IST-Athletic-Centre-3-APC-cover.webp",
           "alt": "IST Athletic Centre, Dar es Salaam. Built sports hall",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Athletic Centre/image_IST Athletic Centre - Petrina 2.png",
+          "src": "/images/work/international-school-of-tanganyika-athletic-centre/image_IST-Athletic-Centre-Petrina-2.webp",
           "alt": "IST Athletic Centre, Dar es Salaam. IST Athletic Centre - Petrina 2",
           "caption": ""
         }
@@ -467,7 +487,12 @@
         "Defects-liability supervision"
       ],
       "description": "Led design refinement of fixed furniture detailing through construction, working closely with junior team members during the construction phase. Carried out supervision during the defects-liability period, including an added scope of detailing and construction for the classroom blocks.",
-      "tags": ["Education", "Classrooms", "Construction", "Architecture"],
+      "tags": [
+        "Education",
+        "Classrooms",
+        "Construction",
+        "Architecture"
+      ],
       "links": [
         {
           "href": "https://www.apc-tz.com/work#/internationalschool/",
@@ -480,17 +505,17 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Classroom Blocks D & E/image_IST Classrooms - Petrina 5 --cover.png",
+          "src": "/images/work/international-school-of-tanganyika-classroom-blocks-d-e/image_IST-Classrooms-Petrina-5-cover.webp",
           "alt": "IST Classrooms, Dar es Salaam. IST Classrooms - Petrina 5",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Classroom Blocks D & E/image_IST Classrooms - Petrina 2.png",
+          "src": "/images/work/international-school-of-tanganyika-classroom-blocks-d-e/image_IST-Classrooms-Petrina-2.webp",
           "alt": "IST Classrooms, Dar es Salaam. IST Classrooms - Petrina 2",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ International School of Tanganyika Classroom Blocks D & E/image_IST Classrooms - Petrina 4.png",
+          "src": "/images/work/international-school-of-tanganyika-classroom-blocks-d-e/image_IST-Classrooms-Petrina-4.webp",
           "alt": "IST Classrooms, Dar es Salaam. IST Classrooms - Petrina 4",
           "caption": ""
         }
@@ -521,7 +546,12 @@
         "Feature wall with on-site ceramics"
       ],
       "description": "Managed this government-client project through its complete lifecycle, feasibility through construction and defects liability, leading the architectural design work and mentoring junior team members throughout. Collaborated with local craftsmen on the design of a feature wall using custom 3D tiles sourced from the client's own on-site ceramic workshop, and delivered client presentations explaining the building's hybrid system design. Resolved equipment delays and post-handover technical faults during the defects liability period.",
-      "tags": ["Government", "Laboratory", "Architecture", "Adaptive reuse"],
+      "tags": [
+        "Government",
+        "Laboratory",
+        "Architecture",
+        "Adaptive reuse"
+      ],
       "links": [
         {
           "href": "https://www.apc-tz.com",
@@ -534,23 +564,23 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC small - AMGC--hero.jpg",
+          "src": "/images/work/analytical-fingerprint-laboratory-rehabilitation/image_AMGC-small-AMGC-hero.webp",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC small - AMGC",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 5.jpg",
+          "src": "/images/work/analytical-fingerprint-laboratory-rehabilitation/image_AMGC-Petrina-5.webp",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 5",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 3c.png",
+          "src": "/images/work/analytical-fingerprint-laboratory-rehabilitation/image_AMGC-Petrina-3c.webp",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 3c",
           "caption": "",
           "layout": "pair"
         },
         {
-          "src": "/Website Images/⭐️  Analytical Fingerprint Laboratory Rehabilitation/image_AMGC - Petrina 11.jpg",
+          "src": "/images/work/analytical-fingerprint-laboratory-rehabilitation/image_AMGC-Petrina-11.webp",
           "alt": "AMGC Science Campus Rehabilitation, Dar es Salaam. AMGC - Petrina 11",
           "caption": "",
           "layout": "pair"
@@ -577,36 +607,41 @@
         "Presentation"
       ],
       "description": "Worked on a scheme design for a residential apartment complex. Focused on meeting the clients brief to maximise the plot, but also ensured that each line house has their own designated garden space to give a sense of seclusion and privacy. Incorporating locally available natural materials such as stone on the facade.",
-      "tags": ["Residential", "Scheme", "Unbuilt", "Architecture"],
+      "tags": [
+        "Residential",
+        "Scheme",
+        "Unbuilt",
+        "Architecture"
+      ],
       "links": [],
       "images": [
         {
-          "src": "/Website Images/⭐️ Chake Chake/image_chakechake - Petrina 1 --cover.png",
+          "src": "/images/work/house-on-chake-chake-road/image_chakechake-Petrina-1-cover.webp",
           "alt": "House on Chake Chake Road, Dar es Salaam. chakechake - Petrina 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Chake Chake/image_chakechake - Petrina 2.png",
+          "src": "/images/work/house-on-chake-chake-road/image_chakechake-Petrina-2.webp",
           "alt": "House on Chake Chake Road, Dar es Salaam. chakechake - Petrina 2",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Chake Chake/image_chakechake - Petrina 3.png",
+          "src": "/images/work/house-on-chake-chake-road/image_chakechake-Petrina-3.webp",
           "alt": "House on Chake Chake Road, Dar es Salaam. chakechake - Petrina 3",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Chake Chake/image_chakechake - Petrina 4.png",
+          "src": "/images/work/house-on-chake-chake-road/image_chakechake-Petrina-4.webp",
           "alt": "House on Chake Chake Road, Dar es Salaam. chakechake - Petrina 4",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Chake Chake/image_chakechake - Petrina 5.png",
+          "src": "/images/work/house-on-chake-chake-road/image_chakechake-Petrina-5.webp",
           "alt": "House on Chake Chake Road, Dar es Salaam. chakechake - Petrina 5",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Chake Chake/image_chakechake - Petrina 7.png",
+          "src": "/images/work/house-on-chake-chake-road/image_chakechake-Petrina-7.webp",
           "alt": "House on Chake Chake Road, Dar es Salaam. chakechake - Petrina 7",
           "caption": ""
         }
@@ -631,11 +666,16 @@
         "Pitch documents"
       ],
       "description": "The Ministry of Foreign Affairs and International Cooperation was finally ready to build their own headquarters. I participated in the design process and prepared the presentation documents for the project pitch that focused on giving the office building a statement feature and bold colour that matched the organisation's corporate image. We designed the building to have a visible presence that holds its own in the built-up city centre.",
-      "tags": ["Civic", "Office", "Unbuilt", "Architecture"],
+      "tags": [
+        "Civic",
+        "Office",
+        "Unbuilt",
+        "Architecture"
+      ],
       "links": [],
       "images": [
         {
-          "src": "/Website Images/⭐️ Ministry of Foreign Affairs, Dar es Salaam/image_MoFA - Petrina 7 --cover.png",
+          "src": "/images/work/ministry-of-foreign-affairs-office/image_MoFA-Petrina-7-cover.webp",
           "alt": "Ministry of Foreign Affairs office, Dar es Salaam. MoFA - Petrina 7",
           "caption": ""
         }
@@ -655,18 +695,24 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Feasibility study to tender action"],
+      "scope": [
+        "Feasibility study to tender action"
+      ],
       "description": "Designed a small block with operational theaters as overflows for the main hospital. Finishing materials that were similar to existing buildings were used so that the new structure fits in seamlessly. Carried out the project from initial design to tender action.",
-      "tags": ["Healthcare", "Unbuilt", "Architecture"],
+      "tags": [
+        "Healthcare",
+        "Unbuilt",
+        "Architecture"
+      ],
       "links": [],
       "images": [
         {
-          "src": "/Website Images/⭐️ Edit - Bugando Medical Centre/image_Bugando OP Theatre - Petrina 1 -- cover.png",
+          "src": "/images/work/bugando-medical-centre-theatre-block/image_Bugando-OP-Theatre-Petrina-1-cover.webp",
           "alt": "Bugando Medical Centre theatre block, Mwanza. Bugando OP Theatre - Petrina 1",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Edit - Bugando Medical Centre/image_Bugando OP Theatre - Petrina 2.png",
+          "src": "/images/work/bugando-medical-centre-theatre-block/image_Bugando-OP-Theatre-Petrina-2.webp",
           "alt": "Bugando Medical Centre theatre block, Mwanza. Bugando OP Theatre - Petrina 2",
           "caption": ""
         }
@@ -686,9 +732,16 @@
           "role": "Project Manager, APC Architectural Pioneering Consultants"
         }
       ],
-      "scope": ["Jali screen construction drawings"],
+      "scope": [
+        "Jali screen construction drawings"
+      ],
       "description": "Involved in preparing the construction drawings for the jali screens that are a prominent feature of the hospital facade.",
-      "tags": ["Healthcare", "Hospital", "Construction", "Architecture"],
+      "tags": [
+        "Healthcare",
+        "Hospital",
+        "Construction",
+        "Architecture"
+      ],
       "links": [
         {
           "href": "https://www.apc-tz.com/work#/agakhanhospital/",
@@ -701,12 +754,12 @@
       ],
       "images": [
         {
-          "src": "/Website Images/⭐️ Aga Khan Hospital/image_Aga Khan Hospital - FA TiMz --cover.png",
+          "src": "/images/work/aga-khan-hospital/image_Aga-Khan-Hospital-FA-TiMz-cover.webp",
           "alt": "Aga Khan Hospital, Dar es Salaam. Aga Khan Hospital - FA TiMz",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Aga Khan Hospital/image_Aga Khan Hospital - Orujul Hassan.png",
+          "src": "/images/work/aga-khan-hospital/image_Aga-Khan-Hospital-Orujul-Hassan.webp",
           "alt": "Aga Khan Hospital, Dar es Salaam. Aga Khan Hospital - Orujul Hassan",
           "caption": ""
         }
@@ -735,7 +788,12 @@
         "Technical drawing review"
       ],
       "description": "Led a team of architects in preparing detail design drawings and production information for a healthcare facility with high services complexity, directing the team's work overlaying design-development drawings to verify correct placement of medical equipment against MEP services.",
-      "tags": ["Healthcare", "Maternity", "Hospital", "Architecture"],
+      "tags": [
+        "Healthcare",
+        "Maternity",
+        "Hospital",
+        "Architecture"
+      ],
       "links": [
         {
           "href": "https://www.apc-tz.com/work#/ccbrthospital/",
@@ -748,7 +806,7 @@
       ],
       "images": [
         {
-          "src": "/Website Images/New CCBRT Maternity Hospital/image_CCBRT.jpg",
+          "src": "/images/work/new-ccbrt-maternity-hospital/image_CCBRT.webp",
           "alt": "CCBRT Maternity Hospital, Dar es Salaam. CCBRT",
           "caption": ""
         }
@@ -768,18 +826,25 @@
           "role": "Assistant Architect & Interior Designer, Epitome Architects Limited"
         }
       ],
-      "scope": ["Entry-treatment visuals"],
+      "scope": [
+        "Entry-treatment visuals"
+      ],
       "description": "Prepared visuals to demonstrate the proposed entry treatment for a small bank building, translating drawings into visual representation that the client could understand.",
-      "tags": ["Banking", "Headquarters", "Visuals", "Architecture"],
+      "tags": [
+        "Banking",
+        "Headquarters",
+        "Visuals",
+        "Architecture"
+      ],
       "links": [],
       "images": [
         {
-          "src": "/Website Images/⭐️ Bank M/image_Bank M - Petrina 3 --cover.png",
+          "src": "/images/work/bank-m-headquarters/image_Bank-M-Petrina-3-cover.webp",
           "alt": "Bank M Headquarters, Dar es Salaam. Bank M - Petrina 3",
           "caption": ""
         },
         {
-          "src": "/Website Images/⭐️ Bank M/image_Bank M - Petrina 4.png",
+          "src": "/images/work/bank-m-headquarters/image_Bank-M-Petrina-4.webp",
           "alt": "Bank M Headquarters, Dar es Salaam. Bank M - Petrina 4",
           "caption": ""
         }

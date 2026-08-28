@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Local originals. Site photos are web-sized copies in public/images.
+/public/Website Images/
+
 # Local agent artifacts
 artifacts/
 

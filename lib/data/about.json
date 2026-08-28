@@ -11,7 +11,7 @@
       "subtitle": "Founder & Designer",
       "textPosition": "bottom",
       "color": "band-a",
-      "image": "/Website Images/2026-08-07_Petrina 1.png",
+      "image": "/images/about/2026-08-07_Petrina-1.webp",
       "imageColor": null,
       "imageBorder": true
     },
@@ -29,7 +29,7 @@
       "imageBorder": false,
       "cta": {
         "name": "If your space needs to earn",
-        "role": "Intro Call",
+        "role": "Let's see if this is a fit",
         "href": "/book"
       }
     },
@@ -119,8 +119,8 @@
         }
       ],
       "cta": {
-        "name": "If the work fits",
-        "role": "let's do an Intro Call",
+        "name": "If one of your rooms is next",
+        "role": "Let's see if this is a fit",
         "href": "/book"
       }
     }
