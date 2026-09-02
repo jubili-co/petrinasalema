@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
   style: ["normal", "italic"],
 });
 
-const metadataBase = new URL(SITE.origin);
+const metadataBase = new URL(SITE.url);
 
 export const metadata: Metadata = {
   metadataBase,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_AT",
-    url: SITE.origin,
+    url: SITE.url,
     siteName: SITE.name,
     title: "Petrina Salema",
     description:

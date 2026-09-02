@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Petrina Salema",
   url: "https://www.petrinasalema.com",
-  origin: "https://petrinasalema.vercel.app",
+  origin: "https://www.petrinasalema.com",
   email: "contact@petrinasalema.com",
   ogImage: "/og.jpg",
   ogImageAlt: "Living room at Tegelweg, Vienna",
