@@ -1,0 +1,2 @@
+# agents.txt
+# Standard: https://agents-txt.com
