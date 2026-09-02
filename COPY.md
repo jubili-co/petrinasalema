@@ -120,7 +120,7 @@ Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, an
 
 Footer links: Work, Book, About, Studio. Jubili off that row.
 
-**Cookie line.** This site can remember whether you accepted cookies, and uses first-party analytics to see which pages are used. No advertising trackers. You can accept or decline. More in Privacy.
+**Cookie line.** If you accept, this site records anonymous page views. The details are in Privacy.
 
 **Privacy.** Say that booking a call opens Cal.com. Do not claim there is no outside booking tool.
 

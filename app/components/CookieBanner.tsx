@@ -56,9 +56,8 @@ export const CookieBanner: FC = () => {
           data-id="cookie-banner-copy"
           className="font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-light"
         >
-          If you accept, this site records anonymous page views so the studio
-          can see what people actually use. No advertising cookies. The details
-          are in{" "}
+          If you accept, this site records anonymous page views. The details are
+          in{" "}
           <Link href="/privacy" className="underline underline-offset-2">
             Privacy
           </Link>
