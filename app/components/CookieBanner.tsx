@@ -5,35 +5,26 @@ import { useSyncExternalStore, type FC } from "react";
 
 import { cn } from "@/lib/cn";
 
-const STORAGE_KEY = "dotto-cookies";
-
-function subscribe(onStoreChange: () => void): () => void {
-  window.addEventListener("storage", onStoreChange);
-  return () => {
-    window.removeEventListener("storage", onStoreChange);
-  };
-}
-
-function getSnapshot(): string | null {
-  return window.localStorage.getItem(STORAGE_KEY);
-}
-
-function getServerSnapshot(): string | null {
-  return "accepted";
-}
+import {
+  readCookieConsent,
+  subscribeCookieConsent,
+  writeCookieConsent,
+} from "./CookieConsent";
 
 export const CookieBanner: FC = () => {
-  const stored = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
-  const isVisible = !stored;
+  const consent = useSyncExternalStore(
+    subscribeCookieConsent,
+    readCookieConsent,
+    getServerSnapshot,
+  );
+  const isVisible = !consent;
 
   const onAccept = () => {
-    window.localStorage.setItem(STORAGE_KEY, "accepted");
-    window.dispatchEvent(new Event("storage"));
+    writeCookieConsent("accepted");
   };
 
   const onDecline = () => {
-    window.localStorage.setItem(STORAGE_KEY, "declined");
-    window.dispatchEvent(new Event("storage"));
+    writeCookieConsent("declined");
   };
 
   if (!isVisible) {
@@ -65,9 +56,9 @@ export const CookieBanner: FC = () => {
           data-id="cookie-banner-copy"
           className="font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-light"
         >
-          We use cookies to enhance your browsing experience and analyse site
-          usage. By clicking &apos;Accept All&apos;, you consent to our use of
-          cookies. You can learn more in our{" "}
+          If you accept, this site records anonymous page views so the studio
+          can see what people actually use. No advertising cookies. The details
+          are in{" "}
           <Link href="/privacy" className="underline underline-offset-2">
             Privacy
           </Link>
@@ -102,10 +93,14 @@ export const CookieBanner: FC = () => {
               "hover:bg-wash",
             )}
           >
-            Accept All
+            Accept
           </button>
         </div>
       </div>
     </div>
   );
 };
+
+function getServerSnapshot(): "accepted" {
+  return "accepted";
+}

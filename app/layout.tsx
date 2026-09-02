@@ -6,6 +6,7 @@ import { COLOR_HEX, themeRootCss } from "@/lib/colors";
 import { SITE } from "@/lib/site";
 
 import { CookieBanner } from "./components/CookieBanner";
+import { VercelAnalytics } from "./components/VercelAnalytics";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -100,6 +101,7 @@ const RootLayout: FC<Props> = ({ children }) => (
       />
       {children}
       <CookieBanner />
+      <VercelAnalytics />
     </body>
   </html>
 );
