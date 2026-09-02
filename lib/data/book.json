@@ -1,25 +1,29 @@
 {
   "seoTitle": "Book | Petrina Salema",
-  "seoDescription": "Your space is already deciding how you live. Book a free Intro Call, or a one hour Design Kick-off, with Petrina Salema in Vienna.",
+  "seoDescription": "Your space is already deciding how you live. A free first conversation, or a paid hour on the plan, with Petrina Salema in Vienna.",
   "image": "/media/1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf.webp",
-  "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Actively shape the room that holds how you want to rest, gather, and think.",
+  "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Shape the room that holds how you want to rest, gather, and think.",
   "projectOffer": {
     "title": "Full project",
-    "body": "A redesign of how a home or room operates. Considering how a family or guests move through the space, layout and material, improving layout and material choices, then sourcing and styling.",
-    "note": "I take on a few residences a year. Most take one to three months, working in-person in Vienna, and remotely abroad.",
-    "finance": "I provide a quote after the initial Intro Call. A deposit is requested at the start of the project, then you are billed in stages up to the final stage. Do a first call for €290 and get clarity on what to do with your space."
+    "body": "A redesign of how a home or room operates. How a family or guests move through it, then layout, materials, sourcing, and styling.",
+    "note": "A few residences a year. Most take one to three months, in person in Vienna, and remotely abroad.",
+    "finance": "A quote comes after the first conversation. A deposit starts the project, then billing in stages until the last invoice."
   },
   "jumpstartOffer": {
-    "title": "Design Kick-off",
-    "body": "Spend one hour discussing the plan. We identify the changes that would have the biggest impact. You leave with a clear next step."
+    "title": "A paid hour on the plan",
+    "body": "Spend one hour on the plan. The changes that would matter most, and a clear next step when you leave."
+  },
+  "quote": {
+    "text": "My daughter started calling her room the room from the fairy tale.",
+    "attribution": "Artashes · Vienna"
   },
   "primaryCta": {
-    "label": "Intro Call",
+    "label": "Let's see if this is a fit",
     "href": "https://cal.com/jubili/fit-call",
-    "microcopy": "Free · 30 min · with Petrina Salema"
+    "microcopy": "Free · 30 min · with Petrina"
   },
   "secondaryCta": {
-    "label": "Kick-off",
+    "label": "A paid hour on the plan",
     "href": "https://cal.com/jubili/jump-start",
     "microcopy": "€290 · 60 min · Leave knowing what to change"
   }

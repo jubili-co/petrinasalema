@@ -1,6 +1,6 @@
 # Proposed copy
 
-Drafts only. Not live until someone asks to put them on the site.
+These drafts are now live on Home, Studio, Book, Work doors and chapter notes, and site chrome (footer, cookie, privacy, newsletter, /jubili button). About still has the Jubili chapter; only its door labels were aligned. Older project blurbs in `lib/data/work.json` were left as they are.
 
 Voice: the simple speaking tone in [`DRAPER.md`](./DRAPER.md) (“How to say the idea”). Full sentences. Glad to explain. Copywriting pressure without telegram, slogan triads, or hyper-terse AI speak.
 
@@ -8,16 +8,20 @@ Idea: [`DRAPER.md`](./DRAPER.md). Voice rules: [`.cursor/skills/human-register/S
 
 ## Home
 
-**Headline.** Your rooms already make you live a certain way.
+Live headline and support stayed hers: “Your space is shaping how you live.” / “I help people design spaces to redefine living for them and their guests.”
 
-**Support.** Most people decorate around that. I help people change the rooms, so the days can go how they want.
+The *make* pair below was a draft alternative. Do not swap it in unless she asks.
+
+**Headline (draft, unused).** Your rooms already make you live a certain way.
+
+**Support (draft, unused).** Most people decorate around that. I help people change the rooms, so the days can go how they want.
 
 **Proof lede.** A Vienna home that has hosted paying guests for five years.
 
 **Quote.** Keep: “My daughter started calling her room the room from the fairy tale.” Artashes · Vienna
 
 **Proof link.** `/work/tegelweg-rental-maisonette-vienna`  
-**Proof link label.** See that home.
+**Proof link label.** See the home. Outlined button with the appearing arrow.
 
 Do not link this block to jubili.co or to the Jubili chapter on About. The numbers belong to the work. Jubili can be named in a quieter place later.
 

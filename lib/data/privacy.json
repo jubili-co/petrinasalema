@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This website may store a local preference recording whether you accepted or declined analytics. Vercel Web Analytics does not set analytics cookies. The analytics script is loaded only after you accept.\n\nThis website does not currently use an external booking tool or embed third-party video, map, or social-media widgets. Ordinary links to another website or an email application do not transmit information to that service until you activate the link. The external provider's own privacy information applies after you leave this website."
+      "text": "This website may store a local preference recording whether you accepted or declined analytics. Vercel Web Analytics does not set analytics cookies. The analytics script is loaded only after you accept.\n\nBooking a call opens Cal.com. Cal.com collects the information needed to schedule that conversation, under their own privacy policy. This site does not embed the calendar. Ordinary links to another website or an email application do not transmit information to that service until you activate the link. The external provider's own privacy information applies after you leave this website."
     },
     {
       "type": "heading",
@@ -104,7 +104,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This policy may be updated if the website, service providers, or legal requirements change. The current version will always be published on this page. If an external booking service, additional analytics, advertising technology, or embedded third-party service is introduced, this policy will be updated before or when that processing begins.\n\nLast updated: 2 September 2026"
+      "text": "This policy may be updated if the website, service providers, or legal requirements change. The current version will always be published on this page. If additional analytics, advertising technology, or an embedded third-party service is introduced, this policy will be updated before or when that processing begins.\n\nLast updated: 2 September 2026"
     }
   ]
 }

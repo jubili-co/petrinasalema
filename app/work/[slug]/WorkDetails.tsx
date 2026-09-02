@@ -5,6 +5,7 @@ import { DsText } from "@/app/components/ds/DsText";
 import { PaperWord } from "@/app/components/PaperWord";
 import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { cn } from "@/lib/cn";
+import { FIT_CALL_DOOR, FIT_CALL_PATH } from "@/lib/site";
 import {
   workOffersDoor,
   workPlace,
@@ -140,7 +141,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             {caseStudy && <WorkCaseStudyBlock caseStudy={caseStudy} />}
             {showDoor && (
               <Link
-                href="/book"
+                href={FIT_CALL_PATH}
                 data-id="work-details-door"
                 className={cn(
                   "mt-[18px] inline-block font-[family-name:var(--font-playfair)]",
@@ -148,7 +149,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                   "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
                 )}
               >
-                {"If you're looking for a home like this, book an Intro Call now."}
+                {FIT_CALL_DOOR}
               </Link>
             )}
           </div>

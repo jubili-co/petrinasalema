@@ -20,10 +20,16 @@ export type BookCta = {
   microcopy?: string;
 };
 
+export type BookQuote = {
+  text: string;
+  attribution: string;
+};
+
 export type BookContent = {
   hook: string;
   projectOffer: BookOffer;
   jumpstartOffer: BookOffer;
+  quote: BookQuote;
   primaryCta: BookCta;
   secondaryCta: BookCta;
 };
@@ -35,7 +41,8 @@ type Props = {
 const SKETCH_SRC = `${PAPERS}/schnitt-a-b--schnitt-line.webp`;
 
 export const BookPanel: FC<Props> = ({ book }) => {
-  const { hook, projectOffer, jumpstartOffer, primaryCta, secondaryCta } = book;
+  const { hook, projectOffer, jumpstartOffer, quote, primaryCta, secondaryCta } =
+    book;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[13px] leading-[18px] font-[350] text-ink/85",
@@ -118,6 +125,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
           <OfferBlock offer={projectOffer} action={projectAction} />
           <OfferBlock offer={jumpstartOffer} action={jumpstartAction} />
         </div>
+        <BookQuoteBlock quote={quote} />
       </div>
     </div>
   );
@@ -169,5 +177,36 @@ const OfferBlock: FC<OfferBlockProps> = ({ offer, action }) => {
         {action}
       </div>
     </div>
+  );
+};
+
+type BookQuoteBlockProps = {
+  quote: BookQuote;
+};
+
+const BookQuoteBlock: FC<BookQuoteBlockProps> = ({ quote }) => {
+  const { text, attribution } = quote;
+
+  return (
+    <blockquote data-id="book-quote" className="m-0 mt-16">
+      <p
+        data-id="book-quote-text"
+        className={cn(
+          "m-0 font-[family-name:var(--font-playfair)]",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
+        )}
+      >
+        {`“${text}”`}
+      </p>
+      <cite
+        data-id="book-quote-attribution"
+        className={cn(
+          "mt-3 block font-[family-name:var(--font-playfair)] not-italic",
+          "text-[13px] leading-[18px] font-[350] text-ink/70",
+        )}
+      >
+        {attribution}
+      </cite>
+    </blockquote>
   );
 };

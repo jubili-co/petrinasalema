@@ -20,7 +20,7 @@ Marketing and positioning logic for this site. Modeled on how Don Draper actuall
 
 **Pair with** [human-register](../human-register/SKILL.md) for voice. Draper is the *idea*. Human register is the *voice*. If they conflict, fix the idea first, then the voice.
 
-Root pointer for humans browsing the repo: [`DRAPER.md`](../../../DRAPER.md). Proposed visitor lines (not live): [`COPY.md`](../../../COPY.md).
+Root pointer for humans browsing the repo: [`DRAPER.md`](../../../DRAPER.md). Shipped visitor lines: [`COPY.md`](../../../COPY.md).
 
 ## Agent contract
 

@@ -2,6 +2,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import { PAPERS } from "@/lib/papers";
+import { FIT_CALL_DOOR, FIT_CALL_PATH, FIT_CALL_SOFT_LABEL } from "@/lib/site";
 
 import { CtaLink } from "../components/CtaLink";
 import { PaperWord } from "../components/PaperWord";
@@ -38,22 +39,22 @@ export const WorkInvite: FC = () => (
       <p
         data-id="work-grid-invite-close"
         className={cn(
-          "relative m-0 max-w-[18ch] font-[family-name:var(--font-playfair)]",
+          "relative m-0 max-w-[24ch] font-[family-name:var(--font-playfair)]",
           "text-[17px] leading-relaxed font-[350] text-ink",
         )}
       >
-        {"If you're looking for a home like these, book an Intro Call now."}
+        {FIT_CALL_DOOR}
       </p>
       <div
         data-id="work-grid-invite-actions"
         className="relative flex flex-col items-center gap-4"
       >
         <CtaLink
-          href="/book"
+          href={FIT_CALL_PATH}
           variant="secondary"
           data-id="work-grid-invite-cta"
         >
-          Intro Call
+          {FIT_CALL_SOFT_LABEL}
         </CtaLink>
         <p
           data-id="work-grid-invite-lede"
@@ -62,8 +63,8 @@ export const WorkInvite: FC = () => (
             "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/75",
           )}
         >
-          Taking on a few homes and hospitality spaces a year. Projects last for
-          one to three months. Working locally in Vienna, and remotely worldwide.
+          I take on a few homes and hospitality spaces a year. Most take one to
+          three months, in person in Vienna, and remotely.
         </p>
       </div>
     </div>

@@ -119,7 +119,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
           "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350]",
         )}
       >
-        Thank you. You&apos;re on the list.
+        Thanks. Email contact@petrinasalema.com if you want the next note.
       </p>
     );
   }
@@ -168,7 +168,7 @@ const NewsletterForm: FC<NewsletterFormProps> = ({ isSubmitted, onSubmit }) => {
             data-id="newsletter-signup-privacy-link"
             className="underline"
           >
-            terms and conditions
+            privacy policy
           </Link>
         </span>
       </label>

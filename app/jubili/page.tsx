@@ -7,6 +7,7 @@ import { cn } from "@/lib/cn";
 import landing from "@/lib/data/landing.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
 import { placeholderSrc } from "@/lib/placeholderSrc";
+import { FIT_CALL_PATH, FIT_CALL_SOFT_LABEL } from "@/lib/site";
 
 import { LogoJubiliWordmark } from "../components/LogoJubiliWordmark";
 import { SiteHeader } from "../components/SiteHeader";
@@ -62,7 +63,7 @@ const JubiliPage: FC = () => {
             artist collaborations from the Jubili collection.
           </p>
           <Link
-            href="/book"
+            href={FIT_CALL_PATH}
             data-id="jubili-hero-cta"
             className={cn(
               "mt-10 min-h-11 border border-white px-8 py-3",
@@ -71,7 +72,7 @@ const JubiliPage: FC = () => {
               "hover:bg-white hover:text-black active:scale-[0.97]",
             )}
           >
-            Get in touch
+            {FIT_CALL_SOFT_LABEL}
           </Link>
         </div>
       </section>

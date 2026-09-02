@@ -63,13 +63,13 @@ export const WORK_CHAPTERS: {
 }[] = [
   {
     id: "prior",
-    label: "Architectural Projects",
-    note: "My role across these projects centred on architectural design leadership: directing creative design development, training and mentoring junior architects, and delivering client presentations and competition pitches.",
+    label: "Earlier work",
+    note: "Years inside architecture studios, on hospitals, schools, banks, and civic buildings.",
   },
   {
     id: "homes",
-    label: "Homes & Hospitality",
-    note: "Keen focus on Vienna homes and guest stays first. Solving layout, materials, and how people actually use the space.",
+    label: "Homes",
+    note: "Vienna rooms that had to be lived in. Some of them also host paying guests.",
   },
 ];
 

@@ -21,20 +21,20 @@ const metadataBase = new URL(SITE.origin);
 export const metadata: Metadata = {
   metadataBase,
   title: {
-    default: "Petrina Salema | Spaces & Interiors",
+    default: "Petrina Salema",
     template: "%s",
   },
   description:
-    "Your space is shaping how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests, in Vienna and remotely abroad.",
+    "Your space is shaping how you live. I help people design spaces to redefine living for them and their guests, in Vienna and remotely abroad.",
   applicationName: SITE.name,
   openGraph: {
     type: "website",
     locale: "en_AT",
     url: SITE.origin,
     siteName: SITE.name,
-    title: "Petrina Salema | Spaces & Interiors",
+    title: "Petrina Salema",
     description:
-      "Your space is shaping how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests.",
+      "Your space is shaping how you live. I help people design spaces to redefine living for them and their guests.",
     images: [
       {
         url: SITE.ogImage,
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Petrina Salema | Spaces & Interiors",
+    title: "Petrina Salema",
     description:
       "Your space is shaping how you live. Homes and hospitality spaces, in Vienna and remotely abroad.",
     images: [SITE.ogImage],

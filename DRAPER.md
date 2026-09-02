@@ -6,7 +6,7 @@ Marketing and positioning logic for this site.
 
 **Voice pair:** [`.cursor/skills/human-register/SKILL.md`](./.cursor/skills/human-register/SKILL.md)
 
-**Proposed visitor copy (not live until we ask to ship it):** [`COPY.md`](./COPY.md)
+**Shipped visitor copy:** [`COPY.md`](./COPY.md)
 
 Agents: read and apply those skills before writing or judging visitor-facing copy, IA, offers, and brand extensions. Draper is the *idea*. Human register is the *voice*. If they conflict, fix the idea first, then the voice.
 

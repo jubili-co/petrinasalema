@@ -1,12 +1,12 @@
 {
-  "seoTitle": "Petrina Salema | Spaces & Interiors",
-  "seoDescription": "Your space is shaping how you live. Petrina Salema helps people transform spaces to redefine the living experience, for themselves or their guests, in Vienna and remotely abroad.",
+  "seoTitle": "Petrina Salema",
+  "seoDescription": "Your space is shaping how you live. I help people design spaces to redefine living for them and their guests, in Vienna and remotely abroad.",
   "statement": {
     "hook": "Your space is shaping how you live.",
-    "support": "I help people transform spaces to redefine the living experience, for themselves or their guests."
+    "support": "I help people design spaces to redefine living for them and their guests."
   },
   "proof": {
-    "lede": "A Vienna home hosting paying guests for five years.",
+    "lede": "A Vienna home that has hosted paying guests for five years.",
     "quote": {
       "text": "My daughter started calling her room the room from the fairy tale.",
       "attribution": "Artashes · Vienna"
@@ -25,16 +25,16 @@
         "label": "held since month six"
       }
     ],
-    "href": "https://jubili.co",
-    "linkLabel": "See how a home can be transformed for hospitality."
+    "href": "/work/tegelweg-rental-maisonette-vienna",
+    "linkLabel": "See the home"
   },
   "invite": {
-    "hook": "Stop decorating around a life you wouldn't choose.",
-    "body": "I work on a few spaces a year. Each usually takes one to three months from planning until material sourcing and styling. Available in-person in Vienna, abroad, and remotely.",
+    "hook": "Stop decorating around a life you didn't choose.",
+    "body": "I take on a few spaces a year. Most take one to three months, from the plan through materials, sourcing, and styling. In person in Vienna, abroad, and remotely.",
     "cta": {
-      "label": "Let's talk",
+      "label": "Let's see if this is a fit",
       "href": "/book",
-      "microcopy": "Free · 30 min call · with Petrina"
+      "microcopy": "Free · 30 min · with Petrina"
     }
   }
 }

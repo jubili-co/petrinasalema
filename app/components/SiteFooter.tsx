@@ -96,8 +96,8 @@ export const SiteFooter: FC<Props> = ({ className }) => (
           "text-[12px] leading-tight text-chalk/85",
         )}
       >
-        <p>Design + Furnishing</p>
-        <p>Vienna &amp; wherever you call home</p>
+        <p>A few rooms a year</p>
+        <p>Vienna, and wherever you call home</p>
       </div>
     </div>
   </footer>
