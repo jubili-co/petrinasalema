@@ -40,6 +40,12 @@ Spoken options with similar force to *deciding*:
 
 Do not go back to *defining* (sociology) or *influencing* (no threat). Do not force *deciding* if it fails the aloud test in her mouth.
 
+## Who it is for
+
+A UN women’s group in Vienna sent two dual-career, high-rent households in one week. That is a real buyer. It is not a reason to put *families* on the Home hero.
+
+The idea is still the apartment writing the biography. *Guests* already names the social life. *Family* belongs on Book’s offer line, not as a census swap for *people*. See [`COPY.md`](./COPY.md) (Who this is for).
+
 ## Proof and Jubili
 
 The Vienna numbers (4.97/5, €120k+, Superhost since month six) are proof of Petrina’s work. They should stay in this story.
