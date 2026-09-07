@@ -31,10 +31,13 @@ export const FOOTER_LEGAL_LINKS = [
 /**
  * One spoken door, two sizes.
  * Soft invites ("See if it's a fit") land on /book.
- * Book and Studio hard CTAs open Cal: fit call (free) and one-hour consultation (€290).
+ * Book and Studio hard CTAs open Cal: intro (free) and one-hour consultation (€290).
+ * Free Cal event title/slug is Intro (`/intro`). Site buttons stay initiation
+ * language. Do not put "Intro Call" on the site.
+ * Paid Cal event is Consultation (`/consult`).
  */
 export const FIT_CALL_PATH = "/book" as const;
-export const FIT_CALL_CAL_HREF = "https://cal.com/jubili/intro" as const;
+export const INTRO_CAL_HREF = "https://cal.com/jubili/intro" as const;
 export const CONSULT_CAL_HREF = "https://cal.com/jubili/consult" as const;
 export const FIT_CALL_SOFT_LABEL = "See if it's a fit" as const;
 export const CONSULT_LABEL = "One hour consultation" as const;

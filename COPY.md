@@ -130,6 +130,10 @@ Same meaning everywhere. Warm enough to say out loud. Serious enough not to soun
 
 Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the meaning in the button.
 
+**Cal event (free).** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Site buttons stay **See if it's a fit**. The calendar title is production design. The button is the initiation.
+
+**Cal event (paid).** Named Consultation. Public URL: `https://cal.com/jubili/consult`. Site buttons stay **One hour consultation**.
+
 ## Chrome (if we touch it)
 
 **Footer line.** A few rooms a year. Vienna, and wherever you call home.
