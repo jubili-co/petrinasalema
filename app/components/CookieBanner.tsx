@@ -56,8 +56,8 @@ export const CookieBanner: FC = () => {
           data-id="cookie-banner-copy"
           className="font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-light"
         >
-          If you accept, this site records anonymous page views. The details are
-          in{" "}
+          By using this website, you agree to the use of cookies. Cookies help
+          the website run. The details are in{" "}
           <Link href="/privacy" className="underline underline-offset-2">
             Privacy
           </Link>
