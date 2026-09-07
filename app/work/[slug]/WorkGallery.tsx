@@ -16,7 +16,7 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
         data-id="work-gallery"
         className="flex min-h-[50dvh] items-end bg-canvas px-6 pt-[100px] pb-9 md:px-12 md:pt-[120px]"
       >
-        <h1
+        <p
           data-id="work-gallery-title"
           className={cn(
             "m-0 font-[family-name:var(--font-matter)]",
@@ -24,7 +24,7 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
           )}
         >
           {name}
-        </h1>
+        </p>
       </section>
     );
   }

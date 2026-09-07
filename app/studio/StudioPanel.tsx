@@ -100,7 +100,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           {eyebrow}
         </p>
 
-        <p
+        <h1
           data-id="studio-hook"
           className={cn(
             "m-0 font-[family-name:var(--font-playfair)]",
@@ -109,7 +109,7 @@ export const StudioPanel: FC<Props> = ({ studio }) => {
           )}
         >
           {hook}
-        </p>
+        </h1>
 
         <p
           data-id="studio-body"

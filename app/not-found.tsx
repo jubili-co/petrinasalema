@@ -3,6 +3,7 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import { PAPERS } from "@/lib/papers";
+import { NO_INDEX, pageMetadata } from "@/lib/seo";
 
 import { CtaLink } from "./components/CtaLink";
 import { PaperWord } from "./components/PaperWord";
@@ -12,9 +13,13 @@ import { SiteHeader } from "./components/SiteHeader";
 
 const ELEVATION_SRC = `${PAPERS}/hofansicht--haus-line.webp`;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Not found | Petrina Salema",
-};
+  description: "This page is not on the plan.",
+  path: "/",
+  robots: NO_INDEX,
+  canonical: false,
+});
 
 const NotFoundPage: FC = () => (
   <main

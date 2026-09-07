@@ -3,15 +3,17 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import impressum from "@/lib/data/impressum.json";
+import { pageMetadata } from "@/lib/seo";
 
 import { PaperWord } from "../components/PaperWord";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: impressum.seoTitle,
   description: impressum.seoDescription,
-};
+  path: "/impressum",
+});
 
 type ImpressumBlock =
   { type: "heading"; text: string } | { type: "paragraph"; text: string };

@@ -7,16 +7,19 @@ import { cn } from "@/lib/cn";
 import landing from "@/lib/data/landing.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
 import { placeholderSrc } from "@/lib/placeholderSrc";
+import { NO_INDEX, pageMetadata } from "@/lib/seo";
 import { FIT_CALL_PATH, FIT_CALL_SOFT_LABEL } from "@/lib/site";
 
 import { LogoJubiliWordmark } from "../components/LogoJubiliWordmark";
 import { SiteHeader } from "../components/SiteHeader";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Jubili | Petrina Salema",
   description:
     "Rooms designed to host and to earn. Furniture, art, hardware and rugs from the Jubili collection.",
-};
+  path: "/jubili",
+  robots: NO_INDEX,
+});
 
 const JubiliPage: FC = () => {
   const src = resolveProjectImageSrc(landing.jubiliImage);
@@ -55,13 +58,13 @@ const JubiliPage: FC = () => {
           <div data-id="jubili-hero-mark" className="w-full max-w-[280px]">
             <LogoJubiliWordmark />
           </div>
-          <p
+          <h1
             data-id="jubili-hero-copy"
             className="mt-10 max-w-[36ch] font-[family-name:var(--font-playfair)] text-[17px] leading-relaxed"
           >
             Rooms designed to host and to earn. Furniture, hardware, rugs and
             artist collaborations from the Jubili collection.
-          </p>
+          </h1>
           <Link
             href={FIT_CALL_PATH}
             data-id="jubili-hero-cta"

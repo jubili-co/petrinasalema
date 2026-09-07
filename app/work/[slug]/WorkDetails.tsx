@@ -83,6 +83,7 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
             <DsText
               data-id="work-details-title"
               variant="h2"
+              as="h1"
               className={cn({ "mb-[10px]": hasSubtitle })}
             >
               {name},

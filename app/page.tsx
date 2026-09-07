@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { FC } from "react";
 
 import home from "@/lib/data/home.json";
+import { pageMetadata } from "@/lib/seo";
 import { homeWorkBlocks } from "@/lib/work";
 
 import { HomeInvite } from "./components/HomeInvite";
@@ -11,10 +12,11 @@ import { HomeWork } from "./components/HomeWork";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: home.seoTitle,
   description: home.seoDescription,
-};
+  path: "/",
+});
 
 const HomePage: FC = () => {
   const { statement, proof, invite } = home;

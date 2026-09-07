@@ -2,15 +2,17 @@ import type { Metadata } from "next";
 import type { FC } from "react";
 
 import studio from "@/lib/data/studio.json";
+import { pageMetadata } from "@/lib/seo";
 
 import { SiteHeader } from "../components/SiteHeader";
 import { StudioMedia } from "./StudioMedia";
 import { StudioPanel, type StudioContent } from "./StudioPanel";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: studio.seoTitle,
   description: studio.seoDescription,
-};
+  path: "/studio",
+});
 
 const StudioPage: FC = () => {
   const content = studio as StudioContent;

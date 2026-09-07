@@ -6,6 +6,7 @@ import AboutJubiliCopy from "@/content/about-jubili.mdx";
 import AboutPetrinaCopy from "@/content/about-petrina.mdx";
 import about from "@/lib/data/about.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
+import { pageMetadata } from "@/lib/seo";
 
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
@@ -20,10 +21,11 @@ import {
   type TextImageSection,
 } from "./AboutTextImage";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: about.seoTitle,
   description: about.seoDescription,
-};
+  path: "/about",
+});
 
 const aboutMarkdownClassName = "w-full max-w-[568px] md:w-[70%]";
 

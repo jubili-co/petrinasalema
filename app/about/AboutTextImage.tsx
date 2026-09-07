@@ -61,6 +61,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
   const sectionParagraphs = paragraphs ?? [];
   const hasParagraphs = sectionParagraphs.length > 0;
   const shouldShowJubiliMark = mdx === "jubili";
+  const heading = mdx === "petrina" ? "h1" : "h2";
   const sketchSrc = `${PAPERS}/neu-erdgeschoss--plan-line.webp`;
 
   return (
@@ -94,7 +95,7 @@ export const AboutTextImage: FC<Props> = ({ section, body }) => {
           })}
         >
           <div data-id="about-text-image-inner" className="w-full">
-            <AboutTitle title={title} subtitle={subtitle} />
+            <AboutTitle as={heading} title={title} subtitle={subtitle} />
             {body}
             {hasParagraphs && <AboutBody paragraphs={sectionParagraphs} />}
             {cta && <AboutInviteCtaLink cta={cta} />}
