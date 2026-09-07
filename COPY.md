@@ -69,7 +69,7 @@ Keep her insight. It already sounds like her.
 **Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** An hour on your plan.  
+**Secondary button.** Consultation.  
 **Under it.** €290 · 60 min
 
 Biography can stay as a quiet link. Jubili should not sit next to it as a sister company.
@@ -86,12 +86,12 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **How payment works.** A quote comes after the first conversation. A deposit starts the project, then billing in stages until the last invoice.
 
-**Paid hour.** Spend one hour on the plan. The changes that would matter most, and a clear next step when you leave.
+**Consultation.** In one hour, get a clear point of view on the change that would matter most adapting your rooms into a space that shapes the way you want to live.
 
 **Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** An hour on your plan.  
+**Secondary button.** Consultation.  
 **Under it.** €290 · 60 min
 
 **Close.** Off Book. The fairy-tale quote stays on Home only.
@@ -126,7 +126,7 @@ Same meaning everywhere. Warm enough to say out loud. Serious enough not to soun
 
 - Soft invites (Home, Work, About): **See if it's a fit** → `/book`
 - Book and Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
-- Book and Studio, paid: **An hour on your plan** · €290 · 60 min
+- Book and Studio, paid: **Consultation** · €290 · 60 min
 
 Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the meaning in the button.
 
