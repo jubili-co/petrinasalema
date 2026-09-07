@@ -151,11 +151,12 @@ Applies to Studio Notes, Materiality, Jubili, About shelves.
 - **Shape the cocoon / the room** beats **decide to live better.** Willpower copy is self-help. Container copy is this practice. *Shape* belongs on the offer, not on the wound, so the two lines do not blur.
 - Reject clever oppositions as lead ideas: `considered rather than styled`, `use over spectacle`, `X rather than Y` as aesthetic slogan. That is category language (mood-board war). He wants the wound, not a taste badge.
 - Home SEO, About blurbs, and Studio principles are common places this sludge returns. Audit them when the hero has already moved on.
+- Do not swap Home/Studio *people* for *families* because a channel converted. *Families* is a census noun (and sounds like kids). The UN/World Bank dual-career households recognized *guests* and the wound. Leave *family* on Book’s offer line. See [`COPY.md`](../../../COPY.md).
 
 ## Site audit: protect
 
 - **Book’s Don sentence** (and its kin): stop decorating around a life you didn’t choose; shape the room that holds the life you want. The wound verb is spoken (make / write / run), not forced *deciding*. See [`DRAPER.md`](../../../DRAPER.md) and [`COPY.md`](../../../COPY.md).
-- **The home pair.** Hook names the wound in a verb she can say. Answer is glad and plain, not a slogan echo that only a copywriter would write. Drafts live in [`COPY.md`](../../../COPY.md).
+- **The home pair.** Hook names the wound in a verb she can say. Answer is glad and plain, not a slogan echo that only a copywriter would write. Drafts live in [`COPY.md`](../../../COPY.md). Keep *people… and their guests*. Do not “sharpen” it to *families*.
 - **Studio lead** in the same family: nicer room is the false ask; the room should shape life toward how they want to live; value prop about fixing rooms that shape living and guest feeling.
 - **Work as proof, not brochure.** Rooms as evidence. Imagery does half the close (move 6).
 - **Project descriptions open with the stake, not the résumé.** First sentence names what the building had to do for the people in it (“A maternity hospital leaves no margin for a wall in the wrong place.” “Guests lived with every decision.”). Professional facts follow plainly. Stacked past-tense verbs (“Led… Directed… Managed…”) are arguing, not showing.

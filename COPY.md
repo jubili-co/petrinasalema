@@ -32,6 +32,22 @@ Do not link this block to jubili.co or to the Jubili chapter on About. The numbe
 **Button.** Let’s see if this is a fit.  
 **Under the button.** Free · 30 min · with Petrina
 
+### Who this is for (do not put on the hero)
+
+September 2026: someone posted the site in a UN women’s group chat in Vienna. Two serious inquiries followed, both dual-career households in ~€3000/month apartments (World Bank, UN, international remote). One signed. Another looks likely after a fit call.
+
+That is a buyer, and a channel. It is not a new idea. Do not change the Home support line to “I help families…”
+
+Keep her line: “I help people design spaces to redefine living for them and their guests.”
+
+- *Families* sounds like children, playrooms, a family-interior-design shop. The signal was two working adults. Kids were not named.
+- The line already converted. *Guests* is the recognition word in that chat: hosting, the life they want people to feel.
+- The block under the hero is paying guests at Tegelweg. *Families* fights that. *Them and their guests* is the bridge between a home and hospitality.
+- The wound is still the apartment writing the biography. These buyers already heard that. The invite (“Stop decorating around a life you didn’t choose”) is the posting sentence without saying expat.
+- Book already has the right shelf: “How a family or guests move through it.” Leave *family* on the offer, not the hero.
+
+If a later pass wants to name this life more sharply, name the life (two careers, an apartment they landed in, people over), not a census noun. Do not stack audiences (*couples and families*).
+
 ## Studio
 
 Keep her insight. It already sounds like her.

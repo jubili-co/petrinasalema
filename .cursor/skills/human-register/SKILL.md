@@ -130,7 +130,7 @@ Why it works: one “I,” full sentences, calm. Training as background, not a s
 
 > I help people setup spaces to shape how they want live, and how they want their guests to feel.
 
-Why it works: insight, then a plain value proposition. No clever oppositions. Effectiveness over polish.
+Why it works: insight, then a plain value proposition. No clever oppositions. Effectiveness over polish. Keep *people* here and on Home. *Families* is a census swap (and sounds like kids); the recognition word is *guests*. See [`COPY.md`](../../../COPY.md).
 
 ### Balance
 
