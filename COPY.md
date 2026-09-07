@@ -80,11 +80,11 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **Hook.** Your rooms already make you live a certain way. Stop decorating around a life you didn’t choose. Shape the rooms that define how you want to rest, gather, and think.
 
-**Full project.** A redesign of how a home or room operates. How a family or guests move through it, then layout, materials, sourcing, and styling.
+**Full project.** This is a redesign of how a home or a room operates. It's about how a family or guests move through it, and then about the layout, materials, sourcing, and styling.
 
-**Note.** A few residences a year. Most take one to three months, in person in Vienna, and remotely abroad.
+**Note.** I take on a few residences a year. Most of them take one to three months, in person in Vienna, and remotely abroad.
 
-**How payment works.** A quote comes after the first conversation. A deposit starts the project, then billing in stages until the last invoice.
+**How payment works.** You'll get a quote after the first conversation. A deposit starts the project, and then billing goes in stages until the last invoice.
 
 **Paid hour.** Spend one hour on the plan. The changes that would matter most, and a clear next step when you leave.
 
