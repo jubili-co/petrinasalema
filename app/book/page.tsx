@@ -7,6 +7,7 @@ import { resolveProjectImageSrc } from "@/lib/googleDrive";
 import { placeholderSrc } from "@/lib/placeholderSrc";
 import { pageMetadata } from "@/lib/seo";
 
+import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import { BookPanel, type BookContent } from "./BookPanel";
 
@@ -45,6 +46,7 @@ const BookPage: FC = () => {
         </div>
         <BookPanel book={content} />
       </section>
+      <SiteFooter />
     </main>
   );
 };
