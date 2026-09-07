@@ -69,7 +69,7 @@ export const WORK_CHAPTERS: {
   {
     id: "homes",
     label: "Homes",
-    note: "My work in homes is shaping a way of life through the spaces people live in every day, and the rooms they invite guests to share with them.",
+    note: "My work in homes is about shaping a way of life through the rooms people live in every day, and the space they invite guests to share life with them.",
   },
 ];
 
