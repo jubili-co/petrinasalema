@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import type { FC, PropsWithChildren } from "react";
 
 import { cn } from "@/lib/cn";
+import { offerFromHref } from "@/lib/posthog";
+
+import { captureEvent } from "./captureEvent";
 
 type Variant = "primary" | "secondary" | "ghost";
 type Tone = "ink" | "chalk";
@@ -33,6 +38,9 @@ export const CtaLink: FC<Props> = ({
   const labelClassName = labelClass(isLeft, isGhost, inkClassName);
   const arrowClassName = arrowClass(variant, isLeft, inkClassName);
   const mark = isLeft ? "←" : "→";
+  const onOpen = () => {
+    captureOffer(href);
+  };
   const arrowMark = (
     <span data-id="cta-link-arrow" aria-hidden className={arrowClassName}>
       {mark}
@@ -56,6 +64,7 @@ export const CtaLink: FC<Props> = ({
         rel="noopener noreferrer"
         data-id={dataId}
         className={shellClassName}
+        onClick={onOpen}
       >
         {content}
       </a>
@@ -63,11 +72,24 @@ export const CtaLink: FC<Props> = ({
   }
 
   return (
-    <Link href={href} data-id={dataId} className={shellClassName}>
+    <Link
+      href={href}
+      data-id={dataId}
+      className={shellClassName}
+      onClick={onOpen}
+    >
       {content}
     </Link>
   );
 };
+
+function captureOffer(href: string): void {
+  const offer = offerFromHref(href);
+  if (!offer) {
+    return;
+  }
+  captureEvent("book_call_opened", { offer });
+}
 
 function shellClass(
   variant: Variant,
