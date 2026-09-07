@@ -100,7 +100,7 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **Architecture work.** My work in architecture studios was about getting spaces to work for people and institutions.
 
-**Homes.** Vienna rooms that had to be lived in. Some of them also host paying guests.
+**Homes.** My work in homes is about shaping a way of life through the rooms people live in every day, and the space they invite guests to share life with them.
 
 **Door under a home.** If one of your rooms is next, let’s see if this is a fit.
 
