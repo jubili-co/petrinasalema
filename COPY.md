@@ -94,7 +94,7 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 **Secondary button.** A paid hour on the plan.  
 **Under it.** €290 · 60 min · Leave knowing what to change
 
-**Close.** The fairy-tale quote, same as Home.
+**Close.** Off Book. The fairy-tale quote stays on Home only.
 
 ## Work
 
