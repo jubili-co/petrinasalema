@@ -64,7 +64,7 @@ export const WORK_CHAPTERS: {
   {
     id: "prior",
     label: "Architecture work",
-    note: "My work in architecture studios was getting spaces to work for people, and for the institutions those rooms served.",
+    note: "My work in architecture studios was getting spaces to work for people and institutions.",
   },
   {
     id: "homes",
