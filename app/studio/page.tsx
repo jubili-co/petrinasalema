@@ -4,6 +4,7 @@ import type { FC } from "react";
 import studio from "@/lib/data/studio.json";
 import { pageMetadata } from "@/lib/seo";
 
+import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 import { StudioMedia } from "./StudioMedia";
 import { StudioPanel, type StudioContent } from "./StudioPanel";
@@ -27,6 +28,7 @@ const StudioPage: FC = () => {
         <StudioMedia images={studio.images} />
         <StudioPanel studio={content} />
       </section>
+      <SiteFooter />
     </main>
   );
 };
