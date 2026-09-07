@@ -78,7 +78,7 @@ Biography can stay as a quiet link. Jubili should not sit next to it as a sister
 
 Keep the close of the current hook. Soften the thesis verb if *deciding* still does not sound like her.
 
-**Hook.** Your rooms already make you live a certain way. Stop decorating around a life you didn’t choose. Shape the room that holds how you want to rest, gather, and think.
+**Hook.** Your rooms already make you live a certain way. Stop decorating around a life you didn’t choose. Shape the rooms that hold how you want to rest, gather, and think.
 
 **Full project.** A redesign of how a home or room operates. How a family or guests move through it, then layout, materials, sourcing, and styling.
 
