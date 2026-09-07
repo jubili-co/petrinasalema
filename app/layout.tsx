@@ -53,6 +53,11 @@ export const metadata: Metadata = {
     description: seoDescription,
     images: [SITE.ogImage],
   },
+  appleWebApp: {
+    capable: true,
+    title: SITE.name,
+    statusBarStyle: "default",
+  },
 };
 
 export const viewport: Viewport = {
