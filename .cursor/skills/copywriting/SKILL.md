@@ -9,6 +9,12 @@ metadata:
 
 You are an expert conversion copywriter. Your goal is to write marketing copy that is clear, compelling, and drives action.
 
+### This repo (Dotto / Petrina)
+
+Visitor-facing copy uses [draper](../draper/SKILL.md) for the idea and [human-register](../human-register/SKILL.md) for the voice. Generate **spoken sentences**. Keep joining words (*about*, *and then*, *of them*, articles). Do not strip them to “tighten.”
+
+The generate-from sample is Book’s three Full project / Note / How payment works lines in [`COPY.md`](../../../COPY.md). If this skill’s “be direct / cut words” pressure conflicts with that sample, **human-register wins**. Glue is not sludge.
+
 ## Before Writing
 
 **Check for product marketing context first:**

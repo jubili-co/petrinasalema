@@ -28,7 +28,7 @@ Root pointer for humans browsing the repo: [`DRAPER.md`](../../../DRAPER.md). Sh
 2. Lock one idea before polishing sentences. Do not stack benefits until the sentence that reorders the room is clear.
 3. Apply the [hard filter for extensions](#hard-filter-for-extensions) before promoting Materiality, Jubili, Studio Notes, or About shelves.
 4. Run the [stop checklist](#stop-checklist) before shipping copy changes.
-5. Hand the draft to **human-register** for voice, punctuation tells, and “would a person say this” pressure.
+5. Hand the draft to **human-register** for voice, punctuation tells, joining words, and “would a person say this” pressure. Spoken sentences, not telegram.
 
 ## One-line mandate
 
@@ -186,4 +186,4 @@ Cal links, stacked photos, type, tone of voice, and the legal dodge are **produc
 - [ ] CTAs read as initiation, not checkout logistics
 - [ ] Scarcity signals seriousness, not apology
 - [ ] Extensions pass the one-woman-authority filter
-- [ ] Draft next passes [human-register](../human-register/SKILL.md)
+- [ ] Draft next passes [human-register](../human-register/SKILL.md) (spoken sentences with joining words, not telegram)

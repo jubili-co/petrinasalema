@@ -36,9 +36,9 @@ Before writing or restructuring visitor-facing copy, offers, IA, or brand extens
 1. `.cursor/skills/draper/SKILL.md` — positioning and idea (the wound, one door, initiation CTAs)
 2. `.cursor/skills/human-register/SKILL.md` — voice (sound like a person, not a brand deck or AI summary)
 
-Draper is what idea the copy serves. Human register is how it sounds. If they conflict, fix the idea first, then the voice.
+Draper is what idea the copy serves. Human register is how it sounds: spoken sentences with joining words (*about*, *and then*, *of them*), not telegram stubs. If they conflict, fix the idea first, then the voice.
 
-Root pointer: [`DRAPER.md`](./DRAPER.md). Shipped visitor lines: [`COPY.md`](./COPY.md).
+Root pointer: [`DRAPER.md`](./DRAPER.md). Shipped visitor lines: [`COPY.md`](./COPY.md). Book’s three Full project / Note / How payment works sentences in `COPY.md` are the generate-from sample.
 
 ## Cursor Cloud specific instructions
 
