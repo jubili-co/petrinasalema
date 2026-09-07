@@ -8,6 +8,8 @@ import { PaperWord } from "@/app/components/PaperWord";
 import { cn } from "@/lib/cn";
 import { placeholderSrc } from "@/lib/placeholderSrc";
 
+import { captureEvent } from "./captureEvent";
+
 type Props = {
   image: string;
   title?: string;
@@ -31,6 +33,7 @@ export const NewsletterSignup: FC<Props> = ({
 
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    captureEvent("newsletter_subscribed");
     setIsSubmitted(true);
   };
 

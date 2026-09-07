@@ -138,6 +138,6 @@ Footer links: Work, Book, About, Studio. Jubili off that row.
 
 **Cookie line.** By using this website, you agree to the use of cookies. Cookies help the website run. The details are in Privacy.
 
-**Privacy.** Say that booking a call opens Cal.com. Do not claim there is no outside booking tool.
+**Privacy.** Say that booking a call opens Cal.com. Do not claim there is no outside booking tool. Analytics is Vercel Web Analytics and PostHog, only after the cookie banner accept. No session replay.
 
 **Newsletter.** Consent: “I consent to the privacy policy.” After submit, do not claim they joined a list if the form does not save the email. “Thanks. Email contact@petrinasalema.com if you want the next note.” is honest until the form is real.

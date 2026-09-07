@@ -36,11 +36,11 @@
     },
     {
       "type": "heading",
-      "text": "4. Vercel Web Analytics"
+      "text": "4. Website analytics"
     },
     {
       "type": "paragraph",
-      "text": "This website uses Vercel Web Analytics, provided by Vercel, Inc., to understand how people use the site. It may record page views, requested pages, referral and traffic-source information, timestamps, browser and device information, and approximate location derived from network information. It does not set analytics cookies and does not identify you as a person.\n\nThe analytics script loads only if you accept on the cookie banner. If you decline, the script is not loaded.\n\nAnalytics data is used to understand aggregate website use and improve content and usability. The legal basis is your consent under Article 6(1)(a) GDPR. You may withdraw consent by clearing the stored preference in your browser or by emailing contact@petrinasalema.com.\n\nThis website does not use Google Analytics, advertising pixels, session-replay tools, or marketing trackers. Analytics data is retained according to Vercel's configuration and is deleted or aggregated when it is no longer needed for these purposes."
+      "text": "This website uses two analytics services to understand how people use the site.\n\nVercel Web Analytics, provided by Vercel, Inc., may record page views, requested pages, referral and traffic-source information, timestamps, browser and device information, and approximate location derived from network information. It does not set analytics cookies and does not identify you as a person.\n\nPostHog, provided by PostHog, Inc. and hosted on PostHog's European Union cloud, may record page views, clicks, requested pages, referral and traffic-source information, timestamps, browser and device information, and approximate location derived from network information. After you accept, PostHog may store a cookie or similar identifier so repeat visits can be counted without identifying you by name.\n\nThe analytics scripts load only if you accept on the cookie banner. If you decline, the scripts are not loaded.\n\nAnalytics data is used to understand aggregate website use and improve content and usability. The legal basis is your consent under Article 6(1)(a) GDPR. You may withdraw consent by clearing the stored preference in your browser or by emailing contact@petrinasalema.com.\n\nThis website does not use Google Analytics, advertising pixels, session-replay tools, or marketing trackers. Analytics data is retained according to each provider's configuration and is deleted or aggregated when it is no longer needed for these purposes."
     },
     {
       "type": "heading",
@@ -64,7 +64,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Personal data is disclosed only where necessary for the purposes described above, where required by law, or where you have separately authorised disclosure. Categories of recipients may include website hosting and platform providers, infrastructure and security providers, email and IT service providers, and professional advisers or public authorities where legally required.\n\nVercel, Inc. hosts the website and provides Web Analytics. Ploy, Inc. may process form submissions as described above. Both providers are based in the United States, so the use of their services may involve processing outside the European Economic Area. Where Chapter V of the GDPR applies to a transfer, the transfer must be based on an applicable adequacy decision or appropriate safeguards, such as the European Commission's standard contractual clauses, together with any required supplementary measures. You may request further information about applicable safeguards by emailing contact@petrinasalema.com."
+      "text": "Personal data is disclosed only where necessary for the purposes described above, where required by law, or where you have separately authorised disclosure. Categories of recipients may include website hosting and platform providers, infrastructure and security providers, analytics providers, email and IT service providers, and professional advisers or public authorities where legally required.\n\nVercel, Inc. hosts the website and provides Web Analytics. PostHog, Inc. provides product analytics on its European Union cloud. Ploy, Inc. may process form submissions as described above. Vercel and Ploy are based in the United States, so the use of their services may involve processing outside the European Economic Area. PostHog EU Cloud stores analytics data in the European Union. Where Chapter V of the GDPR applies to a transfer, the transfer must be based on an applicable adequacy decision or appropriate safeguards, such as the European Commission's standard contractual clauses, together with any required supplementary measures. You may request further information about applicable safeguards by emailing contact@petrinasalema.com."
     },
     {
       "type": "heading",
@@ -72,7 +72,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This website may store a local preference recording whether you accepted or declined analytics. Vercel Web Analytics does not set analytics cookies. The analytics script is loaded only after you accept.\n\nBooking a call opens Cal.com. Cal.com collects the information needed to schedule that conversation, under their own privacy policy. This site does not embed the calendar. Ordinary links to another website or an email application do not transmit information to that service until you activate the link. The external provider's own privacy information applies after you leave this website."
+      "text": "This website may store a local preference recording whether you accepted or declined analytics. Vercel Web Analytics does not set analytics cookies. PostHog may set a cookie or similar identifier after you accept. The analytics scripts are loaded only after you accept.\n\nBooking a call opens Cal.com. Cal.com collects the information needed to schedule that conversation, under their own privacy policy. This site does not embed the calendar. Ordinary links to another website or an email application do not transmit information to that service until you activate the link. The external provider's own privacy information applies after you leave this website."
     },
     {
       "type": "heading",
@@ -104,7 +104,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This policy may be updated if the website, service providers, or legal requirements change. The current version will always be published on this page. If additional analytics, advertising technology, or an embedded third-party service is introduced, this policy will be updated before or when that processing begins.\n\nLast updated: 2 September 2026"
+      "text": "This policy may be updated if the website, service providers, or legal requirements change. The current version will always be published on this page. If additional analytics, advertising technology, or an embedded third-party service is introduced, this policy will be updated before or when that processing begins.\n\nLast updated: 7 September 2026"
     }
   ]
 }
