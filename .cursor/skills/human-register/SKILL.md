@@ -192,7 +192,7 @@ Training and past roles may appear in Biography / About. On commercial pages (St
 | Book / CTAs    | Initiation, not checkout logistics. Button carries the chapter-break; price/time may sit under it. |
 | Work / project | Open on the stake for the people in the building. Facts after. No résumé verb stacks.              |
 | About          | Prove the person. One “I” early is fine. Not a holding-company shelf.                              |
-| Microcopy      | Short can still be warm. Prefer “Start with a fit call” energy over “Submit.”                      |
+| Microcopy      | Short can still be warm. Prefer “See if it's a fit” energy over “Submit.”                      |
 
 ## Revision loop (mandatory)
 
