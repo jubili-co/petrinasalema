@@ -63,8 +63,8 @@ export const WORK_CHAPTERS: {
 }[] = [
   {
     id: "prior",
-    label: "Earlier work",
-    note: "Years inside architecture studios, on hospitals, schools, banks, and civic buildings.",
+    label: "Architecture work",
+    note: "I spent years in architecture studios, on hospitals, schools, banks, and civic buildings. Those rooms already make people live a certain way. You live with every wall.",
   },
   {
     id: "homes",

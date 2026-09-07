@@ -82,7 +82,7 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 ## Work
 
-**Earlier work.** Years inside architecture studios, on hospitals, schools, banks, and civic buildings.
+**Architecture work.** I spent years in architecture studios, on hospitals, schools, banks, and civic buildings. Those rooms already make people live a certain way. You live with every wall.
 
 **Homes.** Vienna rooms that had to be lived in. Some of them also host paying guests.
 
