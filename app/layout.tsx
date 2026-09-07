@@ -9,6 +9,7 @@ import { siteJsonLd } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 
 import { CookieBanner } from "./components/CookieBanner";
+import { PostHogAnalytics } from "./components/PostHogAnalytics";
 import { VercelAnalytics } from "./components/VercelAnalytics";
 import "./globals.css";
 
@@ -82,6 +83,7 @@ const RootLayout: FC<Props> = ({ children }) => (
       {children}
       <CookieBanner />
       <VercelAnalytics />
+      <PostHogAnalytics />
     </body>
   </html>
 );

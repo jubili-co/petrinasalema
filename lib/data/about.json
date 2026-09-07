@@ -29,7 +29,7 @@
       "imageBorder": false,
       "cta": {
         "name": "If your space needs to earn",
-        "role": "Let's see if this is a fit",
+        "role": "See if it's a fit",
         "href": "/book"
       }
     },
@@ -120,7 +120,7 @@
       ],
       "cta": {
         "name": "If one of your rooms is next",
-        "role": "Let's see if this is a fit",
+        "role": "See if it's a fit",
         "href": "/book"
       }
     }

@@ -29,7 +29,7 @@ Do not link this block to jubili.co or to the Jubili chapter on About. The numbe
 
 **Invite body.** I take on a few spaces a year. Most take one to three months, from the plan through materials, sourcing, and styling. In person in Vienna, abroad, and remotely.
 
-**Button.** Let’s see if this is a fit.  
+**Button.** See if it's a fit.  
 **Under the button.** Free · 30 min · with Petrina
 
 ### Who this is for (do not put on the hero)
@@ -66,11 +66,11 @@ Keep her insight. It already sounds like her.
 
 **Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.
 
-**Primary button.** Let’s see if this is a fit.  
+**Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** A paid hour on the plan.  
-**Under it.** €290 · 60 min · Leave knowing what to change
+**Secondary button.** An hour on your plan.  
+**Under it.** €290 · 60 min
 
 Biography can stay as a quiet link. Jubili should not sit next to it as a sister company.
 
@@ -78,7 +78,7 @@ Biography can stay as a quiet link. Jubili should not sit next to it as a sister
 
 Keep the close of the current hook. Soften the thesis verb if *deciding* still does not sound like her.
 
-**Hook.** Your rooms already make you live a certain way. Stop decorating around a life you didn’t choose. Shape the rooms that hold how you want to rest, gather, and think.
+**Hook.** Your rooms already make you live a certain way. Stop decorating around a life you didn’t choose. Shape the rooms that define how you want to rest, gather, and think.
 
 **Full project.** A redesign of how a home or room operates. How a family or guests move through it, then layout, materials, sourcing, and styling.
 
@@ -88,17 +88,17 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **Paid hour.** Spend one hour on the plan. The changes that would matter most, and a clear next step when you leave.
 
-**Primary button.** Let’s see if this is a fit.  
+**Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** A paid hour on the plan.  
-**Under it.** €290 · 60 min · Leave knowing what to change
+**Secondary button.** An hour on your plan.  
+**Under it.** €290 · 60 min
 
-**Close.** The fairy-tale quote, same as Home.
+**Close.** Off Book. The fairy-tale quote stays on Home only.
 
 ## Work
 
-**Architecture work.** My work in architecture studios was getting spaces to work for people and institutions.
+**Architecture work.** My work in architecture studios was about getting spaces to work for people and institutions.
 
 **Homes.** My work in homes is about shaping a way of life through the rooms people live in every day, and the space they invite guests to share life with them.
 
@@ -124,11 +124,11 @@ The Vienna home that became Jubili is still running. Guest stays are where ideas
 
 Same meaning everywhere. Warm enough to say out loud. Serious enough not to sound like a haircut.
 
-- Soft invites (Home, Work, About): **Let’s see if this is a fit** → `/book`
-- Book and Studio, free: **Let’s see if this is a fit** · Free · 30 min · with Petrina
-- Book and Studio, paid: **A paid hour on the plan** · €290 · 60 min · Leave knowing what to change
+- Soft invites (Home, Work, About): **See if it's a fit** → `/book`
+- Book and Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
+- Book and Studio, paid: **An hour on your plan** · €290 · 60 min
 
-Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the friendliness of “let’s,” and put the meaning in the rest of the line.
+Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the meaning in the button.
 
 ## Chrome (if we touch it)
 
@@ -138,6 +138,6 @@ Footer links: Work, Book, About, Studio. Jubili off that row.
 
 **Cookie line.** By using this website, you agree to the use of cookies. Cookies help the website run. The details are in Privacy.
 
-**Privacy.** Say that booking a call opens Cal.com. Do not claim there is no outside booking tool.
+**Privacy.** Say that booking a call opens Cal.com. Do not claim there is no outside booking tool. Analytics is Vercel Web Analytics and PostHog, only after the cookie banner accept. No session replay.
 
 **Newsletter.** Consent: “I consent to the privacy policy.” After submit, do not claim they joined a list if the form does not save the email. “Thanks. Email contact@petrinasalema.com if you want the next note.” is honest until the form is real.

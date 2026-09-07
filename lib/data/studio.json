@@ -24,14 +24,14 @@
   ],
   "ctaLede": "Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.",
   "primaryCta": {
-    "label": "Let's see if this is a fit",
+    "label": "See if it's a fit",
     "href": "https://cal.com/jubili/fit-call",
     "microcopy": "Free · 30 min · with Petrina"
   },
   "secondaryCta": {
-    "label": "A paid hour on the plan",
+    "label": "An hour on your plan",
     "href": "https://cal.com/jubili/jump-start",
-    "microcopy": "€290 · 60 min · Leave knowing what to change"
+    "microcopy": "€290 · 60 min"
   },
   "extensions": [
     {
