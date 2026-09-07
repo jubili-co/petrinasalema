@@ -34,8 +34,8 @@ export const FOOTER_LEGAL_LINKS = [
  * Book and Studio hard CTAs open Cal: fit call (free) and paid hour (€290).
  */
 export const FIT_CALL_PATH = "/book" as const;
-export const FIT_CALL_CAL_HREF = "https://cal.com/jubili/fit-call" as const;
-export const JUMPSTART_CAL_HREF = "https://cal.com/jubili/jump-start" as const;
+export const FIT_CALL_CAL_HREF = "https://cal.com/jubili/intro" as const;
+export const JUMPSTART_CAL_HREF = "https://cal.com/jubili/jumpstart" as const;
 export const FIT_CALL_SOFT_LABEL = "See if it's a fit" as const;
 export const PAID_HOUR_LABEL = "An hour on your plan" as const;
 export const FIT_CALL_DOOR =
