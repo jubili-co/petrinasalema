@@ -22,15 +22,15 @@
       "body": "Somewhere quiet to think, that will survive real use."
     }
   ],
-  "ctaLede": "Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.",
+  "ctaLede": "Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a one-hour consultation is the right next step.",
   "primaryCta": {
     "label": "See if it's a fit",
     "href": "https://cal.com/jubili/intro",
     "microcopy": "Free · 30 min · with Petrina"
   },
   "secondaryCta": {
-    "label": "An hour on your plan",
-    "href": "https://cal.com/jubili/jumpstart",
+    "label": "One hour consultation",
+    "href": "https://cal.com/jubili/consult",
     "microcopy": "€290 · 60 min"
   },
   "extensions": [

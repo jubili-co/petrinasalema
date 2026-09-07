@@ -64,12 +64,12 @@ Keep her insight. It already sounds like her.
 - I take on only a few projects at a time, so each one gets attention from the first call through to final styling.
 - A place to rest that can also have people over. Somewhere quiet to think, that will survive real use.
 
-**Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.
+**Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a one-hour consultation is the right next step.
 
 **Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** An hour on your plan.  
+**Secondary button.** One hour consultation.  
 **Under it.** €290 · 60 min
 
 Biography can stay as a quiet link. Jubili should not sit next to it as a sister company.
@@ -86,12 +86,12 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **How payment works.** A quote comes after the first conversation. A deposit starts the project, then billing in stages until the last invoice.
 
-**Paid hour.** Spend one hour on the plan. The changes that would matter most, and a clear next step when you leave.
+**One hour consultation.** In one focused hour, you leave with the changes that would matter most, and a clear next step.
 
 **Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** An hour on your plan.  
+**Secondary button.** One hour consultation.  
 **Under it.** €290 · 60 min
 
 **Close.** Off Book. The fairy-tale quote stays on Home only.
@@ -126,11 +126,13 @@ Same meaning everywhere. Warm enough to say out loud. Serious enough not to soun
 
 - Soft invites (Home, Work, About): **See if it's a fit** → `/book`
 - Book and Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
-- Book and Studio, paid: **An hour on your plan** · €290 · 60 min
+- Book and Studio, paid: **One hour consultation** · €290 · 60 min
 
 Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the meaning in the button.
 
-**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Site buttons stay **See if it's a fit**. The calendar title is production design. The button is the initiation.
+**Cal event (free).** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Site buttons stay **See if it's a fit**. The calendar title is production design. The button is the initiation.
+
+**Cal event (paid).** Named Consultation. Public URL: `https://cal.com/jubili/consult`. Site buttons stay **One hour consultation**.
 
 ## Chrome (if we touch it)
 
