@@ -29,7 +29,7 @@ Do not link this block to jubili.co or to the Jubili chapter on About. The numbe
 
 **Invite body.** I take on a few spaces a year. Most take one to three months, from the plan through materials, sourcing, and styling. In person in Vienna, abroad, and remotely.
 
-**Button.** Let’s see if this is a fit.  
+**Button.** See if it's a fit.  
 **Under the button.** Free · 30 min · with Petrina
 
 ### Who this is for (do not put on the hero)
@@ -66,11 +66,11 @@ Keep her insight. It already sounds like her.
 
 **Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.
 
-**Primary button.** Let’s see if this is a fit.  
+**Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** A paid hour on the plan.  
-**Under it.** €290 · 60 min · Leave knowing what to change
+**Secondary button.** An hour on your plan.  
+**Under it.** €290 · 60 min
 
 Biography can stay as a quiet link. Jubili should not sit next to it as a sister company.
 
@@ -88,17 +88,17 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **Paid hour.** Spend one hour on the plan. The changes that would matter most, and a clear next step when you leave.
 
-**Primary button.** Let’s see if this is a fit.  
+**Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** A paid hour on the plan.  
-**Under it.** €290 · 60 min · Leave knowing what to change
+**Secondary button.** An hour on your plan.  
+**Under it.** €290 · 60 min
 
 **Close.** Off Book. The fairy-tale quote stays on Home only.
 
 ## Work
 
-**Architecture work.** My work in architecture studios was getting spaces to work for people and institutions.
+**Architecture work.** My work in architecture studios was about getting spaces to work for people and institutions.
 
 **Homes.** Vienna rooms that had to be lived in. Some of them also host paying guests.
 
@@ -124,11 +124,11 @@ The Vienna home that became Jubili is still running. Guest stays are where ideas
 
 Same meaning everywhere. Warm enough to say out loud. Serious enough not to sound like a haircut.
 
-- Soft invites (Home, Work, About): **Let’s see if this is a fit** → `/book`
-- Book and Studio, free: **Let’s see if this is a fit** · Free · 30 min · with Petrina
-- Book and Studio, paid: **A paid hour on the plan** · €290 · 60 min · Leave knowing what to change
+- Soft invites (Home, Work, About): **See if it's a fit** → `/book`
+- Book and Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
+- Book and Studio, paid: **An hour on your plan** · €290 · 60 min
 
-Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the friendliness of “let’s,” and put the meaning in the rest of the line.
+Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the meaning in the button.
 
 ## Chrome (if we touch it)
 
