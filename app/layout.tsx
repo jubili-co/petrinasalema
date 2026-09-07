@@ -2,7 +2,10 @@ import type { Metadata, Viewport } from "next";
 import { Playfair_Display } from "next/font/google";
 import type { FC, ReactNode } from "react";
 
+import { JsonLd } from "@/app/components/JsonLd";
 import { COLOR_HEX, themeRootCss } from "@/lib/colors";
+import home from "@/lib/data/home.json";
+import { siteJsonLd } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 
 import { CookieBanner } from "./components/CookieBanner";
@@ -16,25 +19,24 @@ const playfair = Playfair_Display({
   style: ["normal", "italic"],
 });
 
-const metadataBase = new URL(SITE.origin);
+const metadataBase = new URL(SITE.url);
+const { seoDescription } = home;
+const siteGraph = siteJsonLd(seoDescription);
 
 export const metadata: Metadata = {
   metadataBase,
   title: {
-    default: "Petrina Salema",
+    default: SITE.name,
     template: "%s",
   },
-  description:
-    "Your space is shaping how you live. I help people design spaces to redefine living for them and their guests, in Vienna and remotely abroad.",
+  description: seoDescription,
   applicationName: SITE.name,
   openGraph: {
     type: "website",
     locale: "en_AT",
-    url: SITE.origin,
     siteName: SITE.name,
-    title: "Petrina Salema",
-    description:
-      "Your space is shaping how you live. I help people design spaces to redefine living for them and their guests.",
+    title: SITE.name,
+    description: seoDescription,
     images: [
       {
         url: SITE.ogImage,
@@ -46,13 +48,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Petrina Salema",
-    description:
-      "Your space is shaping how you live. Homes and hospitality spaces, in Vienna and remotely abroad.",
+    title: SITE.name,
+    description: seoDescription,
     images: [SITE.ogImage],
-  },
-  alternates: {
-    canonical: "/",
   },
 };
 
@@ -65,21 +63,6 @@ export const viewport: Viewport = {
 
 type Props = {
   children: ReactNode;
-};
-
-const personJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Petrina Salema",
-  url: SITE.url,
-  email: SITE.email,
-  jobTitle: "Designer",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Vienna",
-    addressCountry: "AT",
-  },
-  sameAs: ["https://jubili.co", "https://www.linkedin.com/in/petrinasalema"],
 };
 
 const themeRoot = themeRootCss();
@@ -95,10 +78,7 @@ const RootLayout: FC<Props> = ({ children }) => (
       data-id="app-body"
       className="flex min-h-full flex-col bg-canvas text-ink"
     >
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
-      />
+      <JsonLd data={siteGraph} />
       {children}
       <CookieBanner />
       <VercelAnalytics />

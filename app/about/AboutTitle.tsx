@@ -3,18 +3,21 @@ import type { FC } from "react";
 import { DsText } from "@/app/components/ds/DsText";
 import { cn } from "@/lib/cn";
 
+type HeadingTag = "h1" | "h2";
+
 type Props = {
   title?: string | null;
   subtitle?: string | null;
+  as?: HeadingTag;
 };
 
-export const AboutTitle: FC<Props> = ({ title, subtitle }) => {
+export const AboutTitle: FC<Props> = ({ title, subtitle, as = "h2" }) => {
   if (!title) {
     return null;
   }
 
   return (
-    <DsText data-id="about-title" variant="h2">
+    <DsText data-id="about-title" variant="h2" as={as}>
       {title}
       {subtitle && ","}
       {subtitle && (

@@ -5,14 +5,16 @@ import { FadeImage } from "@/app/components/FadeImage";
 import book from "@/lib/data/book.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
 import { placeholderSrc } from "@/lib/placeholderSrc";
+import { pageMetadata } from "@/lib/seo";
 
 import { SiteHeader } from "../components/SiteHeader";
 import { BookPanel, type BookContent } from "./BookPanel";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: book.seoTitle,
   description: book.seoDescription,
-};
+  path: "/book",
+});
 
 const BookPage: FC = () => {
   const content = book as BookContent;

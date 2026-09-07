@@ -3,15 +3,17 @@ import type { FC } from "react";
 
 import { cn } from "@/lib/cn";
 import privacy from "@/lib/data/privacy.json";
+import { pageMetadata } from "@/lib/seo";
 
 import { PaperWord } from "../components/PaperWord";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: privacy.seoTitle,
   description: privacy.seoDescription,
-};
+  path: "/privacy",
+});
 
 type PrivacyBlock =
   { type: "heading"; text: string } | { type: "paragraph"; text: string };

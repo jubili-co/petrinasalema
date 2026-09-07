@@ -5,6 +5,7 @@ import { Fragment, type FC } from "react";
 import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 import { PAPERS } from "@/lib/papers";
+import { pageMetadata } from "@/lib/seo";
 import {
   workChapterGroups,
   workPlace,
@@ -19,11 +20,14 @@ import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
 import { WorkInvite } from "./WorkInvite";
 
-export const metadata: Metadata = {
+const WORK_DESCRIPTION =
+  "Homes and hospitality spaces by Petrina Salema, with architectural projects from a decade in practice. Vienna, and projects abroad.";
+
+export const metadata: Metadata = pageMetadata({
   title: "Work | Petrina Salema",
-  description:
-    "Homes and hospitality spaces by Petrina Salema, with architectural projects from a decade in practice. Vienna, and projects abroad.",
-};
+  description: WORK_DESCRIPTION,
+  path: "/work",
+});
 
 const WorkPage: FC = () => {
   const groups = workChapterGroups();
@@ -31,6 +35,9 @@ const WorkPage: FC = () => {
   return (
     <main data-id="work-page" className="min-h-dvh bg-canvas">
       <SiteHeader />
+      <h1 data-id="work-page-title" className="sr-only">
+        Work
+      </h1>
       <section
         data-id="work-grid"
         className="mt-[74px] grid grid-cols-1 gap-px md:mt-[79px] md:grid-cols-2 lg:grid-cols-3"

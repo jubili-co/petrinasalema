@@ -110,7 +110,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
         data-id="book-panel-inner"
         className="relative mx-auto w-full max-w-[420px]"
       >
-        <p
+        <h1
           data-id="book-hook"
           className={cn(
             "m-0 font-[family-name:var(--font-playfair)]",
@@ -119,7 +119,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
           )}
         >
           {hook}
-        </p>
+        </h1>
 
         <div data-id="book-offers" className="mt-16 flex flex-col gap-14">
           <OfferBlock offer={projectOffer} action={projectAction} />

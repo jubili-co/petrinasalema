@@ -75,7 +75,7 @@ export const NewsletterSignup: FC<Props> = ({
           data-id="newsletter-signup-form-inner"
           className="relative flex w-full max-w-[408px] flex-col gap-[18px] text-chalk"
         >
-          <h2
+          <h1
             data-id="newsletter-signup-title"
             className={cn(
               "m-0 font-[family-name:var(--font-matter)]",
@@ -83,7 +83,7 @@ export const NewsletterSignup: FC<Props> = ({
             )}
           >
             {title}
-          </h2>
+          </h1>
 
           {description && (
             <p

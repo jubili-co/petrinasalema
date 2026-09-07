@@ -39,6 +39,12 @@ const nextConfig: NextConfig = {
         destination: "https://jubili.co",
         permanent: false,
       },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "petrinasalema.vercel.app" }],
+        destination: "https://www.petrinasalema.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };
