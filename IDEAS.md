@@ -15,7 +15,7 @@ Rough notes — not a backlog commitment.
 1. Name the hidden problem (hook)
 2. Mirror the right identity (fit)
 3. Offer a primary irreversible-feeling step that’s actually low risk (Cal)
-4. Offer a valuable secondary for the not-ready (diagnostic / paid jumpstart)
+4. Offer a valuable secondary for the not-ready (diagnostic / one-hour consultation)
 5. Prove you’re selective and real (one sharp proof line)
 6. Make email the side door, not a peer CTA
 
@@ -28,15 +28,15 @@ Rough notes — not a backlog commitment.
 - **Primary CTA:** Book a free fit call (30 min)
 - **Full project note (above CTA):** I take on a few residences a year, in Vienna, abroad, and remotely.
 - **Primary microcopy:** none until Cal is wired, then e.g. Choose a time on the next screen.
-- **Design Jumpstart body:** One hour session. You leave with a DIY plan for the change that would matter most in your home.
-- **Jumpstart CTA:** Design Jumpstart
-- **Jumpstart microcopy:** Paid at booking · Leave with a practical DIY plan
+- **Consultation body:** In one focused hour, you leave with the changes that would matter most, and a clear next step.
+- **Consultation CTA:** One hour consultation
+- **Consultation microcopy:** €290 · 60 min
 - **Quote:** My daughter started calling her room the room from the fairy tale. Attribution: Artashes, Tegelweg tenant
 - **Side door lede:** For press or anything else, email works. (Jubili only as email label)
-- **Scarcity (parked — not on page):** We take a small number of projects each year. If timing isn’t right, the jumpstart still helps.
+- **Scarcity (parked — not on page):** We take a small number of projects each year. If timing isn’t right, the consultation still helps.
 - **Offer framing:**
   - Full engagement: A redesign of how a home or room operates, from layout and material to guest flow and daily rituals.
-  - Jumpstart: one hour session with a DIY plan for the change that would matter most
+  - Consultation: one focused hour on the changes that would matter most, and a clear next step
 
 ## TODO — mirror before calendar (optional diagnostic door)
 
@@ -64,10 +64,10 @@ Side thought: people can take the idea (authorship of the cocoon) and still not 
 **Direction (not decided):**
 
 - **Yes** to reducing money as a false veto on authorship.
-- **No** to leading with Klarna (or retail BNPL) as the brand story on Fit call / Jumpstart. That cultural meaning is impulse checkout; CTAs here are initiation (`.cursor/skills/draper`).
-- The ladder already finances conviction in stages: free fit call → €290 Jumpstart → full project. Don’t skip that for a BNPL badge.
+- **No** to leading with Klarna (or retail BNPL) as the brand story on Fit call / consultation. That cultural meaning is impulse checkout; CTAs here are initiation (`.cursor/skills/draper`).
+- The ladder already finances conviction in stages: free fit call → €290 consultation → full project. Don’t skip that for a BNPL badge.
 - **Materiality / productized packs:** Klarna-like tools fit (SKU, goods, shopping list).
-- **Jumpstart:** usually unnecessary to BNPL; studio can split invoices if needed.
+- **Consultation:** usually unnecessary to BNPL; studio can split invoices if needed.
 - **Full projects:** prefer a plain **studio payment schedule** (e.g. deposit / mid / final), not consumer BNPL on living scope.
 - If a partner: quiet, serious credit for larger balances, linked as “payment plans available” from Book/FAQ, not a fintech strip on every CTA.
 

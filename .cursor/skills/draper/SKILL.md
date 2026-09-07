@@ -54,7 +54,7 @@ Lucky Strike can’t say “healthy.” So: “It’s toasted.” Constraint isn
 
 He doesn’t stack benefits. He finds the sentence that reorders the room, then everything else serves that sentence. Research, features, and side offers are noise until the idea is locked.
 
-**On this site:** Prefer one emotional door. Fit call and Jumpstart can both exist as commerce, but they should feel like two keys to the same kingdom, not two religions. Brand extensions (Materiality, Jubili) only earn space if they express the same idea downstream.
+**On this site:** Prefer one emotional door. Fit call and a one-hour consultation can both exist as commerce, but they should feel like two keys to the same kingdom, not two religions. Brand extensions (Materiality, Jubili) only earn space if they express the same idea downstream.
 
 ### 4. Aspiration is identity theft with consent
 
@@ -78,7 +78,7 @@ The carousel pitch works because the room *feels* something before it agrees. Im
 
 Few clients, high price, closed door. Not only economics. It tells the buyer: you were chosen into seriousness. Exclusion is part of the product.
 
-**On this site:** “A few projects a year” and paid Jumpstart are initiation signals, not only capacity notes. Don’t dilute them with endless soft CTAs.
+**On this site:** “A few projects a year” and a paid one-hour consultation are initiation signals, not only capacity notes. Don’t dilute them with endless soft CTAs.
 
 ### 8. Change the conversation if you’re losing
 
@@ -104,7 +104,7 @@ Recognition, in one line: **Stop decorating around a life you didn't choose.**
 
 **Borrowed identity:** not “I hired a decorator,” but “I am someone whose life is designed on purpose.”
 
-**CTAs are initiation, not checkout.** A fit call or Jumpstart is not a calendar errand or a price comparison. It is a moment of taking authorship over the rooms that will shape habits, and over time who they become. Labels and microcopy should feel like stepping into seriousness. Reject pure logistics (“Book now”, “Schedule a call”) and pure economics (price alone with no meaning). Price and time may stay as facts under the button. The button itself should carry the chapter-break.
+**CTAs are initiation, not checkout.** A fit call or a one-hour consultation is not a calendar errand or a price comparison. It is a moment of taking authorship over the rooms that will shape habits, and over time who they become. Labels and microcopy should feel like stepping into seriousness. Reject pure logistics (“Book now”, “Schedule a call”) and pure economics (price alone with no meaning). Price and time may stay as facts under the button. The button itself should carry the chapter-break.
 
 **Authorship is not willpower.** It is not “I will decide to rest, gather, and think better.” People fail that every January. Authorship here means shaping the cocoon: the room that holds them, so life can lean toward how they want to live. Change the container. The days follow.
 
@@ -163,14 +163,14 @@ Applies to Studio Notes, Materiality, Jubili, About shelves.
 - **The fairy-tale quote is the reinvention proof.** A child renaming her room is move 9 in one sentence. It closes Book and whispers on Home between the work grid and the invite band. Images, one client sentence, then the door.
 - **Every project page has a door.** One quiet line under the description (“If one of your rooms is next, start with a fit call.”). Proof must not dead-end, especially on mobile where the More-work box is hidden.
 - **Legal constraint as Lucky Strike.** Cannot sell licensed “architecture / interior design” on commercial pages. Sell the human verb. Biography may state training.
-- **Scarcity as initiation.** A few projects a year; paid Jumpstart; free fit call as the low-risk first irreversible-feeling step.
+- **Scarcity as initiation.** A few projects a year; paid one-hour consultation; free fit call as the low-risk first irreversible-feeling step.
 
 ## Site audit: cut or distrust
 
 - **Footer / chrome sprawl** (Materiality, Jubili, Studio Notes) without one empire idea. If the name shares gravity with a holding-company menu, demote until one woman’s authority is obvious.
 - **About as multi-panel brand shelf** (Petrina / Jubili / Materiality as co-equal chapters). That is org-chart marketing. About may prove the person. It must not apologize for side hustles in the primary story.
 - **Aesthetic SEO and leftover craft slogans** still humming after Book/Studio moved to the wound (e.g. “considered rather than styled” in `home.json`).
-- **Two CTAs as two religions.** Fit call + Jumpstart is smart commerce only if both keys open the same kingdom. One emotional door; two practical sizes.
+- **Two CTAs as two religions.** Fit call + one-hour consultation is smart commerce only if both keys open the same kingdom. One emotional door; two practical sizes.
 - **Ethos-poster principles.** Teacherly doctrine titles. Prefer observation (“If it only looks good in photos…”) or cut the block.
 - **Explaining too much.** If Work already made the point, copy should not lecture.
 

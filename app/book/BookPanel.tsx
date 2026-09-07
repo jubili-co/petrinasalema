@@ -23,7 +23,7 @@ export type BookCta = {
 export type BookContent = {
   hook: string;
   projectOffer: BookOffer;
-  jumpstartOffer: BookOffer;
+  consultOffer: BookOffer;
   primaryCta: BookCta;
   secondaryCta: BookCta;
 };
@@ -35,7 +35,7 @@ type Props = {
 const SKETCH_SRC = `${PAPERS}/schnitt-a-b--schnitt-line.webp`;
 
 export const BookPanel: FC<Props> = ({ book }) => {
-  const { hook, projectOffer, jumpstartOffer, primaryCta, secondaryCta } = book;
+  const { hook, projectOffer, consultOffer, primaryCta, secondaryCta } = book;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[13px] leading-[18px] font-[350] text-ink/85",
@@ -56,7 +56,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
       )}
     </div>
   );
-  const jumpstartAction = (
+  const consultAction = (
     <div data-id="book-secondary">
       <CtaLink
         href={secondaryCta.href}
@@ -116,7 +116,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
 
         <div data-id="book-offers" className="mt-16 flex flex-col gap-14">
           <OfferBlock offer={projectOffer} action={projectAction} />
-          <OfferBlock offer={jumpstartOffer} action={jumpstartAction} />
+          <OfferBlock offer={consultOffer} action={consultAction} />
         </div>
       </div>
     </div>

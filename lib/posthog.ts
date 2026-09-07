@@ -1,4 +1,4 @@
-import { FIT_CALL_CAL_HREF, JUMPSTART_CAL_HREF } from "@/lib/site";
+import { CONSULT_CAL_HREF, FIT_CALL_CAL_HREF } from "@/lib/site";
 
 export const POSTHOG_TOKEN =
   process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN ??
@@ -17,7 +17,7 @@ export function offerFromHref(href: string): BookOfferId | undefined {
   if (href === FIT_CALL_CAL_HREF) {
     return "fit_call";
   }
-  if (href === JUMPSTART_CAL_HREF) {
+  if (href === CONSULT_CAL_HREF) {
     return "paid_hour";
   }
   return undefined;
