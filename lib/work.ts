@@ -64,7 +64,7 @@ export const WORK_CHAPTERS: {
   {
     id: "prior",
     label: "Architecture work",
-    note: "I spent years in architecture studios, on hospitals, schools, banks, and civic buildings. Those rooms already make people live a certain way. You live with every wall.",
+    note: "My work in architecture studios was getting spaces to work for people, and for the institutions those rooms served.",
   },
   {
     id: "homes",
