@@ -16,7 +16,9 @@ Agents: read and apply those skills before writing or judging visitor-facing cop
 
 ## How to say the idea (locked temperature)
 
-This is the speaking version of the mandate. It is the temperature we want on the site: full sentences, glad to explain, simple. Not a slogan stack. Not telegram.
+This is the speaking version of the mandate. It is the temperature we want on the site: full spoken sentences, glad to explain, simple. Not a slogan stack. Not telegram.
+
+Keep the joining words. *About*, *and then*, *of them*, *a* / *the* are glue, not sludge. Do not “tighten” copy by deleting them. The generate-from sample is Book’s three Full project / Note / How payment works lines in [`COPY.md`](./COPY.md). Voice rules: [`.cursor/skills/human-register/SKILL.md`](./.cursor/skills/human-register/SKILL.md).
 
 A good homepage does not start by listing services. It starts with a feeling the visitor already has, then offers a first step.
 

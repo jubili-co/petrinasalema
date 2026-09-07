@@ -9,6 +9,12 @@ metadata:
 
 You are an expert copy editor specializing in marketing and conversion copy. Your goal is to systematically improve existing copy through focused editing passes while preserving the core message.
 
+### This repo (Dotto / Petrina)
+
+On this site, [human-register](../human-register/SKILL.md) is the voice bar. Spoken sentences with joining words (*about*, *and then*, *of them*, articles). Do not “tighten” by deleting them. Do not clip Book’s Full project / Note / How payment works lines, or new blocks, into telegram stubs.
+
+If a sweep below says cut *that*, cut conjunctions, or cap sentence length, and the result sounds like a noun pile, stop. Restore the glue. The Book lines in [`COPY.md`](../../../COPY.md) are the generate-from sample.
+
 ## Core Philosophy
 
 **Check for product marketing context first:**
@@ -320,6 +326,8 @@ Use these for faster reviews when a full seven-sweep process isn't needed.
 - That (often unnecessary)
 - Things, stuff (vague)
 
+On this site, do **not** treat *about*, *and then*, *of them*, or articles as filler. Those are joining words. See [human-register](../human-register/SKILL.md).
+
 **Replace these:**
 
 | Weak | Strong |
@@ -345,6 +353,8 @@ Use these for faster reviews when a full seven-sweep process isn't needed.
 - Front-load important information
 - Max 3 conjunctions per sentence
 - No more than 25 words (usually)
+
+On this site, those last two caps lose to spoken rhythm. A sentence may keep *and then* and run longer than 25 words if that is how a person would say it. See [human-register](../human-register/SKILL.md).
 
 ### Paragraph-Level Checks
 

@@ -2,9 +2,11 @@
 
 These drafts are now live on Home, Studio, Book, Work doors and chapter notes, and site chrome (footer, cookie, privacy, newsletter, /jubili button). About still has the Jubili chapter; only its door labels were aligned. Older project blurbs in `lib/data/work.json` were left as they are.
 
-Voice: the simple speaking tone in [`DRAPER.md`](./DRAPER.md) (“How to say the idea”). Full sentences. Glad to explain. Copywriting pressure without telegram, slogan triads, or hyper-terse AI speak.
+Voice: the simple speaking tone in [`DRAPER.md`](./DRAPER.md) (“How to say the idea”). Full spoken sentences. Glad to explain. Copywriting pressure without telegram, slogan triads, or hyper-terse AI speak.
 
-Idea: [`DRAPER.md`](./DRAPER.md). Voice rules: [`.cursor/skills/human-register/SKILL.md`](./.cursor/skills/human-register/SKILL.md).
+**Generate-from sample.** Book’s three Full project / Note / How payment works sentences below. Keep *about*, *and then*, *of them*, and the articles. Do not clip new blocks into the telegram that was rejected (noun pile, then a list, joining words gone).
+
+Idea: [`DRAPER.md`](./DRAPER.md). Voice: [`.cursor/skills/human-register/SKILL.md`](./.cursor/skills/human-register/SKILL.md).
 
 ## Home
 
@@ -44,7 +46,7 @@ Keep her line: “I help people design spaces to redefine living for them and th
 - The line already converted. *Guests* is the recognition word in that chat: hosting, the life they want people to feel.
 - The block under the hero is paying guests at Tegelweg. *Families* fights that. *Them and their guests* is the bridge between a home and hospitality.
 - The wound is still the apartment writing the biography. These buyers already heard that. The invite (“Stop decorating around a life you didn’t choose”) is the posting sentence without saying expat.
-- Book already has the right shelf: “How a family or guests move through it.” Leave *family* on the offer, not the hero.
+- Book already has the right shelf: “It's about how a family or guests move through it.” Leave *family* on the offer, not the hero.
 
 If a later pass wants to name this life more sharply, name the life (two careers, an apartment they landed in, people over), not a census noun. Do not stack audiences (*couples and families*).
 
@@ -80,11 +82,13 @@ Keep the close of the current hook. Soften the thesis verb if *deciding* still d
 
 **Hook.** Your rooms already make you live a certain way. Stop decorating around a life you didn’t choose. Shape the rooms that define how you want to rest, gather, and think.
 
-**Full project.** A redesign of how a home or room operates. How a family or guests move through it, then layout, materials, sourcing, and styling.
+**Full project.** This is a redesign of how a home or a room operates. It's about how a family or guests move through it, and then about the layout, materials, sourcing, and styling.
 
-**Note.** A few residences a year. Most take one to three months, in person in Vienna, and remotely abroad.
+**Note.** I take on a few residences a year. Most of them take one to three months, in person in Vienna, and remotely abroad.
 
-**How payment works.** A quote comes after the first conversation. A deposit starts the project, then billing in stages until the last invoice.
+**How payment works.** You'll get a quote after the first conversation. A deposit starts the project, and then billing goes in stages until the last invoice.
+
+These three lines are the generate-from sample. Do not clip them back to telegram. Keep the joining words. When you write a new offer, capacity, or payment block, draft at this temperature. See [`.cursor/skills/human-register/SKILL.md`](./.cursor/skills/human-register/SKILL.md).
 
 **Consultation.** In one hour, get a clear point of view on the change that would matter most adapting your rooms into a space that shapes the way you want to live.
 
