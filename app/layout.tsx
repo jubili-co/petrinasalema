@@ -19,6 +19,8 @@ const playfair = Playfair_Display({
   display: "swap",
   variable: "--font-playfair-face",
   style: ["normal", "italic"],
+  // LCP is the first work photo — do not compete with it by preloading four Playfair files.
+  preload: false,
 });
 
 const matter = localFont({
