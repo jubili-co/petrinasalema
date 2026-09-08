@@ -1,0 +1,63 @@
+{
+  "tegelweg-rental-maisonette-vienna": {
+    "name": "Tegelweg",
+    "subtitle": "Wohnkonzept und Gastlichkeit in Wien",
+    "description": "Das ist ein Zuhause in Wien, am Tegelweg, das seit fünf Jahren zahlende Gäste beherbergt. Es hält 4,97 von 5 bei mehr als 120 Bewertungen, Superhost seit dem sechsten Monat, und mehr als 120.000 Euro Gästeumsatz. Der Plan ist von zwei Schlafzimmern auf vier gewachsen, während das Haus offen blieb. Konzept, Grundriss und Gästeerlebnis wurden an echten Check-ins geprüft, nicht nur an einem Shooting.",
+    "scope": [
+      "Einrichtungskonzept",
+      "Grundriss",
+      "Möbel und Ausstattung",
+      "Styling",
+      "Gästeerlebnis"
+    ],
+    "caseStudy": {
+      "problem": "Die Wohnung sollte verdienen und sich über Gästeaufenthalte selbst tragen. Die ersten zwei Schlafzimmer reichten für die Nachfrage nicht, und jede Änderung musste echte Check-ins überstehen, nicht nur auf Fotos gut aussehen.",
+      "decisions": "Der Plan ist in Phasen über fünf Jahre gewachsen, von zwei Schlafzimmern auf vier, während das Haus offen blieb. Grundriss, Materialien und Styling blieben, wenn Gäste und Wechsel sie bestätigt haben, und wurden korrigiert, wenn nicht.",
+      "result": "Superhost in den ersten sechs Monaten, und das ist so geblieben. Guest Favorite. Dieselben Zimmer, die gut fotografieren, halten auch gewöhnliche Wechsel-Tage.",
+      "results": [
+        {
+          "value": "4,97/5",
+          "label": "Durchschnitt über 120+ Gästebewertungen"
+        },
+        {
+          "value": "€120k+",
+          "label": "Buchungsumsatz auf einer Immobilie"
+        },
+        {
+          "value": "2 → 4",
+          "label": "Schlafzimmer, umgebaut im laufenden Betrieb"
+        }
+      ]
+    }
+  },
+  "brabbeegasse-single-unit-apartment-vienna": {
+    "name": "Brabbeegasse",
+    "subtitle": "Wohnkonzept in einer gemieteten Wohnung in Wien",
+    "description": "Das ist eine gemietete Wohnung in Wien, in der Brabbeegasse, so eingerichtet, dass Gäste in einem fertigen Zuhause bleiben konnten und die Vermieterin die Wohnung trotzdem so zurückbekam, wie sie sie übergeben hatte. Farbe, Beschläge und freistehende Möbel haben den Look getragen. Nichts, das bei der Übergabe eine Narbe hinterlassen hätte. Es ist das zweite Wiener Zuhause in dieser Arbeit, nach dem Tegelweg.",
+    "scope": [
+      "Einrichtungskonzept",
+      "Styling",
+      "Möbel und Ausstattung",
+      "Rückbaubare Eingriffe"
+    ],
+    "caseStudy": {
+      "problem": "Die Wohnung war gemietet. Gäste wollten einen Aufenthalt, der sich anfühlt, und die Vermietung sollte die Räume am Ende trotzdem im Ausgangszustand zurückbekommen.",
+      "decisions": "Jede Oberfläche und jede Möbelentscheidung war von Anfang an zum Rückbau gedacht. Farbe, Beschläge und freistehende Stücke haben den Look getragen. Nichts, das bei der Übergabe eine Narbe hinterlassen hätte.",
+      "result": "Eine Miete, die sich wie ein fertiges Gästezuhause liest, solange sie verdient, und die sich wieder so übergeben lässt, wie sie gefunden wurde.",
+      "results": [
+        {
+          "value": "Gemietet",
+          "label": "Wohnung, kein eigener Bestand"
+        },
+        {
+          "value": "Rückbaubar",
+          "label": "Eingriffe für eine saubere Übergabe geplant"
+        },
+        {
+          "value": "Gästebereit",
+          "label": "für Aufenthalte eingerichtet, nicht nur für Fotos"
+        }
+      ]
+    }
+  }
+}

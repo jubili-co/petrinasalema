@@ -1,6 +1,6 @@
 {
-  "seoTitle": "Book | Petrina Salema",
-  "seoDescription": "Your space is already deciding how you live. A free first conversation, or a consultation, with Petrina Salema in Vienna.",
+  "seoTitle": "Book an intro in Vienna | Petrina Salema",
+  "seoDescription": "A free 30-minute intro, or a paid hour, with Petrina Salema in Vienna. Bring the floor plan if you have one.",
   "image": "/media/1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf.webp",
   "hook": "Your space is already deciding how you live. Stop decorating around a life you didn't choose. Shape the rooms that define how you want to rest, gather, and think.",
   "projectOffer": {
@@ -22,5 +22,27 @@
     "label": "Book a consult",
     "href": "https://cal.com/jubili/consult",
     "microcopy": "€290 · 60 min"
-  }
+  },
+  "faq": [
+    {
+      "question": "Who is this for?",
+      "answer": "This is for someone whose rooms already decide the day, and who is ready to change that. Often a home in Vienna, or a place they want guests to feel welcome in."
+    },
+    {
+      "question": "Do you work in Vienna, or also remotely?",
+      "answer": "I work in person in Vienna, and remotely abroad. The first conversation is enough to see which of those fits."
+    },
+    {
+      "question": "What do you not do?",
+      "answer": "I do not file licensed architectural drawings, and this is not a chamber Innenarchitekt practice. The work is furnishing concepts and the rooms around them: the plan, materials, sourcing, and styling."
+    },
+    {
+      "question": "How does payment work?",
+      "answer": "The intro is free. The consult is €290 for the hour, paid when you book. For a full project, you'll get a quote after the first conversation. A deposit starts the work, and then billing goes in stages until the last invoice."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "Bring the floor plan if you have one, and a few photos of the rooms as they are. If you do not have a plan yet, still come. We can start from how you want the days to go."
+    }
+  ]
 }

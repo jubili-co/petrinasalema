@@ -2,10 +2,12 @@ import type { FC, ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
 import { PAPERS } from "@/lib/papers";
+import type { BookFaqItem } from "@/lib/seo";
 
 import { CtaLink } from "../components/CtaLink";
 import { PaperWord } from "../components/PaperWord";
 import { SketchArtifact } from "../components/SketchArtifact";
+import { BookFaq } from "./BookFaq";
 
 export type BookOffer = {
   title: string;
@@ -26,6 +28,8 @@ export type BookContent = {
   jumpstartOffer: BookOffer;
   primaryCta: BookCta;
   secondaryCta: BookCta;
+  faq: BookFaqItem[];
+  faqHeading?: string;
 };
 
 type Props = {
@@ -35,7 +39,15 @@ type Props = {
 const SKETCH_SRC = `${PAPERS}/schnitt-a-b--schnitt-line.webp`;
 
 export const BookPanel: FC<Props> = ({ book }) => {
-  const { hook, projectOffer, jumpstartOffer, primaryCta, secondaryCta } = book;
+  const {
+    hook,
+    projectOffer,
+    jumpstartOffer,
+    primaryCta,
+    secondaryCta,
+    faq,
+    faqHeading = "Before you book",
+  } = book;
   const microcopyClassName = cn(
     "m-0 mt-3 font-[family-name:var(--font-playfair)]",
     "text-[13px] leading-[18px] font-[350] text-ink/85",
@@ -118,6 +130,7 @@ export const BookPanel: FC<Props> = ({ book }) => {
           <OfferBlock offer={projectOffer} action={projectAction} />
           <OfferBlock offer={jumpstartOffer} action={jumpstartAction} />
         </div>
+        {faq.length > 0 && <BookFaq items={faq} heading={faqHeading} />}
       </div>
     </div>
   );

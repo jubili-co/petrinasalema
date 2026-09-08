@@ -1,0 +1,48 @@
+{
+  "seoTitle": "Intro in Wien buchen | Petrina Salema",
+  "seoDescription": "Ein kostenloses Intro von 30 Minuten, oder eine bezahlte Stunde, mit Petrina Salema in Wien. Bring den Grundriss mit, wenn du einen hast.",
+  "image": "/media/1_UaJwLhUh20Rb0ddVaanvuIGSw6R8Kxf.webp",
+  "hook": "Dein Raum entscheidet schon, wie du lebst. Hör auf, um ein Leben herum zu dekorieren, das du nicht gewählt hast. Gestalte die Zimmer so, dass Ruhe, Gäste und Denken wieder zu dir passen.",
+  "projectOffer": {
+    "title": "Ganzes Projekt",
+    "body": "Das ist eine Neuordnung, wie ein Zuhause oder ein Zimmer funktioniert. Es geht darum, wie eine Familie oder Gäste sich darin bewegen, und dann um Grundriss, Materialien, Einkauf und Styling.",
+    "note": "Ich nehme nur ein paar Wohnungen im Jahr. Die meisten davon dauern ein bis drei Monate, vor Ort in Wien, und remote im Ausland.",
+    "finance": "Nach dem ersten Gespräch bekommst du ein Angebot. Eine Anzahlung beginnt das Projekt, und dann wird in Etappen bis zur letzten Rechnung abgerechnet."
+  },
+  "jumpstartOffer": {
+    "title": "Beratung",
+    "body": "In einer Stunde bekommst du einen klaren Blick auf die Änderung, die am meisten tragen würde, damit deine Zimmer das Leben halten, das du darin führen willst."
+  },
+  "primaryCta": {
+    "label": "Intro buchen",
+    "href": "https://cal.com/jubili/intro",
+    "microcopy": "Kostenlos · 30 Min."
+  },
+  "secondaryCta": {
+    "label": "Beratung buchen",
+    "href": "https://cal.com/jubili/consult",
+    "microcopy": "€290 · 60 Min."
+  },
+  "faq": [
+    {
+      "question": "Für wen ist das?",
+      "answer": "Für jemanden, dessen Zimmer den Tag schon schreiben, und der das ändern will. Oft eine Wohnung in Wien, oder ein Ort, an dem sich Gäste willkommen fühlen sollen."
+    },
+    {
+      "question": "Arbeitest du in Wien, oder auch remote?",
+      "answer": "Ich arbeite vor Ort in Wien, und remote im Ausland. Im ersten Gespräch wird klar, was davon passt."
+    },
+    {
+      "question": "Was machst du nicht?",
+      "answer": "Ich reiche keine befugten Architekturpläne ein, und das ist keine Kammer-Praxis als Innenarchitektin. Die Arbeit sind Einrichtungskonzepte und die Räume darum: Plan, Materialien, Einkauf und Styling."
+    },
+    {
+      "question": "Wie funktioniert die Bezahlung?",
+      "answer": "Das Intro ist kostenlos. Die Beratung kostet 290 Euro für die Stunde, und du zahlst sie beim Buchen. Für ein ganzes Projekt bekommst du nach dem ersten Gespräch ein Angebot. Eine Anzahlung beginnt die Arbeit, und dann wird in Etappen bis zur letzten Rechnung abgerechnet."
+    },
+    {
+      "question": "Was soll ich mitbringen?",
+      "answer": "Bring den Grundriss mit, wenn du einen hast, und ein paar Fotos der Zimmer, wie sie jetzt sind. Wenn du noch keinen Plan hast, komm trotzdem. Wir können damit anfangen, wie die Tage laufen sollen."
+    }
+  ]
+}

@@ -1,4 +1,5 @@
-import { CONSULT_CAL_HREF, INTRO_CAL_HREF } from "@/lib/site";
+import { isFitDoorPath } from "@/lib/locale";
+import { CONSULT_CAL_HREF, hrefPathname, INTRO_CAL_HREF } from "@/lib/site";
 
 export const POSTHOG_TOKEN =
   process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN ??
@@ -14,11 +15,18 @@ export const POSTHOG_PROXY = "/ingest";
 export type BookOfferId = "fit_call" | "paid_hour";
 
 export function offerFromHref(href: string): BookOfferId | undefined {
-  if (href === INTRO_CAL_HREF) {
+  const pathname = hrefPathname(href);
+  if (pathname === hrefPathname(INTRO_CAL_HREF)) {
     return "fit_call";
   }
-  if (href === CONSULT_CAL_HREF) {
+
+  if (pathname === hrefPathname(CONSULT_CAL_HREF)) {
     return "paid_hour";
   }
+
   return undefined;
+}
+
+export function isFitDoorHref(href: string): boolean {
+  return isFitDoorPath(hrefPathname(href));
 }

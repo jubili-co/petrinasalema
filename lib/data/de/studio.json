@@ -1,0 +1,43 @@
+{
+  "seoTitle": "Studio in Wien | Petrina Salema",
+  "seoDescription": "Die Praxis von Petrina Salema in Wien. Wohnungen und Gastlichkeit, nur ein paar Projekte im Jahr, vom Plan über Materialien, Einkauf und Styling.",
+  "images": [
+    "/media/1mBxAhVcz8BVcAuOzrdRYp_VORLeOW1Uf.webp",
+    "/media/1iME7OmjE6DfIerVByVEklYAksq0jNoK-.webp"
+  ],
+  "eyebrow": "Studio",
+  "hook": "Die meisten Leute bitten um schönere Zimmer. Aber sie suchen eigentlich Räume, die dazu passen, wie sie leben wollen.",
+  "body": "Ich helfe Menschen, Räume so einzurichten, dass sie das Leben tragen, das sie wollen, und dass sich Gäste dort wohlfühlen. Die Praxis hat 2021 in Wien angefangen, nach dem Studium der Innenraumgestaltung und Jahren in Architekturbüros. Die meisten Projekte dauern ein bis drei Monate, vom Plan über Materialien, Einkauf und Styling. Nur ein paar im Jahr, in Wien, im Ausland, und remote.",
+  "principles": [
+    {
+      "title": "Wenn es nur auf Fotos gut aussieht, ist es nicht fertig.",
+      "body": "Das Zimmer muss gewöhnliche Tage halten, inklusive Putzen, Stauraum, und wie Menschen sich wirklich bewegen."
+    },
+    {
+      "title": "Ich nehme nur wenige Projekte gleichzeitig",
+      "body": "Jedes bekommt Aufmerksamkeit vom ersten Gespräch bis zum letzten Styling."
+    },
+    {
+      "title": "Ein Ort zum Ausruhen, der auch Gäste aushält",
+      "body": "Irgendwo ruhig zum Denken, das echten Gebrauch übersteht."
+    }
+  ],
+  "ctaLede": "Fang mit einem Gespräch an. Bring den Grundriss mit, wenn du einen hast. In 30 Minuten sollte klar sein, ob ein ganzes Projekt oder eine bezahlte Stunde der nächste Schritt ist.",
+  "primaryCta": {
+    "label": "Schauen, ob es passt",
+    "href": "https://cal.com/jubili/intro",
+    "microcopy": "Kostenlos · 30 Min."
+  },
+  "secondaryCta": {
+    "label": "Beratung buchen",
+    "href": "https://cal.com/jubili/consult",
+    "microcopy": "€290 · 60 Min."
+  },
+  "extensions": [
+    {
+      "label": "Biografie",
+      "href": "/about",
+      "note": "Hintergrund, Erfahrung und ausgewählte Arbeit"
+    }
+  ]
+}
