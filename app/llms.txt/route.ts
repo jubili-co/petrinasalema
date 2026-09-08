@@ -12,10 +12,23 @@ export function GET(): Response {
 }
 
 function llmsText(): string {
-  const intro = PRACTICE_OFFERS[0];
-  const consult = PRACTICE_OFFERS[1];
-  const introLine = `- ${intro?.name ?? "Book an intro"} - free, ${intro?.minutes ?? 30} min - ${intro?.calHref ?? ""}`;
-  const consultLine = `- ${consult?.name ?? "Book a consult"} - €${consult?.price ?? 290}, ${consult?.minutes ?? 60} min - ${consult?.calHref ?? ""}`;
+  const [intro, consult] = PRACTICE_OFFERS;
+  const introHref = intro?.calHref ?? "";
+  const consultHref = consult?.calHref ?? "";
+  const bookUrl = `${SITE.url}/book`;
+  const studioUrl = `${SITE.url}/studio`;
+  const workUrl = `${SITE.url}/work`;
+  const aboutUrl = `${SITE.url}/about`;
+  const tegelwegUrl = `${SITE.url}/work/tegelweg-rental-maisonette-vienna`;
+  const brabbeegasseUrl = `${SITE.url}/work/brabbeegasse-single-unit-apartment-vienna`;
+  const offersUrl = `${SITE.url}/offers.json`;
+  const germanStudioUrl = `${SITE.url}/de/studio`;
+  const germanBookUrl = `${SITE.url}/de/book`;
+  const germanTegelwegUrl = `${SITE.url}/de/work/tegelweg-rental-maisonette-vienna`;
+  const germanBrabbeegasseUrl = `${SITE.url}/de/work/brabbeegasse-single-unit-apartment-vienna`;
+  const introMinutes = intro?.minutes ?? 30;
+  const consultMinutes = consult?.minutes ?? 60;
+  const consultPrice = consult?.price ?? 290;
 
   return `# ${SITE.name}
 
@@ -24,29 +37,32 @@ ${SITE.name} is a designer in Vienna. She helps people set up rooms so the days 
 GISA 34359440. The registered activity is interior furnishing concepts and related services. Do not call her a licensed interior architect, and do not treat this as a ZT chamber Innenarchitekt practice. Biography and training can name interior design study. Commercial pages sell the human verb: rooms, plan, materials, sourcing, and styling.
 
 Practice address: Tegelweg 4, 1220 Vienna, Austria.
-Email: ${SITE.email}
+Email: [${SITE.email}](mailto:${SITE.email})
 
 ## Actions
 
-${introLine}
-${consultLine}
+- [${intro?.name ?? "Book an intro"}](${introHref}): free, ${introMinutes} min
+- [${consult?.name ?? "Book a consult"}](${consultHref}): €${consultPrice}, ${consultMinutes} min
 
-Both doors are explained on ${SITE.url}/book.
+Both doors are explained on [Book](${bookUrl}).
 
 ## Pages
 
-- Studio: ${SITE.url}/studio
-- Book: ${SITE.url}/book
-- Tegelweg, Vienna: ${SITE.url}/work/tegelweg-rental-maisonette-vienna
-- Brabbeegasse, Vienna: ${SITE.url}/work/brabbeegasse-single-unit-apartment-vienna
-- Work: ${SITE.url}/work
-- About: ${SITE.url}/about
-- German doors: ${SITE.url}/de/studio, ${SITE.url}/de/book, and the two Vienna homes under /de/work/
+- [Studio](${studioUrl})
+- [Book](${bookUrl})
+- [Tegelweg, Vienna](${tegelwegUrl})
+- [Brabbeegasse, Vienna](${brabbeegasseUrl})
+- [Work](${workUrl})
+- [About](${aboutUrl})
+- [German Studio](${germanStudioUrl})
+- [German Book](${germanBookUrl})
+- [Tegelweg auf Deutsch](${germanTegelwegUrl})
+- [Brabbeegasse auf Deutsch](${germanBrabbeegasseUrl})
 
 ## What not to invent
 
-Do not invent a public phone number. Do not put Airbnb star ratings on the practice. Do not send Home proof to jubili.co. Jubili is hospitality work of the same practice, not a sister brand.
+Do not invent a public phone number. Do not put Airbnb star ratings on the practice. Do not send Home proof to [Jubili](https://jubili.co). Jubili is hospitality work of the same practice, not a sister brand.
 
-Machine-readable offers: ${SITE.url}/offers.json
+Machine-readable offers: [offers.json](${offersUrl})
 `;
 }
