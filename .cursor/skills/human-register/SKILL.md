@@ -238,7 +238,7 @@ Training and past roles may appear in Biography / About. On commercial pages (St
 | -------------- | -------------------------------------------------------------------------------------------------- |
 | Home hero      | One wound + one answer. No feature stack. Echo pair preferred (see draper).                        |
 | Studio         | Insight then value prop. Practical “fix” language is fine here.                                    |
-| Book / CTAs    | Book buttons name the doors: “Book an intro” and “Book a consult”. Soft invites stay “See if it's a fit”. Price/time may sit under the button. Offer, capacity, and payment blocks use the spoken-sentence sample: keep *about*, *and then*, *of them*. |
+| Book / CTAs    | Book and Studio name the doors: “Book an intro” and “Book a consult”. Soft invites stay “See if it's a fit”. Price/time may sit under the button. Offer, capacity, and payment blocks use the spoken-sentence sample: keep *about*, *and then*, *of them*. |
 | Work / project | Open on the stake for the people in the building. Facts after. No résumé verb stacks.              |
 | About          | Prove the person. One “I” early is fine. Not a holding-company shelf.                              |
 | Microcopy      | Short can still be warm. Prefer “See if it's a fit” energy over “Submit.”                      |

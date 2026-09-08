@@ -68,7 +68,7 @@ Keep her insight. It already sounds like her.
 
 **Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.
 
-**Primary button.** See if it's a fit.  
+**Primary button.** Book an intro.  
 **Under it.** Free · 30 min
 
 **Secondary button.** Book a consult.  
@@ -150,12 +150,12 @@ Same meaning everywhere. Warm enough to say out loud. Serious enough not to soun
 - Soft invites (Home, Work, About): **See if it's a fit** → `/book`
 - Book, free: **Book an intro** · Free · 30 min
 - Book, paid: **Book a consult** · €290 · 60 min
-- Studio, free: **See if it's a fit** · Free · 30 min
+- Studio, free: **Book an intro** · Free · 30 min
 - Studio, paid: **Book a consult** · €290 · 60 min
 
-Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book, the buttons name the two calendar doors. Soft invites stay the initiation line. Studio’s paid label matches Book.
+Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book and Studio, the buttons name the two calendar doors. Soft invites stay the initiation line.
 
-**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Paid event: `https://cal.com/jubili/consult`. Book buttons are **Book an intro** and **Book a consult**. Home, Work, About, and Studio keep **See if it's a fit** for the free door. Do not put “Intro Call” on those pages.
+**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Paid event: `https://cal.com/jubili/consult`. Book and Studio buttons are **Book an intro** and **Book a consult**. Home, Work, and About keep **See if it's a fit** for the free door. Do not put “Intro Call” on those pages.
 
 German doors (`/de/studio`, `/de/book`, Tegelweg, Brabbeegasse) keep the same two meanings: Intro / Consult, prices unchanged. Spoken German. Do not claim licensed Innenarchitektin on those pages.
 
