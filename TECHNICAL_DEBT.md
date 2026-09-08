@@ -129,7 +129,7 @@ Note: GBP listing does not exist yet. Do not invent a maps URL.
 - **Done when:** GBP is live, Cal shows Petrina Salema as the public name, and LinkedIn no longer leads with the old hospitality-rental line.
 - **Last checked:** 2026-09-08
 
-Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Life-app listings and Cal public name need a human.
+Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public name and username are Petrina Salema (`cal.com/petrinasalema`). GBP and LinkedIn still need a human.
 
 ### TD-005 — Agent booking apps after retrieval
 

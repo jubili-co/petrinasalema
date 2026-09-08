@@ -25,12 +25,12 @@
   "ctaLede": "Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.",
   "primaryCta": {
     "label": "Book an intro",
-    "href": "https://cal.com/jubili/intro",
+    "href": "https://cal.com/petrinasalema/intro",
     "microcopy": "Free · 30 min"
   },
   "secondaryCta": {
     "label": "Book a consult",
-    "href": "https://cal.com/jubili/consult",
+    "href": "https://cal.com/petrinasalema/consult",
     "microcopy": "€290 · 60 min"
   },
   "extensions": [
