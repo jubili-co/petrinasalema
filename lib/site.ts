@@ -31,10 +31,10 @@ export const FOOTER_LEGAL_LINKS = [
 /**
  * One spoken door, two sizes.
  * Soft invites ("See if it's a fit") land on /book.
- * Book and Studio hard CTAs open Cal: intro (free) and consultation (€290).
- * Cal event title/slug is Intro (`/intro`). Site buttons stay initiation
- * language. Do not put "Intro Call" on the site.
- * Paid Cal event is Consultation (`/consult`).
+ * Book hard CTAs name the calendar doors: "Book an intro" (free) and
+ * "Book a consult" (€290). Studio still uses initiation labels in studio.json.
+ * Cal event title/slug is Intro (`/intro`). Do not put "Intro Call" on
+ * Home, Work, About, or Studio. Paid Cal event is Consultation (`/consult`).
  */
 export const FIT_CALL_PATH = "/book" as const;
 export const INTRO_CAL_HREF = "https://cal.com/jubili/intro" as const;

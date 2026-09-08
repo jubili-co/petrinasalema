@@ -92,10 +92,10 @@ These three lines are the generate-from sample. Do not clip them back to telegra
 
 **Consultation.** In one hour, get a clear point of view on the change that would matter most adapting your rooms into a space that shapes the way you want to live.
 
-**Primary button.** See if it's a fit.  
+**Primary button.** Book an intro.  
 **Under it.** Free · 30 min · with Petrina
 
-**Secondary button.** Consultation.  
+**Secondary button.** Book a consult.  
 **Under it.** €290 · 60 min
 
 **Close.** Off Book. The fairy-tale quote stays on Home only.
@@ -129,12 +129,14 @@ The Vienna home that became Jubili is still running. Guest stays are where ideas
 Same meaning everywhere. Warm enough to say out loud. Serious enough not to sound like a haircut.
 
 - Soft invites (Home, Work, About): **See if it's a fit** → `/book`
-- Book and Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
-- Book and Studio, paid: **Consultation** · €290 · 60 min
+- Book, free: **Book an intro** · Free · 30 min · with Petrina
+- Book, paid: **Book a consult** · €290 · 60 min
+- Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
+- Studio, paid: **Consultation** · €290 · 60 min
 
-Drop “Let’s talk” as a dead end, “Intro Call” as a calendar errand, and “Get in touch.” Keep the meaning in the button.
+Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book, the buttons name the two calendar doors. Soft invites stay the initiation line.
 
-**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Site buttons stay **See if it's a fit**. The calendar title is production design. The button is the initiation.
+**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Paid event: `https://cal.com/jubili/consult`. Book buttons are **Book an intro** and **Book a consult**. Home, Work, About, and Studio keep **See if it's a fit** (and Studio’s **Consultation**). Do not put “Intro Call” on those pages.
 
 ## Chrome (if we touch it)
 

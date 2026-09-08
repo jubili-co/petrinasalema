@@ -104,7 +104,7 @@ Recognition, in one line: **Stop decorating around a life you didn't choose.**
 
 **Borrowed identity:** not “I hired a decorator,” but “I am someone whose life is designed on purpose.”
 
-**CTAs are initiation, not checkout.** An intro or Jumpstart is not a calendar errand or a price comparison. It is a moment of taking authorship over the rooms that will shape habits, and over time who they become. Labels and microcopy should feel like stepping into seriousness. Reject pure logistics (“Book now”, “Schedule a call”, “Intro Call”) and pure economics (price alone with no meaning). Price and time may stay as facts under the button. The button itself should carry the chapter-break (“See if it's a fit”). The Cal event may be titled Intro at `/intro`. That slug is production design, not the button.
+**CTAs are initiation, not checkout.** An intro or a consult is not a price comparison. It is a moment of taking authorship over the rooms that will shape habits, and over time who they become. Labels and microcopy should feel like stepping into seriousness. Reject “Let’s talk”, “Get in touch”, and “Intro Call” as a product stamp. Soft invites (Home, Work, About, Studio) stay **See if it's a fit**. On Book, the two calendar doors are named: **Book an intro** and **Book a consult**. Price and time may stay as facts under the button. The Cal events are Intro at `/intro` and Consultation at `/consult`.
 
 **Authorship is not willpower.** It is not “I will decide to rest, gather, and think better.” People fail that every January. Authorship here means shaping the cocoon: the room that holds them, so life can lean toward how they want to live. Change the container. The days follow.
 
@@ -163,7 +163,7 @@ Applies to Studio Notes, Materiality, Jubili, About shelves.
 - **The fairy-tale quote is the reinvention proof.** A child renaming her room is move 9 in one sentence. It closes Book and whispers on Home between the work grid and the invite band. Images, one client sentence, then the door.
 - **Every project page has a door.** One quiet line under the description (“If one of your rooms is next, let’s see if this is a fit.”). Proof must not dead-end, especially on mobile where the More-work box is hidden.
 - **Legal constraint as Lucky Strike.** Cannot sell licensed “architecture / interior design” on commercial pages. Sell the human verb. Biography may state training.
-- **Scarcity as initiation.** A few projects a year; paid Jumpstart; free intro as the low-risk first irreversible-feeling step. Site language stays “See if it's a fit.”
+- **Scarcity as initiation.** A few projects a year; paid consult; free intro as the low-risk first irreversible-feeling step. Soft invites stay **See if it's a fit**. Book buttons are **Book an intro** and **Book a consult**.
 
 ## Site audit: cut or distrust
 
