@@ -16,13 +16,15 @@ import {
 } from "@/lib/work";
 
 import { getChrome } from "./WorkDetailsChrome";
+import { WorkNextLink } from "./WorkNextLink";
 
 type Props = {
   item: WorkItem;
-  nextSlug: string;
+  nextHref: string;
+  nextName: string;
 };
 
-export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
+export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
   const {
     slug,
     name,
@@ -156,22 +158,8 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
           </div>
         </div>
 
-        <div data-id="work-details-meta" className="w-full md:w-[35%]">
-          <div className="mb-[18px] flex justify-end md:hidden">
-            <Link
-              href={`/work/${nextSlug}`}
-              data-id="work-details-next-mobile"
-              className={cn(
-                "font-[family-name:var(--font-matter)] text-[length:var(--text-copy)] leading-[var(--leading-copy)]",
-                "tracking-[0.15em] uppercase",
-                "transition-opacity duration-200 hover:opacity-50",
-              )}
-            >
-              Next
-            </Link>
-          </div>
-
-          {hasLinks && (
+        {hasLinks && (
+          <div data-id="work-details-meta" className="w-full md:w-1/2">
             <div data-id="work-details-links">
               <h3
                 data-id="work-details-links-title"
@@ -191,26 +179,10 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
                 ))}
               </ul>
             </div>
-          )}
-        </div>
-
-        <div
-          data-id="work-details-next"
-          className="hidden w-[15%] justify-end md:flex"
-        >
-          <Link
-            href={`/work/${nextSlug}`}
-            data-id="work-details-next-link"
-            className={cn(
-              "font-[family-name:var(--font-matter)]",
-              "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
-              "transition-opacity duration-200 hover:opacity-50",
-            )}
-          >
-            Next
-          </Link>
-        </div>
+          </div>
+        )}
       </div>
+      <WorkNextLink href={nextHref} name={nextName} />
     </section>
   );
 };

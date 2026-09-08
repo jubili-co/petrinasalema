@@ -108,6 +108,8 @@ These three lines are the generate-from sample. Do not clip them back to telegra
 
 **Door under a home.** If one of your rooms is next, let’s see if this is a fit.
 
+**Next project.** After the details: NEXT: with the next project name underneath, in normal case. A right arrow appears beside NEXT on hover.
+
 Keep the Tegelweg and Brabbeegasse case studies (brief / what changed / what held). Older project blurbs can wait. When they are rewritten, open on what the building had to do for the people in it, then the facts.
 
 ## About
