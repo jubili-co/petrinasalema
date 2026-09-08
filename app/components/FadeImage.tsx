@@ -5,6 +5,8 @@ import { useState, type FC } from "react";
 
 import { cn } from "@/lib/cn";
 
+type FetchPriority = "high" | "low" | "auto";
+
 type Props = {
   src: string;
   alt: string;
@@ -13,7 +15,9 @@ type Props = {
   width?: number;
   height?: number;
   sizes?: string;
+  quality?: number;
   priority?: boolean;
+  fetchPriority?: FetchPriority;
   className?: string;
   "data-id"?: string;
 };
@@ -26,13 +30,16 @@ export const FadeImage: FC<Props> = ({
   width,
   height,
   sizes,
+  quality,
   priority,
+  fetchPriority,
   className,
   "data-id": dataId = "fade-image",
 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const revealPhoto = priority || isLoaded;
-  const fetchPriority = priority ? "high" : undefined;
+  const defaultFetchPriority = priority ? "high" : undefined;
+  const imageFetchPriority = fetchPriority ?? defaultFetchPriority;
 
   const markLoaded = (): void => {
     if (priority) {
@@ -80,17 +87,19 @@ export const FadeImage: FC<Props> = ({
         width={width}
         height={height}
         sizes={sizes}
+        quality={quality}
         priority={priority}
-        fetchPriority={fetchPriority}
+        fetchPriority={imageFetchPriority}
         onLoad={markLoaded}
         data-id="fade-image-photo"
         className={cn(
-          className,
           "z-[1] transition-opacity duration-300 ease-[var(--ease-out-soft)] motion-reduce:transition-none",
           {
             relative: !fill,
+          },
+          className,
+          {
             "opacity-0": !revealPhoto,
-            "opacity-100": revealPhoto,
           },
         )}
       />

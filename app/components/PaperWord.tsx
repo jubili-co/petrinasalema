@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { FC } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 import { PAPERS } from "@/lib/papers";
 
@@ -37,7 +37,7 @@ export const PaperWord: FC<Props> = ({
       aria-hidden
       className={cn("pointer-events-none absolute select-none", className)}
     >
-      <Image
+      <FadeImage
         src={src}
         alt=""
         width={width}
