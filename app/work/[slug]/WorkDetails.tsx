@@ -92,7 +92,7 @@ export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
               <span
                 data-id="work-details-location"
                 className={cn(
-                  "font-[family-name:var(--font-playfair)]",
+                  "whitespace-nowrap font-[family-name:var(--font-playfair)]",
                   "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
                 )}
               >
