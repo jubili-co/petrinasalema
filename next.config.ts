@@ -1,6 +1,18 @@
 import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
+/** Leftover Squarespace Work gallery slugs. Those projects are not on this site. */
+const SQUARESPACE_WORK_SLUGS = [
+  "emergentdwelling",
+  "gullbergsvass",
+  "hospitality",
+  "learningcentre",
+  "masakiapartment",
+  "seniorhousing",
+  "sikikacentre",
+  "work-avenue",
+] as const;
+
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   skipTrailingSlashRedirect: true,
@@ -53,6 +65,16 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        source: "/skillsset/:path*",
+        destination: "/about",
+        permanent: true,
+      },
+      ...SQUARESPACE_WORK_SLUGS.map((slug) => ({
+        source: `/${slug}/:path*`,
+        destination: "/work",
+        permanent: true,
+      })),
+      {
         source: "/:path*",
         has: [{ type: "host", value: "petrinasalema.vercel.app" }],
         destination: "https://www.petrinasalema.com/:path*",
@@ -65,3 +87,4 @@ const nextConfig: NextConfig = {
 const withMDX = createMDX({});
 
 export default withMDX(nextConfig);
+
