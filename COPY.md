@@ -32,7 +32,7 @@ Do not link this block to jubili.co or to the Jubili chapter on About. The numbe
 **Invite body.** I take on a few spaces a year. Most take one to three months, from the plan through materials, sourcing, and styling. In person in Vienna, abroad, and remotely.
 
 **Button.** See if it's a fit.  
-**Under the button.** Free · 30 min · with Petrina
+**Under the button.** Free · 30 min
 
 ### Who this is for (do not put on the hero)
 
@@ -69,7 +69,7 @@ Keep her insight. It already sounds like her.
 **Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.
 
 **Primary button.** See if it's a fit.  
-**Under it.** Free · 30 min · with Petrina
+**Under it.** Free · 30 min
 
 **Secondary button.** Consultation.  
 **Under it.** €290 · 60 min
@@ -93,7 +93,7 @@ These three lines are the generate-from sample. Do not clip them back to telegra
 **Consultation.** In one hour, get a clear point of view on the change that would matter most adapting your rooms into a space that shapes the way you want to live.
 
 **Primary button.** Book an intro.  
-**Under it.** Free · 30 min · with Petrina
+**Under it.** Free · 30 min
 
 **Secondary button.** Book a consult.  
 **Under it.** €290 · 60 min
@@ -129,9 +129,9 @@ The Vienna home that became Jubili is still running. Guest stays are where ideas
 Same meaning everywhere. Warm enough to say out loud. Serious enough not to sound like a haircut.
 
 - Soft invites (Home, Work, About): **See if it's a fit** → `/book`
-- Book, free: **Book an intro** · Free · 30 min · with Petrina
+- Book, free: **Book an intro** · Free · 30 min
 - Book, paid: **Book a consult** · €290 · 60 min
-- Studio, free: **See if it's a fit** · Free · 30 min · with Petrina
+- Studio, free: **See if it's a fit** · Free · 30 min
 - Studio, paid: **Consultation** · €290 · 60 min
 
 Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book, the buttons name the two calendar doors. Soft invites stay the initiation line.
