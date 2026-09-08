@@ -55,8 +55,8 @@ export const FOOTER_LEGAL_LINKS = [
  * Paid Cal event is Consultation (`/consult`).
  */
 export const FIT_CALL_PATH = "/book" as const;
-export const INTRO_CAL_HREF = "https://cal.com/jubili/intro" as const;
-export const CONSULT_CAL_HREF = "https://cal.com/jubili/consult" as const;
+export const INTRO_CAL_HREF = "https://cal.com/petrinasalema/intro" as const;
+export const CONSULT_CAL_HREF = "https://cal.com/petrinasalema/consult" as const;
 export const FIT_CALL_SOFT_LABEL = "See if it's a fit" as const;
 export const PAID_HOUR_LABEL = "Book a consult" as const;
 export const FIT_CALL_DOOR =

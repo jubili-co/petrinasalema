@@ -155,7 +155,7 @@ Same meaning everywhere. Warm enough to say out loud. Serious enough not to soun
 
 Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book and Studio, the buttons name the two calendar doors. Soft invites stay the initiation line.
 
-**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Paid event: `https://cal.com/jubili/consult`. Book and Studio buttons are **Book an intro** and **Book a consult**. Home, Work, and About keep **See if it's a fit** for the free door. Do not put “Intro Call” on those pages.
+**Cal event.** Named Intro. Public URL: `https://cal.com/petrinasalema/intro`. The old `/jubili` username and `/fit-call` slug 404. Paid event: `https://cal.com/petrinasalema/consult`. Book and Studio buttons are **Book an intro** and **Book a consult**. Home, Work, and About keep **See if it's a fit** for the free door. Do not put “Intro Call” on those pages.
 
 German doors (`/de/studio`, `/de/book`, Tegelweg, Brabbeegasse) keep the same two meanings: Intro / Consult, prices unchanged. Spoken German. Do not claim licensed Innenarchitektin on those pages.
 
