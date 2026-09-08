@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display } from "next/font/google";
+import localFont from "next/font/local";
 import type { FC, ReactNode } from "react";
 
 import { JsonLd } from "@/app/components/JsonLd";
@@ -18,6 +19,13 @@ const playfair = Playfair_Display({
   display: "swap",
   variable: "--font-playfair-face",
   style: ["normal", "italic"],
+});
+
+const matter = localFont({
+  src: "../public/fonts/Matter.woff2",
+  display: "swap",
+  variable: "--font-matter-face",
+  weight: "300",
 });
 
 const metadataBase = new URL(SITE.url);
@@ -74,7 +82,10 @@ type Props = {
 const themeRoot = themeRootCss();
 
 const RootLayout: FC<Props> = ({ children }) => (
-  <html lang="en" className={`${playfair.variable} h-full antialiased`}>
+  <html
+    lang="en"
+    className={`${playfair.variable} ${matter.variable} h-full antialiased`}
+  >
     <style
       href="theme-root"
       precedence="default"

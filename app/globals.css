@@ -1,14 +1,6 @@
 @import "tailwindcss";
 @import "./themes/tokens.css";
 
-@font-face {
-  font-family: "Matter";
-  src: url("/fonts/Matter.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --border-hairline: 1px;
   --ease-out-soft: cubic-bezier(0.23, 1, 0.32, 1);
@@ -27,7 +19,7 @@
 }
 
 @theme inline {
-  --font-matter: "Matter", sans-serif;
+  --font-matter: var(--font-matter-face), sans-serif;
   --font-playfair: var(--font-playfair-face), georgia, serif;
 }
 
