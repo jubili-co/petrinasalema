@@ -103,7 +103,7 @@ const HomeProofQuote: FC<HomeProofQuoteProps> = ({ quote }) => {
       <p
         data-id="home-proof-quote-text"
         className={cn(
-          "m-0 max-w-[16ch] font-[family-name:var(--font-playfair)] italic",
+          "m-0 max-w-[16ch] font-[family-name:var(--font-playfair-italic)] italic",
           "text-[28px] leading-[1.22] font-[350] text-ink",
           "md:text-[40px] md:leading-[1.16]",
         )}

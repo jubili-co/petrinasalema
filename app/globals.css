@@ -21,6 +21,7 @@
 @theme inline {
   --font-matter: var(--font-matter-face), sans-serif;
   --font-playfair: var(--font-playfair-face), georgia, serif;
+  --font-playfair-italic: var(--font-playfair-italic-face), georgia, serif;
 }
 
 * {

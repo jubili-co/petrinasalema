@@ -19,8 +19,17 @@ const playfair = Playfair_Display({
   display: "swap",
   variable: "--font-playfair-face",
   weight: "400",
-  style: ["normal", "italic"],
-  // LCP is the first work photo — do not compete with it by preloading Playfair.
+  style: "normal",
+  // Headline is roman Playfair — preload it so the work grid does not shift.
+});
+
+const playfairItalic = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair-italic-face",
+  weight: "400",
+  style: "italic",
+  // Italic is below the fold — do not race it against the LCP photo.
   preload: false,
 });
 
@@ -87,7 +96,7 @@ const themeRoot = themeRootCss();
 const RootLayout: FC<Props> = ({ children }) => (
   <html
     lang="en"
-    className={`${playfair.variable} ${matter.variable} h-full antialiased`}
+    className={`${playfair.variable} ${playfairItalic.variable} ${matter.variable} h-full antialiased`}
   >
     <style
       href="theme-root"
