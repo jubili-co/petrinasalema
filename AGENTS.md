@@ -19,6 +19,13 @@ Before any `.ts`, `.tsx`, `.mjs`, or `.css` change, read and apply these project
 
 Skills before local style. Complete the relevant stop checklist and gate from petro-code-standards before finishing.
 
+## Deferred work (always apply on coding tasks)
+
+Read [`TECHNICAL_DEBT.md`](./TECHNICAL_DEBT.md) at the start of every coding task and follow its agent protocol. Also apply [`.cursor/skills/deferred-work/SKILL.md`](./.cursor/skills/deferred-work/SKILL.md).
+
+- Close ripe items in the current PR when they are adjacent, or when the edit is small and confined to the item’s files.
+- If you ship something that must be removed later, add a `TD-NNN` item there and a matching comment at the code site. Do not leave the reminder only in chat.
+
 ## Project notes
 
 - Brand / package name: **Dotto** (`package.json` `"name": "dotto"`)
@@ -47,3 +54,4 @@ Dotto is a single static, frontend-only Next.js 16 (App Router) app. There is no
 - Run the dev server with `npm run dev` (Turbopack, http://localhost:3000). It is the only service. Standard scripts live in `README.md` / `package.json`.
 - Remote project images resolve to public Google Drive (`lh3.googleusercontent.com`) and Sanity CDN (`cdn.sanity.io`) URLs (see `next.config.ts` and `lib/googleDrive.ts`). Missing or slow remote images are non-blocking; pages still render, and local `public/images` work offline.
 - No test runner is wired. `playwright` is a dependency but there are no specs, so treat lint plus typecheck plus `skill-check` as the effective gate (see the Gate note under Project notes). Do not add a test step to the startup/update script.
+- Deferred work uses [`TECHNICAL_DEBT.md`](./TECHNICAL_DEBT.md). Scan it on coding tasks. Search Console may be unavailable here; follow each item’s `done_when` fallback.

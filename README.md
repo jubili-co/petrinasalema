@@ -29,6 +29,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - `.cursor/skills/petro-code-*` — agent coding standards (see `AGENTS.md`)
 - `.cursor/skills/draper` — positioning / marketing logic for visitor copy
 - `.cursor/skills/human-register` — human voice for visitor copy (not brand-deck / AI tone)
+- `TECHNICAL_DEBT.md` — time-bound leftovers agents must close without being asked
 
 ## Stack
 

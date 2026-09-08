@@ -1,7 +1,7 @@
 import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
-/** Leftover Squarespace Work gallery slugs. Those projects are not on this site. */
+/** TD-001 — Squarespace Work gallery leftovers. Remove via TECHNICAL_DEBT.md. */
 const SQUARESPACE_WORK_SLUGS = [
   "emergentdwelling",
   "gullbergsvass",
@@ -65,6 +65,7 @@ const nextConfig: NextConfig = {
         permanent: false,
       },
       {
+        // TD-001 — Squarespace Skills Set page. Remove via TECHNICAL_DEBT.md.
         source: "/skillsset/:path*",
         destination: "/about",
         permanent: true,
