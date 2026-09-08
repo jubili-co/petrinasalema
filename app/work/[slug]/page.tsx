@@ -37,7 +37,8 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
     notFound();
   }
 
-  const nextItem = getNextWork(slug);
+  const { slug: nextSlug, name: nextName } = getNextWork(slug);
+  const nextHref = `/work/${nextSlug}`;
   const { name, images, description, location } = item;
   const framed = await withGalleryDimensions(images);
   const rows = packGalleryRows(framed);
@@ -55,7 +56,7 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
       <JsonLd data={pageLd} />
       <SiteHeader />
       <WorkGallery name={name} rows={rows} />
-      <WorkDetails item={item} nextSlug={nextItem.slug} />
+      <WorkDetails item={item} nextHref={nextHref} nextName={nextName} />
       <SiteFooter />
     </main>
   );
