@@ -140,9 +140,7 @@ Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and 
 
 ## Chrome (if we touch it)
 
-**Footer line.** A few rooms a year. Vienna, and wherever you call home.
-
-Footer links: Work, Book, About, Studio. Jubili off that row.
+Footer links: Work, Book, About, Studio. Jubili off that row. The footer has no capacity or location line.
 
 **Cookie line.** By using this website, you agree to the use of cookies. Cookies help the website run. The details are in Privacy.
 
