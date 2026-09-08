@@ -1,6 +1,5 @@
 "use client";
 
-import posthog from "posthog-js";
 import { useEffect, useSyncExternalStore, type FC } from "react";
 
 import {
@@ -13,6 +12,8 @@ import {
   readCookieConsent,
   subscribeCookieConsent,
 } from "./CookieConsent";
+
+type PostHogClient = typeof import("posthog-js").default;
 
 export const PostHogAnalytics: FC = () => {
   const consent = useSyncExternalStore(
@@ -37,6 +38,12 @@ function getServerSnapshot(): null {
 }
 
 function startPostHog(): void {
+  void import("posthog-js").then(({ default: posthog }) => {
+    initPostHog(posthog);
+  });
+}
+
+function initPostHog(posthog: PostHogClient): void {
   if (posthog.__loaded) {
     return;
   }
