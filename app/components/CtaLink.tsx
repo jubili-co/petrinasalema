@@ -4,7 +4,12 @@ import Link from "next/link";
 import type { FC, PropsWithChildren } from "react";
 
 import { cn } from "@/lib/cn";
-import { isFitDoorHref, offerFromHref } from "@/lib/posthog";
+import {
+  BOOK_CALL_OPENED,
+  FIT_DOOR_OPENED,
+  isFitDoorHref,
+  offerFromHref,
+} from "@/lib/posthog";
 
 import { captureEvent } from "./captureEvent";
 
@@ -85,7 +90,7 @@ export const CtaLink: FC<Props> = ({
 
 function captureOffer(href: string): void {
   if (isFitDoorHref(href)) {
-    captureEvent("fit_door_opened", { path: href });
+    captureEvent(FIT_DOOR_OPENED, { path: href });
     return;
   }
 
@@ -94,7 +99,7 @@ function captureOffer(href: string): void {
     return;
   }
 
-  captureEvent("book_call_opened", { offer });
+  captureEvent(BOOK_CALL_OPENED, { offer });
 }
 
 function shellClass(

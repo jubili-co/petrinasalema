@@ -12,6 +12,20 @@ export const POSTHOG_UI_HOST = "https://eu.posthog.com";
 
 export const POSTHOG_PROXY = "/ingest";
 
+/** Soft /book invite. Also used by the PostHog action that ORs $pageview on /book. */
+export const FIT_DOOR_OPENED = "fit_door_opened" as const;
+
+/** Cal door click. Property `offer` is `fit_call` or `paid_hour`. */
+export const BOOK_CALL_OPENED = "book_call_opened" as const;
+
+/**
+ * Cal Booking Created → PostHog. No Dotto API.
+ * Draft workflow: https://eu.posthog.com/project/268328/workflows/01a0810f-4603-0000-1181-c66fdb1af700/workflow
+ * TD-006
+ */
+export const INTRO_BOOKED = "intro_booked" as const;
+export const CONSULT_BOOKED = "consult_booked" as const;
+
 export type BookOfferId = "fit_call" | "paid_hour";
 
 export function offerFromHref(href: string): BookOfferId | undefined {

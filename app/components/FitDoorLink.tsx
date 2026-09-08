@@ -3,6 +3,8 @@
 import Link from "next/link";
 import type { FC, PropsWithChildren } from "react";
 
+import { FIT_DOOR_OPENED } from "@/lib/posthog";
+
 import { captureEvent } from "./captureEvent";
 
 type Props = PropsWithChildren<{
@@ -18,7 +20,7 @@ export const FitDoorLink: FC<Props> = ({
   "data-id": dataId = "fit-door-link",
 }) => {
   const onOpen = () => {
-    captureEvent("fit_door_opened", { path: href });
+    captureEvent(FIT_DOOR_OPENED, { path: href });
   };
 
   return (
