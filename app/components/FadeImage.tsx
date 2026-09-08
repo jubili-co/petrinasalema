@@ -32,6 +32,7 @@ export const FadeImage: FC<Props> = ({
 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const revealPhoto = priority || isLoaded;
+  const fetchPriority = priority ? "high" : undefined;
 
   const markLoaded = (): void => {
     if (priority) {
@@ -51,7 +52,7 @@ export const FadeImage: FC<Props> = ({
         "relative block w-full": !fill,
       })}
     >
-      {placeholder && (
+      {placeholder && !priority && (
         <div
           data-id="fade-image-placeholder-clip"
           aria-hidden
@@ -63,6 +64,7 @@ export const FadeImage: FC<Props> = ({
             src={placeholder}
             alt=""
             decoding="async"
+            loading="lazy"
             data-id="fade-image-placeholder"
             className={cn(
               "size-full object-cover",
@@ -79,6 +81,7 @@ export const FadeImage: FC<Props> = ({
         height={height}
         sizes={sizes}
         priority={priority}
+        fetchPriority={fetchPriority}
         onLoad={markLoaded}
         data-id="fade-image-photo"
         className={cn(

@@ -15,10 +15,22 @@ import { VercelAnalytics } from "./components/VercelAnalytics";
 import "./globals.css";
 
 const playfair = Playfair_Display({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   display: "swap",
   variable: "--font-playfair-face",
-  style: ["normal", "italic"],
+  weight: "400",
+  style: "normal",
+  // Headline is roman Playfair — preload it so the work grid does not shift.
+});
+
+const playfairItalic = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair-italic-face",
+  weight: "400",
+  style: "italic",
+  // Italic is below the fold — do not race it against the LCP photo.
+  preload: false,
 });
 
 const matter = localFont({
@@ -84,7 +96,7 @@ const themeRoot = themeRootCss();
 const RootLayout: FC<Props> = ({ children }) => (
   <html
     lang="en"
-    className={`${playfair.variable} ${matter.variable} h-full antialiased`}
+    className={`${playfair.variable} ${playfairItalic.variable} ${matter.variable} h-full antialiased`}
   >
     <style
       href="theme-root"

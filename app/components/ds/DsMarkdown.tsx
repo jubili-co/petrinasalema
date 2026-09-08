@@ -62,7 +62,10 @@ export const dsMdxComponents = {
     </strong>
   ),
   em: ({ children }) => (
-    <em data-id="ds-markdown-em" className="italic">
+    <em
+      data-id="ds-markdown-em"
+      className="font-[family-name:var(--font-playfair-italic)] italic"
+    >
       {children}
     </em>
   ),

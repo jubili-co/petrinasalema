@@ -16,7 +16,12 @@ const SQUARESPACE_WORK_SLUGS = [
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   skipTrailingSlashRedirect: true,
+  experimental: {
+    inlineCss: true,
+  },
   images: {
+    formats: ["image/avif", "image/webp"],
+    qualities: [50, 75],
     remotePatterns: [
       {
         protocol: "https",

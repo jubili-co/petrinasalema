@@ -43,6 +43,8 @@ export const PaperWord: FC<Props> = ({
         width={width}
         height={height}
         sizes="240px"
+        quality={WORD_QUALITY}
+        fetchPriority="low"
         data-id="paper-word-image"
         className={cn(
           "h-auto w-full",
@@ -56,6 +58,8 @@ export const PaperWord: FC<Props> = ({
     </div>
   );
 };
+
+const WORD_QUALITY = 50;
 
 const WORDS = {
   dachfenster: {

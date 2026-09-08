@@ -49,6 +49,8 @@ export const SketchArtifact: FC<Props> = ({
         alt=""
         fill
         sizes={sizes}
+        quality={SKETCH_QUALITY}
+        fetchPriority="low"
         data-id="sketch-artifact-image"
         className={cn(
           "object-cover",
@@ -62,6 +64,8 @@ export const SketchArtifact: FC<Props> = ({
     </div>
   );
 };
+
+const SKETCH_QUALITY = 50;
 
 const FADE_MASK: Record<SketchFade, string> = {
   right: cn(
