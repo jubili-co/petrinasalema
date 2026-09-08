@@ -69,7 +69,7 @@ export const WORK_CHAPTERS: {
   {
     id: "homes",
     label: "Homes",
-    note: "I help design their homes to shape a way of life through the rooms people live in every day, and the space they invite guests to share life with them.",
+    note: "I help people design their homes to shape a way of life through the rooms they live in every day, and the space they invite guests to share life with them.",
   },
 ];
 

@@ -104,7 +104,7 @@ These three lines are the generate-from sample. Do not clip them back to telegra
 
 **Architecture work.** My work in architecture studios was about getting spaces to work for people and institutions.
 
-**Homes.** I help design their homes to shape a way of life through the rooms people live in every day, and the space they invite guests to share life with them.
+**Homes.** I help people design their homes to shape a way of life through the rooms they live in every day, and the space they invite guests to share life with them.
 
 **Door under a home.** If one of your rooms is next, let’s see if this is a fit.
 
