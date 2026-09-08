@@ -90,7 +90,7 @@ Use this for: temporary redirects, sunset flags, “remove after date X”, depr
 - **Done when:** Search Console URL Inspection for `https://www.petrinasalema.com/learningcentre/` is not a live 404 and is not listed as a referring page on `/about`. Same for the other slugs in `SQUARESPACE_WORK_SLUGS` if they still appear. If GSC is unavailable: do not remove before **2027-03-08**; after that date these unused student-project slugs may be deleted without GSC.
 - **Last checked:** 2026-09-08
 
-Note: URL Inspection on 2026-09-08 still lists `https://www.petrinasalema.com/learningcentre/` as a referrer on `/about`. The leftover URL itself is unknown to Google. Do not remove redirects. Inspect → request indexing is UI-only; Indexing API is disabled on GCP `698583079858` (TD-006).
+Note: URL Inspection on 2026-09-08 still lists `https://www.petrinasalema.com/learningcentre/` as a referrer on `/about`. The leftover URL itself is unknown to Google. Do not remove redirects. Inspect → request indexing is UI-only; Indexing API is disabled on GCP `698583079858`.
 
 ### TD-002 — Public practice phone on NAP
 
@@ -129,7 +129,7 @@ Note: GBP listing does not exist yet. Do not invent a maps URL.
 - **Done when:** GBP is live, Cal shows Petrina Salema as the public name, and LinkedIn no longer leads with the old hospitality-rental line.
 - **Last checked:** 2026-09-08
 
-Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public name and username are Petrina Salema (`cal.com/petrinasalema`). GBP and LinkedIn still need a human.
+Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public name and username are Petrina Salema (`cal.com/petrinasalema`) — confirmed 2026-09-08. GBP and LinkedIn still need a human.
 
 ### TD-005 — Agent booking apps after retrieval
 
@@ -142,19 +142,18 @@ Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public 
 - **Done when:** A real Reserve or ChatGPT booking surface exists, or Cal documents that this business type cannot enroll.
 - **Last checked:** 2026-09-08
 
+## Closed
+
 ### TD-006 — Cal webhook and Indexing API
 
+- **Closed:** 2026-09-08
 - **Created:** 2026-09-08
 - **Review after:** 2026-09-15
 - **Retry after:** 7 days
 - **Paths:** `lib/posthog.ts`
 - **Adjacent:** PostHog booked events, Search Console, Cal.com
-- **Do this:** In Cal.com, add a Booking Created webhook to the draft PostHog workflow [Cal booking created → booked events](https://eu.posthog.com/project/268328/workflows/01a0810f-4603-0000-1181-c66fdb1af700/workflow). Map event type slug `intro` → `intro_booked` (`offer=fit_call`) and `consult` → `consult_booked` (`offer=paid_hour`). Test, then enable only with explicit approval. In GSC, use URL Inspection → Request indexing for Tegelweg and Brabbeegasse (UI-only). Optionally enable [Web Search Indexing API](https://console.developers.google.com/apis/api/indexing.googleapis.com/overview?project=698583079858) on GCP `698583079858`. Weekly: queries and coverage for Vienna / rooms / furnishing-concept, not only brand.
+- **Do this:** Cal webhook is live. Remaining: in GSC, use URL Inspection → Request indexing for Tegelweg and Brabbeegasse (UI-only). Optionally enable [Web Search Indexing API](https://console.developers.google.com/apis/api/indexing.googleapis.com/overview?project=698583079858) on GCP `698583079858`. Weekly: queries and coverage for Vienna / rooms / furnishing-concept, not only brand.
 - **Done when:** A real Cal booking emits `intro_booked` or `consult_booked` in PostHog, and Tegelweg is indexed or an Inspect request is pending. Indexing API enablement is optional if Inspect is enough.
 - **Last checked:** 2026-09-08
 
-Note: Workflow is draft. Indexing API returned 403 SERVICE_DISABLED. `/book` is already submitted and indexed. Tegelweg and Brabbeegasse are discovered, not indexed. Apex `https://petrinasalema.com/` still holds the only recorded clicks (2). Google-chosen canonicals on inspected www URLs stay on www.
-
-## Closed
-
-None yet. Move closed items here with **Closed:** YYYY-MM-DD. Do not reuse ids.
+Note: Closed after a live `intro_booked` (`offer=fit_call`) and a human Inspect → Request indexing for both homes. URL Inspection on close: `/book` is submitted and indexed; Brabbeegasse is still discovered, not indexed; Tegelweg inspects as unknown to Google. Indexing API metadata is empty (UI request does not create it). Weekly query/coverage watch stays a human check, not an open item.
