@@ -66,7 +66,7 @@ Keep her insight. It already sounds like her.
 - I take on only a few projects at a time, so each one gets attention from the first call through to final styling.
 - A place to rest that can also have people over. Somewhere quiet to think, that will survive real use.
 
-**Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour is the right next step.
+**Before the buttons.** Start with a conversation. Bring the floor plan if you have one. In 30 minutes it should be clear whether a full project or a paid hour of consultation is the right next step.
 
 **Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min
