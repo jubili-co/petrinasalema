@@ -65,7 +65,7 @@ export const SketchArtifact: FC<Props> = ({
   );
 };
 
-const SKETCH_QUALITY = 50;
+const SKETCH_QUALITY = 40;
 
 const FADE_MASK: Record<SketchFade, string> = {
   right: cn(

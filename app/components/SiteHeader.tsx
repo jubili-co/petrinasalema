@@ -27,7 +27,11 @@ export const SiteHeader: FC = () => {
   }
 
   useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "";
+    if (!isOpen) {
+      return;
+    }
+
+    document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = "";
     };

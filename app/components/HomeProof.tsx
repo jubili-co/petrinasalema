@@ -114,7 +114,7 @@ const HomeProofQuote: FC<HomeProofQuoteProps> = ({ quote }) => {
         data-id="home-proof-quote-attribution"
         className={cn(
           "mt-6 block font-[family-name:var(--font-matter)] not-italic",
-          "text-[12px] leading-4 tracking-[0.14em] text-ink/70 uppercase",
+          "text-[12px] leading-4 tracking-[0.14em] text-ink uppercase",
         )}
       >
         {attribution}
@@ -145,7 +145,7 @@ const HomeProofMetric: FC<HomeProofMetricProps> = ({ result }) => {
         data-id="home-proof-metric-label"
         className={cn(
           "m-0 mt-2 font-[family-name:var(--font-playfair)]",
-          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink/70",
+          "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] text-ink",
         )}
       >
         {label}

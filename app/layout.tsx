@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display } from "next/font/google";
 import localFont from "next/font/local";
 import type { FC, ReactNode } from "react";
 
@@ -14,17 +13,16 @@ import { PostHogAnalytics } from "./components/PostHogAnalytics";
 import { VercelAnalytics } from "./components/VercelAnalytics";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
+const playfair = localFont({
+  src: "../public/fonts/PlayfairDisplay-400.woff2",
   display: "swap",
   variable: "--font-playfair-face",
   weight: "400",
   style: "normal",
-  // Headline is roman Playfair — preload it so the work grid does not shift.
 });
 
-const playfairItalic = Playfair_Display({
-  subsets: ["latin"],
+const playfairItalic = localFont({
+  src: "../public/fonts/PlayfairDisplay-400-Italic.woff2",
   display: "swap",
   variable: "--font-playfair-italic-face",
   weight: "400",
