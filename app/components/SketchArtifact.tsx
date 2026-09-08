@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { FC } from "react";
 
+import { FadeImage } from "@/app/components/FadeImage";
 import { cn } from "@/lib/cn";
 
 export type SketchFade = "right" | "left" | "up" | "down" | "in" | "inset" | "diag";
@@ -44,7 +44,7 @@ export const SketchArtifact: FC<Props> = ({
         className,
       )}
     >
-      <Image
+      <FadeImage
         src={src}
         alt=""
         fill
