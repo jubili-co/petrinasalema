@@ -11,29 +11,29 @@ This is discovery and indexing, not Lighthouse. Homepage mobile LCP lives in [`P
 | Sitemap | `https://www.petrinasalema.com/sitemap.xml` — Success, 23 pages. Do not resubmit. |
 | Homepage (apex) | `https://petrinasalema.com/` — **URL is on Google**, page is indexed, HTTPS ok. |
 
-## What the other inspections showed
+Apex inner-page inspections (`/work`, `/studio`, `/book` without www) looked “unknown” because those URLs are 308s. Ignore them.
 
-These were run on **apex** URLs. The sitemap only lists **www**. Apex 308s to www, so Search Console is reporting on the redirect, not the page.
+## www inspections (8 Sep 2026)
 
-| Inspected | Result | Meaning |
+All five money pages are **Discovered — currently not indexed**. Google found them in the sitemap and has not crawled them yet. Crawl and canonical fields are N/A. That is the normal lag after a new sitemap, not a block.
+
+| URL | Discovery | Referring pages |
 | --- | --- | --- |
-| `https://petrinasalema.com/work` | Not on Google. URL unknown. No referring sitemaps. | Expected. Sitemap has `https://www.petrinasalema.com/work`. |
-| `https://petrinasalema.com/studio` | Same as `/work`. | Same. |
-| `https://petrinasalema.com/book` | Live test: URL available to Google, page can be indexed. No enhancements. | Fetch works. Indexing not recorded yet on this URL. |
-
-Do not request indexing on the apex inner pages.
+| `https://www.petrinasalema.com/work` | sitemap.xml | None |
+| `https://www.petrinasalema.com/studio` | sitemap.xml | None |
+| `https://www.petrinasalema.com/book` | sitemap.xml | None |
+| `https://www.petrinasalema.com/about` | sitemap.xml | `/learningcentre/` (404), apex `/`, www `/` |
+| `https://www.petrinasalema.com/work/tegelweg-rental-maisonette-vienna` | sitemap.xml | None |
 
 ## Do next (in Search Console)
 
-Inspect the **www** URLs, then **Request indexing** if they are not on Google:
+On each of those five www inspections, click **Request indexing**. Then stop. Check **Indexing → Pages** after about a week.
 
-- `https://www.petrinasalema.com/work`
-- `https://www.petrinasalema.com/studio`
-- `https://www.petrinasalema.com/book`
-- `https://www.petrinasalema.com/about`
-- `https://www.petrinasalema.com/work/tegelweg-rental-maisonette-vienna`
+Do not request indexing on apex inner pages. Do not resubmit the sitemap.
 
-Then wait. Check **Indexing → Pages** after about a week. Inner pages often lag the homepage.
+## Later, optional
+
+`/learningcentre/` 404s and still shows as a referring page for `/about`. Add a permanent redirect to `/studio` or `/about` only if old links still matter. Not required for these five pages to index.
 
 ## Out of scope
 
