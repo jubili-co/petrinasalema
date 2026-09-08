@@ -10,7 +10,7 @@ Captured from PageSpeed Insights on 8 Sep 2026. Mobile (Moto G Power, Slow 4G, L
 | SEO | 100 |
 | Agentic Browsing | 2/2 |
 
-This is lab data, not Search Console field data. Do not treat it as an indexing problem. Search Console still needs the Pages report and indexing requests for `/`, `/work`, `/studio`, `/book`, and Tegelweg.
+This is lab data, not Search Console field data. Indexing follow-up is in [`SEARCH.md`](./SEARCH.md).
 
 Do not add `/llms.txt` or `/llms-full.txt` for this score. Agentic Browsing already passed 2/2.
 
@@ -49,6 +49,6 @@ These will not move Core Web Vitals much:
 
 ## Out of scope for this backlog
 
-- Resubmitting the sitemap (already Success, 23 URLs).
+- Resubmitting the sitemap (see [`SEARCH.md`](./SEARCH.md)).
 - `/agents.txt` (already shipping).
 - `/llms.txt` / `/llms-full.txt`.
