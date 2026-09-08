@@ -86,11 +86,11 @@ export const WorkDetails: FC<Props> = ({ item, nextSlug }) => {
               as="h1"
               className={cn({ "mb-[10px]": hasSubtitle })}
             >
-              {name},
+              {name},{" "}
               <span
                 data-id="work-details-location"
                 className={cn(
-                  "ml-[10px] inline-block font-[family-name:var(--font-playfair)]",
+                  "font-[family-name:var(--font-playfair)]",
                   "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
                 )}
               >

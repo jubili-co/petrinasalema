@@ -19,12 +19,12 @@ export const AboutTitle: FC<Props> = ({ title, subtitle, as = "h2" }) => {
   return (
     <DsText data-id="about-title" variant="h2" as={as}>
       {title}
-      {subtitle && ","}
+      {subtitle && ", "}
       {subtitle && (
         <span
           data-id="about-title-subtitle"
           className={cn(
-            "ml-[10px] inline-block font-[family-name:var(--font-playfair)]",
+            "font-[family-name:var(--font-playfair)]",
             "text-[length:var(--text-copy)] leading-[var(--leading-copy)] font-[350] tracking-normal normal-case",
           )}
         >
