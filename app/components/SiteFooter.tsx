@@ -89,16 +89,10 @@ export const SiteFooter: FC<Props> = ({ className }) => (
       </nav>
 
       <div
-        data-id="site-footer-meta"
-        className={cn(
-          "w-full md:w-1/5 text-right",
-          "font-[family-name:var(--font-matter)]",
-          "text-[12px] leading-tight text-chalk/85",
-        )}
-      >
-        <p>A few rooms a year</p>
-        <p>Vienna, and wherever you call home</p>
-      </div>
+        data-id="site-footer-spacer"
+        className="hidden md:block md:w-1/5"
+        aria-hidden
+      />
     </div>
   </footer>
 );
