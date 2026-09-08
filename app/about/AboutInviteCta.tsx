@@ -1,6 +1,6 @@
-import Link from "next/link";
 import type { FC } from "react";
 
+import { FitDoorLink } from "@/app/components/FitDoorLink";
 import { cn } from "@/lib/cn";
 
 export type AboutInviteCta = {
@@ -15,24 +15,19 @@ type Props = {
 
 export const AboutInviteCtaLink: FC<Props> = ({ cta }) => {
   const { name, role, href } = cta;
-  const isExternal = href.startsWith("http");
-  const target = isExternal ? "_blank" : undefined;
-  const rel = isExternal ? "noopener noreferrer" : undefined;
 
   return (
     <div
       data-id="about-invite-cta"
       className="mt-10 border-t border-chalk/25 pt-8"
     >
-      <Link
+      <FitDoorLink
         href={href}
-        target={target}
-        rel={rel}
         data-id="about-invite-cta-link"
         className="group/cta inline-block transition-opacity duration-200 ease-out hover:opacity-70"
       >
         <InviteLine name={name} role={role} />
-      </Link>
+      </FitDoorLink>
     </div>
   );
 };

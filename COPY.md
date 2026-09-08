@@ -71,8 +71,10 @@ Keep her insight. It already sounds like her.
 **Primary button.** See if it's a fit.  
 **Under it.** Free · 30 min
 
-**Secondary button.** Consultation.  
+**Secondary button.** Book a consult.  
 **Under it.** €290 · 60 min
+
+**Title.** Studio in Vienna | Petrina Salema
 
 Biography can stay as a quiet link. Jubili should not sit next to it as a sister company.
 
@@ -98,13 +100,28 @@ These three lines are the generate-from sample. Do not clip them back to telegra
 **Secondary button.** Book a consult.  
 **Under it.** €290 · 60 min
 
+**Title.** Book an intro in Vienna | Petrina Salema  
+**Description.** A free 30-minute intro, or a paid hour, with Petrina Salema in Vienna. Bring the floor plan if you have one.
+
+**FAQ (spoken, on the Book panel and in FAQPage schema).**
+
+- Who is this for? This is for someone whose rooms already decide the day, and who is ready to change that. Often a home in Vienna, or a place they want guests to feel welcome in.
+- Vienna or remote? I work in person in Vienna, and remotely abroad. The first conversation is enough to see which of those fits.
+- What she does not do. I do not file licensed architectural drawings, and this is not a chamber Innenarchitekt practice. The work is furnishing concepts and the rooms around them: the plan, materials, sourcing, and styling.
+- How payment works. The intro is free. The consult is €290 for the hour, paid when you book. For a full project, you'll get a quote after the first conversation. A deposit starts the work, and then billing goes in stages until the last invoice.
+- What to bring. Bring the floor plan if you have one, and a few photos of the rooms as they are. If you do not have a plan yet, still come. We can start from how you want the days to go.
+
 **Close.** Off Book. The fairy-tale quote stays on Home only.
 
 ## Work
 
-**Architecture work.** My work in architecture studios was about getting spaces to work for people and institutions.
+Homes sit first on the Work index. Prior architecture stays, underneath.
 
 **Homes.** I help people design their homes to shape a way of life through the rooms they live in every day, and the space they invite guests to share life with them.
+
+**Architecture work.** My work in architecture studios was about getting spaces to work for people and institutions.
+
+Tegelweg and Brabbeegasse open on Vienna facts a crawler can lift: years hosted, 4.97/5, Superhost, guest revenue, leased vs owned. Keep those in page copy. Do not put Airbnb stars on the practice schema.
 
 **Door under a home.** If one of your rooms is next, let’s see if this is a fit.
 
@@ -120,7 +137,7 @@ Prove the person. Do not give Jubili equal billing.
 
 Most rooms were never asked to support the life people want in them. A few projects a year now, through planning, materials, and styling, in person in Vienna and remotely abroad.
 
-The Vienna home that became Jubili is still running. Guest stays are where ideas get tested before they are offered to clients.
+The Vienna home that became Jubili is still running. Guest stays are where ideas get tested before they are offered to clients. On About, Jubili is a quieter chapter (subtitle: Guest stays that tested the rooms), not a sister brand.
 
 **Project list heading.** Projects
 
@@ -134,11 +151,13 @@ Same meaning everywhere. Warm enough to say out loud. Serious enough not to soun
 - Book, free: **Book an intro** · Free · 30 min
 - Book, paid: **Book a consult** · €290 · 60 min
 - Studio, free: **See if it's a fit** · Free · 30 min
-- Studio, paid: **Consultation** · €290 · 60 min
+- Studio, paid: **Book a consult** · €290 · 60 min
 
-Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book, the buttons name the two calendar doors. Soft invites stay the initiation line.
+Drop “Let’s talk” as a dead end, “Intro Call” as a product stamp, and “Get in touch.” On Book, the buttons name the two calendar doors. Soft invites stay the initiation line. Studio’s paid label matches Book.
 
-**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Paid event: `https://cal.com/jubili/consult`. Book buttons are **Book an intro** and **Book a consult**. Home, Work, About, and Studio keep **See if it's a fit** (and Studio’s **Consultation**). Do not put “Intro Call” on those pages.
+**Cal event.** Named Intro. Public URL: `https://cal.com/jubili/intro`. The old `/fit-call` slug 404s. Paid event: `https://cal.com/jubili/consult`. Book buttons are **Book an intro** and **Book a consult**. Home, Work, About, and Studio keep **See if it's a fit** for the free door. Do not put “Intro Call” on those pages.
+
+German doors (`/de/studio`, `/de/book`, Tegelweg, Brabbeegasse) keep the same two meanings: Intro / Consult, prices unchanged. Spoken German. Do not claim licensed Innenarchitektin on those pages.
 
 ## Chrome (if we touch it)
 

@@ -1,7 +1,7 @@
-import Link from "next/link";
 import type { FC } from "react";
 
 import { DsText } from "@/app/components/ds/DsText";
+import { FitDoorLink } from "@/app/components/FitDoorLink";
 import { PaperWord } from "@/app/components/PaperWord";
 import { SketchArtifact } from "@/app/components/SketchArtifact";
 import { cn } from "@/lib/cn";
@@ -18,13 +18,37 @@ import {
 import { getChrome } from "./WorkDetailsChrome";
 import { WorkNextLink } from "./WorkNextLink";
 
+export type WorkDetailsLabels = {
+  scope: string;
+  brief: string;
+  changed: string;
+  held: string;
+  door: string;
+  doorHref: string;
+};
+
+export const WORK_DETAILS_LABELS_EN: WorkDetailsLabels = {
+  scope: "Scope",
+  brief: "The brief",
+  changed: "What changed",
+  held: "What held",
+  door: FIT_CALL_DOOR,
+  doorHref: FIT_CALL_PATH,
+};
+
 type Props = {
   item: WorkItem;
   nextHref: string;
   nextName: string;
+  labels?: WorkDetailsLabels;
 };
 
-export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
+export const WorkDetails: FC<Props> = ({
+  item,
+  nextHref,
+  nextName,
+  labels = WORK_DETAILS_LABELS_EN,
+}) => {
   const {
     slug,
     name,
@@ -128,7 +152,7 @@ export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
                     "text-[length:var(--text-copy)] leading-[var(--leading-copy)] tracking-[0.15em] uppercase",
                   )}
                 >
-                  Scope
+                  {labels.scope}
                 </h3>
                 <p
                   data-id="work-details-scope-list"
@@ -141,10 +165,12 @@ export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
                 </p>
               </div>
             )}
-            {caseStudy && <WorkCaseStudyBlock caseStudy={caseStudy} />}
+            {caseStudy && (
+              <WorkCaseStudyBlock caseStudy={caseStudy} labels={labels} />
+            )}
             {showDoor && (
-              <Link
-                href={FIT_CALL_PATH}
+              <FitDoorLink
+                href={labels.doorHref}
                 data-id="work-details-door"
                 className={cn(
                   "mt-[18px] inline-block font-[family-name:var(--font-playfair)]",
@@ -152,8 +178,8 @@ export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
                   "underline underline-offset-4 transition-opacity duration-200 hover:opacity-70",
                 )}
               >
-                {FIT_CALL_DOOR}
-              </Link>
+                {labels.door}
+              </FitDoorLink>
             )}
           </div>
         </div>
@@ -189,9 +215,13 @@ export const WorkDetails: FC<Props> = ({ item, nextHref, nextName }) => {
 
 type WorkCaseStudyBlockProps = {
   caseStudy: WorkCaseStudy;
+  labels: WorkDetailsLabels;
 };
 
-const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({ caseStudy }) => {
+const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({
+  caseStudy,
+  labels,
+}) => {
   const { problem, decisions, result, results } = caseStudy;
   const bodyClassName = cn(
     "m-0 font-[family-name:var(--font-playfair)]",
@@ -205,19 +235,19 @@ const WorkCaseStudyBlock: FC<WorkCaseStudyBlockProps> = ({ caseStudy }) => {
   return (
     <div data-id="work-case-study" className="mt-8 flex flex-col gap-6">
       <div data-id="work-case-study-problem">
-        <p className={labelClassName}>The brief</p>
+        <p className={labelClassName}>{labels.brief}</p>
         <p data-id="work-case-study-problem-body" className={bodyClassName}>
           {problem}
         </p>
       </div>
       <div data-id="work-case-study-decisions">
-        <p className={labelClassName}>What changed</p>
+        <p className={labelClassName}>{labels.changed}</p>
         <p data-id="work-case-study-decisions-body" className={bodyClassName}>
           {decisions}
         </p>
       </div>
       <div data-id="work-case-study-result">
-        <p className={labelClassName}>What held</p>
+        <p className={labelClassName}>{labels.held}</p>
         <p data-id="work-case-study-result-body" className={bodyClassName}>
           {result}
         </p>

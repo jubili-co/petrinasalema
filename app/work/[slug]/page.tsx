@@ -7,8 +7,23 @@ import {
   packGalleryRows,
   withGalleryDimensions,
 } from "@/lib/workGallery";
-import { metaDescription, pageMetadata, workJsonLd } from "@/lib/seo";
-import { getNextWork, getWork, WORK, type WorkItem } from "@/lib/work";
+import {
+  isViennaHomeSlug,
+  localizedPath,
+} from "@/lib/locale";
+import {
+  absoluteUrl,
+  metaDescription,
+  pageMetadata,
+  workJsonLd,
+} from "@/lib/seo";
+import {
+  getNextWork,
+  getWork,
+  WORK,
+  workStreetAddress,
+  type WorkItem,
+} from "@/lib/work";
 
 import { SiteFooter } from "../../components/SiteFooter";
 import { SiteHeader } from "../../components/SiteHeader";
@@ -43,12 +58,15 @@ const WorkItemPage: FC<Props> = async ({ params }) => {
   const framed = await withGalleryDimensions(images);
   const rows = packGalleryRows(framed);
   const cover = images[0];
+  const imageUrls = images.map(({ src }) => src);
   const pageLd = workJsonLd({
     name,
     description,
     slug,
     location,
     imageUrl: cover?.src,
+    imageUrls,
+    streetAddress: workStreetAddress(slug),
   });
 
   return (
@@ -78,11 +96,19 @@ function workItemMetadata(item: WorkItem | undefined): Metadata {
   const cover = images[0];
   const image = cover && { url: cover.src, alt: cover.alt };
   const summary = description || `${subtitle} · ${name}`;
+  const path = `/work/${slug}`;
+  const languages = isViennaHomeSlug(slug)
+    ? {
+        en: absoluteUrl(path),
+        "de-AT": absoluteUrl(localizedPath(path, "de-AT")),
+      }
+    : undefined;
 
   return pageMetadata({
     title: `${name} | Petrina Salema`,
     description: metaDescription(summary),
-    path: `/work/${slug}`,
+    path,
     image,
+    languages,
   });
 }

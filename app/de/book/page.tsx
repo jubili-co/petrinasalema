@@ -1,36 +1,43 @@
 import type { Metadata } from "next";
 import type { FC } from "react";
 
+import { BookPanel, type BookContent } from "@/app/book/BookPanel";
 import { FadeImage } from "@/app/components/FadeImage";
 import { JsonLd } from "@/app/components/JsonLd";
+import { SiteFooter } from "@/app/components/SiteFooter";
+import { SiteHeader } from "@/app/components/SiteHeader";
 import { withTrackedCtas } from "@/lib/booking";
-import book from "@/lib/data/book.json";
+import book from "@/lib/data/de/book.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
 import { localizedPath } from "@/lib/locale";
 import { placeholderSrc } from "@/lib/placeholderSrc";
 import { absoluteUrl, bookJsonLd, pageMetadata } from "@/lib/seo";
 
-import { SiteFooter } from "../components/SiteFooter";
-import { SiteHeader } from "../components/SiteHeader";
-import { BookPanel, type BookContent } from "./BookPanel";
+const path = localizedPath("/book", "de-AT");
 
 export const metadata: Metadata = pageMetadata({
   title: book.seoTitle,
   description: book.seoDescription,
-  path: "/book",
+  path,
+  locale: "de-AT",
   languages: {
     en: absoluteUrl("/book"),
-    "de-AT": absoluteUrl(localizedPath("/book", "de-AT")),
+    "de-AT": absoluteUrl(path),
   },
 });
 
-const BookPage: FC = () => {
-  const content = withTrackedCtas(book as BookContent);
+const DeBookPage: FC = () => {
+  const content = withTrackedCtas({
+    ...(book as BookContent),
+    faqHeading: "Bevor du buchst",
+  });
   const imageSrc = resolveProjectImageSrc(book.image);
   const placeholder = placeholderSrc(book.image);
   const pageLd = bookJsonLd({
     description: book.seoDescription,
     faq: book.faq,
+    inLanguage: "de-AT",
+    path,
   });
 
   return (
@@ -47,7 +54,7 @@ const BookPage: FC = () => {
         >
           <FadeImage
             src={imageSrc}
-            alt="Petrina Salema studio"
+            alt="Studio von Petrina Salema"
             placeholder={placeholder}
             fill
             priority
@@ -63,4 +70,4 @@ const BookPage: FC = () => {
   );
 };
 
-export default BookPage;
+export default DeBookPage;

@@ -1,5 +1,6 @@
 import workData from "@/lib/data/work.json";
 import { resolveProjectImageSrc } from "@/lib/googleDrive";
+import { isViennaHomeSlug } from "@/lib/locale";
 import { placeholderSrc } from "@/lib/placeholderSrc";
 
 export type WorkChapter = "homes" | "prior";
@@ -62,14 +63,14 @@ export const WORK_CHAPTERS: {
   note: string;
 }[] = [
   {
-    id: "prior",
-    label: "Architecture work",
-    note: "My work in architecture studios was about getting spaces to work for people and institutions.",
-  },
-  {
     id: "homes",
     label: "Homes",
     note: "I help people design their homes to shape a way of life through the rooms they live in every day, and the space they invite guests to share life with them.",
+  },
+  {
+    id: "prior",
+    label: "Architecture work",
+    note: "My work in architecture studios was about getting spaces to work for people and institutions.",
   },
 ];
 
@@ -109,10 +110,29 @@ export function workOffersDoor(item: WorkItem): boolean {
   return item.chapter === "homes";
 }
 
+export function workStreetAddress(slug: string): string | undefined {
+  if (slug === "tegelweg-rental-maisonette-vienna") {
+    return "Tegelweg 4";
+  }
+
+  if (slug === "brabbeegasse-single-unit-apartment-vienna") {
+    return "Brabbeegasse";
+  }
+
+  return undefined;
+}
+
 export function getNextWork(slug: string): WorkItem {
   const index = WORK.findIndex((entry) => entry.slug === slug);
   const next = WORK[(index + 1) % WORK.length];
   return next ?? WORK[0]!;
+}
+
+export function getNextViennaHome(slug: string): WorkItem {
+  const homes = WORK.filter((item) => isViennaHomeSlug(item.slug));
+  const index = homes.findIndex((entry) => entry.slug === slug);
+  const next = homes[(index + 1) % homes.length];
+  return next ?? homes[0] ?? WORK[0]!;
 }
 
 export type WorkChapterGroup = {
@@ -122,7 +142,7 @@ export type WorkChapterGroup = {
   items: WorkItem[];
 };
 
-/** Work grid groups in spreadsheet Rank order, then Vienna homes. */
+/** Work grid groups: Vienna homes first, then prior architecture. */
 export function workChapterGroups(
   items: WorkItem[] = WORK,
 ): WorkChapterGroup[] {
