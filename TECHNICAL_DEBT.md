@@ -129,7 +129,7 @@ Note: GBP listing does not exist yet. Do not invent a maps URL.
 - **Done when:** GBP is live, Cal shows Petrina Salema as the public name, and LinkedIn no longer leads with the old hospitality-rental line.
 - **Last checked:** 2026-09-08
 
-Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public name and username are Petrina Salema (`cal.com/petrinasalema`). GBP and LinkedIn still need a human.
+Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public name and username are Petrina Salema (`cal.com/petrinasalema`) — confirmed 2026-09-08. GBP and LinkedIn still need a human.
 
 ### TD-005 — Agent booking apps after retrieval
 
@@ -149,11 +149,11 @@ Note: In-repo citations (Herold, FirmenABC) already sit on `sameAs`. Cal public 
 - **Retry after:** 7 days
 - **Paths:** `lib/posthog.ts`
 - **Adjacent:** PostHog booked events, Search Console, Cal.com
-- **Do this:** In Cal.com, add a Booking Created webhook to the draft PostHog workflow [Cal booking created → booked events](https://eu.posthog.com/project/268328/workflows/01a0810f-4603-0000-1181-c66fdb1af700/workflow). Map event type slug `intro` → `intro_booked` (`offer=fit_call`) and `consult` → `consult_booked` (`offer=paid_hour`). Test, then enable only with explicit approval. In GSC, use URL Inspection → Request indexing for Tegelweg and Brabbeegasse (UI-only). Optionally enable [Web Search Indexing API](https://console.developers.google.com/apis/api/indexing.googleapis.com/overview?project=698583079858) on GCP `698583079858`. Weekly: queries and coverage for Vienna / rooms / furnishing-concept, not only brand.
+- **Do this:** Cal webhook is live. Remaining: in GSC, use URL Inspection → Request indexing for Tegelweg and Brabbeegasse (UI-only). Optionally enable [Web Search Indexing API](https://console.developers.google.com/apis/api/indexing.googleapis.com/overview?project=698583079858) on GCP `698583079858`. Weekly: queries and coverage for Vienna / rooms / furnishing-concept, not only brand.
 - **Done when:** A real Cal booking emits `intro_booked` or `consult_booked` in PostHog, and Tegelweg is indexed or an Inspect request is pending. Indexing API enablement is optional if Inspect is enough.
 - **Last checked:** 2026-09-08
 
-Note: Workflow is draft. Indexing API returned 403 SERVICE_DISABLED. `/book` is already submitted and indexed. Tegelweg and Brabbeegasse are discovered, not indexed. Apex `https://petrinasalema.com/` still holds the only recorded clicks (2). Google-chosen canonicals on inspected www URLs stay on www.
+Note: Workflow is active. A test intro booked on 2026-09-08 emitted `intro_booked` with `offer=fit_call`. Indexing API returned 403 SERVICE_DISABLED. `/book` is already submitted and indexed. Tegelweg and Brabbeegasse are discovered, not indexed. Apex `https://petrinasalema.com/` still holds the only recorded clicks (2). Google-chosen canonicals on inspected www URLs stay on www.
 
 ## Closed
 

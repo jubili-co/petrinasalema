@@ -20,7 +20,7 @@ export const BOOK_CALL_OPENED = "book_call_opened" as const;
 
 /**
  * Cal Booking Created → PostHog. No Dotto API.
- * Draft workflow: https://eu.posthog.com/project/268328/workflows/01a0810f-4603-0000-1181-c66fdb1af700/workflow
+ * Live workflow: https://eu.posthog.com/project/268328/workflows/01a0810f-4603-0000-1181-c66fdb1af700/workflow
  * TD-006
  */
 export const INTRO_BOOKED = "intro_booked" as const;
