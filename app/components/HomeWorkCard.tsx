@@ -10,6 +10,7 @@ type Props = {
   className?: string;
   sizes: string;
   isLandscape?: boolean;
+  priority?: boolean;
 };
 
 export const HomeWorkCard: FC<Props> = ({
@@ -17,6 +18,7 @@ export const HomeWorkCard: FC<Props> = ({
   className,
   sizes,
   isLandscape = false,
+  priority,
 }) => {
   const { slug, image, alt, placeholder, title } = item;
 
@@ -40,6 +42,7 @@ export const HomeWorkCard: FC<Props> = ({
         placeholder={placeholder}
         fill
         sizes={sizes}
+        priority={priority}
         className="object-cover"
         data-id="home-work-card-image"
       />

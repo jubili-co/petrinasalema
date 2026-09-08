@@ -31,8 +31,13 @@ export const FadeImage: FC<Props> = ({
   "data-id": dataId = "fade-image",
 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const revealPhoto = priority || isLoaded;
 
   const markLoaded = (): void => {
+    if (priority) {
+      return;
+    }
+
     afterPaint(() => {
       setIsLoaded(true);
     });
@@ -81,8 +86,8 @@ export const FadeImage: FC<Props> = ({
           "z-[1] transition-opacity duration-300 ease-[var(--ease-out-soft)] motion-reduce:transition-none",
           {
             relative: !fill,
-            "opacity-0": !isLoaded,
-            "opacity-100": isLoaded,
+            "opacity-0": !revealPhoto,
+            "opacity-100": revealPhoto,
           },
         )}
       />

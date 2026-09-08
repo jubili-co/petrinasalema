@@ -34,9 +34,17 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
       data-id="work-gallery"
       className="flex w-full flex-col gap-0.5 bg-canvas pt-[74px] md:pt-[79px]"
     >
-      {rows.map((row) => (
-        <GalleryRowView key={rowKey(row)} row={row} name={name} />
-      ))}
+      {rows.map((row, rowIndex) => {
+        const isLead = rowIndex === 0;
+        return (
+          <GalleryRowView
+            key={rowKey(row)}
+            row={row}
+            name={name}
+            isLead={isLead}
+          />
+        );
+      })}
     </section>
   );
 };
@@ -44,9 +52,10 @@ export const WorkGallery: FC<Props> = ({ name, rows }) => {
 type GalleryRowViewProps = {
   row: GalleryRow;
   name: string;
+  isLead: boolean;
 };
 
-const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
+const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name, isLead }) => {
   const shouldPair = row.length > 1;
 
   return (
@@ -56,14 +65,18 @@ const GalleryRowView: FC<GalleryRowViewProps> = ({ row, name }) => {
         "md:flex-row md:items-stretch": shouldPair,
       })}
     >
-      {row.map((image) => (
-        <GalleryFigure
-          key={`${image.src}-${image.alt}`}
-          image={image}
-          name={name}
-          isHalfWidth={shouldPair}
-        />
-      ))}
+      {row.map((image, imageIndex) => {
+        const priority = isLead && imageIndex === 0;
+        return (
+          <GalleryFigure
+            key={`${image.src}-${image.alt}`}
+            image={image}
+            name={name}
+            isHalfWidth={shouldPair}
+            priority={priority}
+          />
+        );
+      })}
     </div>
   );
 };
@@ -72,15 +85,18 @@ type GalleryFigureProps = {
   image: GalleryImage;
   name: string;
   isHalfWidth: boolean;
+  priority: boolean;
 };
 
 const GalleryFigure: FC<GalleryFigureProps> = ({
   image,
   name,
   isHalfWidth,
+  priority,
 }) => {
   const { src, alt, caption, width, height, placeholder } = image;
   const sizes = isHalfWidth ? "(min-width: 768px) 50vw, 100vw" : "100vw";
+  const label = alt || name;
 
   return (
     <figure
@@ -91,11 +107,12 @@ const GalleryFigure: FC<GalleryFigureProps> = ({
     >
       <FadeImage
         src={src}
-        alt={alt || name}
+        alt={label}
         placeholder={placeholder}
         width={width}
         height={height}
         sizes={sizes}
+        priority={priority}
         data-id="work-gallery-image"
         className="h-auto w-full"
       />
