@@ -47,3 +47,4 @@ Dotto is a single static, frontend-only Next.js 16 (App Router) app. There is no
 - Run the dev server with `npm run dev` (Turbopack, http://localhost:3000). It is the only service. Standard scripts live in `README.md` / `package.json`.
 - Remote project images resolve to public Google Drive (`lh3.googleusercontent.com`) and Sanity CDN (`cdn.sanity.io`) URLs (see `next.config.ts` and `lib/googleDrive.ts`). Missing or slow remote images are non-blocking; pages still render, and local `public/images` work offline.
 - No test runner is wired. `playwright` is a dependency but there are no specs, so treat lint plus typecheck plus `skill-check` as the effective gate (see the Gate note under Project notes). Do not add a test step to the startup/update script.
+- Later: homepage mobile LCP in [`PERFORMANCE.md`](./PERFORMANCE.md); Search Console www indexing in [`SEARCH.md`](./SEARCH.md). Do not start either unless the task asks for it.
