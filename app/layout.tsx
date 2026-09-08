@@ -15,11 +15,12 @@ import { VercelAnalytics } from "./components/VercelAnalytics";
 import "./globals.css";
 
 const playfair = Playfair_Display({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   display: "swap",
   variable: "--font-playfair-face",
+  weight: "400",
   style: ["normal", "italic"],
-  // LCP is the first work photo — do not compete with it by preloading four Playfair files.
+  // LCP is the first work photo — do not compete with it by preloading Playfair.
   preload: false,
 });
 

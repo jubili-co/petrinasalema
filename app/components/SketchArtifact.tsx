@@ -50,6 +50,7 @@ export const SketchArtifact: FC<Props> = ({
         fill
         sizes={sizes}
         quality={SKETCH_QUALITY}
+        fetchPriority="low"
         data-id="sketch-artifact-image"
         className={cn(
           "object-cover",
